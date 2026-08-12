@@ -214,6 +214,30 @@
       transition: all 0.15s;
     }
     .toolbar .theme-btn:hover { border-color: var(--accent); }
+
+    /* 主题按钮：header 右上角 */
+    header {
+      position: relative;
+    }
+    .header-theme-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 6px 10px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.15s;
+      line-height: 1;
+    }
+    .header-theme-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: scale(1.05);
+    }
     .cat-emoji { margin-right: 6px; font-size: 14px; }
     body.compare-mode .card { cursor: pointer; }
     body.compare-mode .card.selected {
@@ -751,6 +775,7 @@
 <body>
 <div class="container">
   <header>
+    <button class="header-theme-btn" id="themeToggleBtn" title="切换主题">🌓</button>
     <h1>TikTok Shop 趋势榜 <span class="badge">公开榜 · 趋势导向</span></h1>
     <div class="meta" id="meta">加载中...</div>
   </header>
@@ -821,7 +846,6 @@
     <button class="export-btn" id="exportCsvBtn" title="导出当前列表 CSV（含 ¥ 价）">⬇️ 导出 CSV</button>
     <button class="watchlist-btn" id="watchlistPanelBtn" title="查看收藏列表">⭐ 收藏夹</button>
     <button class="export-btn" id="compareToggleBtn" title="进入对比模式 · 选 2-4 个商品并排对比">⚖️ 对比</button>
-    <button class="theme-btn" id="themeToggleBtn" title="切换主题">🌓</button>
     <button class="reset-btn" id="resetBtn">重置筛选</button>
   </div>
 
