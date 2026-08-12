@@ -1,0 +1,34 @@
+# Cloudflare Pages / Workers 缓存规则
+# 详见 https://developers.cloudflare.com/workers/static-assets/headers/
+
+# HTML: 短缓存 + 强制 revalidate（每天爬数据后能立刻看到）
+/
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# JSON 数据: 5 分钟缓存（数据每天更新，期间不变）
+/data/*.json
+  Cache-Control: public, max-age=300, must-revalidate
+  X-Content-Type-Options: nosniff
+
+# aggregated 数据（更具体）
+/data/aggregated/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# 静态资源（CDN 加载，不需要缓存）
+/*.css
+  Cache-Control: public, max-age=86400, immutable
+
+/*.js
+  Cache-Control: public, max-age=86400, immutable
+
+# favicon 等小文件
+/favicon.ico
+  Cache-Control: public, max-age=604800
+
+# 404 页
+/404.html
+  Cache-Control: public, max-age=86400

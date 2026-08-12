@@ -1,6 +1,15 @@
 # TikTok Shop 趋势榜
 
+[![Live](https://img.shields.io/badge/🌐_主入口-shop.laowe.club-ff2d7a?style=for-the-badge)](https://shop.laowe.club/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers_F5C242?style=for-the-badge&logo=cloudflare&logoColor=white)](https://tiktokshop-trend.linweiheng2009.workers.dev)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Mirror-181717?style=for-the-badge&logo=github&logoColor=white)](https://linweiheng2009-ops.github.io/tiktokshop-trend/)
+[![License](https://img.shields.io/badge/license-仅供学习-blue?style=for-the-badge)](#license)
+
 > 基于 FastMoss 公开榜的 **TikTok Shop 每日 / 每周 / 每月趋势榜** —— 反映曝光/GMV 估算，适合看 **趋势**，不适合看 **绝对销量**。
+
+> 🌐 **主入口**：https://shop.laowe.club/ （Cloudflare Workers · 全球 CDN · HTTPS 自动签）
+> 备份入口：https://tiktokshop-trend.linweiheng2009.workers.dev
+> GitHub Pages：https://linweiheng2009-ops.github.io/tiktokshop-trend/（仅作 mirror）
 
 ## 数据源
 
@@ -119,53 +128,48 @@ npm run screenshot
 ## License
 
 仅供学习研究使用，请遵守 FastMoss 的服务条款。
-## 部署到 Cloudflare Pages
+## 部署架构
 
-Cloudflare Pages 比 GitHub Pages 强 3 点：
-1. **全球 CDN**（新加坡有边缘节点，从 SGT 访问更快）
-2. **支持子目录 JSON**（无下划线前缀限制）
-3. **自定义域名**（自动 HTTPS + 免费）
+```
+GitHub repo (main)
+    │
+    │ git push (10s)
+    ▼
+┌──────────────────────────────────────────┐
+│ Cloudflare Workers + Static Assets        │
+│   • Auto build (wrangler deploy)         │
+│   • Global CDN (Singapore edge node)      │
+│   • Custom domain: shop.laowe.club        │
+│   • Web Analytics (auto enabled)          │
+│   • Cache rules (_headers)                │
+└──────────────────────────────────────────┘
+    │
+    ▼
+https://shop.laowe.club/  ← 主入口 (推荐)
+https://tiktokshop-trend.linweiheng2009.workers.dev  ← Workers 默认域名
 
-### 操作步骤
+GitHub Pages (mirror, 备份)
+https://linweiheng2009-ops.github.io/tiktokshop-trend/
+```
 
-1. **登录 Cloudflare**
-   - 访问 https://dash.cloudflare.com/
-   - 注册或登录账号（恒哥已经有 GitHub，用 GitHub 登录最快）
+## 部署文件
 
-2. **创建 Pages 项目**
-   - 左侧菜单 → `Workers & Pages` → `Create application` → `Pages` → `Connect to Git`
-   - 选 `linweiheng2009-ops/tiktokshop-trend` repo
-   - 点 `Begin setup`
+| 文件 | 作用 |
+|---|---|
+| `wrangler.jsonc` | Cloudflare Workers 配置（assets, compatibility_date） |
+| `.cloudflareignore` | 排除 node_modules/scripts/snapshots 等大文件 |
+| `_headers` | HTTP 缓存策略 + 安全头 |
+| `404.html` | 友好 404 页面 |
+| `.github/workflows/daily.yml` | GitHub Actions cron（每天 UTC 0 点爬数据） |
 
-3. **Build 配置**
-   - **Project name**: `tiktokshop-trend`（或自定义）
-   - **Production branch**: `main`
-   - **Build command**: **留空**（纯静态）
-   - **Build output directory**: `/`（根目录）
-   - 点 `Save and Deploy`
+## Cloudflare Web Analytics
 
-4. **等首次部署**（约 1-2 分钟）
+项目启动时已接入 Cloudflare Web Analytics：
 
-5. **配自定义域名**（可选）
-   - 项目 → `Custom domains` → `Set up a custom domain`
-   - 输入 `tiktok.yourdomain.com` 或 `yourdomain.com/ttrend`
-   - 按提示改 DNS（CNAME 或 nameservers）
-
-6. **改 cron 触发 Pages deploy**
-   - 默认 Cloudflare 会监听 GitHub push → 自动 deploy
-   - 也就是说每次 `git push` → Cloudflare 自动重部署，**比 GitHub Pages 还快**
-
-### 优缺点对比
-
-| 项 | GitHub Pages | Cloudflare Pages |
-|---|---|---|
-| 全球 CDN | ⚠️ 一般 | ✅ 全球边缘节点 |
-| 子目录 JSON | ❌ 不支持下划线前缀 | ✅ 全支持 |
-| 自定义域名 | ✅ 免费 | ✅ 免费 + 自动 HTTPS |
-| 部署速度 | ⚠️ 30-60s | ✅ 10-30s |
-| 配置复杂度 | 0 | 1 次性 5 分钟 |
-
-**推荐**：如果恒哥愿意花 5 分钟配一下，**改用 Cloudflare Pages** 体验会更好。
+- **服务端 NEL**：Cloudflare 自动采集 HTTP 性能（CF-NEL header）
+- **浏览器 RUM**：在 `index.html` 里加了 beacon.min.js 接入位
+  - 默认 token 是 `PLACEHOLDER_TOKEN`，需要在 Cloudflare Dashboard 启用后替换
+  - 不启用也不影响功能（服务端一直在采）
 
 ## 已知页面特性
 

@@ -2026,5 +2026,10 @@
 
   loadAll();
 </script>
+
+<!-- Cloudflare Web Analytics：自动采集访客/性能/错误
+     启用步骤：dash.cloudflare.com → 选 shop.laowe.club → Analytics → Web Analytics → 启用 → 拿到 token → 替换下面 PLACEHOLDER_TOKEN
+     不启用也不影响功能（只是不采集浏览器端 RUM，服务端 NEL 一直都在）-->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "PLACEHOLDER_TOKEN"}'></script>
 </body>
 </html>
