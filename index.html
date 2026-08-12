@@ -389,8 +389,8 @@
 
   async function loadAggregated() {
     const cb = '?t=' + Date.now();
-    const base = 'https://cdn.jsdelivr.net/gh/linweiheng2009-ops/tiktokshop-trend@main';
-    const resp = await fetch(base + '/data/aggregated/_summary.json' + cb);
+    const base = '';
+    const resp = await fetch(base + '/data/aggregated/summary.json' + cb);
     const summary = await resp.json();
     const f = base + '/data/aggregated/' + state.period + '_' + state.region + '.json' + cb;
     const agg = await fetch(f).then(r => r.json());

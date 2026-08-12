@@ -149,7 +149,7 @@ async function main() {
   }
 
   // Summary file
-  await writeFile(`${AGG}/_summary.json`, JSON.stringify(summary, null, 2));
+  await writeFile(`${AGG}/summary.json`, JSON.stringify(summary, null, 2));
   console.log(`\n✓ Aggregated data written to ${AGG}`);
 }
 
