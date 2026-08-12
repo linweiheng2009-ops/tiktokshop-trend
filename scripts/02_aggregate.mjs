@@ -58,6 +58,10 @@ function aggregateByProduct(rows) {
         category_name: r.category_name,
         shop_name: r.shop_info?.name,
         shop_sold_count: r.shop_info?.sold_count,
+        aweme_count: r.aweme_count,
+        live_count: r.live_count,
+        author_count: r.author_count,
+        launch_time: r.launch_time,
         _first_seen: r._date,
         _last_seen: r._date,
         _appearances: 0,
@@ -65,6 +69,7 @@ function aggregateByProduct(rows) {
         _total_sale: 0,
         _growth_sum: 0,
         _growth_count: 0,
+        _trend: [], // [{date, sold, sale_amount}, ...]
       });
     }
     const e = map.get(id);
@@ -77,13 +82,21 @@ function aggregateByProduct(rows) {
       e._growth_sum += parseFloat(String(r.sold_count_inc_rate).replace('%', '')) || 0;
       e._growth_count++;
     }
+    e._trend.push({ date: r._date, sold: r.sold_count || 0, sale_amount: r.sale_amount || 0 });
   }
-  return [...map.values()].map(e => ({
-    ...e,
-    _avg_growth: e._growth_count ? +(e._growth_sum / e._growth_count).toFixed(2) : 0,
-    _total_sold_show: humanNum(e._total_sold),
-    _total_sale_show: '$' + humanNum(e._total_sale),
-  }));
+  return [...map.values()].map(e => {
+    e._trend.sort((a, b) => a.date.localeCompare(b.date));
+    return {
+      ...e,
+      // 顶层字段供前端直接使用（daily 用当日销量，total 用累计）
+      sold_count: e._total_sold,
+      sale_amount: e._total_sale,
+      sold_count_inc_rate: e._avg_growth ? e._avg_growth.toFixed(2) + '%' : '0%',
+      _avg_growth: e._growth_count ? +(e._growth_sum / e._growth_count).toFixed(2) : 0,
+      _total_sold_show: humanNum(e._total_sold),
+      _total_sale_show: '$' + humanNum(e._total_sale),
+    };
+  });
 }
 
 function humanNum(n) {
@@ -110,7 +123,7 @@ async function main() {
 
   for (const [period, days] of Object.entries(PERIODS)) {
     const useDates = allDates.slice(0, days).reverse(); // 升序
-    summary.periods[period] = { days, dates_used: useDates.length, date_range: [useDates[0], useDates[useDates.length - 1]] };
+    summary.periods[period] = { days, dates_used: useDates.length, date_range: [useDates[0], useDates[useDates.length - 1]], dates: useDates };
 
     for (const region of REGIONS) {
       const dailyRows = await loadRegionDates(region, useDates, 'daily');

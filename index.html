@@ -4,338 +4,699 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TikTok Shop 趋势榜 · 每日 / 每周 / 每月</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
   <style>
     :root {
       --bg: #0a0a0a;
       --bg-card: #141414;
-      --bg-elev: #1c1c1c;
+      --bg-elevated: #1a1a1a;
       --border: #2a2a2a;
-      --text: #f5f5f5;
-      --text-mute: #999;
-      --accent: #fe2062;
-      --up: #10b981;
-      --down: #ef4444;
+      --text: #e8e8e8;
+      --text-dim: #888;
+      --accent: #ff2d7a;
+      --accent-2: #00d4ff;
+      --green: #00d68f;
+      --red: #ff4d6d;
+      --yellow: #ffb800;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * { box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      margin: 0;
       background: var(--bg);
       color: var(--text);
+      font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-size: 14px;
       line-height: 1.5;
     }
-    .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
-    header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
-    h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
-    h1 span.tag {
+    .container { max-width: 1280px; margin: 0 auto; padding: 24px; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0;
+    }
+    h1 .badge {
       display: inline-block;
-      background: var(--accent);
-      color: white;
+      padding: 3px 8px;
+      background: rgba(255, 45, 122, 0.15);
+      color: var(--accent);
+      border-radius: 4px;
       font-size: 11px;
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin-left: 12px;
-      vertical-align: middle;
       font-weight: 500;
-      letter-spacing: 0.05em;
+      margin-left: 8px;
+      vertical-align: middle;
     }
-    .meta { color: var(--text-mute); font-size: 13px; margin-top: 8px; }
-    .disclaimer {
-      background: var(--bg-elev);
-      border-left: 3px solid var(--accent);
-      padding: 12px 16px;
-      border-radius: 4px;
+    .meta { color: var(--text-dim); font-size: 12px; }
+    .notice {
+      background: rgba(255, 184, 0, 0.08);
+      border-left: 3px solid var(--yellow);
+      padding: 10px 14px;
+      margin: 12px 0;
+      font-size: 12px;
+      color: var(--yellow);
+      border-radius: 0 4px 4px 0;
+    }
+    .progress-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      gap: 16px;
       font-size: 13px;
-      color: var(--text-mute);
-      margin-bottom: 24px;
     }
-    .controls {
+    .progress-card .label { color: var(--text-dim); }
+    .progress-card .bar {
+      flex: 1;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .progress-card .bar > div {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      transition: width 0.4s ease;
+    }
+    .tabs {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin: 12px 0;
+    }
+    .tab, .region-tab {
+      padding: 6px 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      color: var(--text);
+      font-size: 13px;
+      transition: all 0.15s;
+      user-select: none;
+    }
+    .tab:hover, .region-tab:hover {
+      border-color: var(--accent);
+    }
+    .tab.active, .region-tab.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+      font-weight: 500;
+    }
+    .region-tab.active { background: var(--accent); }
+    .toolbar {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px;
+      margin: 12px 0;
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
       align-items: center;
-      margin-bottom: 16px;
     }
-    .tab-group { display: flex; gap: 4px; background: var(--bg-elev); padding: 4px; border-radius: 8px; }
-    .tab {
-      padding: 8px 16px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 14px;
-      color: var(--text-mute);
-      transition: all 0.15s;
-      border: none;
-      background: transparent;
+    .toolbar .field {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-dim);
     }
-    .tab.active { background: var(--accent); color: white; font-weight: 600; }
-    .tab:hover:not(.active) { color: var(--text); }
-    .select {
-      background: var(--bg-elev);
+    .toolbar input[type="text"], .toolbar input[type="number"], .toolbar select {
+      background: var(--bg);
+      border: 1px solid var(--border);
       color: var(--text);
-      border: 1px solid var(--border);
-      padding: 8px 12px;
-      border-radius: 6px;
-      font-size: 14px;
+      padding: 5px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      min-width: 60px;
+      outline: none;
     }
-    .region-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-    .region-tab {
-      padding: 6px 14px;
-      background: var(--bg-card);
+    .toolbar input[type="text"]:focus, .toolbar input[type="number"]:focus, .toolbar select:focus {
+      border-color: var(--accent);
+    }
+    .toolbar input[type="text"] { min-width: 180px; }
+    .toolbar .reset-btn {
+      padding: 4px 10px;
+      background: transparent;
       border: 1px solid var(--border);
-      border-radius: 20px;
+      color: var(--text-dim);
+      border-radius: 4px;
       cursor: pointer;
-      font-size: 13px;
-      color: var(--text-mute);
-      transition: all 0.15s;
+      font-size: 11px;
     }
-    .region-tab.active { background: var(--accent); color: white; border-color: var(--accent); }
-    .region-tab:hover:not(.active) { color: var(--text); border-color: var(--text-mute); }
+    .toolbar .reset-btn:hover { border-color: var(--accent); color: var(--accent); }
+
     .stats {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
       gap: 12px;
-      margin-bottom: 24px;
+      margin: 12px 0;
     }
-    .stat-card {
+    .stat {
       background: var(--bg-card);
-      padding: 16px;
+      border: 1px solid var(--border);
       border-radius: 8px;
-      border: 1px solid var(--border);
+      padding: 12px 14px;
     }
-    .stat-card .label { font-size: 12px; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.05em; }
-    .stat-card .value { font-size: 24px; font-weight: 700; margin-top: 4px; }
-    .products {
+    .stat .v {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .stat .l {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+
+    .chart-row {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-template-columns: 1fr 1fr;
       gap: 12px;
+      margin: 12px 0;
     }
-    .product {
+    @media (max-width: 768px) { .chart-row { grid-template-columns: 1fr; } }
+    .chart-box {
       background: var(--bg-card);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      overflow: hidden;
-      transition: transform 0.15s, border-color 0.15s;
-      cursor: pointer;
-      text-decoration: none;
-      color: inherit;
-      display: block;
+      border-radius: 8px;
+      padding: 14px;
+      height: 320px;
     }
-    .product:hover { transform: translateY(-2px); border-color: var(--accent); }
-    .product .rank {
-      position: absolute;
-      top: 8px;
-      left: 8px;
-      background: rgba(0,0,0,0.7);
-      color: white;
-      padding: 2px 8px;
-      border-radius: 12px;
-      font-size: 11px;
-      font-weight: 700;
-      z-index: 2;
-    }
-    .product .growth {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      padding: 2px 8px;
-      border-radius: 12px;
-      font-size: 11px;
-      font-weight: 700;
-      z-index: 2;
-    }
-    .growth.up { background: rgba(16,185,129,0.9); color: white; }
-    .growth.down { background: rgba(239,68,68,0.9); color: white; }
-    .product .cover-wrap { position: relative; background: var(--bg-elev); }
-    .product .cover { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
-    .product .info { padding: 12px; }
-    .product .title {
-      font-size: 13px;
-      line-height: 1.4;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      min-height: 36px;
-    }
-    .product .meta {
+    .chart-title {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-bottom: 8px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 8px;
-      font-size: 12px;
-      color: var(--text-mute);
     }
-    .product .price { color: var(--accent); font-weight: 700; font-size: 14px; }
-    .product .shop { font-size: 11px; color: var(--text-mute); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .empty {
+
+    .list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      display: grid;
+      grid-template-columns: 40px 64px 1fr auto auto;
+      gap: 14px;
+      align-items: center;
+      transition: border-color 0.15s;
+    }
+    .card:hover { border-color: var(--accent); }
+    .card .rank {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-dim);
       text-align: center;
-      padding: 60px 20px;
-      color: var(--text-mute);
-      font-size: 14px;
     }
-    .section-title { font-size: 16px; font-weight: 600; margin: 24px 0 12px; display: flex; align-items: center; gap: 8px; }
-    .section-title::before { content: ''; display: block; width: 3px; height: 16px; background: var(--accent); border-radius: 2px; }
-    footer { text-align: center; padding: 32px 0; color: var(--text-mute); font-size: 12px; border-top: 1px solid var(--border); margin-top: 40px; }
+    .card .rank.gold { color: var(--yellow); }
+    .card .cover {
+      width: 64px;
+      height: 64px;
+      border-radius: 6px;
+      background: var(--bg-elevated);
+      object-fit: cover;
+    }
+    .card .info { min-width: 0; }
+    .card .title {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      margin-bottom: 4px;
+    }
+    .card .meta-row {
+      font-size: 11px;
+      color: var(--text-dim);
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .card .price { font-size: 13px; color: var(--accent-2); font-weight: 500; }
+    .card .sold { font-size: 13px; color: var(--text); font-weight: 500; }
+    .card .growth {
+      font-size: 14px;
+      font-weight: 700;
+      min-width: 70px;
+      text-align: right;
+    }
+    .growth.pos { color: var(--green); }
+    .growth.neg { color: var(--red); }
+    .card .actions {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .empty {
+      background: var(--bg-card);
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      padding: 40px;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+    .empty .big { font-size: 32px; margin-bottom: 12px; }
+    footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim);
+      font-size: 11px;
+      text-align: center;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>TikTok Shop 趋势榜<span class="tag">公开榜 · 趋势导向</span></h1>
-      <div class="meta" id="meta">加载中...</div>
-    </header>
+<div class="container">
+  <header>
+    <h1>TikTok Shop 趋势榜 <span class="badge">公开榜 · 趋势导向</span></h1>
+    <div class="meta" id="meta">加载中...</div>
+  </header>
 
-    <div class="disclaimer">
-      ⚠️ <strong>数据定位</strong>：榜单基于 FastMoss 公开榜，反映 TikTok Shop <strong>曝光/GMV 估算</strong>，非真实销量。适合看 <strong>趋势</strong>（哪些 SKU 在涨），不适合看 <strong>绝对销量</strong>。
-    </div>
-
-    <div class="controls">
-      <div class="tab-group" id="periodTabs">
-        <button class="tab active" data-period="daily">每日</button>
-        <button class="tab" data-period="weekly">每周</button>
-        <button class="tab" data-period="monthly">每月</button>
-      </div>
-      <div class="tab-group" id="rankTabs">
-        <button class="tab active" data-rank="daily_top">销量榜</button>
-        <button class="tab" data-rank="total_top">累计榜</button>
-        <button class="tab" data-rank="growth_top">增长率</button>
-      </div>
-    </div>
-
-    <div class="region-tabs" id="regionTabs"></div>
-
-    <div class="stats" id="stats"></div>
-
-    <div class="section-title" id="sectionTitle">商品列表</div>
-    <div class="products" id="products"></div>
-
-    <footer>
-      数据源: FastMoss · 抓取频率: 每日 1 次 · 当前显示: <span id="lastUpdate">--</span>
-    </footer>
+  <div class="notice">
+    ⚠️ 榜单基于 FastMoss 公开榜，反映 TikTok Shop <b>曝光/GMV 估算</b>，非真实销量。
+    适合看趋势（哪些 SKU 在涨），不适合看绝对销量。
   </div>
 
-  <script>
-    const REGION_NAMES = {
-      US: '🇺🇸 美国', SG: '🇸🇬 新加坡', MY: '🇲🇾 马来西亚',
-      PH: '🇵🇭 菲律宾', ID: '🇮🇩 印尼', TH: '🇹🇭 泰国', VN: '🇻🇳 越南'
-    };
+  <div class="progress-card" id="progressCard">
+    <span class="label">📊 数据累积进度：</span>
+    <div class="bar"><div id="progressBar" style="width: 0%"></div></div>
+    <span id="progressText">--</span>
+  </div>
 
-    let state = {
-      period: 'daily',
-      rank: 'daily_top',
-      region: 'US',
-      data: null,
-    };
+  <div class="tabs" id="periodTabs">
+    <div class="tab active" data-period="daily">每日</div>
+    <div class="tab" data-period="weekly">每周</div>
+    <div class="tab" data-period="monthly">每月</div>
+  </div>
 
-    async function loadAggregated() {
-      const cb = `?t=${Date.now()}`;
-      // GitHub Pages 不能服务子目录 JSON，用 jsDelivr CDN 代理
-      const base = 'https://cdn.jsdelivr.net/gh/linweiheng2009-ops/tiktokshop-trend@main';
-      const resp = await fetch(`${base}/data/aggregated/_summary.json${cb}`);
-      const summary = await resp.json();
-      const f = `${base}/data/aggregated/${state.period}_${state.region}.json${cb}`;
-      const agg = await fetch(f).then(r => r.json());
-      state.data = agg;
-      document.getElementById('meta').innerHTML =
-        `数据范围: ${summary.periods[state.period].date_range.join(' → ')} · ` +
-        `共 ${summary.periods[state.period].dates_used} 天快照 · ` +
-        `更新于 ${new Date(summary.generated_at).toLocaleString('zh-CN')}`;
-      render();
+  <div class="tabs" id="rankTabs">
+    <div class="tab active" data-rank="daily_top">销量榜</div>
+    <div class="tab" data-rank="total_top">累计榜</div>
+    <div class="tab" data-rank="growth_top">增长率</div>
+  </div>
+
+  <div class="tabs" id="regionTabs">
+    <div class="region-tab" data-region="US">🇺🇸 美国</div>
+    <div class="region-tab" data-region="SG">🇸🇬 新加坡</div>
+    <div class="region-tab" data-region="MY">🇲🇾 马来</div>
+    <div class="region-tab" data-region="PH">🇵🇭 菲律宾</div>
+    <div class="region-tab" data-region="ID">🇮🇩 印尼</div>
+    <div class="region-tab" data-region="TH">🇹🇭 泰国</div>
+    <div class="region-tab active" data-region="VN">🇻🇳 越南</div>
+  </div>
+
+  <div class="toolbar">
+    <div class="field">
+      🔍 <input type="text" id="searchInput" placeholder="搜索商品名 / 店铺名...">
+    </div>
+    <div class="field">
+      价格区间:
+      <input type="number" id="priceMin" placeholder="最小" step="0.1">
+      <span>~</span>
+      <input type="number" id="priceMax" placeholder="最大" step="0.1">
+    </div>
+    <div class="field">
+      销量 ≥ <input type="number" id="soldMin" placeholder="不限" style="width: 80px">
+    </div>
+    <div class="field">
+      排序:
+      <select id="sortBy">
+        <option value="default">默认</option>
+        <option value="sold_desc">销量 ↓</option>
+        <option value="sold_asc">销量 ↑</option>
+        <option value="growth_desc">增长率 ↓</option>
+        <option value="growth_asc">增长率 ↑</option>
+        <option value="price_desc">价格 ↓</option>
+        <option value="price_asc">价格 ↑</option>
+      </select>
+    </div>
+    <button class="reset-btn" id="resetBtn">重置筛选</button>
+  </div>
+
+  <div class="stats" id="statsRow"></div>
+
+  <div class="chart-row" id="chartRow">
+    <div class="chart-box" id="chartBar"></div>
+    <div class="chart-box" id="chartLine"></div>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    数据源：<a href="https://www.fastmoss.com" target="_blank">FastMoss</a> · 抓取频率：每日 1 次 ·
+    <a href="https://github.com/linweiheng2009-ops/tiktokshop-trend" target="_blank">GitHub</a> ·
+    <span id="lastCrawl">最新抓取: --</span>
+  </footer>
+</div>
+
+<script>
+  const state = {
+    period: 'daily',
+    rank: 'daily_top',
+    region: 'VN',
+    data: null,
+    summary: null,
+    chartInstances: [null, null],
+  };
+
+  async function loadAggregated() {
+    const cb = '?t=' + Date.now();
+    const base = 'https://cdn.jsdelivr.net/gh/linweiheng2009-ops/tiktokshop-trend@main';
+    const resp = await fetch(base + '/data/aggregated/_summary.json' + cb);
+    const summary = await resp.json();
+    const f = base + '/data/aggregated/' + state.period + '_' + state.region + '.json' + cb;
+    const agg = await fetch(f).then(r => r.json());
+    state.data = agg;
+    state.summary = summary;
+    renderHeader();
+    renderProgress();
+    render();
+  }
+
+  function renderHeader() {
+    const s = state.summary;
+    const p = s.periods[state.period];
+    document.getElementById('meta').innerHTML =
+      '数据范围: ' + p.date_range.join(' → ') + ' · 共 ' + p.dates_used + ' 天快照 · ' +
+      '更新于 ' + new Date(s.generated_at).toLocaleString('zh-CN');
+  }
+
+  function renderProgress() {
+    const s = state.summary;
+    const datesUsed = s.periods[state.period].dates_used;
+    const targetDays = { daily: 1, weekly: 7, monthly: 30 }[state.period];
+    const pct = Math.min(100, (datesUsed / targetDays * 100)).toFixed(0);
+    document.getElementById('progressBar').style.width = pct + '%';
+
+    let txt;
+    if (datesUsed >= targetDays) {
+      txt = '✅ 已完整（' + datesUsed + '/' + targetDays + ' 天）';
+    } else {
+      const remain = targetDays - datesUsed;
+      txt = datesUsed + '/' + targetDays + ' 天 · 还需 ' + remain + ' 天';
     }
+    document.getElementById('progressText').textContent = txt;
+    document.getElementById('lastCrawl').textContent =
+      '最新抓取: ' + new Date(s.generated_at).toLocaleString('zh-CN');
+  }
 
-    function render() {
-      const d = state.data;
-      const items = d[state.rank] || [];
-
-      // Stats
-      const stats = document.getElementById('stats');
-      const totalSold = items.reduce((s, p) => s + (p._total_sold || 0), 0);
-      const totalSale = items.reduce((s, p) => s + (p._total_sale || 0), 0);
-      const avgGrowth = items.length ? (items.reduce((s, p) => s + (p._avg_growth || 0), 0) / items.length).toFixed(1) : 0;
-      stats.innerHTML = `
-        <div class="stat-card"><div class="label">商品数</div><div class="value">${items.length}</div></div>
-        <div class="stat-card"><div class="label">总销量</div><div class="value">${formatNum(totalSold)}</div></div>
-        <div class="stat-card"><div class="label">总销售额</div><div class="value">$${formatNum(totalSale)}</div></div>
-        <div class="stat-card"><div class="label">平均增长率</div><div class="value">${avgGrowth}%</div></div>
-        <div class="stat-card"><div class="label">数据范围</div><div class="value" style="font-size:14px;font-weight:500">${d.date_range[0]} → ${d.date_range[1]}</div></div>
-      `;
-
-      // Section title
-      const rankNames = { daily_top: '销量榜', total_top: '累计销量榜', growth_top: '增长率榜' };
-      document.getElementById('sectionTitle').textContent = `${REGION_NAMES[state.region]} · ${state.period === 'daily' ? '每日' : state.period === 'weekly' ? '每周' : '每月'} · ${rankNames[state.rank]}`;
-
-      // Products
-      const wrap = document.getElementById('products');
-      if (!items.length) {
-        wrap.innerHTML = '<div class="empty">该时段暂无数据（需累积更多快照）</div>';
-      } else {
-        wrap.innerHTML = items.slice(0, 30).map((p, i) => {
-          const growth = p._avg_growth ?? parseFloat(p.sold_count_inc_rate_show?.replace('%', '') || '0');
-          const growthCls = growth > 0 ? 'up' : growth < 0 ? 'down' : '';
-          const growthStr = growth > 0 ? '+' + growth + '%' : growth + '%';
-          return `
-            <a href="${p.detail_url}" target="_blank" class="product">
-              <div class="cover-wrap">
-                <span class="rank">#${i + 1}</span>
-                ${growth !== 0 ? `<span class="growth ${growthCls}">${growthStr}</span>` : ''}
-                <img class="cover" src="${p.cover}" loading="lazy" alt="" onerror="this.style.background='#222'">
-              </div>
-              <div class="info">
-                <div class="title">${p.title || ''}</div>
-                <div class="meta">
-                  <span class="price">${p.real_price || '-'}</span>
-                  <span>${p._total_sold_show || p.sold_count_show || '-'}</span>
-                </div>
-                ${p.shop_name ? `<div class="shop">${p.shop_name}</div>` : ''}
-              </div>
-            </a>
-          `;
-        }).join('');
+  function calcStats(products) {
+    let totalSold = 0, totalAmount = 0, growthSum = 0, growthCount = 0;
+    for (const p of products) {
+      totalSold += p.sold_count || 0;
+      totalAmount += p.sale_amount || 0;
+      if (p._avg_growth !== undefined) {
+        growthSum += p._avg_growth;
+        growthCount++;
+      } else if (p.sold_count_inc_rate !== undefined) {
+        const g = parseFloat(String(p.sold_count_inc_rate).replace('%', ''));
+        if (!isNaN(g)) { growthSum += g; growthCount++; }
       }
+    }
+    const avgGrowth = growthCount > 0 ? (growthSum / growthCount) : 0;
+    return { count: products.length, totalSold, totalAmount, avgGrowth };
+  }
 
-      document.getElementById('lastUpdate').textContent = new Date(d.generated_at).toLocaleString('zh-CN');
+  function fmtSold(n) {
+    if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+    if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
+    return String(n);
+  }
+
+  function fmtAmount(n) {
+    if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'M';
+    if (n >= 1e3) return '$' + (n / 1e3).toFixed(1) + 'k';
+    return '$' + Math.round(n);
+  }
+
+  function renderStats(stats) {
+    const agc = stats.avgGrowth >= 0 ? 'var(--green)' : 'var(--red)';
+    const ags = stats.avgGrowth >= 0 ? '+' : '';
+    document.getElementById('statsRow').innerHTML =
+      '<div class="stat"><div class="v">' + stats.count + '</div><div class="l">商品数</div></div>' +
+      '<div class="stat"><div class="v">' + fmtSold(stats.totalSold) + '</div><div class="l">总销量</div></div>' +
+      '<div class="stat"><div class="v">' + fmtAmount(stats.totalAmount) + '</div><div class="l">总销售额</div></div>' +
+      '<div class="stat"><div class="v" style="color:' + agc + '">' + ags + stats.avgGrowth.toFixed(2) + '%</div><div class="l">平均增长率</div></div>' +
+      '<div class="stat"><div class="v">' + state.summary.periods[state.period].dates_used + '</div><div class="l">数据天数</div></div>';
+  }
+
+  function destroyCharts() {
+    state.chartInstances.forEach((c, i) => {
+      if (c) c.dispose();
+      state.chartInstances[i] = null;
+    });
+  }
+
+  function renderCharts(products) {
+    destroyCharts();
+    if (products.length === 0) return;
+
+    const barEl = document.getElementById('chartBar');
+    const chartBar = echarts.init(barEl);
+    state.chartInstances[0] = chartBar;
+    const top10 = products.slice(0, 10);
+    chartBar.setOption({
+      title: { text: '销量对比 Top 10', textStyle: { color: '#888', fontSize: 12 }, left: 6, top: 4 },
+      tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+      grid: { left: 60, right: 20, top: 36, bottom: 30 },
+      xAxis: {
+        type: 'value',
+        axisLine: { lineStyle: { color: '#333' } },
+        axisLabel: { color: '#888', fontSize: 10, formatter: v => fmtSold(v) },
+        splitLine: { lineStyle: { color: '#222' } },
+      },
+      yAxis: {
+        type: 'category',
+        data: top10.map((p, i) => '#' + (i + 1)).reverse(),
+        axisLine: { lineStyle: { color: '#333' } },
+        axisLabel: { color: '#888', fontSize: 10 },
+      },
+      series: [{
+        type: 'bar',
+        data: top10.map(p => p.sold_count || 0).reverse(),
+        itemStyle: { color: '#ff2d7a', borderRadius: [0, 3, 3, 0] },
+        barWidth: '60%',
+      }],
+    });
+
+    const datesUsed = state.summary.periods[state.period].dates_used;
+    const lineEl = document.getElementById('chartLine');
+    const datesList = state.summary.periods[state.period].dates || [];
+
+    if (datesUsed >= 2 && products.length > 0 && products[0]._trend && products[0]._trend.length >= 2) {
+      const chartLine = echarts.init(lineEl);
+      state.chartInstances[1] = chartLine;
+      const top5 = products.slice(0, 5);
+
+      chartLine.setOption({
+        title: { text: 'Top 5 销量趋势', textStyle: { color: '#888', fontSize: 12 }, left: 6, top: 4 },
+        tooltip: { trigger: 'axis' },
+        legend: { textStyle: { color: '#888', fontSize: 10 }, top: 4, right: 6, type: 'scroll' },
+        grid: { left: 50, right: 20, top: 50, bottom: 30 },
+        xAxis: {
+          type: 'category',
+          data: datesList,
+          axisLine: { lineStyle: { color: '#333' } },
+          axisLabel: { color: '#888', fontSize: 10 },
+        },
+        yAxis: {
+          type: 'value',
+          axisLine: { lineStyle: { color: '#333' } },
+          axisLabel: { color: '#888', fontSize: 10, formatter: v => fmtSold(v) },
+          splitLine: { lineStyle: { color: '#222' } },
+        },
+        series: top5.map((p, i) => {
+          const trendMap = new Map((p._trend || []).map(t => [t.date, t.sold]));
+          const data = datesList.map(d => trendMap.get(d) !== undefined ? trendMap.get(d) : null);
+          return {
+            name: '#' + (i + 1),
+            type: 'line',
+            data,
+            smooth: true,
+            connectNulls: true,
+            showSymbol: datesList.length <= 10,
+            symbolSize: 6,
+            lineStyle: { width: 2 },
+            emphasis: { focus: 'series' },
+          };
+        }),
+      });
+    } else {
+      const remain = state.period === 'weekly' ? 7 - datesUsed : state.period === 'monthly' ? 30 - datesUsed : 1 - datesUsed;
+      lineEl.innerHTML = '<div style="padding: 24px; text-align: center; color: var(--text-dim); font-size: 12px; line-height: 1.8;">' +
+        '📈 趋势图需要 ≥2 天数据<br>' +
+        '当前 <b>' + datesUsed + '</b> 天 · 还需 <b>' + Math.max(0, remain) + '</b> 天<br>' +
+        '<span style="font-size: 10px; opacity: 0.7;">每天 8:00 SGT 自动累积</span>' +
+        '</div>';
+    }
+  }
+
+  function applyFilters(products) {
+    const q = (document.getElementById('searchInput').value || '').toLowerCase().trim();
+    const pMin = parseFloat(document.getElementById('priceMin').value);
+    const pMax = parseFloat(document.getElementById('priceMax').value);
+    const sMin = parseFloat(document.getElementById('soldMin').value);
+    const sortBy = document.getElementById('sortBy').value;
+
+    let out = products.filter(p => {
+      if (q) {
+        const hay = ((p.title || '') + ' ' + (p.author_name || '') + ' ' + (p.shop_name || '')).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      const price = parseFloat(String(p.real_price || '').replace(/[^0-9.]/g, ''));
+      if (!isNaN(pMin) && (isNaN(price) || price < pMin)) return false;
+      if (!isNaN(pMax) && (isNaN(price) || price > pMax)) return false;
+      if (!isNaN(sMin) && (p.sold_count || 0) < sMin) return false;
+      return true;
+    });
+
+    if (sortBy === 'sold_desc') out.sort((a, b) => (b.sold_count || 0) - (a.sold_count || 0));
+    else if (sortBy === 'sold_asc') out.sort((a, b) => (a.sold_count || 0) - (b.sold_count || 0));
+    else if (sortBy === 'price_desc') out.sort((a, b) => parseFloat(String(b.real_price || '0').replace(/[^0-9.]/g, '')) - parseFloat(String(a.real_price || '0').replace(/[^0-9.]/g, '')));
+    else if (sortBy === 'price_asc') out.sort((a, b) => parseFloat(String(a.real_price || '0').replace(/[^0-9.]/g, '')) - parseFloat(String(b.real_price || '0').replace(/[^0-9.]/g, '')));
+    else if (sortBy === 'growth_desc') out.sort((a, b) => parseFloat(String(b.sold_count_inc_rate || '0').replace('%', '')) - parseFloat(String(a.sold_count_inc_rate || '0').replace('%', '')));
+    else if (sortBy === 'growth_asc') out.sort((a, b) => parseFloat(String(a.sold_count_inc_rate || '0').replace('%', '')) - parseFloat(String(b.sold_count_inc_rate || '0').replace('%', '')));
+
+    return out;
+  }
+
+  function renderList(products) {
+    const listEl = document.getElementById('list');
+    if (products.length === 0) {
+      const datesUsed = state.summary.periods[state.period].dates_used;
+      const targetDays = { daily: 1, weekly: 7, monthly: 30 }[state.period];
+      if (datesUsed < targetDays && state.rank === 'growth_top') {
+        listEl.innerHTML = '<div class="empty">' +
+          '<div class="big">📊</div>' +
+          '<div><b>增长率榜需要 ≥2 天数据</b></div>' +
+          '<div>当前已累积 <b>' + datesUsed + '</b> 天 · 还需 <b>' + (targetDays - datesUsed) + '</b> 天</div>' +
+          '<div style="margin-top: 8px; font-size: 11px;">每天 8:00 SGT 自动累积，预计 <b>' + (targetDays === 7 ? '7 天' : '30 天') + '</b> 后完整</div>' +
+          '</div>';
+      } else {
+        listEl.innerHTML = '<div class="empty">' +
+          '<div class="big">🔍</div>' +
+          '<div>没有匹配的商品</div>' +
+          '<div style="margin-top: 8px; font-size: 11px;">试试调整搜索/筛选条件</div>' +
+          '</div>';
+      }
+      return;
     }
 
-    function formatNum(n) {
-      if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
-      if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
-      return String(n);
-    }
+    listEl.innerHTML = products.map((p, i) => {
+      const rank = i + 1;
+      const rankClass = rank === 1 ? 'rank gold' : 'rank';
+      const growth = parseFloat(String(p.sold_count_inc_rate || '0').replace('%', ''));
+      const growthClass = growth >= 0 ? 'pos' : 'neg';
+      const growthSign = growth >= 0 ? '+' : '';
+      const cover = p.cover || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><rect fill="%23222" width="64" height="64"/></svg>';
+      return '<div class="card">' +
+        '<div class="' + rankClass + '">#' + rank + '</div>' +
+        '<img class="cover" src="' + cover + '" alt="" loading="lazy">' +
+        '<div class="info">' +
+          '<div class="title"><a href="' + (p.detail_url || '#') + '" target="_blank">' + escapeHtml(p.title || '') + '</a></div>' +
+          '<div class="meta-row">' +
+            '<span>🏪 ' + escapeHtml(p.author_name || p.shop_name || '-') + '</span>' +
+            '<span>🎬 ' + (p.aweme_count || 0) + ' 视频</span>' +
+            '<span>📅 ' + ((p.launch_time || '').slice(0, 10)) + '</span>' +
+          '</div>' +
+        '</div>' +
+        '<div>' +
+          '<div class="price">' + escapeHtml(String(p.real_price || '-')) + '</div>' +
+          '<div class="sold">' + fmtSold(p.sold_count || 0) + '</div>' +
+        '</div>' +
+        '<div class="growth ' + growthClass + '">' + growthSign + growth.toFixed(2) + '%</div>' +
+      '</div>';
+    }).join('');
+  }
 
-    // Event bindings
-    document.getElementById('periodTabs').addEventListener('click', e => {
-      if (!e.target.matches('.tab')) return;
-      document.querySelectorAll('#periodTabs .tab').forEach(t => t.classList.remove('active'));
-      e.target.classList.add('active');
-      state.period = e.target.dataset.period;
-      // Reset rank based on period
-      if (state.period === 'daily' && state.rank === 'total_top') state.rank = 'daily_top';
-      if (state.period !== 'daily' && state.rank === 'daily_top') state.rank = 'daily_top';
-      document.querySelectorAll('#rankTabs .tab').forEach(t => t.classList.toggle('active', t.dataset.rank === state.rank));
-      loadAggregated();
-    });
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
 
-    document.getElementById('rankTabs').addEventListener('click', e => {
-      if (!e.target.matches('.tab')) return;
-      document.querySelectorAll('#rankTabs .tab').forEach(t => t.classList.remove('active'));
-      e.target.classList.add('active');
-      state.rank = e.target.dataset.rank;
-      render();
-    });
+  function render() {
+    if (!state.data) return;
+    const rawList = state.data[state.rank] || [];
+    const filtered = applyFilters(rawList);
+    const stats = calcStats(filtered);
+    renderStats(stats);
+    renderCharts(filtered);
+    renderList(filtered);
+  }
 
-    // Init
-    const regions = ['US', 'SG', 'MY', 'PH', 'ID', 'TH', 'VN'];
-    document.getElementById('regionTabs').innerHTML = regions.map(r =>
-      `<button class="region-tab ${r === state.region ? 'active' : ''}" data-region="${r}">${REGION_NAMES[r]}</button>`
-    ).join('');
-    document.getElementById('regionTabs').addEventListener('click', e => {
-      if (!e.target.matches('.region-tab')) return;
-      document.querySelectorAll('.region-tab').forEach(t => t.classList.remove('active'));
-      e.target.classList.add('active');
-      state.region = e.target.dataset.region;
-      loadAggregated();
-    });
-
+  document.getElementById('periodTabs').addEventListener('click', e => {
+    const t = e.target.closest('.tab');
+    if (!t) return;
+    document.querySelectorAll('#periodTabs .tab').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    state.period = t.dataset.period;
     loadAggregated();
-  </script>
+  });
+
+  document.getElementById('rankTabs').addEventListener('click', e => {
+    const t = e.target.closest('.tab');
+    if (!t) return;
+    document.querySelectorAll('#rankTabs .tab').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    state.rank = t.dataset.rank;
+    render();
+  });
+
+  document.getElementById('regionTabs').addEventListener('click', e => {
+    const t = e.target.closest('.region-tab');
+    if (!t) return;
+    document.querySelectorAll('#regionTabs .region-tab').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    state.region = t.dataset.region;
+    loadAggregated();
+  });
+
+  ['searchInput', 'priceMin', 'priceMax', 'soldMin', 'sortBy'].forEach(id => {
+    document.getElementById(id).addEventListener('input', render);
+    document.getElementById(id).addEventListener('change', render);
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    document.getElementById('searchInput').value = '';
+    document.getElementById('priceMin').value = '';
+    document.getElementById('priceMax').value = '';
+    document.getElementById('soldMin').value = '';
+    document.getElementById('sortBy').value = 'default';
+    render();
+  });
+
+  window.addEventListener('resize', () => {
+    state.chartInstances.forEach(c => c && c.resize());
+  });
+
+  loadAggregated();
+</script>
 </body>
 </html>
