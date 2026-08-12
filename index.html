@@ -270,6 +270,70 @@
     }
     .growth.pos { color: var(--green); }
     .growth.neg { color: var(--red); }
+    .card .expand-hint {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 6px;
+      text-align: right;
+    }
+    .card .expand-hint::after { content: ' ▸'; }
+    .card.open .expand-hint::after { content: ' ▾'; }
+    .card.open { border-color: var(--accent); }
+    .card-detail {
+      grid-column: 1 / -1;
+      display: none;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--border);
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+    .card.open .card-detail { display: block; }
+    .card-detail .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 10px 18px;
+      margin-bottom: 12px;
+    }
+    .card-detail .meta-grid > div span { color: var(--text); font-weight: 500; }
+    .card-detail .spark-box {
+      background: var(--bg-elevated);
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin: 8px 0;
+    }
+    .card-detail .spark-box .title-mini {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-bottom: 4px;
+    }
+    .card-detail .trend-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      margin-top: 8px;
+    }
+    .card-detail .trend-table th, .card-detail .trend-table td {
+      padding: 4px 6px;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+    }
+    .card-detail .trend-table th {
+      color: var(--text-dim);
+      font-weight: 400;
+      background: var(--bg-elevated);
+    }
+    .card-detail .trend-table td:first-child, .card-detail .trend-table th:first-child {
+      text-align: left;
+    }
+    .card-detail .trend-table .growth-cell.pos { color: var(--green); }
+    .card-detail .trend-table .growth-cell.neg { color: var(--red); }
+    .card-detail .no-trend {
+      text-align: center;
+      padding: 14px;
+      color: var(--text-dim);
+      font-size: 11px;
+    }
 
     .empty {
       background: var(--bg-card);
@@ -412,12 +476,16 @@
 
   function fmtCNY(v, currency) {
     if (v === null || isNaN(v)) return '';
-    if (currency === 'VND' || currency === 'IDR') {
-      // 小币种，CNY 数值很小，用小数
-      if (v >= 100) return '¥' + Math.round(v);
-      return '¥' + v.toFixed(2);
-    }
-    return '¥' + Math.round(v);
+    return '¥' + fmtCompactCNY(v);
+  }
+
+  // 智能 ¥ 显示：<1000 原样 /1k-1万 用 k /1万+ 用 万
+  function fmtCompactCNY(v) {
+    const abs = Math.abs(v);
+    if (abs >= 100000) return (v / 10000).toFixed(1) + '万';
+    if (abs >= 10000) return (v / 10000).toFixed(2).replace(/\.?0+$/, '') + '万';
+    if (abs >= 1000) return (v / 1000).toFixed(1) + 'k';
+    return Math.round(v).toString();
   }
 
   function fmtLocal(n, currency) {
@@ -662,6 +730,115 @@
     return out;
   }
 
+  // ============ 卡片展开 ============
+  // 缓存每个卡片对应商品的 sparkline chart instance
+  const sparkCharts = new Map();
+
+  function toggleCard(cardEl, p, rank) {
+    const wasOpen = cardEl.classList.contains('open');
+    // 关闭其它
+    document.querySelectorAll('.card.open').forEach(c => {
+      if (c !== cardEl) c.classList.remove('open');
+    });
+    sparkCharts.forEach((c, k) => {
+      if (c && k !== p.product_id) { try { c.dispose(); } catch(e){} sparkCharts.delete(k); }
+    });
+
+    if (wasOpen) {
+      cardEl.classList.remove('open');
+      if (sparkCharts.has(p.product_id)) {
+        try { sparkCharts.get(p.product_id).dispose(); } catch(e){}
+        sparkCharts.delete(p.product_id);
+      }
+      return;
+    }
+
+    cardEl.classList.add('open');
+    const detailEl = cardEl.querySelector('.card-detail');
+
+    // meta 数据
+    const categories = (p.category_name || []).join(' / ');
+    const currency = p.currency || state.regionCurrency;
+    const totalSaleCny = toCNY(p.sale_amount || 0, currency);
+    const totalSaleCnyStr = totalSaleCny !== null ? fmtCNY(totalSaleCny, currency) : '-';
+    const totalSoldShow = fmtSold(p.total_sold_count || p.sold_count || 0);
+
+    detailEl.innerHTML =
+      '<div class="meta-grid">' +
+        '<div>📦 类目: <span>' + escapeHtml(categories || '-') + '</span></div>' +
+        '<div>🏪 店铺: <span>' + escapeHtml(p.shop_name || '-') + '</span></div>' +
+        '<div>👀 店铺总销量: <span>' + totalSoldShow + '</span></div>' +
+        '<div>📅 上架: <span>' + escapeHtml((p.launch_time || '').slice(0, 10)) + '</span></div>' +
+        '<div>🎬 视频: <span>' + (p.aweme_count || 0) + '</span> · 🔴 直播: <span>' + (p.live_count || 0) + '</span> · 👤 达人: <span>' + (p.author_count || 0) + '</span></div>' +
+        '<div>💰 总销售额: <span>' + totalSaleCnyStr + '</span></div>' +
+      '</div>' +
+      '<div class="spark-box">' +
+        '<div class="title-mini">📈 销量趋势（' + (p._trend ? p._trend.length : 0) + ' 天）</div>' +
+        '<div id="spark-' + p.product_id + '" style="height: 80px;"></div>' +
+      '</div>' +
+      renderTrendTable(p);
+
+    // sparkline
+    if (p._trend && p._trend.length >= 1) {
+      setTimeout(() => {
+        const el = document.getElementById('spark-' + p.product_id);
+        if (!el) return;
+        const c = echarts.init(el);
+        sparkCharts.set(p.product_id, c);
+        const dates = p._trend.map(t => t.date);
+        const sold = p._trend.map(t => t.sold);
+        const sale = p._trend.map(t => t.sale_amount);
+        c.setOption({
+          tooltip: { trigger: 'axis' },
+          grid: { left: 50, right: 50, top: 8, bottom: 22 },
+          xAxis: {
+            type: 'category', data: dates,
+            axisLine: { lineStyle: { color: '#333' } },
+            axisLabel: { color: '#888', fontSize: 9 },
+          },
+          yAxis: [
+            { type: 'value', name: '销量', position: 'left', axisLine: { lineStyle: { color: '#333' } }, axisLabel: { color: '#888', fontSize: 9, formatter: v => fmtSold(v) }, splitLine: { lineStyle: { color: '#1a1a1a' } } },
+            { type: 'value', name: '销售额', position: 'right', axisLine: { lineStyle: { color: '#333' } }, axisLabel: { color: '#888', fontSize: 9, formatter: v => fmtSold(v) }, splitLine: { show: false } },
+          ],
+          series: [
+            { name: '销量', type: 'line', data: sold, smooth: true, symbol: 'circle', symbolSize: 5, lineStyle: { color: '#ff2d7a' }, itemStyle: { color: '#ff2d7a' }, areaStyle: { color: 'rgba(255,45,122,0.15)' } },
+            { name: '销售额', type: 'bar', yAxisIndex: 1, data: sale, itemStyle: { color: 'rgba(0,212,255,0.5)' }, barWidth: '40%' },
+          ],
+        });
+      }, 50);
+    } else {
+      document.getElementById('spark-' + p.product_id).innerHTML =
+        '<div class="no-trend">暂无趋势数据（< 2 天）</div>';
+    }
+  }
+
+  function renderTrendTable(p) {
+    if (!p._trend || p._trend.length === 0) return '';
+    const currency = p.currency || state.regionCurrency;
+    let rows = '<table class="trend-table"><thead><tr>' +
+      '<th>日期</th><th>销量</th><th>销售额</th><th>¥ 销售额</th><th>环比</th>' +
+      '</tr></thead><tbody>';
+    for (let i = 0; i < p._trend.length; i++) {
+      const t = p._trend[i];
+      const prev = i > 0 ? p._trend[i - 1] : null;
+      let growth = 0;
+      if (prev && prev.sold > 0) growth = ((t.sold - prev.sold) / prev.sold * 100);
+      const gClass = growth >= 0 ? 'pos' : 'neg';
+      const gSign = growth >= 0 ? '+' : '';
+      const cny = toCNY(t.sale_amount, currency);
+      const cnyStr = cny !== null ? fmtCNY(cny, currency) : '-';
+      rows += '<tr>' +
+        '<td>' + escapeHtml(t.date) + '</td>' +
+        '<td>' + fmtSold(t.sold) + '</td>' +
+        '<td>' + escapeHtml(fmtLocal(t.sale_amount, currency)) + '</td>' +
+        '<td>' + cnyStr + '</td>' +
+        '<td class="growth-cell ' + gClass + '">' + (i === 0 ? '—' : gSign + growth.toFixed(1) + '%') + '</td>' +
+        '</tr>';
+    }
+    rows += '</tbody></table>';
+    return rows;
+  }
+
   function renderList(products) {
     const listEl = document.getElementById('list');
     if (products.length === 0) {
@@ -684,6 +861,10 @@
       return;
     }
 
+    // 关掉所有 sparkline（重新渲染前）
+    sparkCharts.forEach(c => { try { c.dispose(); } catch(e){} });
+    sparkCharts.clear();
+
     listEl.innerHTML = products.map((p, i) => {
       const rank = i + 1;
       const rankClass = rank === 1 ? 'rank gold' : 'rank';
@@ -696,11 +877,11 @@
       const priceLocal = escapeHtml(String(p.real_price || '-'));
       const cnyPriceStr = p._cny_price !== null && p._cny_price !== undefined ? fmtCNY(p._cny_price, p.currency || state.regionCurrency) : '';
 
-      return '<div class="card">' +
+      return '<div class="card" data-rank="' + rank + '" data-pid="' + p.product_id + '">' +
         '<div class="' + rankClass + '">#' + rank + '</div>' +
         '<img class="cover" src="' + cover + '" alt="" loading="lazy">' +
         '<div class="info">' +
-          '<div class="title"><a href="' + (p.detail_url || '#') + '" target="_blank">' + escapeHtml(p.title || '') + '</a></div>' +
+          '<div class="title"><a href="' + (p.detail_url || '#') + '" target="_blank" onclick="event.stopPropagation()">' + escapeHtml(p.title || '') + '</a></div>' +
           '<div class="meta-row">' +
             '<span>🏪 ' + escapeHtml(p.author_name || p.shop_name || '-') + '</span>' +
             '<span>🎬 ' + (p.aweme_count || 0) + ' 视频</span>' +
@@ -711,10 +892,23 @@
           '<div class="price-local">' + priceLocal + '</div>' +
           (cnyPriceStr ? '<div class="price-cny">' + cnyPriceStr + '</div>' : '') +
           '<div class="sold">' + fmtSold(p.sold_count || 0) + '</div>' +
+          '<div class="expand-hint">详情</div>' +
         '</div>' +
         '<div class="growth ' + growthClass + '">' + growthSign + growth.toFixed(2) + '%</div>' +
+        '<div class="card-detail"></div>' +
       '</div>';
     }).join('');
+
+    // 绑定点击事件
+    listEl.querySelectorAll('.card').forEach(cardEl => {
+      cardEl.addEventListener('click', e => {
+        if (e.target.closest('a')) return;
+        const rank = parseInt(cardEl.dataset.rank) - 1;
+        const p = products[rank];
+        if (!p) return;
+        toggleCard(cardEl, p, rank);
+      });
+    });
   }
 
   function escapeHtml(s) {
