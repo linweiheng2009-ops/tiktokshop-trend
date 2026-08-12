@@ -18,6 +18,7 @@
       --green: #00d68f;
       --red: #ff4d6d;
       --yellow: #ffb800;
+      --cny: #ff6b35;
     }
     * { box-sizing: border-box; }
     body {
@@ -159,7 +160,7 @@
 
     .stats {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 12px;
       margin: 12px 0;
     }
@@ -174,8 +175,14 @@
       font-weight: 700;
       color: var(--text);
     }
+    .stat .v.cny { color: var(--cny); }
     .stat .l {
       font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+    .stat .sub {
+      font-size: 10px;
       color: var(--text-dim);
       margin-top: 2px;
     }
@@ -194,14 +201,6 @@
       padding: 14px;
       height: 320px;
     }
-    .chart-title {
-      font-size: 12px;
-      color: var(--text-dim);
-      margin-bottom: 8px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
 
     .list {
       display: grid;
@@ -215,7 +214,7 @@
       border-radius: 8px;
       padding: 12px 14px;
       display: grid;
-      grid-template-columns: 40px 64px 1fr auto auto;
+      grid-template-columns: 40px 64px 1fr 130px auto;
       gap: 14px;
       align-items: center;
       transition: border-color 0.15s;
@@ -254,8 +253,15 @@
       gap: 12px;
       flex-wrap: wrap;
     }
-    .card .price { font-size: 13px; color: var(--accent-2); font-weight: 500; }
-    .card .sold { font-size: 13px; color: var(--text); font-weight: 500; }
+    .card .price-block { text-align: right; min-width: 120px; }
+    .card .price-local { font-size: 13px; color: var(--accent-2); font-weight: 500; }
+    .card .price-cny {
+      font-size: 14px;
+      color: var(--cny);
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    .card .sold { font-size: 13px; color: var(--text); font-weight: 500; margin-top: 4px; }
     .card .growth {
       font-size: 14px;
       font-weight: 700;
@@ -264,11 +270,6 @@
     }
     .growth.pos { color: var(--green); }
     .growth.neg { color: var(--red); }
-    .card .actions {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
 
     .empty {
       background: var(--bg-card);
@@ -338,10 +339,10 @@
       🔍 <input type="text" id="searchInput" placeholder="搜索商品名 / 店铺名...">
     </div>
     <div class="field">
-      价格区间:
-      <input type="number" id="priceMin" placeholder="最小" step="0.1">
+      价格区间 (¥):
+      <input type="number" id="priceMin" placeholder="最小" step="1">
       <span>~</span>
-      <input type="number" id="priceMax" placeholder="最大" step="0.1">
+      <input type="number" id="priceMax" placeholder="最大" step="1">
     </div>
     <div class="field">
       销量 ≥ <input type="number" id="soldMin" placeholder="不限" style="width: 80px">
@@ -354,8 +355,8 @@
         <option value="sold_asc">销量 ↑</option>
         <option value="growth_desc">增长率 ↓</option>
         <option value="growth_asc">增长率 ↑</option>
-        <option value="price_desc">价格 ↓</option>
-        <option value="price_asc">价格 ↑</option>
+        <option value="cny_desc">价格 (¥) ↓</option>
+        <option value="cny_asc">价格 (¥) ↑</option>
       </select>
     </div>
     <button class="reset-btn" id="resetBtn">重置筛选</button>
@@ -372,8 +373,9 @@
 
   <footer>
     数据源：<a href="https://www.fastmoss.com" target="_blank">FastMoss</a> · 抓取频率：每日 1 次 ·
+    汇率源：<a href="https://frankfurter.dev" target="_blank">Frankfurter</a> ·
     <a href="https://github.com/linweiheng2009-ops/tiktokshop-trend" target="_blank">GitHub</a> ·
-    <span id="lastCrawl">最新抓取: --</span>
+    <span id="lastCrawl">最新抓取: --</span> · <span id="fxInfo">汇率: --</span>
   </footer>
 </div>
 
@@ -385,19 +387,74 @@
     data: null,
     summary: null,
     chartInstances: [null, null],
+    regionCurrency: 'USD',
+    fx: null,
   };
+
+  // GitHub Pages 子路径: /tiktokshop-trend/, 本地开发: ''
+  const base = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? '' : '/tiktokshop-trend';
+
+  // ============ CNY 换算 ============
+  function toCNY(amountLocal, currency) {
+    if (!state.fx || !state.fx.to_cny || !currency) return null;
+    const rate = state.fx.to_cny[currency];
+    if (!rate) return null;
+    return amountLocal * rate;
+  }
+
+  function parsePrice(s) {
+    // 解析 "$18.00" / "114,441 ₫" / "$15.99 - 29.90" / "13,305đ - 83,159đ"
+    if (!s) return null;
+    const m = String(s).match(/[\d,]+\.?\d*/g);
+    if (!m) return null;
+    return parseFloat(m[0].replace(/,/g, ''));
+  }
+
+  function fmtCNY(v, currency) {
+    if (v === null || isNaN(v)) return '';
+    if (currency === 'VND' || currency === 'IDR') {
+      // 小币种，CNY 数值很小，用小数
+      if (v >= 100) return '¥' + Math.round(v);
+      return '¥' + v.toFixed(2);
+    }
+    return '¥' + Math.round(v);
+  }
+
+  function fmtLocal(n, currency) {
+    if (n === null || isNaN(n)) return '-';
+    if (currency === 'VND') return Math.round(n).toLocaleString() + ' ₫';
+    if (currency === 'IDR') return Math.round(n).toLocaleString() + ' Rp';
+    if (currency === 'THB') return '฿' + Math.round(n).toLocaleString();
+    if (currency === 'PHP') return '₱' + Math.round(n).toLocaleString();
+    if (currency === 'MYR') return 'RM ' + n.toFixed(2);
+    if (currency === 'SGD') return 'S$' + n.toFixed(2);
+    return '$' + n.toFixed(2);
+  }
+
+  // ============ DATA FETCH ============
+  async function loadAll() {
+    const cb = '?t=' + Date.now();
+    // 并行拉 summary + fx + 当前榜单
+    const [summaryResp, fxResp, aggResp] = await Promise.all([
+      fetch(base + '/data/aggregated/summary.json' + cb),
+      fetch(base + '/data/fx.json' + cb),
+      fetch(base + '/data/aggregated/' + state.period + '_' + state.region + '.json' + cb),
+    ]);
+    state.summary = await summaryResp.json();
+    state.fx = await fxResp.json();
+    state.data = await aggResp.json();
+    state.regionCurrency = (state.data.daily_top?.[0]?.currency) || (state.data.total_top?.[0]?.currency) || 'USD';
+    renderHeader();
+    renderProgress();
+    renderFxInfo();
+    render();
+  }
 
   async function loadAggregated() {
     const cb = '?t=' + Date.now();
-    // GitHub Pages 子路径: /tiktokshop-trend/, 本地开发: ''
-    const base = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? '' : '/tiktokshop-trend';
-    const resp = await fetch(base + '/data/aggregated/summary.json' + cb);
-    const summary = await resp.json();
-    const f = base + '/data/aggregated/' + state.period + '_' + state.region + '.json' + cb;
-    const agg = await fetch(f).then(r => r.json());
-    state.data = agg;
-    state.summary = summary;
-    state.regionCurrency = (agg.daily_top?.[0]?.currency) || (agg.total_top?.[0]?.currency) || 'USD';
+    const aggResp = await fetch(base + '/data/aggregated/' + state.period + '_' + state.region + '.json' + cb);
+    state.data = await aggResp.json();
+    state.regionCurrency = (state.data.daily_top?.[0]?.currency) || (state.data.total_top?.[0]?.currency) || 'USD';
     renderHeader();
     renderProgress();
     render();
@@ -430,11 +487,20 @@
       '最新抓取: ' + new Date(s.generated_at).toLocaleString('zh-CN');
   }
 
+  function renderFxInfo() {
+    if (!state.fx) return;
+    const cnyRate = state.fx.rates.CNY;
+    document.getElementById('fxInfo').textContent =
+      '汇率: 1 USD = ' + cnyRate + ' CNY (' + state.fx.source_date + ')';
+  }
+
   function calcStats(products) {
-    let totalSold = 0, totalAmount = 0, growthSum = 0, growthCount = 0;
+    let totalSold = 0, totalAmount = 0, totalCny = 0, growthSum = 0, growthCount = 0;
     for (const p of products) {
       totalSold += p.sold_count || 0;
       totalAmount += p.sale_amount || 0;
+      const cny = toCNY(p.sale_amount || 0, p.currency || state.regionCurrency);
+      if (cny !== null) totalCny += cny;
       if (p._avg_growth !== undefined) {
         growthSum += p._avg_growth;
         growthCount++;
@@ -444,39 +510,13 @@
       }
     }
     const avgGrowth = growthCount > 0 ? (growthSum / growthCount) : 0;
-    return { count: products.length, totalSold, totalAmount, avgGrowth };
+    return { count: products.length, totalSold, totalAmount, totalCny, avgGrowth };
   }
 
   function fmtSold(n) {
     if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
     if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
     return String(n);
-  }
-
-  function fmtAmount(n, currency) {
-    // Fastmoss 返回的 sale_amount 是按 region 货币的原始值
-    // VND 等小币种: 数值很大, 用 ₫ 并按 25k:1 简化显示
-    if (currency === 'VND') {
-      if (n >= 1e9) return (n / 1e9).toFixed(1) + 'B ₫';
-      if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M ₫';
-      if (n >= 1e3) return (n / 1e3).toFixed(0) + 'k ₫';
-      return n + ' ₫';
-    }
-    // USD / SGD 等
-    if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'M';
-    if (n >= 1e3) return '$' + (n / 1e3).toFixed(1) + 'k';
-    return '$' + Math.round(n);
-  }
-
-  function renderStats(stats) {
-    const agc = stats.avgGrowth >= 0 ? 'var(--green)' : 'var(--red)';
-    const ags = stats.avgGrowth >= 0 ? '+' : '';
-    document.getElementById('statsRow').innerHTML =
-      '<div class="stat"><div class="v">' + stats.count + '</div><div class="l">商品数</div></div>' +
-      '<div class="stat"><div class="v">' + fmtSold(stats.totalSold) + '</div><div class="l">总销量</div></div>' +
-      '<div class="stat"><div class="v">' + fmtAmount(stats.totalAmount, state.regionCurrency || 'USD') + '</div><div class="l">总销售额</div></div>' +
-      '<div class="stat"><div class="v" style="color:' + agc + '">' + ags + stats.avgGrowth.toFixed(2) + '%</div><div class="l">平均增长率</div></div>' +
-      '<div class="stat"><div class="v">' + state.summary.periods[state.period].dates_used + '</div><div class="l">数据天数</div></div>';
   }
 
   function destroyCharts() {
@@ -570,6 +610,23 @@
     }
   }
 
+  function renderStats(stats) {
+    const agc = stats.avgGrowth >= 0 ? 'var(--green)' : 'var(--red)';
+    const ags = stats.avgGrowth >= 0 ? '+' : '';
+    const currency = state.regionCurrency;
+    const totalLocal = fmtLocal(stats.totalAmount, currency);
+    const totalCny = state.fx ? fmtCNY(stats.totalCny, currency) : '-';
+
+    document.getElementById('statsRow').innerHTML =
+      '<div class="stat"><div class="v">' + stats.count + '</div><div class="l">商品数</div></div>' +
+      '<div class="stat"><div class="v">' + fmtSold(stats.totalSold) + '</div><div class="l">总销量</div></div>' +
+      '<div class="stat"><div class="v">' + totalLocal + '</div><div class="l">总销售额（本地）</div></div>' +
+      '<div class="stat"><div class="v cny">' + totalCny + '</div><div class="l">总销售额（人民币）</div>' +
+      '<div class="sub">' + (currency === 'USD' ? '' : '基于 ' + currency + ' 汇率换算') + '</div></div>' +
+      '<div class="stat"><div class="v" style="color:' + agc + '">' + ags + stats.avgGrowth.toFixed(2) + '%</div><div class="l">平均增长率</div></div>' +
+      '<div class="stat"><div class="v">' + state.summary.periods[state.period].dates_used + '</div><div class="l">数据天数</div></div>';
+  }
+
   function applyFilters(products) {
     const q = (document.getElementById('searchInput').value || '').toLowerCase().trim();
     const pMin = parseFloat(document.getElementById('priceMin').value);
@@ -577,22 +634,28 @@
     const sMin = parseFloat(document.getElementById('soldMin').value);
     const sortBy = document.getElementById('sortBy').value;
 
-    let out = products.filter(p => {
+    // 给每个商品加 _cny_price（用于筛选/排序）
+    const enriched = products.map(p => {
+      const priceNum = parsePrice(p.real_price);
+      const cny = priceNum !== null ? toCNY(priceNum, p.currency || state.regionCurrency) : null;
+      return { ...p, _price_num: priceNum, _cny_price: cny };
+    });
+
+    let out = enriched.filter(p => {
       if (q) {
         const hay = ((p.title || '') + ' ' + (p.author_name || '') + ' ' + (p.shop_name || '')).toLowerCase();
         if (!hay.includes(q)) return false;
       }
-      const price = parseFloat(String(p.real_price || '').replace(/[^0-9.]/g, ''));
-      if (!isNaN(pMin) && (isNaN(price) || price < pMin)) return false;
-      if (!isNaN(pMax) && (isNaN(price) || price > pMax)) return false;
+      if (!isNaN(pMin) && (p._cny_price === null || p._cny_price < pMin)) return false;
+      if (!isNaN(pMax) && (p._cny_price === null || p._cny_price > pMax)) return false;
       if (!isNaN(sMin) && (p.sold_count || 0) < sMin) return false;
       return true;
     });
 
     if (sortBy === 'sold_desc') out.sort((a, b) => (b.sold_count || 0) - (a.sold_count || 0));
     else if (sortBy === 'sold_asc') out.sort((a, b) => (a.sold_count || 0) - (b.sold_count || 0));
-    else if (sortBy === 'price_desc') out.sort((a, b) => parseFloat(String(b.real_price || '0').replace(/[^0-9.]/g, '')) - parseFloat(String(a.real_price || '0').replace(/[^0-9.]/g, '')));
-    else if (sortBy === 'price_asc') out.sort((a, b) => parseFloat(String(a.real_price || '0').replace(/[^0-9.]/g, '')) - parseFloat(String(b.real_price || '0').replace(/[^0-9.]/g, '')));
+    else if (sortBy === 'cny_desc') out.sort((a, b) => (b._cny_price || 0) - (a._cny_price || 0));
+    else if (sortBy === 'cny_asc') out.sort((a, b) => (a._cny_price || 0) - (b._cny_price || 0));
     else if (sortBy === 'growth_desc') out.sort((a, b) => parseFloat(String(b.sold_count_inc_rate || '0').replace('%', '')) - parseFloat(String(a.sold_count_inc_rate || '0').replace('%', '')));
     else if (sortBy === 'growth_asc') out.sort((a, b) => parseFloat(String(a.sold_count_inc_rate || '0').replace('%', '')) - parseFloat(String(b.sold_count_inc_rate || '0').replace('%', '')));
 
@@ -628,6 +691,11 @@
       const growthClass = growth >= 0 ? 'pos' : 'neg';
       const growthSign = growth >= 0 ? '+' : '';
       const cover = p.cover || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><rect fill="%23222" width="64" height="64"/></svg>';
+
+      // 本地价 + 人民币价（两行）
+      const priceLocal = escapeHtml(String(p.real_price || '-'));
+      const cnyPriceStr = p._cny_price !== null && p._cny_price !== undefined ? fmtCNY(p._cny_price, p.currency || state.regionCurrency) : '';
+
       return '<div class="card">' +
         '<div class="' + rankClass + '">#' + rank + '</div>' +
         '<img class="cover" src="' + cover + '" alt="" loading="lazy">' +
@@ -639,8 +707,9 @@
             '<span>📅 ' + ((p.launch_time || '').slice(0, 10)) + '</span>' +
           '</div>' +
         '</div>' +
-        '<div>' +
-          '<div class="price">' + escapeHtml(String(p.real_price || '-')) + '</div>' +
+        '<div class="price-block">' +
+          '<div class="price-local">' + priceLocal + '</div>' +
+          (cnyPriceStr ? '<div class="price-cny">' + cnyPriceStr + '</div>' : '') +
           '<div class="sold">' + fmtSold(p.sold_count || 0) + '</div>' +
         '</div>' +
         '<div class="growth ' + growthClass + '">' + growthSign + growth.toFixed(2) + '%</div>' +
@@ -707,7 +776,7 @@
     state.chartInstances.forEach(c => c && c.resize());
   });
 
-  loadAggregated();
+  loadAll();
 </script>
 </body>
 </html>

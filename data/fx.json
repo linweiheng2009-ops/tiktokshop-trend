@@ -1,0 +1,24 @@
+{
+  "fetched_at": "2026-08-12T16:49:52.139Z",
+  "source_date": "2026-08-12",
+  "base": "USD",
+  "rates": {
+    "CNY": 6.7432,
+    "IDR": 17843,
+    "MYR": 4.0855,
+    "PHP": 61.222,
+    "SGD": 1.279,
+    "THB": 33.06,
+    "VND": 25000
+  },
+  "to_cny": {
+    "CNY": 1,
+    "IDR": 0.000378,
+    "MYR": 1.65052,
+    "PHP": 0.110143,
+    "SGD": 5.272244,
+    "THB": 0.203969,
+    "VND": 0.00027
+  },
+  "note": "Rates from Frankfurter (no VND, hardcoded 25000)"
+}
