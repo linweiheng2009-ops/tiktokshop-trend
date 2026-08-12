@@ -768,6 +768,14 @@
       font-size: 11px;
       text-align: center;
     }
+    .footer-meta {
+      color: var(--text);
+      font-size: 12px;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .footer-meta .label { color: var(--text-dim); margin-right: 6px; }
+    .footer-meta .update { color: var(--accent); }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
   </style>
@@ -777,7 +785,6 @@
   <header>
     <button class="header-theme-btn" id="themeToggleBtn" title="切换主题">🌓</button>
     <h1>TikTok Shop 趋势榜 <span class="badge">公开榜 · 趋势导向</span></h1>
-    <div class="meta" id="meta">加载中...</div>
   </header>
 
   <div class="notice">
@@ -901,10 +908,13 @@
   <div class="list" id="list"></div>
 
   <footer>
-    数据源：<a href="https://www.fastmoss.com" target="_blank">FastMoss</a> · 抓取频率：每日 1 次 ·
-    汇率源：<a href="https://frankfurter.dev" target="_blank">Frankfurter</a> ·
-    <a href="https://github.com/linweiheng2009-ops/tiktokshop-trend" target="_blank">GitHub</a> ·
-    <span id="lastCrawl">最新抓取: --</span> · <span id="fxInfo">汇率: --</span>
+    <div class="footer-meta" id="footerMeta">数据范围: --</div>
+    <div class="footer-links">
+      数据源：<a href="https://www.fastmoss.com" target="_blank">FastMoss</a> · 抓取频率：每日 1 次 ·
+      汇率源：<a href="https://frankfurter.dev" target="_blank">Frankfurter</a> ·
+      <a href="https://github.com/linweiheng2009-ops/tiktokshop-trend" target="_blank">GitHub</a> ·
+      <span id="lastCrawl">最新抓取: --</span> · <span id="fxInfo">汇率: --</span>
+    </div>
   </footer>
 </div>
 
@@ -1191,9 +1201,10 @@
   function renderHeader() {
     const s = state.summary;
     const p = s.periods[state.period];
-    document.getElementById('meta').innerHTML =
-      '数据范围: ' + p.date_range.join(' → ') + ' · 共 ' + p.dates_used + ' 天快照 · ' +
-      '更新于 ' + new Date(s.generated_at).toLocaleString('zh-CN');
+    document.getElementById('footerMeta').innerHTML =
+      '<span class="label">📅 数据范围：</span>' +
+      p.date_range.join(' → ') + ' · 共 <b>' + p.dates_used + '</b> 天快照 · ' +
+      '<span class="update">更新于 ' + new Date(s.generated_at).toLocaleString('zh-CN') + '</span>';
   }
 
   function renderProgress() {
