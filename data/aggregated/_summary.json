@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T15:30:57.740Z",
-  "available_dates": 3,
+  "generated_at": "2026-08-12T15:49:22.820Z",
+  "available_dates": 10,
   "latest_date": "2026-08-12",
   "periods": {
     "daily": {
@@ -13,17 +13,17 @@
     },
     "weekly": {
       "days": 7,
-      "dates_used": 3,
+      "dates_used": 7,
       "date_range": [
-        "2026-08-10",
+        "2026-08-06",
         "2026-08-12"
       ]
     },
     "monthly": {
       "days": 30,
-      "dates_used": 3,
+      "dates_used": 10,
       "date_range": [
-        "2026-08-10",
+        "2026-08-03",
         "2026-08-12"
       ]
     }
