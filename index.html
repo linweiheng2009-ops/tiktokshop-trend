@@ -280,6 +280,19 @@
       color: var(--accent-2);
       font-weight: 500;
     }
+    .category-table .cat-zh {
+      display: block;
+      font-size: 12px;
+      color: var(--text);
+      font-weight: 500;
+    }
+    .category-table .cat-en {
+      display: block;
+      font-size: 10px;
+      color: var(--text-dim);
+      font-weight: 400;
+      margin-top: 2px;
+    }
     .category-table .growth-cell.pos { color: var(--green); }
     .category-table .growth-cell.neg { color: var(--red); }
     .category-table .top-cell {
@@ -696,6 +709,27 @@
     watchlistOnly: false,
   };
 
+  // ============ 类目中文翻译 ============
+  let categoryZhMap = {};
+  async function loadCategoryZh() {
+    try {
+      const resp = await fetch(base + '/data/category_zh.json' + '?t=' + Date.now());
+      categoryZhMap = await resp.json();
+      // 去掉 _comment / _source / _last_updated 字段
+      Object.keys(categoryZhMap).filter(k => k.startsWith('_')).forEach(k => delete categoryZhMap[k]);
+    } catch(e) {
+      console.warn('Failed to load category_zh.json:', e);
+      categoryZhMap = {};
+    }
+  }
+  function catToZh(catEn) {
+    if (!catEn) return catEn;
+    // 去除首尾空格（原始数据常有）
+    const trimmed = catEn.trim();
+    // 完全匹配（包含带前导空格的 key）
+    return categoryZhMap[trimmed] || categoryZhMap[catEn] || catEn;
+  }
+
   // ============ Watchlist（localStorage 持久化） ============
   const WATCH_KEY = 'tiktokshop_watchlist_v1';
   function loadWatchlist() {
@@ -878,7 +912,7 @@
   // ============ DATA FETCH ============
   async function loadAll() {
     const cb = '?t=' + Date.now();
-    // 并行拉 summary + fx + 当前榜单
+    // 并行拉 summary + fx + 类目翻译 + 当前榜单
     const [summaryResp, fxResp, aggResp] = await Promise.all([
       fetch(base + '/data/aggregated/summary.json' + cb),
       fetch(base + '/data/fx.json' + cb),
@@ -888,6 +922,13 @@
     state.fx = await fxResp.json();
     state.data = await aggResp.json();
     state.regionCurrency = (state.data.daily_top?.[0]?.currency) || (state.data.total_top?.[0]?.currency) || 'USD';
+    // 类目翻译（独立加载，避免阻塞主数据）
+    loadCategoryZh().then(() => {
+      if (document.getElementById('categorySection').classList.contains('open')) {
+        renderCategoryPanel();
+      }
+      render();
+    });
     renderHeader();
     renderProgress();
     renderFxInfo();
@@ -1089,7 +1130,9 @@
 
     let out = enriched.filter(p => {
       if (q) {
-        const hay = ((p.title || '') + ' ' + (p.author_name || '') + ' ' + (p.shop_name || '') + ' ' + p._categories).toLowerCase();
+        // 同时匹配中英文类目
+        const zhCat = catToZh(p._categories);
+        const hay = ((p.title || '') + ' ' + (p.author_name || '') + ' ' + (p.shop_name || '') + ' ' + p._categories + ' ' + zhCat).toLowerCase();
         if (!hay.includes(q)) return false;
       }
       if (!isNaN(pMin) && (p._cny_price === null || p._cny_price < pMin)) return false;
@@ -1260,9 +1303,15 @@
       const priceLocal = escapeHtml(String(p.real_price || '-'));
       const cnyPriceStr = p._cny_price !== null && p._cny_price !== undefined ? fmtCNY(p._cny_price, p.currency || state.regionCurrency) : '';
 
-      // 类目标签（可点击 → 自动填入搜索框）
+      // 类目标签（可点击 → 自动填入搜索框，显示中文）
       const cats = (p.category_name || []);
-      const catTags = cats.map(c => '<span class="category-tag" data-cat="' + escapeHtml(c) + '">' + escapeHtml(c) + '</span>').join('');
+      const catTags = cats.map(c => {
+        const zh = catToZh(c);
+        const showZh = zh !== c;
+        return '<span class="category-tag" data-cat="' + escapeHtml(c) + '" title="' + escapeHtml(c) + '">' +
+          (showZh ? escapeHtml(zh) : escapeHtml(c)) +
+          '</span>';
+      }).join('');
       const starred = isStarred(p.product_id);
 
       return '<div class="card" data-rank="' + rank + '" data-pid="' + p.product_id + '">' +
@@ -1438,14 +1487,16 @@
 
   // ============ 按类目聚合统计 ============
   function aggregateByCategory(products) {
-    const buckets = new Map();  // cat -> {count, sold, sale, saleCny, growths[], items[]}
+    const buckets = new Map();  // cat_en -> {cat_zh, count, sold, sale, saleCny, growths[], items[]}
     for (const p of products) {
       const cats = p.category_name && p.category_name.length > 0 ? p.category_name : ['(未分类)'];
-      const cat = cats[0];  // 取主类目
-      if (!buckets.has(cat)) {
-        buckets.set(cat, { count: 0, sold: 0, sale: 0, saleCny: 0, growths: [], items: [] });
+      const catEn = cats[0];  // 主类目（英文）
+      const catZh = catToZh(catEn);  // 翻译后中文
+      const key = catEn;  // key 用英文（保持聚合唯一性）
+      if (!buckets.has(key)) {
+        buckets.set(key, { catEn, catZh, count: 0, sold: 0, sale: 0, saleCny: 0, growths: [], items: [] });
       }
-      const b = buckets.get(cat);
+      const b = buckets.get(key);
       b.count++;
       b.sold += p.sold_count || 0;
       b.sale += p.sale_amount || 0;
@@ -1474,14 +1525,21 @@
     let html = '<div class="category-panel"><table class="category-table"><thead><tr>' +
       '<th>类目</th><th>商品数</th><th>总销量</th><th>总销售额</th><th>总销售额（¥）</th><th>平均增长率</th><th>Top 1 商品</th>' +
       '</tr></thead><tbody>';
-    for (const [cat, info] of buckets) {
+    for (const [catEn, info] of buckets) {
       const avgGrowth = info.growths.length > 0 ? (info.growths.reduce((a, b) => a + b, 0) / info.growths.length) : 0;
       const gSign = avgGrowth >= 0 ? '+' : '';
       const gClass = avgGrowth >= 0 ? 'pos' : 'neg';
       const top = info.items.slice().sort((a, b) => (b.sold_count || 0) - (a.sold_count || 0))[0];
       const barWidth = Math.round(info.sold / maxSold * 60);
-      html += '<tr class="clickable" data-cat="' + escapeHtml(cat) + '">' +
-        '<td class="cat-cell">' + escapeHtml(cat) + '<span class="mini-bar" style="width:' + barWidth + 'px"></span></td>' +
+      // 中文为主，英文作为 tooltip（hover可见）
+      const catZh = info.catZh;
+      const showEn = catZh !== catEn;  // 是否真有翻译
+      html += '<tr class="clickable" data-cat="' + escapeHtml(catEn) + '" data-cat-zh="' + escapeHtml(catZh) + '">' +
+        '<td class="cat-cell">' +
+          '<span class="cat-zh">' + escapeHtml(catZh) + '</span>' +
+          (showEn ? '<span class="cat-en">' + escapeHtml(catEn) + '</span>' : '') +
+          '<span class="mini-bar" style="width:' + barWidth + 'px"></span>' +
+        '</td>' +
         '<td>' + info.count + '</td>' +
         '<td>' + fmtSold(info.sold) + '</td>' +
         '<td>' + escapeHtml(fmtLocal(info.sale, currency)) + '</td>' +
@@ -1493,7 +1551,7 @@
     html += '</tbody></table></div>';
     panel.innerHTML = html;
 
-    // 绑定点击行 → 搜索框
+    // 绑定点击行 → 搜索框（用英文原名）
     panel.querySelectorAll('tr.clickable').forEach(tr => {
       tr.addEventListener('click', () => {
         const cat = tr.dataset.cat;
