@@ -157,6 +157,102 @@
       font-size: 11px;
     }
     .toolbar .reset-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .toolbar .quick-btn {
+      padding: 4px 10px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 11px;
+      transition: all 0.15s;
+    }
+    .toolbar .quick-btn.active {
+      background: var(--green);
+      border-color: var(--green);
+      color: white;
+    }
+    .toolbar .quick-btn.active.up { background: var(--green); border-color: var(--green); }
+    .toolbar .quick-btn.active.down { background: var(--red); border-color: var(--red); }
+    .toolbar .export-btn, .toolbar .watchlist-btn {
+      padding: 4px 10px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 11px;
+    }
+    .toolbar .export-btn:hover { border-color: var(--accent-2); color: var(--accent-2); }
+    .toolbar .watchlist-btn:hover { border-color: var(--yellow); color: var(--yellow); }
+    .toolbar .divider {
+      width: 1px;
+      height: 18px;
+      background: var(--border);
+      margin: 0 4px;
+    }
+    .card .star-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+      font-size: 16px;
+      color: var(--text-dim);
+      padding: 0;
+      line-height: 1;
+    }
+    .card .star-btn:hover { color: var(--yellow); }
+    .card .star-btn.starred { color: var(--yellow); }
+    .card { position: relative; }
+    .category-tag {
+      display: inline-block;
+      padding: 1px 6px;
+      background: rgba(0,212,255,0.12);
+      color: var(--accent-2);
+      border-radius: 3px;
+      font-size: 10px;
+      cursor: pointer;
+      margin-right: 4px;
+    }
+    .category-tag:hover { background: rgba(0,212,255,0.3); }
+    .watchlist-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--yellow);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 12px 0;
+      font-size: 12px;
+      display: none;
+    }
+    .watchlist-panel.open { display: block; }
+    .watchlist-panel h3 { margin: 0 0 8px 0; font-size: 13px; color: var(--yellow); }
+    .watchlist-panel .empty { color: var(--text-dim); padding: 16px; text-align: center; }
+    .watchlist-panel .wl-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .watchlist-panel .wl-item:last-child { border-bottom: 0; }
+    .watchlist-panel .wl-item .title-mini {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-right: 8px;
+      color: var(--text);
+    }
+    .watchlist-panel .wl-item .remove-btn {
+      background: transparent;
+      border: 0;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 11px;
+    }
+    .watchlist-panel .wl-item .remove-btn:hover { color: var(--red); }
 
     .stats {
       display: grid;
@@ -400,7 +496,7 @@
 
   <div class="toolbar">
     <div class="field">
-      🔍 <input type="text" id="searchInput" placeholder="搜索商品名 / 店铺名...">
+      🔍 <input type="text" id="searchInput" placeholder="搜索商品名 / 店铺名 / 类目...">
     </div>
     <div class="field">
       价格区间 (¥):
@@ -423,7 +519,19 @@
         <option value="cny_asc">价格 (¥) ↑</option>
       </select>
     </div>
+    <div class="divider"></div>
+    <button class="quick-btn" id="growthUpBtn" title="只看增长率 ≥0">📈 只看上涨</button>
+    <button class="quick-btn" id="growthDownBtn" title="只看增长率 <0">📉 只看下跌</button>
+    <button class="quick-btn" id="watchlistOnlyBtn" title="只看收藏的商品">⭐ 仅收藏</button>
+    <div class="divider"></div>
+    <button class="export-btn" id="exportCsvBtn" title="导出当前列表 CSV（含 ¥ 价）">⬇️ 导出 CSV</button>
+    <button class="watchlist-btn" id="watchlistPanelBtn" title="查看收藏列表">⭐ 收藏夹</button>
     <button class="reset-btn" id="resetBtn">重置筛选</button>
+  </div>
+
+  <div class="watchlist-panel" id="watchlistPanel">
+    <h3>⭐ 我的收藏（持久化在 localStorage）</h3>
+    <div id="watchlistContent"></div>
   </div>
 
   <div class="stats" id="statsRow"></div>
@@ -453,7 +561,144 @@
     chartInstances: [null, null],
     regionCurrency: 'USD',
     fx: null,
+    growthFilter: 'all',  // 'all' | 'up' | 'down'
+    watchlistOnly: false,
   };
+
+  // ============ Watchlist（localStorage 持久化） ============
+  const WATCH_KEY = 'tiktokshop_watchlist_v1';
+  function loadWatchlist() {
+    try { return JSON.parse(localStorage.getItem(WATCH_KEY) || '[]'); }
+    catch(e) { return []; }
+  }
+  function saveWatchlist(arr) {
+    localStorage.setItem(WATCH_KEY, JSON.stringify(arr));
+  }
+  function isStarred(pid) {
+    return loadWatchlist().some(w => String(w.product_id) === String(pid));
+  }
+  function toggleStar(product) {
+    const list = loadWatchlist();
+    const idx = list.findIndex(w => String(w.product_id) === String(product.product_id));
+    if (idx >= 0) {
+      list.splice(idx, 1);
+    } else {
+      list.push({
+        product_id: String(product.product_id),
+        title: product.title,
+        region: state.region,
+        shop_name: product.shop_name || product.author_name || '',
+        added_at: new Date().toISOString(),
+      });
+    }
+    saveWatchlist(list);
+    renderWatchlistPanel();
+  }
+  function renderWatchlistPanel() {
+    const panel = document.getElementById('watchlistPanel');
+    const content = document.getElementById('watchlistContent');
+    const list = loadWatchlist();
+    if (list.length === 0) {
+      content.innerHTML = '<div class="empty">还没有收藏。点击商品右上角的 ☆ 添加到收藏夹。</div>';
+    } else {
+      content.innerHTML = list.map(w =>
+        '<div class="wl-item">' +
+          '<span class="title-mini">⭐ ' + escapeHtml(w.title) + '</span>' +
+          '<span style="color:var(--text-dim); font-size:10px; margin-right:8px;">' + escapeHtml(w.region) + '</span>' +
+          '<button class="remove-btn" data-pid="' + w.product_id + '">✕</button>' +
+        '</div>'
+      ).join('');
+      // 绑定移除按钮
+      content.querySelectorAll('.remove-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const pid = String(btn.dataset.pid);
+          const cur = loadWatchlist().filter(w => String(w.product_id) !== pid);
+          saveWatchlist(cur);
+          renderWatchlistPanel();
+          render();  // 重新渲染卡片星标状态
+        });
+      });
+    }
+  }
+
+  // ============ CSV 导出 ============
+  // 迷你 CSV parser：按 RFC 4180，正确处理引号包裹的逗号
+  function parseCsvLine(line) {
+    const cells = [];
+    let cur = '';
+    let inQuote = false;
+    for (let i = 0; i < line.length; i++) {
+      const ch = line[i];
+      if (inQuote) {
+        if (ch === '"' && line[i + 1] === '"') {
+          cur += '"'; i++;
+        } else if (ch === '"') {
+          inQuote = false;
+        } else {
+          cur += ch;
+        }
+      } else {
+        if (ch === ',') { cells.push(cur); cur = ''; }
+        else if (ch === '"') { inQuote = true; }
+        else { cur += ch; }
+      }
+    }
+    cells.push(cur);
+    return cells;
+  }
+
+  function exportCsv() {
+    if (!state.data) return;
+    const rawList = state.data[state.rank] || [];
+    const filtered = applyFilters(rawList);
+    if (filtered.length === 0) {
+      alert('当前列表为空，无可导出数据');
+      return;
+    }
+    const currency = state.regionCurrency;
+    const header = ['排名', '商品ID', '标题', '店铺', '类目', '本地价', '¥价', '销量', '销售额(本地)', '销售额(¥)', '增长率(%)', '视频数', '上架时间', '详情链接'];
+    const cell = v => {
+      // 内部逗号 / 引号 / 换行 -> 必须包裹双引号
+      const s = String(v);
+      if (s.includes(',') || s.includes('"') || s.includes('\n')) {
+        return '"' + s.replace(/"/g, '""') + '"';
+      }
+      return s;
+    };
+    const rows = filtered.map((p, i) => {
+      const growth = parseFloat(String(p.sold_count_inc_rate || '0').replace('%', ''));
+      const cnyPrice = p._cny_price !== null && p._cny_price !== undefined ? p._cny_price.toFixed(2) : '';
+      const cnySale = toCNY(p.sale_amount || 0, p.currency || currency);
+      const categories = (p.category_name || []).join(' / ');
+      return [
+        i + 1,
+        p.product_id,
+        p.title || '',
+        p.shop_name || '',
+        categories,
+        p.real_price || '',
+        cnyPrice,
+        p.sold_count || 0,
+        p.sale_amount || 0,
+        cnySale !== null ? cnySale.toFixed(2) : '',
+        growth.toFixed(2),
+        p.aweme_count || 0,
+        (p.launch_time || '').slice(0, 10),
+        p.detail_url || '',
+      ].map(cell).join(',');
+    });
+    const csv = '\ufeff' + header.join(',') + '\n' + rows.join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const stamp = new Date().toISOString().slice(0, 16).replace(/[-:T]/g, '');
+    a.href = url;
+    a.download = `tiktokshop_${state.region}_${state.period}_${stamp}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
 
   // GitHub Pages 子路径: /tiktokshop-trend/, 本地开发: ''
   const base = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? '' : '/tiktokshop-trend';
@@ -706,17 +951,24 @@
     const enriched = products.map(p => {
       const priceNum = parsePrice(p.real_price);
       const cny = priceNum !== null ? toCNY(priceNum, p.currency || state.regionCurrency) : null;
-      return { ...p, _price_num: priceNum, _cny_price: cny };
+      const categories = (p.category_name || []).join(' / ');
+      const growth = parseFloat(String(p.sold_count_inc_rate || '0').replace('%', ''));
+      return { ...p, _price_num: priceNum, _cny_price: cny, _categories: categories, _growth: growth };
     });
 
     let out = enriched.filter(p => {
       if (q) {
-        const hay = ((p.title || '') + ' ' + (p.author_name || '') + ' ' + (p.shop_name || '')).toLowerCase();
+        const hay = ((p.title || '') + ' ' + (p.author_name || '') + ' ' + (p.shop_name || '') + ' ' + p._categories).toLowerCase();
         if (!hay.includes(q)) return false;
       }
       if (!isNaN(pMin) && (p._cny_price === null || p._cny_price < pMin)) return false;
       if (!isNaN(pMax) && (p._cny_price === null || p._cny_price > pMax)) return false;
       if (!isNaN(sMin) && (p.sold_count || 0) < sMin) return false;
+      // 快捷筛选
+      if (state.growthFilter === 'up' && p._growth < 0) return false;
+      if (state.growthFilter === 'down' && p._growth >= 0) return false;
+      // 仅收藏
+      if (state.watchlistOnly && !isStarred(p.product_id)) return false;
       return true;
     });
 
@@ -724,8 +976,8 @@
     else if (sortBy === 'sold_asc') out.sort((a, b) => (a.sold_count || 0) - (b.sold_count || 0));
     else if (sortBy === 'cny_desc') out.sort((a, b) => (b._cny_price || 0) - (a._cny_price || 0));
     else if (sortBy === 'cny_asc') out.sort((a, b) => (a._cny_price || 0) - (b._cny_price || 0));
-    else if (sortBy === 'growth_desc') out.sort((a, b) => parseFloat(String(b.sold_count_inc_rate || '0').replace('%', '')) - parseFloat(String(a.sold_count_inc_rate || '0').replace('%', '')));
-    else if (sortBy === 'growth_asc') out.sort((a, b) => parseFloat(String(a.sold_count_inc_rate || '0').replace('%', '')) - parseFloat(String(b.sold_count_inc_rate || '0').replace('%', '')));
+    else if (sortBy === 'growth_desc') out.sort((a, b) => (b._growth) - (a._growth));
+    else if (sortBy === 'growth_asc') out.sort((a, b) => (a._growth) - (b._growth));
 
     return out;
   }
@@ -877,14 +1129,21 @@
       const priceLocal = escapeHtml(String(p.real_price || '-'));
       const cnyPriceStr = p._cny_price !== null && p._cny_price !== undefined ? fmtCNY(p._cny_price, p.currency || state.regionCurrency) : '';
 
+      // 类目标签（可点击 → 自动填入搜索框）
+      const cats = (p.category_name || []);
+      const catTags = cats.map(c => '<span class="category-tag" data-cat="' + escapeHtml(c) + '">' + escapeHtml(c) + '</span>').join('');
+      const starred = isStarred(p.product_id);
+
       return '<div class="card" data-rank="' + rank + '" data-pid="' + p.product_id + '">' +
+        '<button class="star-btn ' + (starred ? 'starred' : '') + '" data-pid="' + p.product_id + '" title="收藏">⭐</button>' +
         '<div class="' + rankClass + '">#' + rank + '</div>' +
         '<img class="cover" src="' + cover + '" alt="" loading="lazy">' +
         '<div class="info">' +
           '<div class="title"><a href="' + (p.detail_url || '#') + '" target="_blank" onclick="event.stopPropagation()">' + escapeHtml(p.title || '') + '</a></div>' +
           '<div class="meta-row">' +
+            (catTags ? catTags : '') +
             '<span>🏪 ' + escapeHtml(p.author_name || p.shop_name || '-') + '</span>' +
-            '<span>🎬 ' + (p.aweme_count || 0) + ' 视频</span>' +
+            '<span>🎬 ' + (p.aweme_count || 0) + '</span>' +
             '<span>📅 ' + ((p.launch_time || '').slice(0, 10)) + '</span>' +
           '</div>' +
         '</div>' +
@@ -902,6 +1161,26 @@
     // 绑定点击事件
     listEl.querySelectorAll('.card').forEach(cardEl => {
       cardEl.addEventListener('click', e => {
+        // 星标按钮
+        const star = e.target.closest('.star-btn');
+        if (star) {
+          e.stopPropagation();
+          const pid = String(star.dataset.pid);
+          const p = products.find(x => String(x.product_id) === pid);
+          if (p) {
+            toggleStar(p);
+            star.classList.toggle('starred');
+          }
+          return;
+        }
+        // 类目标签 → 自动搜索
+        const cat = e.target.closest('.category-tag');
+        if (cat) {
+          e.stopPropagation();
+          document.getElementById('searchInput').value = cat.dataset.cat;
+          render();
+          return;
+        }
         if (e.target.closest('a')) return;
         const rank = parseInt(cardEl.dataset.rank) - 1;
         const p = products[rank];
@@ -963,8 +1242,55 @@
     document.getElementById('priceMax').value = '';
     document.getElementById('soldMin').value = '';
     document.getElementById('sortBy').value = 'default';
+    state.growthFilter = 'all';
+    state.watchlistOnly = false;
+    document.getElementById('growthUpBtn').classList.remove('active', 'up');
+    document.getElementById('growthDownBtn').classList.remove('active', 'down');
+    document.getElementById('watchlistOnlyBtn').classList.remove('active');
     render();
   });
+
+  // 快捷筛选：只看上涨
+  document.getElementById('growthUpBtn').addEventListener('click', () => {
+    if (state.growthFilter === 'up') {
+      state.growthFilter = 'all';
+      document.getElementById('growthUpBtn').classList.remove('active', 'up');
+    } else {
+      state.growthFilter = 'up';
+      document.getElementById('growthUpBtn').classList.add('active', 'up');
+      document.getElementById('growthDownBtn').classList.remove('active', 'down');
+    }
+    render();
+  });
+  // 快捷筛选：只看下跌
+  document.getElementById('growthDownBtn').addEventListener('click', () => {
+    if (state.growthFilter === 'down') {
+      state.growthFilter = 'all';
+      document.getElementById('growthDownBtn').classList.remove('active', 'down');
+    } else {
+      state.growthFilter = 'down';
+      document.getElementById('growthDownBtn').classList.add('active', 'down');
+      document.getElementById('growthUpBtn').classList.remove('active', 'up');
+    }
+    render();
+  });
+  // 仅看收藏
+  document.getElementById('watchlistOnlyBtn').addEventListener('click', () => {
+    state.watchlistOnly = !state.watchlistOnly;
+    document.getElementById('watchlistOnlyBtn').classList.toggle('active', state.watchlistOnly);
+    render();
+  });
+  // 收藏夹面板切换
+  document.getElementById('watchlistPanelBtn').addEventListener('click', () => {
+    const panel = document.getElementById('watchlistPanel');
+    panel.classList.toggle('open');
+    renderWatchlistPanel();
+  });
+  // 导出 CSV
+  document.getElementById('exportCsvBtn').addEventListener('click', exportCsv);
+
+  // 初始渲染收藏面板
+  renderWatchlistPanel();
 
   window.addEventListener('resize', () => {
     state.chartInstances.forEach(c => c && c.resize());
