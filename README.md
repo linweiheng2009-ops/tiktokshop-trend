@@ -119,3 +119,60 @@ npm run screenshot
 ## License
 
 仅供学习研究使用，请遵守 FastMoss 的服务条款。
+## 部署到 Cloudflare Pages
+
+Cloudflare Pages 比 GitHub Pages 强 3 点：
+1. **全球 CDN**（新加坡有边缘节点，从 SGT 访问更快）
+2. **支持子目录 JSON**（无下划线前缀限制）
+3. **自定义域名**（自动 HTTPS + 免费）
+
+### 操作步骤
+
+1. **登录 Cloudflare**
+   - 访问 https://dash.cloudflare.com/
+   - 注册或登录账号（恒哥已经有 GitHub，用 GitHub 登录最快）
+
+2. **创建 Pages 项目**
+   - 左侧菜单 → `Workers & Pages` → `Create application` → `Pages` → `Connect to Git`
+   - 选 `linweiheng2009-ops/tiktokshop-trend` repo
+   - 点 `Begin setup`
+
+3. **Build 配置**
+   - **Project name**: `tiktokshop-trend`（或自定义）
+   - **Production branch**: `main`
+   - **Build command**: **留空**（纯静态）
+   - **Build output directory**: `/`（根目录）
+   - 点 `Save and Deploy`
+
+4. **等首次部署**（约 1-2 分钟）
+
+5. **配自定义域名**（可选）
+   - 项目 → `Custom domains` → `Set up a custom domain`
+   - 输入 `tiktok.yourdomain.com` 或 `yourdomain.com/ttrend`
+   - 按提示改 DNS（CNAME 或 nameservers）
+
+6. **改 cron 触发 Pages deploy**
+   - 默认 Cloudflare 会监听 GitHub push → 自动 deploy
+   - 也就是说每次 `git push` → Cloudflare 自动重部署，**比 GitHub Pages 还快**
+
+### 优缺点对比
+
+| 项 | GitHub Pages | Cloudflare Pages |
+|---|---|---|
+| 全球 CDN | ⚠️ 一般 | ✅ 全球边缘节点 |
+| 子目录 JSON | ❌ 不支持下划线前缀 | ✅ 全支持 |
+| 自定义域名 | ✅ 免费 | ✅ 免费 + 自动 HTTPS |
+| 部署速度 | ⚠️ 30-60s | ✅ 10-30s |
+| 配置复杂度 | 0 | 1 次性 5 分钟 |
+
+**推荐**：如果恒哥愿意花 5 分钟配一下，**改用 Cloudflare Pages** 体验会更好。
+
+## 已知页面特性
+
+- **货币显示**：根据 region 自动切 USD/₫ 等
+- **空状态文案**：数据累积 < 7 天时，月榜增长率显示"还需 X 天"
+- **趋势图**：需要 ≥ 2 天数据，1 天时显示空状态
+- **搜索**：商品名 / 店铺名实时过滤
+- **筛选**：价格区间、销量阈值
+- **排序**：销量/价格/增长率升降序
+
