@@ -397,6 +397,7 @@
     const agg = await fetch(f).then(r => r.json());
     state.data = agg;
     state.summary = summary;
+    state.regionCurrency = (agg.daily_top?.[0]?.currency) || (agg.total_top?.[0]?.currency) || 'USD';
     renderHeader();
     renderProgress();
     render();
@@ -452,7 +453,16 @@
     return String(n);
   }
 
-  function fmtAmount(n) {
+  function fmtAmount(n, currency) {
+    // Fastmoss 返回的 sale_amount 是按 region 货币的原始值
+    // VND 等小币种: 数值很大, 用 ₫ 并按 25k:1 简化显示
+    if (currency === 'VND') {
+      if (n >= 1e9) return (n / 1e9).toFixed(1) + 'B ₫';
+      if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M ₫';
+      if (n >= 1e3) return (n / 1e3).toFixed(0) + 'k ₫';
+      return n + ' ₫';
+    }
+    // USD / SGD 等
     if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'M';
     if (n >= 1e3) return '$' + (n / 1e3).toFixed(1) + 'k';
     return '$' + Math.round(n);
@@ -464,7 +474,7 @@
     document.getElementById('statsRow').innerHTML =
       '<div class="stat"><div class="v">' + stats.count + '</div><div class="l">商品数</div></div>' +
       '<div class="stat"><div class="v">' + fmtSold(stats.totalSold) + '</div><div class="l">总销量</div></div>' +
-      '<div class="stat"><div class="v">' + fmtAmount(stats.totalAmount) + '</div><div class="l">总销售额</div></div>' +
+      '<div class="stat"><div class="v">' + fmtAmount(stats.totalAmount, state.regionCurrency || 'USD') + '</div><div class="l">总销售额</div></div>' +
       '<div class="stat"><div class="v" style="color:' + agc + '">' + ags + stats.avgGrowth.toFixed(2) + '%</div><div class="l">平均增长率</div></div>' +
       '<div class="stat"><div class="v">' + state.summary.periods[state.period].dates_used + '</div><div class="l">数据天数</div></div>';
   }
