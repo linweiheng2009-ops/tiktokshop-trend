@@ -217,6 +217,88 @@
       margin-right: 4px;
     }
     .category-tag:hover { background: rgba(0,212,255,0.3); }
+    /* 类目聚合表格 */
+    .category-section { margin: 12px 0; }
+    .category-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      user-select: none;
+      font-size: 13px;
+      color: var(--text);
+      transition: all 0.15s;
+    }
+    .category-toggle:hover { border-color: var(--accent); }
+    .category-toggle .icon {
+      font-size: 14px;
+      transition: transform 0.2s;
+      color: var(--text-dim);
+    }
+    .category-section.open .category-toggle .icon { transform: rotate(90deg); color: var(--accent); }
+    .category-toggle .title-text { flex: 1; font-weight: 500; }
+    .category-toggle .badge-mini {
+      font-size: 10px;
+      padding: 2px 6px;
+      background: rgba(0, 212, 255, 0.15);
+      color: var(--accent-2);
+      border-radius: 3px;
+    }
+    #categorySection:not(.open) > #categoryPanel { display: none; }
+    #categorySection.open > #categoryPanel { display: block; }
+    .category-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 8px;
+      font-size: 12px;
+    }
+    .category-table { width: 100%; border-collapse: collapse; }
+    .category-table th, .category-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+    }
+    .category-table th {
+      color: var(--text-dim);
+      font-weight: 500;
+      font-size: 11px;
+      background: var(--bg-elevated);
+    }
+    .category-table td:first-child, .category-table th:first-child {
+      text-align: left;
+    }
+    .category-table tr:last-child td { border-bottom: 0; }
+    .category-table tr.clickable { cursor: pointer; }
+    .category-table tr.clickable:hover { background: rgba(255, 45, 122, 0.05); }
+    .category-table .cat-cell {
+      color: var(--accent-2);
+      font-weight: 500;
+    }
+    .category-table .growth-cell.pos { color: var(--green); }
+    .category-table .growth-cell.neg { color: var(--red); }
+    .category-table .top-cell {
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--text-dim);
+      font-size: 11px;
+    }
+    .category-table .mini-bar {
+      display: inline-block;
+      height: 4px;
+      background: var(--accent);
+      border-radius: 2px;
+      vertical-align: middle;
+      margin-left: 6px;
+    }
+
     .watchlist-panel {
       background: var(--bg-card);
       border: 1px solid var(--yellow);
@@ -579,6 +661,15 @@
       <div class="chart-box" id="chartBar"></div>
       <div class="chart-box" id="chartLine"></div>
     </div>
+  </div>
+
+  <div class="category-section" id="categorySection">
+    <div class="category-toggle" id="categoryToggle">
+      <span class="icon">▸</span>
+      <span class="title-text">🗂️ 按类目聚合统计</span>
+      <span class="badge-mini" id="categoryBadge">默认折叠 · 点击展开</span>
+    </div>
+    <div id="categoryPanel"></div>
   </div>
 
   <div class="list" id="list"></div>
@@ -1242,6 +1333,10 @@
     renderStats(stats);
     renderCharts(filtered);
     renderList(filtered);
+    // 如果类目统计已展开，重新渲染
+    if (document.getElementById('categorySection').classList.contains('open')) {
+      renderCategoryPanel();
+    }
   }
 
   document.getElementById('periodTabs').addEventListener('click', e => {
@@ -1339,6 +1434,84 @@
         state.chartInstances.forEach(c => c && c.resize());
       }, 100);
     }
+  });
+
+  // ============ 按类目聚合统计 ============
+  function aggregateByCategory(products) {
+    const buckets = new Map();  // cat -> {count, sold, sale, saleCny, growths[], items[]}
+    for (const p of products) {
+      const cats = p.category_name && p.category_name.length > 0 ? p.category_name : ['(未分类)'];
+      const cat = cats[0];  // 取主类目
+      if (!buckets.has(cat)) {
+        buckets.set(cat, { count: 0, sold: 0, sale: 0, saleCny: 0, growths: [], items: [] });
+      }
+      const b = buckets.get(cat);
+      b.count++;
+      b.sold += p.sold_count || 0;
+      b.sale += p.sale_amount || 0;
+      const cny = toCNY(p.sale_amount || 0, p.currency || state.regionCurrency);
+      if (cny !== null) b.saleCny += cny;
+      const g = parseFloat(String(p.sold_count_inc_rate || '0').replace('%', ''));
+      b.growths.push(g);
+      b.items.push(p);
+    }
+    // 排序：按总销量降序
+    return [...buckets.entries()].sort((a, b) => b[1].sold - a[1].sold);
+  }
+
+  function renderCategoryPanel() {
+    const panel = document.getElementById('categoryPanel');
+    if (!state.data) return;
+    const rawList = state.data[state.rank] || [];
+    if (rawList.length === 0) {
+      panel.innerHTML = '<div style="padding: 16px; text-align: center; color: var(--text-dim);">暂无数据</div>';
+      return;
+    }
+    const buckets = aggregateByCategory(rawList);
+    const currency = state.regionCurrency;
+    const maxSold = Math.max(...buckets.map(b => b[1].sold), 1);
+
+    let html = '<div class="category-panel"><table class="category-table"><thead><tr>' +
+      '<th>类目</th><th>商品数</th><th>总销量</th><th>总销售额</th><th>总销售额（¥）</th><th>平均增长率</th><th>Top 1 商品</th>' +
+      '</tr></thead><tbody>';
+    for (const [cat, info] of buckets) {
+      const avgGrowth = info.growths.length > 0 ? (info.growths.reduce((a, b) => a + b, 0) / info.growths.length) : 0;
+      const gSign = avgGrowth >= 0 ? '+' : '';
+      const gClass = avgGrowth >= 0 ? 'pos' : 'neg';
+      const top = info.items.slice().sort((a, b) => (b.sold_count || 0) - (a.sold_count || 0))[0];
+      const barWidth = Math.round(info.sold / maxSold * 60);
+      html += '<tr class="clickable" data-cat="' + escapeHtml(cat) + '">' +
+        '<td class="cat-cell">' + escapeHtml(cat) + '<span class="mini-bar" style="width:' + barWidth + 'px"></span></td>' +
+        '<td>' + info.count + '</td>' +
+        '<td>' + fmtSold(info.sold) + '</td>' +
+        '<td>' + escapeHtml(fmtLocal(info.sale, currency)) + '</td>' +
+        '<td style="color: var(--cny);">' + fmtCNY(info.saleCny, currency) + '</td>' +
+        '<td class="growth-cell ' + gClass + '">' + gSign + avgGrowth.toFixed(2) + '%</td>' +
+        '<td class="top-cell" title="' + escapeHtml(top ? top.title : '') + '">' + escapeHtml(top ? top.title.slice(0, 35) : '-') + '</td>' +
+        '</tr>';
+    }
+    html += '</tbody></table></div>';
+    panel.innerHTML = html;
+
+    // 绑定点击行 → 搜索框
+    panel.querySelectorAll('tr.clickable').forEach(tr => {
+      tr.addEventListener('click', () => {
+        const cat = tr.dataset.cat;
+        document.getElementById('searchInput').value = cat;
+        render();
+        // 滚动到列表顶部
+        document.getElementById('list').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
+
+  // 类目统计折叠/展开
+  document.getElementById('categoryToggle').addEventListener('click', () => {
+    const sec = document.getElementById('categorySection');
+    sec.classList.toggle('open');
+    const isOpen = sec.classList.contains('open');
+    document.getElementById('categoryBadge').textContent = isOpen ? '已展开 · 点击折叠' : '已折叠 · 点击展开';
+    if (isOpen) renderCategoryPanel();
   });
   // 导出 CSV
   document.getElementById('exportCsvBtn').addEventListener('click', exportCsv);
