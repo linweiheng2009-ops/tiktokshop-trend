@@ -10,9 +10,10 @@ package-lock.json
 # Snapshots (local preview only)
 snapshots/
 
-# Demo data (only kept locally for UI testing)
-# data/2026-08-10/ data/2026-08-11/ (demo)
-# Keep data/2026-08-12/ as the first real snapshot
+# Note: data/2026-08-03 ~ data/2026-08-11 are demo (simulated for 10-day preview)
+# data/2026-08-12 is the first real snapshot from FastMoss
+# See scripts/04_demo_data.mjs and README.md "Data provenance" section
+# Nothing in data/ is ignored — all 10 days ship to GitHub Pages
 
 # macOS
 .DS_Store
