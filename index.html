@@ -20,6 +20,24 @@
       --yellow: #ffb800;
       --cny: #ff6b35;
     }
+    body.light {
+      --bg: #f5f5f7;
+      --bg-card: #ffffff;
+      --bg-elevated: #f0f0f3;
+      --border: #d8d8dc;
+      --text: #1a1a1f;
+      --text-dim: #666;
+    }
+    body.light .notice { background: rgba(255, 184, 0, 0.12); color: #8a6500; }
+    body.light .chart-box, body.light .stat, body.light .toolbar, body.light .progress-card,
+    body.light .chart-toggle, body.light .category-toggle, body.light .watchlist-panel,
+    body.light .category-panel, body.light .empty {
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    body.light .category-tag { background: rgba(0, 102, 204, 0.1); color: #0066cc; }
+    body.light .category-tag:hover { background: rgba(0, 102, 204, 0.2); }
+    body.light .card { box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    body.light .toolbar input, body.light .toolbar select { background: #f0f0f3; color: #1a1a1f; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -185,6 +203,154 @@
     }
     .toolbar .export-btn:hover { border-color: var(--accent-2); color: var(--accent-2); }
     .toolbar .watchlist-btn:hover { border-color: var(--yellow); color: var(--yellow); }
+    .toolbar .theme-btn {
+      padding: 4px 8px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.15s;
+    }
+    .toolbar .theme-btn:hover { border-color: var(--accent); }
+    .cat-emoji { margin-right: 6px; font-size: 14px; }
+    body.compare-mode .card { cursor: pointer; }
+    body.compare-mode .card.selected {
+      border-color: var(--yellow);
+      background: rgba(255, 184, 0, 0.08);
+    }
+    body.compare-mode .card.selected::after {
+      content: '✓';
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      background: var(--yellow);
+      color: #000;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .compare-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--bg-card);
+      border-top: 1px solid var(--yellow);
+      padding: 12px 24px;
+      display: none;
+      align-items: center;
+      gap: 16px;
+      z-index: 100;
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.2);
+    }
+    .compare-bar.open { display: flex; }
+    body.light .compare-bar { box-shadow: 0 -2px 12px rgba(0,0,0,0.1); }
+    .compare-bar .selected-list {
+      flex: 1;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      font-size: 12px;
+    }
+    .compare-bar .selected-pill {
+      background: rgba(255, 184, 0, 0.15);
+      border: 1px solid var(--yellow);
+      padding: 4px 10px;
+      border-radius: 4px;
+      color: var(--text);
+      white-space: nowrap;
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .compare-bar .selected-pill .x {
+      margin-left: 6px;
+      cursor: pointer;
+      color: var(--text-dim);
+    }
+    .compare-bar .selected-pill .x:hover { color: var(--red); }
+    .compare-bar .compare-btn {
+      padding: 6px 14px;
+      background: var(--yellow);
+      color: #000;
+      border: 0;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .compare-bar .compare-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .compare-bar .clear-btn, .compare-bar .exit-btn {
+      padding: 4px 10px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .compare-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 24px;
+    }
+    body.light .compare-modal { background: rgba(0,0,0,0.4); }
+    .compare-modal.open { display: flex; }
+    .compare-modal-content {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 24px;
+      max-width: 1200px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .compare-modal .close-btn {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .compare-modal h2 { margin: 0 0 16px 0; font-size: 18px; }
+    .compare-modal .compare-chart { height: 320px; margin: 16px 0; background: var(--bg-elevated); border-radius: 8px; }
+    .compare-modal .compare-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .compare-modal .compare-table th, .compare-modal .compare-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+    }
+    .compare-modal .compare-table th { color: var(--text-dim); font-weight: 500; background: var(--bg-elevated); }
+    .compare-modal .compare-table td:first-child, .compare-modal .compare-table th:first-child { text-align: left; }
+    .compare-modal .compare-table .top1 { font-weight: 600; color: var(--accent); }
+    .compare-mode-hint {
+      background: rgba(255, 184, 0, 0.12);
+      border: 1px solid var(--yellow);
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin: 12px 0;
+      font-size: 12px;
+      color: var(--yellow);
+      display: none;
+    }
+    .compare-mode-hint.open { display: block; }
     .toolbar .divider {
       width: 1px;
       height: 18px;
@@ -654,12 +820,35 @@
     <div class="divider"></div>
     <button class="export-btn" id="exportCsvBtn" title="导出当前列表 CSV（含 ¥ 价）">⬇️ 导出 CSV</button>
     <button class="watchlist-btn" id="watchlistPanelBtn" title="查看收藏列表">⭐ 收藏夹</button>
+    <button class="export-btn" id="compareToggleBtn" title="进入对比模式 · 选 2-4 个商品并排对比">⚖️ 对比</button>
+    <button class="theme-btn" id="themeToggleBtn" title="切换主题">🌓</button>
     <button class="reset-btn" id="resetBtn">重置筛选</button>
   </div>
 
-  <div class="watchlist-panel" id="watchlistPanel">
+  <div class="compare-mode-hint" id="compareHint">
+  ⚖️ <b>对比模式已开启</b> · 点击 2-4 个商品卡片选择（再点取消）· 选完后点击底部"对比"按钮
+</div>
+
+<div class="watchlist-panel" id="watchlistPanel">
     <h3>⭐ 我的收藏（持久化在 localStorage）</h3>
     <div id="watchlistContent"></div>
+  </div>
+
+  <div class="compare-bar" id="compareBar">
+    <div>已选 <b id="compareCount">0</b>/4</div>
+    <div class="selected-list" id="compareSelectedList"></div>
+    <button class="compare-btn" id="compareGoBtn" disabled>对比</button>
+    <button class="clear-btn" id="compareClearBtn">清空</button>
+    <button class="exit-btn" id="compareExitBtn">退出</button>
+  </div>
+
+  <div class="compare-modal" id="compareModal">
+    <div class="compare-modal-content">
+      <button class="close-btn" id="compareModalClose">✕</button>
+      <h2>⚖️ 商品对比</h2>
+      <div id="compareTable"></div>
+      <div class="compare-chart" id="compareChartBox"></div>
+    </div>
   </div>
 
   <div class="stats" id="statsRow"></div>
@@ -728,6 +917,36 @@
     const trimmed = catEn.trim();
     // 完全匹配（包含带前导空格的 key）
     return categoryZhMap[trimmed] || categoryZhMap[catEn] || catEn;
+  }
+
+  const CAT_EMOJI = {
+    'Powdered Drink Mixes': '🥤', 'Bracelets & Bangles': '💎', 'Teeth Whitening': '🦷',
+    'Moisturizers & Mists': '💧', 'Mouthwash': '🪥', 'Bras': '👙', 'Wellness Supplements': '💊',
+    'Washing Bags': '🧺', 'Cards': '💌', 'Business & Management': '💼',
+    'Writing & Correction Tools': '✏️', 'Vaginal Cream': '🌸', 'Cat Food': '🐱',
+    'Storage Bags': '👜', 'Crisps & Puffed Snacks': '🍿', 'Home Fragrances': '🕯️',
+    'Gift Sets': '🎁', 'Massage Devices': '💆', 'Bodysuits & One-pieces': '🩱',
+    'Diapers': '👶', 'Facial Sunscreen & Sun Care': '☀️', 'Curtains': '🪟',
+    'Makeup Fixing Spray': '💨', 'Nail Art Decoration & Accessories': '💅',
+    'Raincoats': '☔', 'Flavor Enhancers': '🧂', 'Specialty DIY Supplies': '🛠️',
+    'Underscarves': '🧕', 'Body Creams & Lotions': '🧴', 'Shirts & Blouses': '👔',
+    'Canned, Jarred & Packaged Foods': '🥫', 'Festive Decorations': '🎉',
+    'Plates': '🍽️', 'Tableware Sets': '🍴', 'Vest, Tank & Tube Tops': '👕',
+    'Shampoo & Conditioner': '🧴', 'Face Masks': '🎭', 'Unisex Perfume': '🌸',
+    'Tops': '👚', 'Jerseys': '⚽', 'Travel Organizers': '🧳',
+    'Tissues & Napkins': '🧻', 'Labels, Index Dividers & Stamps': '🏷️',
+    'Snack Cakes & Pastries': '🍰', 'Biscuits, Cookies & Wafers': '🍪',
+    'Gifts & Wrapping': '🎀', 'Beans & Grains': '🫘',
+    'Cooking Pastes & Seasoning Kits': '🍲', 'Lipstick & Lip Gloss': '💄',
+    'Body Wash & Soap': '🧼', 'Household Cleaners': '🧽', 'Panties': '🩲',
+    '冲调饮品': '🥤', '面部护理套装': '🧴', '保健食品': '💊',
+    '水枪和雪沫喷枪': '💦', '漱口水': '🪥', '牙齿美白': '🦷',
+    '眼线笔与唇线笔': '👁️', '女士文胸': '👙', '脱发产品': '💇',
+  };
+  function catEmoji(catEn) {
+    if (!catEn) return '';
+    const trimmed = catEn.trim();
+    return CAT_EMOJI[trimmed] || CAT_EMOJI[catEn] || '📦';
   }
 
   // ============ Watchlist（localStorage 持久化） ============
@@ -1303,13 +1522,14 @@
       const priceLocal = escapeHtml(String(p.real_price || '-'));
       const cnyPriceStr = p._cny_price !== null && p._cny_price !== undefined ? fmtCNY(p._cny_price, p.currency || state.regionCurrency) : '';
 
-      // 类目标签（可点击 → 自动填入搜索框，显示中文）
+      // 类目标签（可点击 → 自动填入搜索框，显示中文 + emoji）
       const cats = (p.category_name || []);
       const catTags = cats.map(c => {
         const zh = catToZh(c);
         const showZh = zh !== c;
+        const emoji = catEmoji(c);
         return '<span class="category-tag" data-cat="' + escapeHtml(c) + '" title="' + escapeHtml(c) + '">' +
-          (showZh ? escapeHtml(zh) : escapeHtml(c)) +
+          emoji + (showZh ? escapeHtml(zh) : escapeHtml(c)) +
           '</span>';
       }).join('');
       const starred = isStarred(p.product_id);
@@ -1351,6 +1571,15 @@
             toggleStar(p);
             star.classList.toggle('starred');
           }
+          return;
+        }
+
+        // 对比模式下点击卡片 = 选中/取消
+        if (compareState.mode) {
+          const rank = parseInt(cardEl.dataset.rank) - 1;
+          const p = products[rank];
+          if (!p) return;
+          toggleSelectCard(p);
           return;
         }
         // 类目标签 → 自动搜索
@@ -1471,6 +1700,184 @@
     renderWatchlistPanel();
   });
 
+  // ============ 主题切换 ============
+  const THEME_KEY = 'tiktokshop_theme';
+  function applyTheme(theme) {
+    if (theme === 'light') {
+      document.body.classList.add('light');
+      const btn = document.getElementById('themeToggleBtn');
+      if (btn) btn.innerText = '🌙';
+    } else {
+      document.body.classList.remove('light');
+      const btn = document.getElementById('themeToggleBtn');
+      if (btn) btn.innerText = '🌓';
+    }
+  }
+  applyTheme(localStorage.getItem(THEME_KEY) || 'dark');
+  document.getElementById('themeToggleBtn').addEventListener('click', () => {
+    const cur = document.body.classList.contains('light') ? 'light' : 'dark';
+    const next = cur === 'light' ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem(THEME_KEY, next);
+  });
+
+  // ============ 商品对比 ============
+  const compareState = { mode: false, selected: [], max: 4 };
+  function enterCompareMode() {
+    compareState.mode = true;
+    compareState.selected = [];
+    document.body.classList.add('compare-mode');
+    document.getElementById('compareHint').classList.add('open');
+    document.getElementById('compareBar').classList.add('open');
+    renderCompareBar();
+  }
+  function exitCompareMode() {
+    compareState.mode = false;
+    compareState.selected = [];
+    document.body.classList.remove('compare-mode');
+    document.getElementById('compareHint').classList.remove('open');
+    document.getElementById('compareBar').classList.remove('open');
+    document.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected'));
+  }
+  function toggleSelectCard(p) {
+    const pidStr = String(p.product_id);
+    const idx = compareState.selected.findIndex(x => String(x) === pidStr);
+    if (idx >= 0) {
+      compareState.selected.splice(idx, 1);
+    } else if (compareState.selected.length < compareState.max) {
+      compareState.selected.push(p.product_id);
+    } else {
+      alert('最多只能选 ' + compareState.max + ' 个商品');
+      return;
+    }
+    renderCompareBar();
+    document.querySelectorAll('.card[data-pid]').forEach(c => {
+      const pid = String(c.dataset.pid);
+      c.classList.toggle('selected', compareState.selected.some(x => String(x) === pid));
+    });
+  }
+  function renderCompareBar() {
+    const products = getCompareProducts();
+    document.getElementById('compareCount').textContent = products.length;
+    document.getElementById('compareSelectedList').innerHTML = products.map(p =>
+      '<span class="selected-pill">' + escapeHtml(p.title.slice(0, 25)) +
+      '<span class="x" data-pid="' + p.product_id + '">✕</span></span>'
+    ).join('');
+    document.getElementById('compareGoBtn').disabled = products.length < 2;
+    document.querySelectorAll('#compareSelectedList .x').forEach(x => {
+      x.addEventListener('click', () => {
+        const pidStr = String(x.dataset.pid);
+        compareState.selected = compareState.selected.filter(pid => String(pid) !== pidStr);
+        renderCompareBar();
+        document.querySelectorAll('.card[data-pid]').forEach(c => {
+          const pid = String(c.dataset.pid);
+          c.classList.toggle('selected', compareState.selected.some(y => String(y) === pid));
+        });
+      });
+    });
+  }
+  function getCompareProducts() {
+    if (!state.data) return [];
+    const allProducts = state.data[state.rank] || [];
+    return compareState.selected
+      .map(pid => allProducts.find(p => String(p.product_id) === String(pid)))
+      .filter(Boolean);
+  }
+  function showCompareModal() {
+    const products = getCompareProducts();
+    if (products.length < 2) return;
+    const currency = state.regionCurrency;
+    const rows = [
+      { key: 'title', label: '商品', render: p => escapeHtml(p.title.slice(0, 30)) },
+      { key: 'price', label: '单价', render: p => escapeHtml(p.real_price || '-') },
+      { key: 'cny_price', label: '¥价', render: p => {
+          const cny = toCNY(parsePrice(p.real_price), p.currency || currency);
+          return cny !== null ? '<span style="color:var(--cny)">' + fmtCNY(cny, currency) + '</span>' : '-';
+        } },
+      { key: 'sold', label: '销量', render: p => fmtSold(p.sold_count || 0) },
+      { key: 'sale', label: '销售额(本地)', render: p => escapeHtml(fmtLocal(p.sale_amount || 0, currency)) },
+      { key: 'sale_cny', label: '销售额(¥)', render: p => {
+          const cny = toCNY(p.sale_amount || 0, p.currency || currency);
+          return cny !== null ? '<span style="color:var(--cny)">' + fmtCNY(cny, currency) + '</span>' : '-';
+        } },
+      { key: 'growth', label: '增长率', render: p => {
+          const g = parseFloat(String(p.sold_count_inc_rate || '0').replace('%', ''));
+          const cls = g >= 0 ? 'pos' : 'neg';
+          return '<span class="growth-cell ' + cls + '">' + (g >= 0 ? '+' : '') + g.toFixed(2) + '%</span>';
+        } },
+      { key: 'category', label: '类目', render: p => '<span style="color:var(--accent-2)">' +
+          catEmoji(p.category_name?.[0] || '') + ' ' + escapeHtml(catToZh((p.category_name || [])[0] || '-')) + '</span>' },
+    ];
+    let html = '<table class="compare-table"><thead><tr><th></th>';
+    products.forEach((p, i) => html += '<th>商品 #' + (i + 1) + '</th>');
+    html += '</tr></thead><tbody>';
+    for (const row of rows) {
+      html += '<tr><td>' + row.label + '</td>';
+      let topIdx = -1, max = -Infinity;
+      products.forEach((p, i) => {
+        let num = 0;
+        if (row.key === 'growth') num = parseFloat(String(p.sold_count_inc_rate || '0').replace('%', ''));
+        else if (row.key === 'sold') num = p.sold_count || 0;
+        else if (row.key === 'sale_cny') num = toCNY(p.sale_amount || 0, p.currency || currency) || 0;
+        if (num !== null && num > max) { max = num; topIdx = i; }
+      });
+      products.forEach((p, i) => {
+        html += '<td' + (i === topIdx ? ' class="top1"' : '') + '>' + row.render(p) + '</td>';
+      });
+      html += '</tr>';
+    }
+    html += '</tbody></table>';
+    document.getElementById('compareTable').innerHTML = html;
+
+    const allDates = new Set();
+    products.forEach(p => (p._trend || []).forEach(t => allDates.add(t.date)));
+    const dates = [...allDates].sort();
+    const colors = ['#ff2d7a', '#00d4ff', '#ffb800', '#00d68f'];
+    const series = products.map((p, i) => {
+      const trendMap = new Map((p._trend || []).map(t => [t.date, t.sold]));
+      return {
+        name: p.title.slice(0, 20),
+        type: 'line',
+        data: dates.map(d => trendMap.has(d) ? trendMap.get(d) : null),
+        smooth: true,
+        connectNulls: true,
+        itemStyle: { color: colors[i % colors.length] },
+        lineStyle: { width: 2, color: colors[i % colors.length] },
+      };
+    });
+    const chart = echarts.init(document.getElementById('compareChartBox'));
+    chart.setOption({
+      title: { text: '销量趋势对比', textStyle: { color: '#888', fontSize: 12 }, left: 8, top: 8 },
+      tooltip: { trigger: 'axis' },
+      legend: { textStyle: { color: '#888', fontSize: 11 }, top: 8, right: 8, type: 'scroll' },
+      grid: { left: 60, right: 30, top: 50, bottom: 30 },
+      xAxis: { type: 'category', data: dates, axisLine: { lineStyle: { color: '#333' } }, axisLabel: { color: '#888', fontSize: 10 } },
+      yAxis: { type: 'value', axisLine: { lineStyle: { color: '#333' } }, axisLabel: { color: '#888', fontSize: 10, formatter: v => fmtSold(v) }, splitLine: { lineStyle: { color: '#222' } } },
+      series,
+    });
+    document.getElementById('compareModal').classList.add('open');
+  }
+
+  document.getElementById('compareToggleBtn').addEventListener('click', () => {
+    if (compareState.mode) exitCompareMode();
+    else enterCompareMode();
+  });
+  document.getElementById('compareGoBtn').addEventListener('click', showCompareModal);
+  document.getElementById('compareClearBtn').addEventListener('click', () => {
+    compareState.selected = [];
+    renderCompareBar();
+    document.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected'));
+  });
+  document.getElementById('compareExitBtn').addEventListener('click', exitCompareMode);
+  document.getElementById('compareModalClose').addEventListener('click', () => {
+    document.getElementById('compareModal').classList.remove('open');
+  });
+  document.getElementById('compareModal').addEventListener('click', (e) => {
+    if (e.target.id === 'compareModal') {
+      document.getElementById('compareModal').classList.remove('open');
+    }
+  });
+
   // 统计图表折叠/展开
   document.getElementById('chartToggle').addEventListener('click', () => {
     const sec = document.getElementById('chartSection');
@@ -1536,6 +1943,7 @@
       const showEn = catZh !== catEn;  // 是否真有翻译
       html += '<tr class="clickable" data-cat="' + escapeHtml(catEn) + '" data-cat-zh="' + escapeHtml(catZh) + '">' +
         '<td class="cat-cell">' +
+          '<span class="cat-emoji">' + catEmoji(catEn) + '</span>' +
           '<span class="cat-zh">' + escapeHtml(catZh) + '</span>' +
           (showEn ? '<span class="cat-en">' + escapeHtml(catEn) + '</span>' : '') +
           '<span class="mini-bar" style="width:' + barWidth + 'px"></span>' +
