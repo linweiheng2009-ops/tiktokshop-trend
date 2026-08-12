@@ -24,13 +24,16 @@ async function main() {
     VND: VND_PER_USD,
   };
 
-  // 也算 CNY = 1 unit local (前端用 amount × rate)
-  // CNY per unit local = 6.7432 / rates.X
+  // 也算 CNY per unit local (前端用 amount × rate)
+  // CNY per unit local = (USD→CNY) / (USD→local) = data.rates.CNY / rates.X
+  const usdToCny = data.rates.CNY;  // 1 USD = X CNY
   const toCNY = {};
   for (const [code, rate] of Object.entries(rates)) {
     if (code === 'CNY') toCNY[code] = 1;
-    else toCNY[code] = +(data.rates.CNY / rate).toFixed(6);
+    else toCNY[code] = +(usdToCny / rate).toFixed(6);  // 1 local = X CNY
   }
+  // 关键：USD 本身也是 1 USD = usdToCny CNY（rate 不在循环里因为 USD 是 base）
+  toCNY.USD = usdToCny;
 
   const fx = {
     fetched_at: new Date().toISOString(),
