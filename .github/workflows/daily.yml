@@ -6,11 +6,6 @@ on:
     - cron: '0 0 * * *'
   # 允许手动触发（调试用）
   workflow_dispatch:
-    inputs:
-      dry_run:
-        description: 'Dry run (no commit)'
-        required: false
-        default: 'false'
 
 permissions:
   contents: write
@@ -28,13 +23,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
 
       - name: Run crawler (7 regions × 2 ranks)
         run: node scripts/01_crawl.mjs
+
+      - name: Run FX rate fetcher (Frankfurter)
+        run: node scripts/05_fx.mjs
 
       - name: Run aggregator (daily/weekly/monthly)
         run: node scripts/02_aggregate.mjs
