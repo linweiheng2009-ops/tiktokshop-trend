@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Shop 趋势榜 · 每日 / 每周 / 每月</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --bg-card: #141414;
+      --bg-elev: #1c1c1c;
+      --border: #2a2a2a;
+      --text: #f5f5f5;
+      --text-mute: #999;
+      --accent: #fe2062;
+      --up: #10b981;
+      --down: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+    header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; }
+    h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
+    h1 span.tag {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 12px;
+      vertical-align: middle;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+    }
+    .meta { color: var(--text-mute); font-size: 13px; margin-top: 8px; }
+    .disclaimer {
+      background: var(--bg-elev);
+      border-left: 3px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      color: var(--text-mute);
+      margin-bottom: 24px;
+    }
+    .controls {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .tab-group { display: flex; gap: 4px; background: var(--bg-elev); padding: 4px; border-radius: 8px; }
+    .tab {
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--text-mute);
+      transition: all 0.15s;
+      border: none;
+      background: transparent;
+    }
+    .tab.active { background: var(--accent); color: white; font-weight: 600; }
+    .tab:hover:not(.active) { color: var(--text); }
+    .select {
+      background: var(--bg-elev);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .region-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    .region-tab {
+      padding: 6px 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--text-mute);
+      transition: all 0.15s;
+    }
+    .region-tab.active { background: var(--accent); color: white; border-color: var(--accent); }
+    .region-tab:hover:not(.active) { color: var(--text); border-color: var(--text-mute); }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: var(--bg-card);
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    .stat-card .label { font-size: 12px; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.05em; }
+    .stat-card .value { font-size: 24px; font-weight: 700; margin-top: 4px; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+    .product {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.15s, border-color 0.15s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .product:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .product .rank {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 700;
+      z-index: 2;
+    }
+    .product .growth {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 700;
+      z-index: 2;
+    }
+    .growth.up { background: rgba(16,185,129,0.9); color: white; }
+    .growth.down { background: rgba(239,68,68,0.9); color: white; }
+    .product .cover-wrap { position: relative; background: var(--bg-elev); }
+    .product .cover { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+    .product .info { padding: 12px; }
+    .product .title {
+      font-size: 13px;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 36px;
+    }
+    .product .meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--text-mute);
+    }
+    .product .price { color: var(--accent); font-weight: 700; font-size: 14px; }
+    .product .shop { font-size: 11px; color: var(--text-mute); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-mute);
+      font-size: 14px;
+    }
+    .section-title { font-size: 16px; font-weight: 600; margin: 24px 0 12px; display: flex; align-items: center; gap: 8px; }
+    .section-title::before { content: ''; display: block; width: 3px; height: 16px; background: var(--accent); border-radius: 2px; }
+    footer { text-align: center; padding: 32px 0; color: var(--text-mute); font-size: 12px; border-top: 1px solid var(--border); margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>TikTok Shop 趋势榜<span class="tag">公开榜 · 趋势导向</span></h1>
+      <div class="meta" id="meta">加载中...</div>
+    </header>
+
+    <div class="disclaimer">
+      ⚠️ <strong>数据定位</strong>：榜单基于 FastMoss 公开榜，反映 TikTok Shop <strong>曝光/GMV 估算</strong>，非真实销量。适合看 <strong>趋势</strong>（哪些 SKU 在涨），不适合看 <strong>绝对销量</strong>。
+    </div>
+
+    <div class="controls">
+      <div class="tab-group" id="periodTabs">
+        <button class="tab active" data-period="daily">每日</button>
+        <button class="tab" data-period="weekly">每周</button>
+        <button class="tab" data-period="monthly">每月</button>
+      </div>
+      <div class="tab-group" id="rankTabs">
+        <button class="tab active" data-rank="daily_top">销量榜</button>
+        <button class="tab" data-rank="total_top">累计榜</button>
+        <button class="tab" data-rank="growth_top">增长率</button>
+      </div>
+    </div>
+
+    <div class="region-tabs" id="regionTabs"></div>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="section-title" id="sectionTitle">商品列表</div>
+    <div class="products" id="products"></div>
+
+    <footer>
+      数据源: FastMoss · 抓取频率: 每日 1 次 · 当前显示: <span id="lastUpdate">--</span>
+    </footer>
+  </div>
+
+  <script>
+    const REGION_NAMES = {
+      US: '🇺🇸 美国', SG: '🇸🇬 新加坡', MY: '🇲🇾 马来西亚',
+      PH: '🇵🇭 菲律宾', ID: '🇮🇩 印尼', TH: '🇹🇭 泰国', VN: '🇻🇳 越南'
+    };
+
+    let state = {
+      period: 'daily',
+      rank: 'daily_top',
+      region: 'US',
+      data: null,
+    };
+
+    async function loadAggregated() {
+      const cb = `?t=${Date.now()}`;
+      const resp = await fetch('data/aggregated/_summary.json' + cb);
+      const summary = await resp.json();
+      const f = `data/aggregated/${state.period}_${state.region}.json${cb}`;
+      const agg = await fetch(f).then(r => r.json());
+      state.data = agg;
+      document.getElementById('meta').innerHTML =
+        `数据范围: ${summary.periods[state.period].date_range.join(' → ')} · ` +
+        `共 ${summary.periods[state.period].dates_used} 天快照 · ` +
+        `更新于 ${new Date(summary.generated_at).toLocaleString('zh-CN')}`;
+      render();
+    }
+
+    function render() {
+      const d = state.data;
+      const items = d[state.rank] || [];
+
+      // Stats
+      const stats = document.getElementById('stats');
+      const totalSold = items.reduce((s, p) => s + (p._total_sold || 0), 0);
+      const totalSale = items.reduce((s, p) => s + (p._total_sale || 0), 0);
+      const avgGrowth = items.length ? (items.reduce((s, p) => s + (p._avg_growth || 0), 0) / items.length).toFixed(1) : 0;
+      stats.innerHTML = `
+        <div class="stat-card"><div class="label">商品数</div><div class="value">${items.length}</div></div>
+        <div class="stat-card"><div class="label">总销量</div><div class="value">${formatNum(totalSold)}</div></div>
+        <div class="stat-card"><div class="label">总销售额</div><div class="value">$${formatNum(totalSale)}</div></div>
+        <div class="stat-card"><div class="label">平均增长率</div><div class="value">${avgGrowth}%</div></div>
+        <div class="stat-card"><div class="label">数据范围</div><div class="value" style="font-size:14px;font-weight:500">${d.date_range[0]} → ${d.date_range[1]}</div></div>
+      `;
+
+      // Section title
+      const rankNames = { daily_top: '销量榜', total_top: '累计销量榜', growth_top: '增长率榜' };
+      document.getElementById('sectionTitle').textContent = `${REGION_NAMES[state.region]} · ${state.period === 'daily' ? '每日' : state.period === 'weekly' ? '每周' : '每月'} · ${rankNames[state.rank]}`;
+
+      // Products
+      const wrap = document.getElementById('products');
+      if (!items.length) {
+        wrap.innerHTML = '<div class="empty">该时段暂无数据（需累积更多快照）</div>';
+      } else {
+        wrap.innerHTML = items.slice(0, 30).map((p, i) => {
+          const growth = p._avg_growth ?? parseFloat(p.sold_count_inc_rate_show?.replace('%', '') || '0');
+          const growthCls = growth > 0 ? 'up' : growth < 0 ? 'down' : '';
+          const growthStr = growth > 0 ? '+' + growth + '%' : growth + '%';
+          return `
+            <a href="${p.detail_url}" target="_blank" class="product">
+              <div class="cover-wrap">
+                <span class="rank">#${i + 1}</span>
+                ${growth !== 0 ? `<span class="growth ${growthCls}">${growthStr}</span>` : ''}
+                <img class="cover" src="${p.cover}" loading="lazy" alt="" onerror="this.style.background='#222'">
+              </div>
+              <div class="info">
+                <div class="title">${p.title || ''}</div>
+                <div class="meta">
+                  <span class="price">${p.real_price || '-'}</span>
+                  <span>${p._total_sold_show || p.sold_count_show || '-'}</span>
+                </div>
+                ${p.shop_name ? `<div class="shop">${p.shop_name}</div>` : ''}
+              </div>
+            </a>
+          `;
+        }).join('');
+      }
+
+      document.getElementById('lastUpdate').textContent = new Date(d.generated_at).toLocaleString('zh-CN');
+    }
+
+    function formatNum(n) {
+      if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+      if (n >= 1e3) return (n / 1e3).toFixed(1) + 'k';
+      return String(n);
+    }
+
+    // Event bindings
+    document.getElementById('periodTabs').addEventListener('click', e => {
+      if (!e.target.matches('.tab')) return;
+      document.querySelectorAll('#periodTabs .tab').forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+      state.period = e.target.dataset.period;
+      // Reset rank based on period
+      if (state.period === 'daily' && state.rank === 'total_top') state.rank = 'daily_top';
+      if (state.period !== 'daily' && state.rank === 'daily_top') state.rank = 'daily_top';
+      document.querySelectorAll('#rankTabs .tab').forEach(t => t.classList.toggle('active', t.dataset.rank === state.rank));
+      loadAggregated();
+    });
+
+    document.getElementById('rankTabs').addEventListener('click', e => {
+      if (!e.target.matches('.tab')) return;
+      document.querySelectorAll('#rankTabs .tab').forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+      state.rank = e.target.dataset.rank;
+      render();
+    });
+
+    // Init
+    const regions = ['US', 'SG', 'MY', 'PH', 'ID', 'TH', 'VN'];
+    document.getElementById('regionTabs').innerHTML = regions.map(r =>
+      `<button class="region-tab ${r === state.region ? 'active' : ''}" data-region="${r}">${REGION_NAMES[r]}</button>`
+    ).join('');
+    document.getElementById('regionTabs').addEventListener('click', e => {
+      if (!e.target.matches('.region-tab')) return;
+      document.querySelectorAll('.region-tab').forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+      state.region = e.target.dataset.region;
+      loadAggregated();
+    });
+
+    loadAggregated();
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+/tmp/
+*.tmp
+
+# Snapshots (local preview only)
+snapshots/
+
+# Demo data (only kept locally for UI testing)
+# data/2026-08-10/ data/2026-08-11/ (demo)
+# Keep data/2026-08-12/ as the first real snapshot
+
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+
+# Local server artifacts
+*.pid
+*.pid.lock
+
+# Environment
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.pyc

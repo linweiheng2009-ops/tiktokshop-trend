@@ -1,0 +1,52 @@
+name: Daily TikTok Shop Trend Crawl
+
+on:
+  # 每天 UTC 00:00 / SGT 08:00 跑一次
+  schedule:
+    - cron: '0 0 * * *'
+  # 允许手动触发（调试用）
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no commit)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-and-aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run crawler (7 regions × 2 ranks)
+        run: node scripts/01_crawl.mjs
+
+      - name: Run aggregator (daily/weekly/monthly)
+        run: node scripts/02_aggregate.mjs
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "data: daily snapshot $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -1,0 +1,21 @@
+{
+  "name": "tiktokshop-trend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TikTok Shop daily/weekly/monthly trend tracker (公开榜派生，趋势导向)",
+  "type": "module",
+  "scripts": {
+    "crawl": "node scripts/01_crawl.mjs",
+    "aggregate": "node scripts/02_aggregate.mjs",
+    "demo": "node scripts/04_demo_data.mjs",
+    "screenshot": "node scripts/03_screenshot.mjs",
+    "serve": "python3 -m http.server 8765",
+    "all": "node scripts/01_crawl.mjs && node scripts/02_aggregate.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}
