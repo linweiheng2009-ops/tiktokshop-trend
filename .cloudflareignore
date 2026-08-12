@@ -1,0 +1,39 @@
+# Cloudflare Workers ignore file
+# 类似 .gitignore，告诉 Cloudflare 哪些文件不打包上传
+
+# Dependencies（关键：node_modules 里的 workerd/playwright 是几百 MB，必须排除）
+node_modules/
+package-lock.json
+
+# Scripts（仓库里跑数据采集用的，不部署到线上）
+scripts/
+.github/
+
+# 本地截图（开发预览用）
+snapshots/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+
+# 测试/临时
+/tmp/
+*.tmp
+*.pid
+*.pid.lock
+
+# macOS / 编辑器
+.DS_Store
+._*
+.vscode/
+.idea/
+
+# 环境
+.env
+.env.local
+
+# 文档（README 在仓库里，但不需要部署到 CDN）
+README.md
