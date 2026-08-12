@@ -228,9 +228,11 @@
 
     async function loadAggregated() {
       const cb = `?t=${Date.now()}`;
-      const resp = await fetch('data/aggregated/_summary.json' + cb);
+      // GitHub Pages 不能服务子目录 JSON，用 jsDelivr CDN 代理
+      const base = 'https://cdn.jsdelivr.net/gh/linweiheng2009-ops/tiktokshop-trend@main';
+      const resp = await fetch(`${base}/data/aggregated/_summary.json${cb}`);
       const summary = await resp.json();
-      const f = `data/aggregated/${state.period}_${state.region}.json${cb}`;
+      const f = `${base}/data/aggregated/${state.period}_${state.region}.json${cb}`;
       const agg = await fetch(f).then(r => r.json());
       state.data = agg;
       document.getElementById('meta').innerHTML =
