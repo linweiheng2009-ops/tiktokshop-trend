@@ -290,6 +290,39 @@
       margin: 12px 0;
     }
     @media (max-width: 768px) { .chart-row { grid-template-columns: 1fr; } }
+    .chart-section { margin: 12px 0; }
+    .chart-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      user-select: none;
+      font-size: 13px;
+      color: var(--text);
+      transition: all 0.15s;
+    }
+    .chart-toggle:hover { border-color: var(--accent); }
+    .chart-toggle .icon {
+      font-size: 14px;
+      transition: transform 0.2s;
+      color: var(--text-dim);
+    }
+    .chart-section.open .chart-toggle .icon { transform: rotate(90deg); color: var(--accent); }
+    .chart-toggle .title-text { flex: 1; font-weight: 500; }
+    .chart-toggle .badge-mini {
+      font-size: 10px;
+      padding: 2px 6px;
+      background: rgba(255, 45, 122, 0.15);
+      color: var(--accent);
+      border-radius: 3px;
+    }
+    /* 折叠默认隐藏 chart-row */
+    #chartSection:not(.open) > #chartRow { display: none; }
+    #chartSection.open > #chartRow { display: grid; }
     .chart-box {
       background: var(--bg-card);
       border: 1px solid var(--border);
@@ -536,9 +569,16 @@
 
   <div class="stats" id="statsRow"></div>
 
-  <div class="chart-row" id="chartRow">
-    <div class="chart-box" id="chartBar"></div>
-    <div class="chart-box" id="chartLine"></div>
+  <div class="chart-section" id="chartSection">
+    <div class="chart-toggle" id="chartToggle">
+      <span class="icon">▸</span>
+      <span class="title-text">📊 统计图表</span>
+      <span class="badge-mini" id="chartBadge">默认折叠 · 点击展开</span>
+    </div>
+    <div class="chart-row" id="chartRow">
+      <div class="chart-box" id="chartBar"></div>
+      <div class="chart-box" id="chartLine"></div>
+    </div>
   </div>
 
   <div class="list" id="list"></div>
@@ -1285,6 +1325,20 @@
     const panel = document.getElementById('watchlistPanel');
     panel.classList.toggle('open');
     renderWatchlistPanel();
+  });
+
+  // 统计图表折叠/展开
+  document.getElementById('chartToggle').addEventListener('click', () => {
+    const sec = document.getElementById('chartSection');
+    sec.classList.toggle('open');
+    const isOpen = sec.classList.contains('open');
+    document.getElementById('chartBadge').textContent = isOpen ? '已展开 · 点击折叠' : '已折叠 · 点击展开';
+    // 展开后 resize 图表（否则尺寸不对）
+    if (isOpen) {
+      setTimeout(() => {
+        state.chartInstances.forEach(c => c && c.resize());
+      }, 100);
+    }
   });
   // 导出 CSV
   document.getElementById('exportCsvBtn').addEventListener('click', exportCsv);
