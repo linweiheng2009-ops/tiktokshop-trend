@@ -389,7 +389,8 @@
 
   async function loadAggregated() {
     const cb = '?t=' + Date.now();
-    const base = '';
+    // GitHub Pages 子路径: /tiktokshop-trend/, 本地开发: ''
+    const base = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ? '' : '/tiktokshop-trend';
     const resp = await fetch(base + '/data/aggregated/summary.json' + cb);
     const summary = await resp.json();
     const f = base + '/data/aggregated/' + state.period + '_' + state.region + '.json' + cb;
