@@ -161,6 +161,10 @@ https://linweiheng2009-ops.github.io/tiktokshop-trend/
 | `_headers` | HTTP 缓存策略 + 安全头 |
 | `404.html` | 友好 404 页面 |
 | `.github/workflows/daily.yml` | GitHub Actions cron（每天 UTC 0 点爬数据） |
+| `.github/workflows/health-check.yml` | GitHub Actions cron（每小时检查站点健康）|
+| `health.json` | 健康检查端点（返回服务状态）|
+| `sitemap.xml` | 搜索引擎站点地图 |
+| `robots.txt` | 爬虫指令 |
 
 ## Cloudflare Web Analytics
 

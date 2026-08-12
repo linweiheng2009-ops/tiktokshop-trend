@@ -32,3 +32,12 @@
 # 404 页
 /404.html
   Cache-Control: public, max-age=86400
+
+# sitemap / robots：爬虫频繁请求，缓存 1 天
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+  Content-Type: application/xml
+
+/robots.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain

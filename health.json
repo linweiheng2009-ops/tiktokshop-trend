@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "service": "tiktokshop-trend",
+  "version": "1.0",
+  "updated": "2026-08-13",
+  "endpoints": {
+    "main": "https://shop.laowe.club/",
+    "summary": "https://shop.laowe.club/data/aggregated/summary.json",
+    "categories": "https://shop.laowe.club/data/aggregated/weekly_US.json"
+  },
+  "monitoring": {
+    "cloudflare_analytics": "https://dash.cloudflare.com → Analytics → Web Analytics",
+    "uptime_check_recommended": "https://shop.laowe.club/health.json (每分钟 curl)",
+    "alert_setup": "GitHub Actions cron + email/Slack webhook on failure"
+  }
+}

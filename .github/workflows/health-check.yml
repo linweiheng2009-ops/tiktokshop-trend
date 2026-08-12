@@ -1,0 +1,47 @@
+name: Health Check
+
+on:
+  schedule:
+    # 每小时检查一次
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check main URL
+        id: main
+        run: |
+          CODE=$(curl -so /dev/null -w "%{http_code}" -m 10 "https://shop.laowe.club/")
+          echo "main: $CODE"
+          echo "code=$CODE" >> $GITHUB_OUTPUT
+          if [ "$CODE" != "200" ]; then
+            echo "❌ main URL returned $CODE"
+            exit 1
+          fi
+
+      - name: Check data endpoints
+        id: data
+        run: |
+          for url in \
+            "https://shop.laowe.club/data/aggregated/summary.json" \
+            "https://shop.laowe.club/data/fx.json" \
+            "https://shop.laowe.club/data/category_zh.json" \
+            "https://shop.laowe.club/data/aggregated/weekly_US.json"; do
+            CODE=$(curl -so /dev/null -w "%{http_code}" -m 10 "$url")
+            SIZE=$(curl -s -m 10 "$url" | wc -c)
+            echo "  $CODE  $SIZE bytes  $url"
+            if [ "$CODE" != "200" ]; then
+              echo "❌ $url returned $CODE"
+              exit 1
+            fi
+          done
+          echo "✅ all data endpoints healthy"
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "Status: ${{ steps.main.outputs.code }}"
+          echo "Time: $(date -u +%Y-%m-%dT%H:%M:%SZ)"

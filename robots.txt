@@ -1,0 +1,13 @@
+# robots.txt for shop.laowe.club
+# 允许所有爬虫抓取（公开榜站点）
+
+User-agent: *
+Allow: /
+Disallow: /data/latest/
+Disallow: /data/2026-08-*/
+
+# sitemap 位置
+Sitemap: https://shop.laowe.club/sitemap.xml
+
+# 爬取速率（避免给 Workers 压力）
+Crawl-delay: 1
