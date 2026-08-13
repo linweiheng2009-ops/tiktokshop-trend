@@ -7,6 +7,101 @@
   <meta name="theme-color" content="#0a0a0a">
   <meta name="description" content="TikTok Shop 7 国（美/越/泰/菲/马/新/印）每日/每周/每月趋势榜，FastMoss 公开榜派生，适合看 SKU 趋势。">
 
+  <!-- Open Graph（Facebook / LinkedIn / 微信分享） -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TikTok Shop 趋势榜 · 每日 / 每周 / 每月">
+  <meta property="og:description" content="7 国 SKU 趋势 · ¥智能换算 · 增长率排行 · 统计图表 · 类目聚合 · 商品对比">
+  <meta property="og:url" content="https://shop.laowe.club/">
+  <meta property="og:site_name" content="TikTok Shop 趋势榜">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://shop.laowe.club/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="TikTok Shop 趋势榜 - 7 国 SKU 趋势跟踪">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TikTok Shop 趋势榜 · 每日 / 每周 / 每月">
+  <meta name="twitter:description" content="7 国 SKU 趋势 · ¥智能换算 · 增长率排行 · 统计图表">
+  <meta name="twitter:image" content="https://shop.laowe.club/og-image.png">
+
+  <!-- PWA manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TikTok Trend">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <!-- JSON-LD 结构化数据（让 Google 明白这个站点是关于什么的） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TikTok Shop 趋势榜",
+    "alternateName": "TikTok Shop Trend Tracker",
+    "url": "https://shop.laowe.club/",
+    "description": "TikTok Shop 7 国（美/越/泰/菲/马/新/印）每日/每周/每月趋势榜，FastMoss 公开榜派生，适合看 SKU 趋势。",
+    "inLanguage": "zh-CN",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://shop.laowe.club/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "恒哥",
+      "url": "https://github.com/linweiheng2009-ops"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ChainThink",
+      "url": "https://github.com/linweiheng2009-ops/tiktokshop-trend"
+    },
+    "sourceOrganization": {
+      "@type": "Organization",
+      "name": "FastMoss",
+      "url": "https://www.fastmoss.com"
+    },
+    "keywords": "TikTok Shop, 趋势榜, 公开榜, SKU, FastMoss, 带货, 电商, 跨境, 美国, 越南, 泰国, 菲律宾, 马来西亚, 新加坡, 印尼"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "TikTok Shop 7 国每日/周/月销售趋势数据",
+    "description": "FastMoss 公开榜的 TikTok Shop 趋势数据，覆盖 7 个地区 14 个榜单（销量榜/累计榜），含价格、销量、销售额、增长率。",
+    "url": "https://shop.laowe.club/data/aggregated/summary.json",
+    "keywords": ["TikTok Shop", "sales trend", "FastMoss", "GMV", "增长榜"],
+    "creator": {
+      "@type": "Organization",
+      "name": "ChainThink"
+    },
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://shop.laowe.club/data/aggregated/summary.json"
+    },
+    "temporalCoverage": "2026-08-03/..",
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": "全球 TikTok Shop"
+    },
+    "variableMeasured": [
+      "商品 ID", "商品名", "店铺名", "价格", "销量", "销售额",
+      "增长率", "类目", "上架时间", "区域", "时间段"
+    ]
+  }
+  </script>
+
+  <!-- RSS feed -->
+  <link rel="alternate" type="application/rss+xml" title="TikTok Shop 趋势榜更新" href="https://shop.laowe.club/feed.xml">
+
   <!-- 性能优化：提前连接 + DNS 预解析 -->
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://static.cloudflareinsights.com" crossorigin>
@@ -820,13 +915,13 @@
   </div>
 
   <div class="tabs" id="regionTabs">
-    <div class="region-tab" data-region="US">🇺🇸 美国</div>
+    <div class="region-tab active" data-region="US">🇺🇸 美国</div>
     <div class="region-tab" data-region="SG">🇸🇬 新加坡</div>
     <div class="region-tab" data-region="MY">🇲🇾 马来</div>
     <div class="region-tab" data-region="PH">🇵🇭 菲律宾</div>
     <div class="region-tab" data-region="ID">🇮🇩 印尼</div>
     <div class="region-tab" data-region="TH">🇹🇭 泰国</div>
-    <div class="region-tab active" data-region="VN">🇻🇳 越南</div>
+    <div class="region-tab" data-region="VN">🇻🇳 越南</div>
   </div>
 
   <div class="toolbar">
@@ -931,7 +1026,7 @@
   const state = {
     period: 'daily',
     rank: 'daily_top',
-    region: 'VN',
+    region: 'US',
     data: null,
     summary: null,
     chartInstances: [null, null],
