@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TikTok Shop 趋势榜</title>
+    <link>https://shop.laowe.club/</link>
+    <atom:link href="https://shop.laowe.club/feed.xml" rel="self" type="application/rss+xml" />
+    <description>7 国（美/越/泰/菲/马/新/印）每日/每周/每月 SKU 趋势榜，FastMoss 公开榜派生。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 13 Aug 2026 11:48:00 +0800</lastBuildDate>
+    <generator>tiktokshop-trend cron v1.0</generator>
+    <item>
+      <title>每日数据更新 · 2026-08-13</title>
+      <link>https://shop.laowe.club/</link>
+      <guid isPermaLink="false">daily-2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 11:48:00 +0800</pubDate>
+      <description><![CDATA[
+        <p>7 国每日榜数据已更新。</p>
+        <ul>
+          <li>🇺🇸 美国: <a href="https://shop.laowe.club/?region=US&period=daily">查看</a></li>
+          <li>🇻🇳 越南: <a href="https://shop.laowe.club/?region=VN&period=daily">查看</a></li>
+          <li>🇹🇭 泰国: <a href="https://shop.laowe.club/?region=TH&period=daily">查看</a></li>
+          <li>🇵🇭 菲律宾: <a href="https://shop.laowe.club/?region=PH&period=daily">查看</a></li>
+          <li>🇲🇾 马来: <a href="https://shop.laowe.club/?region=MY&period=daily">查看</a></li>
+          <li>🇸🇬 新加坡: <a href="https://shop.laowe.club/?region=SG&period=daily">查看</a></li>
+          <li>🇮🇩 印尼: <a href="https://shop.laowe.club/?region=ID&period=daily">查看</a></li>
+        </ul>
+      ]]></description>
+      <category>daily</category>
+    </item>
+    <item>
+      <title>每周数据更新 · 2026-W32</title>
+      <link>https://shop.laowe.club/?period=weekly</link>
+      <guid isPermaLink="false">weekly-2026-W32</guid>
+      <pubDate>Thu, 13 Aug 2026 11:48:00 +0800</pubDate>
+      <description><![CDATA[
+        <p>周榜（2026-08-06 → 2026-08-12）已更新，共 7 天真实快照。</p>
+        <p><a href="https://shop.laowe.club/?period=weekly">查看周榜</a></p>
+      ]]></description>
+      <category>weekly</category>
+    </item>
+    <item>
+      <title>类目中文翻译上线</title>
+      <link>https://shop.laowe.club/</link>
+      <guid isPermaLink="false">feature-category-zh</guid>
+      <pubDate>Wed, 13 Aug 2026 01:56:00 +0800</pubDate>
+      <description><![CDATA[
+        <p>FastMoss 返回的英文类目已自动翻译成中文，方便识别（冲调饮料粉 / 手链与手镯 / 牙齿美白 ...）</p>
+        <ul>
+          <li>搜索框支持中英文模糊匹配</li>
+          <li>类目聚合表显示中文+英文小字</li>
+          <li>51 个英文类目翻译，覆盖所有常见电商品类</li>
+        </ul>
+      ]]></description>
+      <category>feature</category>
+    </item>
+    <item>
+      <title>商品对比功能上线</title>
+      <link>https://shop.laowe.club/</link>
+      <guid isPermaLink="false">feature-compare</guid>
+      <pubDate>Thu, 13 Aug 2026 02:00:00 +0800</pubDate>
+      <description><![CDATA[
+        <p>选 2-4 个商品并排对比：单价/¥价/销量/销售额/增长率/类目，自动找 top1 标红。</p>
+        <ul>
+          <li>支持同品类爆款对比</li>
+          <li>跨地区对比（美国 vs 越南）</li>
+          <li>每个维度自动找出第一名</li>
+        </ul>
+      ]]></description>
+      <category>feature</category>
+    </item>
+    <item>
+      <title>Cloudflare Workers 部署完成</title>
+      <link>https://shop.laowe.club/</link>
+      <guid isPermaLink="false">deploy-cf</guid>
+      <pubDate>Thu, 13 Aug 2026 03:00:00 +0800</pubDate>
+      <description><![CDATA[
+        <p>站点已迁移到 Cloudflare Workers + Custom Domain（shop.laowe.club）：</p>
+        <ul>
+          <li>✅ 全球 CDN 加速（TTFB &lt;30ms）</li>
+          <li>✅ 自动 HTTPS + SSL 证书</li>
+          <li>✅ Web Analytics 接入</li>
+          <li>✅ _headers 缓存规则</li>
+          <li>✅ sitemap.xml + robots.txt</li>
+        </ul>
+      ]]></description>
+      <category>deploy</category>
+    </item>
+  </channel>
+</rss>

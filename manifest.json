@@ -1,0 +1,14 @@
+{
+  "name": "TikTok Shop 趋势榜",
+  "short_name": "TikTok Trend",
+  "description": "TikTok Shop 7 国每日/每周/每月趋势榜",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "categories": ["shopping", "business", "productivity"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
