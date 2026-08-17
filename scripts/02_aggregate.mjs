@@ -7,7 +7,8 @@
 import { readdir, readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 
-const ROOT = '/Users/linweiheng/.openclaw/workspace/projects/tiktokshop-trend';
+// ROOT: 兼容本地 Mac + GitHub Actions 容器（都用 process.cwd()）
+const ROOT = process.cwd();
 const DATA = `${ROOT}/data`;
 const AGG = `${DATA}/aggregated`;
 

@@ -8,7 +8,11 @@
 //   - {region}_total.json   累计销量榜（按累计销量排）
 
 import { writeFile, mkdir, access } from 'node:fs/promises';
-import { dirname } from 'node:path';
+import { dirname, resolve } from 'node:path';
+
+// ROOT: 本地 Mac 跑 → /Users/.../tiktokshop-trend；GitHub Actions 容器跑 → /home/runner/work/...
+// 统一用 process.cwd()（两者 cwd 都是 repo 根），不再硬编码 Mac 绝对路径
+const ROOT = process.cwd();
 
 const REGIONS = ['US', 'SG', 'MY', 'PH', 'ID', 'TH', 'VN'];
 const PAGES = [
@@ -56,7 +60,7 @@ async function exists(p) {
 
 async function main() {
   const date = todayStr();
-  const outDir = `/Users/linweiheng/.openclaw/workspace/projects/tiktokshop-trend/data/${date}`;
+  const outDir = `${ROOT}/data/${date}`;
   await mkdir(outDir, { recursive: true });
 
   const manifest = {
@@ -101,13 +105,13 @@ async function main() {
 
   // Latest pointer (always point to most recent fetch)
   await writeFile(
-    `/Users/linweiheng/.openclaw/workspace/projects/tiktokshop-trend/data/_latest.json`,
+    `${ROOT}/data/_latest.json`,
     JSON.stringify({ date, fetched_at: manifest.fetched_at, dir: date }, null, 2),
   );
   console.log(`✓ Updated _latest.json pointer`);
 
   // Copy latest to data/latest/ for static page (predictable path)
-  const latestDir = `/Users/linweiheng/.openclaw/workspace/projects/tiktokshop-trend/data/latest`;
+  const latestDir = `${ROOT}/data/latest`;
   await mkdir(latestDir, { recursive: true });
   for (const region of REGIONS) {
     for (const p of PAGES) {

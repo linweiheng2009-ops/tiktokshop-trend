@@ -1,13 +1,13 @@
 {
   "period": "monthly",
   "region": "VN",
-  "generated_at": "2026-08-12T16:50:31.129Z",
+  "generated_at": "2026-08-17T01:36:59.906Z",
   "date_range": [
-    "2026-08-06",
-    "2026-08-12"
+    "2026-08-03",
+    "2026-08-17"
   ],
-  "daily_count": 70,
-  "total_count": 70,
+  "daily_count": 110,
+  "total_count": 110,
   "daily_top": [
     {
       "product_id": "1735680558057686903",
@@ -26,14 +26,29 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-05-21 23:32:46",
-      "_first_seen": "2026-08-06",
+      "_first_seen": "2026-08-03",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 164083,
-      "_total_sale": 18441991410,
-      "_growth_sum": 24.1,
-      "_growth_count": 7,
+      "_appearances": 10,
+      "_total_sold": 197469,
+      "_total_sale": 22194419111,
+      "_growth_sum": -4.539999999999994,
+      "_growth_count": 10,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 18328,
+          "sale_amount": 2059909781
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 12583,
+          "sale_amount": 1414268513
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12390,
+          "sale_amount": 1392603518
+        },
         {
           "date": "2026-08-06",
           "sold": 23927,
@@ -66,16 +81,16 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 26594,
-          "sale_amount": 2988980650
+          "sold": 16679,
+          "sale_amount": 1874626539
         }
       ],
-      "sold_count": 164083,
-      "sale_amount": 18441991410,
+      "sold_count": 197469,
+      "sale_amount": 22194419111,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.44,
-      "_total_sold_show": "164.1k",
-      "_total_sale_show": "$18442.0M"
+      "_avg_growth": -0.45,
+      "_total_sold_show": "197.5k",
+      "_total_sale_show": "$22194.4M"
     },
     {
       "product_id": "1735266077343188054",
@@ -94,14 +109,29 @@
       "live_count": 263,
       "author_count": 273,
       "launch_time": "2026-05-04 12:40:25",
-      "_first_seen": "2026-08-06",
+      "_first_seen": "2026-08-03",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 99529,
-      "_total_sale": 2935923433,
-      "_growth_sum": -26.350000000000005,
-      "_growth_count": 7,
+      "_appearances": 10,
+      "_total_sold": 129431,
+      "_total_sale": 3818030640,
+      "_growth_sum": 47.71,
+      "_growth_count": 10,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 8670,
+          "sale_amount": 255765830
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 7777,
+          "sale_amount": 229425065
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12816,
+          "sale_amount": 378060503
+        },
         {
           "date": "2026-08-06",
           "sold": 16144,
@@ -134,16 +164,16 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 9804,
-          "sale_amount": 289199493
+          "sold": 10443,
+          "sale_amount": 308055302
         }
       ],
-      "sold_count": 99529,
-      "sale_amount": 2935923433,
+      "sold_count": 129431,
+      "sale_amount": 3818030640,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -3.76,
-      "_total_sold_show": "99.5k",
-      "_total_sale_show": "$2935.9M"
+      "_avg_growth": 4.77,
+      "_total_sold_show": "129.4k",
+      "_total_sale_show": "$3818.0M"
     },
     {
       "product_id": "1736203554255242809",
@@ -162,14 +192,29 @@
       "live_count": 10,
       "author_count": 6,
       "launch_time": "2026-06-25 05:19:41",
-      "_first_seen": "2026-08-06",
+      "_first_seen": "2026-08-03",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 90314,
-      "_total_sale": 1083727017,
-      "_growth_sum": 60.510000000000005,
-      "_growth_count": 7,
+      "_appearances": 10,
+      "_total_sold": 123738,
+      "_total_sale": 1484822763,
+      "_growth_sum": 111.97999999999999,
+      "_growth_count": 10,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 14438,
+          "sale_amount": 173250477
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 10926,
+          "sale_amount": 131116703
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12229,
+          "sale_amount": 146745302
+        },
         {
           "date": "2026-08-06",
           "sold": 9808,
@@ -202,220 +247,16 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 15492,
-          "sale_amount": 185892395
+          "sold": 11323,
+          "sale_amount": 135875659
         }
       ],
-      "sold_count": 90314,
-      "sale_amount": 1083727017,
+      "sold_count": 123738,
+      "sale_amount": 1484822763,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.64,
-      "_total_sold_show": "90.3k",
-      "_total_sale_show": "$1083.7M"
-    },
-    {
-      "product_id": "1734450570957522420",
-      "title": "Combo 5 bánh trung thu đủ vị 80gr LÂM THỦY - nướng mochi trứng ruốc và nhân nhuyễn",
-      "cover": "https://s.500fd.com/tt_product/b9b1bcb2665a415ba43ea95804beb55d~tplv-aphluv4xwc-crop-webp:854:854.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734450570957522420?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "5,000₫",
-      "category_name": [
-        " Biscuits, Cookies & Wafers\t"
-      ],
-      "shop_name": "Tiệm Bánh Lâm Thủy Cổ Truyền",
-      "shop_sold_count": 2157807,
-      "aweme_count": 10,
-      "live_count": 38,
-      "author_count": 38,
-      "launch_time": "2026-02-26 08:01:23",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 70631,
-      "_total_sale": 353155123,
-      "_growth_sum": 44.10000000000001,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 8510,
-          "sale_amount": 42549235
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 8451,
-          "sale_amount": 42255467
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 13454,
-          "sale_amount": 67270591
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 8916,
-          "sale_amount": 44578225
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 12333,
-          "sale_amount": 61664729
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 9183,
-          "sale_amount": 45917590
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 9784,
-          "sale_amount": 48919286
-        }
-      ],
-      "sold_count": 70631,
-      "sale_amount": 353155123,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.3,
-      "_total_sold_show": "70.6k",
-      "_total_sale_show": "$353.2M"
-    },
-    {
-      "product_id": "1736839360435094728",
-      "title": "Thư cảm ơn và Thẻ bảo hành sản phẩm - 02082026",
-      "cover": "https://s.500fd.com/tt_product/a59ca08971db4e93befc00c97a07fad2~tplv-aphluv4xwc-crop-webp:1286:1275.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736839360435094728?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "100,000 ₫",
-      "category_name": [
-        "Labels, Index Dividers & Stamps"
-      ],
-      "shop_name": "DKHOUSE VN",
-      "shop_sold_count": 232983,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-08-03 02:09:53",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 64730,
-      "_total_sale": 6473215284,
-      "_growth_sum": 41.6,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 10755,
-          "sale_amount": 1075555514
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 7075,
-          "sale_amount": 707533801
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 10904,
-          "sale_amount": 1090468363
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 7097,
-          "sale_amount": 709723347
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 7458,
-          "sale_amount": 745830551
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 9656,
-          "sale_amount": 965607712
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 11785,
-          "sale_amount": 1178495996
-        }
-      ],
-      "sold_count": 64730,
-      "sale_amount": 6473215284,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.94,
-      "_total_sold_show": "64.7k",
-      "_total_sale_show": "$6473.2M"
-    },
-    {
-      "product_id": "1736710083862758575",
-      "title": "THƯ CẢM ƠN KHÁCH HÀNG CỬA HÀNG TECHZONE",
-      "cover": "https://s.500fd.com/tt_product/68f11f5830e040eea1171fa8e7fbf24f~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736710083862758575?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "106,867 ₫",
-      "category_name": [
-        "Gifts & Wrapping"
-      ],
-      "shop_name": "Techzonehn",
-      "shop_sold_count": 16290451,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-07-28 19:23:25",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 64355,
-      "_total_sale": 7630315838,
-      "_growth_sum": 27.150000000000002,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 8279,
-          "sale_amount": 981618644
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 9133,
-          "sale_amount": 1082839786
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 11201,
-          "sale_amount": 1328014270
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 8487,
-          "sale_amount": 1006329439
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 8281,
-          "sale_amount": 981905320
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 8884,
-          "sale_amount": 1053313900
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 10090,
-          "sale_amount": 1196294479
-        }
-      ],
-      "sold_count": 64355,
-      "sale_amount": 7630315838,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.88,
-      "_total_sold_show": "64.4k",
-      "_total_sale_show": "$7630.3M"
+      "_avg_growth": 11.2,
+      "_total_sold_show": "123.7k",
+      "_total_sale_show": "$1484.8M"
     },
     {
       "product_id": "1735522200765040167",
@@ -434,14 +275,29 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-05-15 19:22:26",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 59803,
-      "_total_sale": 5655155321,
-      "_growth_sum": 1.159999999999994,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 117857,
+      "_total_sale": 11151600042,
+      "_growth_sum": 48.74999999999999,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 10247,
+          "sale_amount": 968984160
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 13823,
+          "sale_amount": 1307114686
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 11267,
+          "sale_amount": 1065474904
+        },
         {
           "date": "2026-08-06",
           "sold": 9084,
@@ -474,84 +330,275 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 7562,
-          "sale_amount": 715086871
+          "sold": 10644,
+          "sale_amount": 1006517802
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 19635,
+          "sale_amount": 1863440040
         }
       ],
-      "sold_count": 59803,
-      "sale_amount": 5655155321,
+      "sold_count": 117857,
+      "sale_amount": 11151600042,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.17,
-      "_total_sold_show": "59.8k",
-      "_total_sale_show": "$5655.2M"
+      "_avg_growth": 4.43,
+      "_total_sold_show": "117.9k",
+      "_total_sale_show": "$11151.6M"
     },
     {
-      "product_id": "1734090245593662698",
-      "title": "Thư cảm ơn quý khách hàng",
-      "cover": "https://s.500fd.com/tt_product/714efcf0eeec4f2594889ff4a791646f~tplv-aphluv4xwc-crop-webp:876:876.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734090245593662698?region=VN&local=en",
+      "product_id": "1736710083862758575",
+      "title": "THƯ CẢM ƠN KHÁCH HÀNG CỬA HÀNG TECHZONE",
+      "cover": "https://s.500fd.com/tt_product/68f11f5830e040eea1171fa8e7fbf24f~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736710083862758575?region=VN&local=en",
       "region": "VN",
       "currency": "VND",
-      "real_price": "110,928 ₫",
+      "real_price": "106,867 ₫",
       "category_name": [
-        "Cards"
+        "Gifts & Wrapping"
       ],
-      "shop_name": "Hulii.Vn",
-      "shop_sold_count": 4093832,
+      "shop_name": "Techzonehn",
+      "shop_sold_count": 16290451,
       "aweme_count": 0,
       "live_count": 0,
       "author_count": 0,
-      "launch_time": "2026-01-30 00:18:00",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 50695,
-      "_total_sale": 5533009467,
-      "_growth_sum": 40.699999999999996,
-      "_growth_count": 7,
+      "launch_time": "2026-07-28 19:23:25",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 106276,
+      "_total_sale": 12511642335,
+      "_growth_sum": -28.36,
+      "_growth_count": 11,
       "_trend": [
         {
+          "date": "2026-08-03",
+          "sold": 11120,
+          "sale_amount": 1318443760
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 8590,
+          "sale_amount": 1018394223
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12239,
+          "sale_amount": 1451083466
+        },
+        {
           "date": "2026-08-06",
-          "sold": 7103,
-          "sale_amount": 775297312
+          "sold": 8279,
+          "sale_amount": 981618644
         },
         {
           "date": "2026-08-07",
-          "sold": 8313,
-          "sale_amount": 907284160
+          "sold": 9133,
+          "sale_amount": 1082839786
         },
         {
           "date": "2026-08-08",
-          "sold": 5660,
-          "sale_amount": 617730611
+          "sold": 11201,
+          "sale_amount": 1328014270
         },
         {
           "date": "2026-08-09",
-          "sold": 7244,
-          "sale_amount": 790601744
+          "sold": 8487,
+          "sale_amount": 1006329439
         },
         {
           "date": "2026-08-10",
-          "sold": 8727,
-          "sale_amount": 952532914
+          "sold": 8281,
+          "sale_amount": 981905320
         },
         {
           "date": "2026-08-11",
-          "sold": 5624,
-          "sale_amount": 613786689
+          "sold": 8884,
+          "sale_amount": 1053313900
         },
         {
           "date": "2026-08-12",
-          "sold": 8024,
-          "sale_amount": 875776037
+          "sold": 11137,
+          "sale_amount": 1320417752
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 8925,
+          "sale_amount": 969281775
         }
       ],
-      "sold_count": 50695,
-      "sale_amount": 5533009467,
+      "sold_count": 106276,
+      "sale_amount": 12511642335,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.81,
-      "_total_sold_show": "50.7k",
-      "_total_sale_show": "$5533.0M"
+      "_avg_growth": -2.58,
+      "_total_sold_show": "106.3k",
+      "_total_sale_show": "$12511.6M"
+    },
+    {
+      "product_id": "1736839360435094728",
+      "title": "Thư cảm ơn và Thẻ bảo hành sản phẩm - 02082026",
+      "cover": "https://s.500fd.com/tt_product/a59ca08971db4e93befc00c97a07fad2~tplv-aphluv4xwc-crop-webp:1286:1275.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736839360435094728?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "100,000 ₫",
+      "category_name": [
+        "Labels, Index Dividers & Stamps"
+      ],
+      "shop_name": "DKHOUSE VN",
+      "shop_sold_count": 232983,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-08-03 02:09:53",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 105122,
+      "_total_sale": 10512560657,
+      "_growth_sum": 3.0899999999999963,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 13940,
+          "sale_amount": 1394058863
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 14014,
+          "sale_amount": 1401387032
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 13861,
+          "sale_amount": 1386172034
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 10755,
+          "sale_amount": 1075555514
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 7075,
+          "sale_amount": 707533801
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 10904,
+          "sale_amount": 1090468363
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 7097,
+          "sale_amount": 709723347
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 7458,
+          "sale_amount": 745830551
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 9656,
+          "sale_amount": 965607712
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 10362,
+          "sale_amount": 1036223440
+        }
+      ],
+      "sold_count": 105122,
+      "sale_amount": 10512560657,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0.31,
+      "_total_sold_show": "105.1k",
+      "_total_sale_show": "$10512.6M"
+    },
+    {
+      "product_id": "1734450570957522420",
+      "title": "Combo 5 bánh trung thu đủ vị 80gr LÂM THỦY - nướng mochi trứng ruốc và nhân nhuyễn",
+      "cover": "https://s.500fd.com/tt_product/b9b1bcb2665a415ba43ea95804beb55d~tplv-aphluv4xwc-crop-webp:854:854.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734450570957522420?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "5,000₫",
+      "category_name": [
+        " Biscuits, Cookies & Wafers\t"
+      ],
+      "shop_name": "Tiệm Bánh Lâm Thủy Cổ Truyền",
+      "shop_sold_count": 2157807,
+      "aweme_count": 10,
+      "live_count": 38,
+      "author_count": 38,
+      "launch_time": "2026-02-26 08:01:23",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 103535,
+      "_total_sale": 517682596,
+      "_growth_sum": 24.13000000000001,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 8857,
+          "sale_amount": 44286611
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 11106,
+          "sale_amount": 55532102
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 11493,
+          "sale_amount": 57466886
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 8510,
+          "sale_amount": 42549235
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 8451,
+          "sale_amount": 42255467
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 13454,
+          "sale_amount": 67270591
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 8916,
+          "sale_amount": 44578225
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 12333,
+          "sale_amount": 61664729
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 9183,
+          "sale_amount": 45917590
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 11232,
+          "sale_amount": 56161160
+        }
+      ],
+      "sold_count": 103535,
+      "sale_amount": 517682596,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 2.41,
+      "_total_sold_show": "103.5k",
+      "_total_sale_show": "$517.7M"
     },
     {
       "product_id": "1732469986754725364",
@@ -570,14 +617,29 @@
       "live_count": 32,
       "author_count": 47,
       "launch_time": "2025-09-11 15:31:11",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 50032,
-      "_total_sale": 800567324,
-      "_growth_sum": 44.3,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 96401,
+      "_total_sale": 1542444286,
+      "_growth_sum": 85.46000000000001,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 11346,
+          "sale_amount": 181529308
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 9901,
+          "sale_amount": 158409173
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12506,
+          "sale_amount": 200085647
+        },
         {
           "date": "2026-08-06",
           "sold": 6625,
@@ -610,16 +672,104 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 8486,
-          "sale_amount": 135776763
+          "sold": 10398,
+          "sale_amount": 166365597
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 10704,
+          "sale_amount": 171264000
         }
       ],
-      "sold_count": 50032,
-      "sale_amount": 800567324,
+      "sold_count": 96401,
+      "sale_amount": 1542444286,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.33,
-      "_total_sold_show": "50.0k",
-      "_total_sale_show": "$800.6M"
+      "_avg_growth": 7.77,
+      "_total_sold_show": "96.4k",
+      "_total_sale_show": "$1542.4M"
+    },
+    {
+      "product_id": "1734090245593662698",
+      "title": "Thư cảm ơn quý khách hàng",
+      "cover": "https://s.500fd.com/tt_product/714efcf0eeec4f2594889ff4a791646f~tplv-aphluv4xwc-crop-webp:876:876.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734090245593662698?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "110,928 ₫",
+      "category_name": [
+        "Cards"
+      ],
+      "shop_name": "Hulii.Vn",
+      "shop_sold_count": 4093832,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-01-30 00:18:00",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 87054,
+      "_total_sale": 9501237528,
+      "_growth_sum": 16.07999999999999,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 12415,
+          "sale_amount": 1354969505
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 9506,
+          "sale_amount": 1037509680
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 11437,
+          "sale_amount": 1248230344
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 7103,
+          "sale_amount": 775297312
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 8313,
+          "sale_amount": 907284160
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 5660,
+          "sale_amount": 617730611
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 7244,
+          "sale_amount": 790601744
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 8727,
+          "sale_amount": 952532914
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5624,
+          "sale_amount": 613786689
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 11025,
+          "sale_amount": 1203294569
+        }
+      ],
+      "sold_count": 87054,
+      "sale_amount": 9501237528,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1.61,
+      "_total_sold_show": "87.1k",
+      "_total_sale_show": "$9501.2M"
     },
     {
       "product_id": "1735684022943843493",
@@ -638,14 +788,29 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-05-26 03:14:04",
-      "_first_seen": "2026-08-06",
+      "_first_seen": "2026-08-03",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 47450,
-      "_total_sale": 4744547013,
-      "_growth_sum": 10.879999999999999,
-      "_growth_count": 7,
+      "_appearances": 10,
+      "_total_sold": 79850,
+      "_total_sale": 7984427247,
+      "_growth_sum": 63.58,
+      "_growth_count": 10,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 8308,
+          "sale_amount": 830725694
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 13040,
+          "sale_amount": 1303988028
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 8419,
+          "sale_amount": 841844976
+        },
         {
           "date": "2026-08-06",
           "sold": 7839,
@@ -678,16 +843,282 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 7383,
-          "sale_amount": 738233464
+          "sold": 10016,
+          "sale_amount": 1001555000
         }
       ],
-      "sold_count": 47450,
-      "sale_amount": 4744547013,
+      "sold_count": 79850,
+      "sale_amount": 7984427247,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.55,
-      "_total_sold_show": "47.5k",
-      "_total_sale_show": "$4744.5M"
+      "_avg_growth": 6.36,
+      "_total_sold_show": "79.8k",
+      "_total_sale_show": "$7984.4M"
+    },
+    {
+      "product_id": "1737016637625305085",
+      "title": "M20 - THƯ CẢM ƠN THANK YOU- Phiếu bảo hành khách hàng",
+      "cover": "https://s.500fd.com/tt_product/5101ef1725fa45d2adfd03a8c28552b4~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1737016637625305085?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "1,187,641 ₫",
+      "category_name": [
+        "Unisex Perfume"
+      ],
+      "shop_name": "KALABO LUXE",
+      "shop_sold_count": 130547,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-08-14 04:17:04",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 10091,
+      "_total_sale": 11199032164,
+      "_growth_sum": 194.2,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 10091,
+          "sale_amount": 11199032164
+        }
+      ],
+      "sold_count": 10091,
+      "sale_amount": 11199032164,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 194.2,
+      "_total_sold_show": "10.1k",
+      "_total_sale_show": "$11199.0M"
+    },
+    {
+      "product_id": "1734115260861154942",
+      "title": "Thư cảm ơn quý khách hàng",
+      "cover": "https://s.500fd.com/tt_product/4b8c176d1cef4f17a3b3a810dbcaa5d6~tplv-o3syd03w52-crop-webp:703:703.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734115260861154942?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "50,000 ₫",
+      "category_name": [
+        "Cards"
+      ],
+      "shop_name": "NTT Store HN",
+      "shop_sold_count": 6042696,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-01-27 15:18:00",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 9345,
+      "_total_sale": 467250000,
+      "_growth_sum": 3.17,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 9345,
+          "sale_amount": 467250000
+        }
+      ],
+      "sold_count": 9345,
+      "sale_amount": 467250000,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 3.17,
+      "_total_sold_show": "9.3k",
+      "_total_sale_show": "$467.3M"
+    },
+    {
+      "product_id": "1736654032268265025",
+      "title": "Phiếu Bảo Hành Cho Khách Hàng - Kèm Theo Hướng Dẫn",
+      "cover": "https://s.500fd.com/tt_product/18c69fa5f300407ca0c2d5db40268501~tplv-aphluv4xwc-crop-webp:809:809.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736654032268265025?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "110,000 ₫",
+      "category_name": [
+        "Cards"
+      ],
+      "shop_name": "tiem banh huong lap2",
+      "shop_sold_count": 151065,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-07-24 05:10:41",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 9065,
+      "_total_sale": 997150000,
+      "_growth_sum": 150.48,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 9065,
+          "sale_amount": 997150000
+        }
+      ],
+      "sold_count": 9065,
+      "sale_amount": 997150000,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 150.48,
+      "_total_sold_show": "9.1k",
+      "_total_sale_show": "$997.1M"
+    },
+    {
+      "product_id": "1735450741349254741",
+      "title": "Thư Cảm Ơn Quý Khách Đã Ủng Hộ Shop",
+      "cover": "https://s.500fd.com/tt_product/ef9ec4b65e1f4ea58c5236357f6d0279~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735450741349254741?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "58,957 ₫",
+      "category_name": [
+        "Cards"
+      ],
+      "shop_name": "GIA DỤNG MĐ 86",
+      "shop_sold_count": 230180,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-05-15 15:52:06",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 8721,
+      "_total_sale": 513239571,
+      "_growth_sum": -58.8,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 8721,
+          "sale_amount": 513239571
+        }
+      ],
+      "sold_count": 8721,
+      "sale_amount": 513239571,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -58.8,
+      "_total_sold_show": "8.7k",
+      "_total_sale_show": "$513.2M"
+    },
+    {
+      "product_id": "1734888359233029854",
+      "title": "Thư Cảm Ơn - Kèm Hướng Dẫn Đổi Trả",
+      "cover": "https://s.500fd.com/tt_product/94ec26aafc1d4f6999cdffc2c6d9468e~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1734888359233029854?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "99,999 ₫",
+      "category_name": [
+        "Envelopes & Postal Supplies"
+      ],
+      "shop_name": "Linh Hàng Rẻ Nè",
+      "shop_sold_count": 2792287,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-03-30 03:11:08",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 8603,
+      "_total_sale": 860291397,
+      "_growth_sum": 204.96,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 8603,
+          "sale_amount": 860291397
+        }
+      ],
+      "sold_count": 8603,
+      "sale_amount": 860291397,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 204.96,
+      "_total_sold_show": "8.6k",
+      "_total_sale_show": "$860.3M"
+    },
+    {
+      "product_id": "1736942835843499285",
+      "title": "[DEAL MỞ BÁN] Áo Cardigan Pleasure Áo Cardigan Nam Dài Tay Chất Vải Len Tăm Cao Cấp Form Regular Fit",
+      "cover": "https://s.500fd.com/tt_product/d3b388f42b1941a9a1bbabdb49415321~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736942835843499285?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "100,000₫",
+      "category_name": [
+        "Sports T-shirts"
+      ],
+      "shop_name": "Pleasure.asia",
+      "shop_sold_count": 1197185,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-08-11 12:47:03",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 8092,
+      "_total_sale": 809200000,
+      "_growth_sum": 33.49,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 8092,
+          "sale_amount": 809200000
+        }
+      ],
+      "sold_count": 8092,
+      "sale_amount": 809200000,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 33.49,
+      "_total_sold_show": "8.1k",
+      "_total_sale_show": "$809.2M"
+    },
+    {
+      "product_id": "1736793152350357382",
+      "title": "thẻ cảm ơn, phụ kiện thời trang",
+      "cover": "https://s.500fd.com/tt_product/53dc681d05d64779b03c80ee292131d0~tplv-aphluv4xwc-crop-webp:1170:1159.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736793152350357382?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "65,392 ₫",
+      "category_name": [
+        "Fashion Accessory Sets"
+      ],
+      "shop_name": "HERLA FASHION",
+      "shop_sold_count": 700967,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-07-31 20:10:54",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 7812,
+      "_total_sale": 527286564,
+      "_growth_sum": 73.56,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 7812,
+          "sale_amount": 527286564
+        }
+      ],
+      "sold_count": 7812,
+      "sale_amount": 527286564,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 73.56,
+      "_total_sold_show": "7.8k",
+      "_total_sale_show": "$527.3M"
     }
   ],
   "total_top": [
@@ -708,14 +1139,29 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 349108,
-      "_total_sale": 8528294,
-      "_growth_sum": 1379.27,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 1102713,
+      "_total_sale": 26719671.35,
+      "_growth_sum": 158.56,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 224998,
+          "sale_amount": 5431252
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 154476,
+          "sale_amount": 3728925
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 152110,
+          "sale_amount": 3671802
+        },
         {
           "date": "2026-08-06",
           "sold": 17154,
@@ -748,16 +1194,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 266497,
-          "sale_amount": 6433004
+          "sold": 204760,
+          "sale_amount": 4942726
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 349108,
-      "sale_amount": 8528294,
+      "sold_count": 1102713,
+      "sale_amount": 26719671.35,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 197.04,
-      "_total_sold_show": "349.1k",
-      "_total_sale_show": "$8.5M"
+      "_avg_growth": 14.41,
+      "_total_sold_show": "1.1M",
+      "_total_sale_show": "$26.7M"
     },
     {
       "product_id": "1729448464509734958",
@@ -776,14 +1227,29 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 323822,
-      "_total_sale": 8941065,
-      "_growth_sum": 949.47,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 1043242,
+      "_total_sale": 28138297.03,
+      "_growth_sum": 19.29,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 146920,
+          "sale_amount": 3920458
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 198188,
+          "sale_amount": 5288516
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 161550,
+          "sale_amount": 4310854
+        },
         {
           "date": "2026-08-06",
           "sold": 27541,
@@ -816,84 +1282,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 134060,
-          "sale_amount": 3577296
+          "sold": 152611,
+          "sale_amount": 4072317
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 323822,
-      "sale_amount": 8941065,
+      "sold_count": 1043242,
+      "sale_amount": 28138297.03,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 135.64,
-      "_total_sold_show": "323.8k",
-      "_total_sale_show": "$8.9M"
-    },
-    {
-      "product_id": "1729612709100426165",
-      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
-      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$1.69",
-      "category_name": [
-        "冲调饮品"
-      ],
-      "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5169227,
-      "aweme_count": 70,
-      "live_count": 1176,
-      "author_count": 395,
-      "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 271425,
-      "_total_sale": 650308,
-      "_growth_sum": 480.75,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 46911,
-          "sale_amount": 66771
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 29491,
-          "sale_amount": 107779
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 35953,
-          "sale_amount": 32443
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 10927,
-          "sale_amount": 56548
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 10353,
-          "sale_amount": 26572
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 20471,
-          "sale_amount": 128215
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 117319,
-          "sale_amount": 231980
-        }
-      ],
-      "sold_count": 271425,
-      "sale_amount": 650308,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 68.68,
-      "_total_sold_show": "271.4k",
-      "_total_sale_show": "$650.3k"
+      "_avg_growth": 1.75,
+      "_total_sold_show": "1.0M",
+      "_total_sale_show": "$28.1M"
     },
     {
       "product_id": "1729679758111249333",
@@ -912,14 +1315,29 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 265186,
-      "_total_sale": 496527,
-      "_growth_sum": 303.39,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 794432,
+      "_total_sale": 1496288.43,
+      "_growth_sum": 307.48,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 98180,
+          "sale_amount": 185465
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 154113,
+          "sale_amount": 291124
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 99494,
+          "sale_amount": 187948
+        },
         {
           "date": "2026-08-06",
           "sold": 22115,
@@ -952,220 +1370,109 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 80170,
-          "sale_amount": 151443
+          "sold": 118370,
+          "sale_amount": 223604
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 265186,
-      "sale_amount": 496527,
+      "sold_count": 794432,
+      "sale_amount": 1496288.43,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 43.34,
-      "_total_sold_show": "265.2k",
-      "_total_sale_show": "$496.5k"
+      "_avg_growth": 27.95,
+      "_total_sold_show": "794.4k",
+      "_total_sale_show": "$1.5M"
     },
     {
-      "product_id": "1731406217255686451",
-      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
-      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
+      "product_id": "1729612709100426165",
+      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
+      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$16.99 - 21.99",
+      "real_price": "$1.69",
       "category_name": [
-        "女士文胸"
+        "冲调饮品"
       ],
-      "shop_name": "OEAK Apparel",
-      "shop_sold_count": 1625742,
-      "aweme_count": 292,
-      "live_count": 883,
-      "author_count": 567,
-      "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 184448,
-      "_total_sale": 3567819,
-      "_growth_sum": 485.2,
-      "_growth_count": 7,
+      "shop_name": "Caffeine, Candles & Chaos",
+      "shop_sold_count": 5169227,
+      "aweme_count": 70,
+      "live_count": 1176,
+      "author_count": 395,
+      "launch_time": "2024-12-12 17:18:36",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 668235,
+      "_total_sale": 1434934.97,
+      "_growth_sum": 46.48000000000001,
+      "_growth_count": 11,
       "_trend": [
         {
+          "date": "2026-08-03",
+          "sold": 128801,
+          "sale_amount": 254683
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 97477,
+          "sale_amount": 192745
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 109096,
+          "sale_amount": 215720
+        },
+        {
           "date": "2026-08-06",
-          "sold": 7584,
-          "sale_amount": 314175
+          "sold": 46911,
+          "sale_amount": 66771
         },
         {
           "date": "2026-08-07",
-          "sold": 11940,
-          "sale_amount": 393268
+          "sold": 29491,
+          "sale_amount": 107779
         },
         {
           "date": "2026-08-08",
-          "sold": 12690,
-          "sale_amount": 148985
+          "sold": 35953,
+          "sale_amount": 32443
         },
         {
           "date": "2026-08-09",
-          "sold": 19259,
-          "sale_amount": 299295
+          "sold": 10927,
+          "sale_amount": 56548
         },
         {
           "date": "2026-08-10",
-          "sold": 18901,
-          "sale_amount": 276854
+          "sold": 10353,
+          "sale_amount": 26572
         },
         {
           "date": "2026-08-11",
-          "sold": 20201,
-          "sale_amount": 142845
+          "sold": 20471,
+          "sale_amount": 128215
         },
         {
           "date": "2026-08-12",
-          "sold": 93873,
-          "sale_amount": 1992397
+          "sold": 101015,
+          "sale_amount": 199741
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
-      "sold_count": 184448,
-      "sale_amount": 3567819,
+      "sold_count": 668235,
+      "sale_amount": 1434934.97,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 69.31,
-      "_total_sold_show": "184.4k",
-      "_total_sale_show": "$3.6M"
-    },
-    {
-      "product_id": "1731879234948338174",
-      "title": "DRDENT Purple Teeth Whitening Strips - 7/21 Whitening Sessions - Non Sensitive Teeth Whitening - Peroxide-Free",
-      "cover": "https://s.500fd.com/tt_product/5e5c97cc0eb0474ea22a22781b1abfb7~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731879234948338174?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$14.99 - 22.49",
-      "category_name": [
-        "牙齿美白"
-      ],
-      "shop_name": "DR DENT",
-      "shop_sold_count": 1128716,
-      "aweme_count": 341,
-      "live_count": 1210,
-      "author_count": 1010,
-      "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 153783,
-      "_total_sale": 2920872,
-      "_growth_sum": 767.56,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 17656,
-          "sale_amount": 425829
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 13888,
-          "sale_amount": 149428
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 20681,
-          "sale_amount": 294338
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 18795,
-          "sale_amount": 238098
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 14134,
-          "sale_amount": 449987
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 6685,
-          "sale_amount": 319559
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 61944,
-          "sale_amount": 1043633
-        }
-      ],
-      "sold_count": 153783,
-      "sale_amount": 2920872,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 109.65,
-      "_total_sold_show": "153.8k",
-      "_total_sale_show": "$2.9M"
-    },
-    {
-      "product_id": "1731236289885213002",
-      "title": "SEESE Cordless Pressure Washer and Single Port Charger Base, Bottle Portable Washer for Car,Home Cleaning & Garden Watering",
-      "cover": "https://s.500fd.com/tt_product/40df5ced27dd49019e8467ebe1787b56~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731236289885213002?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$34.99 - 44.97",
-      "category_name": [
-        "水枪和雪沫喷枪"
-      ],
-      "shop_name": "SEESE Store",
-      "shop_sold_count": 1832991,
-      "aweme_count": 424,
-      "live_count": 2077,
-      "author_count": 1529,
-      "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 152943,
-      "_total_sale": 7689056,
-      "_growth_sum": 2809.63,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 3454,
-          "sale_amount": 336692
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 2697,
-          "sale_amount": 112163
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 6967,
-          "sale_amount": 364873
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6046,
-          "sale_amount": 90596
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 5529,
-          "sale_amount": 300897
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 4399,
-          "sale_amount": 335969
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 123851,
-          "sale_amount": 6147866
-        }
-      ],
-      "sold_count": 152943,
-      "sale_amount": 7689056,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 401.38,
-      "_total_sold_show": "152.9k",
-      "_total_sale_show": "$7.7M"
+      "_avg_growth": 4.23,
+      "_total_sold_show": "668.2k",
+      "_total_sale_show": "$1.4M"
     },
     {
       "product_id": "1732164626458252048",
@@ -1184,14 +1491,29 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 135554,
-      "_total_sale": 2521005,
-      "_growth_sum": 668.9,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 599561,
+      "_total_sale": 12261534.04,
+      "_growth_sum": 8.840000000000007,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 120841,
+          "sale_amount": 2536725
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 121476,
+          "sale_amount": 2550060
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 120158,
+          "sale_amount": 2522373
+        },
         {
           "date": "2026-08-06",
           "sold": 10230,
@@ -1224,16 +1546,197 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 80097,
-          "sale_amount": 1681423
+          "sold": 89823,
+          "sale_amount": 1885583
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 91806,
+          "sale_amount": 1927211.04
         }
       ],
-      "sold_count": 135554,
-      "sale_amount": 2521005,
+      "sold_count": 599561,
+      "sale_amount": 12261534.04,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 95.56,
-      "_total_sold_show": "135.6k",
-      "_total_sale_show": "$2.5M"
+      "_avg_growth": 0.8,
+      "_total_sold_show": "599.6k",
+      "_total_sale_show": "$12.3M"
+    },
+    {
+      "product_id": "1731879234948338174",
+      "title": "DRDENT Purple Teeth Whitening Strips - 7/21 Whitening Sessions - Non Sensitive Teeth Whitening - Peroxide-Free",
+      "cover": "https://s.500fd.com/tt_product/5e5c97cc0eb0474ea22a22781b1abfb7~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731879234948338174?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$14.99 - 22.49",
+      "category_name": [
+        "牙齿美白"
+      ],
+      "shop_name": "DR DENT",
+      "shop_sold_count": 1128716,
+      "aweme_count": 341,
+      "live_count": 1210,
+      "author_count": 1010,
+      "launch_time": "2025-11-10 23:46:59",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 583679,
+      "_total_sale": 10163763.5,
+      "_growth_sum": -56.70000000000001,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 103104,
+          "sale_amount": 1737091
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 89972,
+          "sale_amount": 1515849
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 113643,
+          "sale_amount": 1914660
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 17656,
+          "sale_amount": 425829
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 13888,
+          "sale_amount": 149428
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 20681,
+          "sale_amount": 294338
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 18795,
+          "sale_amount": 238098
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 14134,
+          "sale_amount": 449987
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 6685,
+          "sale_amount": 319559
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 94491,
+          "sale_amount": 1591986
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        }
+      ],
+      "sold_count": 583679,
+      "sale_amount": 10163763.5,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -5.15,
+      "_total_sold_show": "583.7k",
+      "_total_sale_show": "$10.2M"
+    },
+    {
+      "product_id": "1731406217255686451",
+      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
+      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$16.99 - 21.99",
+      "category_name": [
+        "女士文胸"
+      ],
+      "shop_name": "OEAK Apparel",
+      "shop_sold_count": 1625742,
+      "aweme_count": 292,
+      "live_count": 883,
+      "author_count": 567,
+      "launch_time": "2025-07-25 13:10:01",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 561074,
+      "_total_sale": 11561506.73,
+      "_growth_sum": 119.89999999999998,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 79710,
+          "sale_amount": 1691807
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 99951,
+          "sale_amount": 2121400
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 103433,
+          "sale_amount": 2195311
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 7584,
+          "sale_amount": 314175
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 11940,
+          "sale_amount": 393268
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 12690,
+          "sale_amount": 148985
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 19259,
+          "sale_amount": 299295
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 18901,
+          "sale_amount": 276854
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 20201,
+          "sale_amount": 142845
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 101083,
+          "sale_amount": 2145431
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        }
+      ],
+      "sold_count": 561074,
+      "sale_amount": 11561506.73,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 10.9,
+      "_total_sold_show": "561.1k",
+      "_total_sale_show": "$11.6M"
     },
     {
       "product_id": "1731528580940468633",
@@ -1252,14 +1755,29 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 114223,
-      "_total_sale": 1663651,
-      "_growth_sum": 6844.860000000001,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 512008,
+      "_total_sale": 7384154.01,
+      "_growth_sum": 72.56000000000002,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 106240,
+          "sale_amount": 1527827
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 82062,
+          "sale_amount": 1180126
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 116928,
+          "sale_amount": 1681531
+        },
         {
           "date": "2026-08-06",
           "sold": 3109,
@@ -1292,16 +1810,109 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 99983,
-          "sale_amount": 1437853
+          "sold": 106399,
+          "sale_amount": 1530114
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 86139,
+          "sale_amount": 1238758.01
         }
       ],
-      "sold_count": 114223,
-      "sale_amount": 1663651,
+      "sold_count": 512008,
+      "sale_amount": 7384154.01,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 977.84,
-      "_total_sold_show": "114.2k",
-      "_total_sale_show": "$1.7M"
+      "_avg_growth": 6.6,
+      "_total_sold_show": "512.0k",
+      "_total_sale_show": "$7.4M"
+    },
+    {
+      "product_id": "1731236289885213002",
+      "title": "SEESE Cordless Pressure Washer and Single Port Charger Base, Bottle Portable Washer for Car,Home Cleaning & Garden Watering",
+      "cover": "https://s.500fd.com/tt_product/40df5ced27dd49019e8467ebe1787b56~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731236289885213002?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$34.99 - 44.97",
+      "category_name": [
+        "水枪和雪沫喷枪"
+      ],
+      "shop_name": "SEESE Store",
+      "shop_sold_count": 1832991,
+      "aweme_count": 424,
+      "live_count": 2077,
+      "author_count": 1529,
+      "launch_time": "2025-07-10 11:27:59",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 498277,
+      "_total_sale": 24831067.72,
+      "_growth_sum": 298.90999999999997,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 79562,
+          "sale_amount": 3949386
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 71368,
+          "sale_amount": 3542647
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 117605,
+          "sale_amount": 5837788
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 3454,
+          "sale_amount": 336692
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 2697,
+          "sale_amount": 112163
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 6967,
+          "sale_amount": 364873
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 6046,
+          "sale_amount": 90596
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 5529,
+          "sale_amount": 300897
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 4399,
+          "sale_amount": 335969
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 95828,
+          "sale_amount": 4756809
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        }
+      ],
+      "sold_count": 498277,
+      "sale_amount": 24831067.72,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 27.17,
+      "_total_sold_show": "498.3k",
+      "_total_sale_show": "$24.8M"
     },
     {
       "product_id": "1732413417772650787",
@@ -1320,14 +1931,29 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 79429,
-      "_total_sale": 406690,
-      "_growth_sum": 1810.1,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 496913,
+      "_total_sale": 2496330,
+      "_growth_sum": 2796.0499999999997,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 110246,
+          "sale_amount": 551816
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 84416,
+          "sale_amount": 422530
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 101561,
+          "sale_amount": 508346
+        },
         {
           "date": "2026-08-06",
           "sold": 2626,
@@ -1360,16 +1986,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 65102,
-          "sale_amount": 325857
+          "sold": 97905,
+          "sale_amount": 490046
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 79429,
-      "sale_amount": 406690,
+      "sold_count": 496913,
+      "sale_amount": 2496330,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 258.59,
-      "_total_sold_show": "79.4k",
-      "_total_sale_show": "$406.7k"
+      "_avg_growth": 254.19,
+      "_total_sold_show": "496.9k",
+      "_total_sale_show": "$2.5M"
     }
   ],
   "growth_top": [
@@ -1390,14 +2021,29 @@
       "live_count": 10,
       "author_count": 6,
       "launch_time": "2026-06-25 05:19:41",
-      "_first_seen": "2026-08-06",
+      "_first_seen": "2026-08-03",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 90314,
-      "_total_sale": 1083727017,
-      "_growth_sum": 60.510000000000005,
-      "_growth_count": 7,
+      "_appearances": 10,
+      "_total_sold": 123738,
+      "_total_sale": 1484822763,
+      "_growth_sum": 111.97999999999999,
+      "_growth_count": 10,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 14438,
+          "sale_amount": 173250477
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 10926,
+          "sale_amount": 131116703
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12229,
+          "sale_amount": 146745302
+        },
         {
           "date": "2026-08-06",
           "sold": 9808,
@@ -1430,16 +2076,16 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 15492,
-          "sale_amount": 185892395
+          "sold": 11323,
+          "sale_amount": 135875659
         }
       ],
-      "sold_count": 90314,
-      "sale_amount": 1083727017,
+      "sold_count": 123738,
+      "sale_amount": 1484822763,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.64,
-      "_total_sold_show": "90.3k",
-      "_total_sale_show": "$1083.7M"
+      "_avg_growth": 11.2,
+      "_total_sold_show": "123.7k",
+      "_total_sale_show": "$1484.8M"
     },
     {
       "product_id": "1732469986754725364",
@@ -1458,14 +2104,29 @@
       "live_count": 32,
       "author_count": 47,
       "launch_time": "2025-09-11 15:31:11",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 50032,
-      "_total_sale": 800567324,
-      "_growth_sum": 44.3,
-      "_growth_count": 7,
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 96401,
+      "_total_sale": 1542444286,
+      "_growth_sum": 85.46000000000001,
+      "_growth_count": 11,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 11346,
+          "sale_amount": 181529308
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 9901,
+          "sale_amount": 158409173
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12506,
+          "sale_amount": 200085647
+        },
         {
           "date": "2026-08-06",
           "sold": 6625,
@@ -1498,356 +2159,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 8486,
-          "sale_amount": 135776763
+          "sold": 10398,
+          "sale_amount": 166365597
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 10704,
+          "sale_amount": 171264000
         }
       ],
-      "sold_count": 50032,
-      "sale_amount": 800567324,
+      "sold_count": 96401,
+      "sale_amount": 1542444286,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.33,
-      "_total_sold_show": "50.0k",
-      "_total_sale_show": "$800.6M"
-    },
-    {
-      "product_id": "1734450570957522420",
-      "title": "Combo 5 bánh trung thu đủ vị 80gr LÂM THỦY - nướng mochi trứng ruốc và nhân nhuyễn",
-      "cover": "https://s.500fd.com/tt_product/b9b1bcb2665a415ba43ea95804beb55d~tplv-aphluv4xwc-crop-webp:854:854.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734450570957522420?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "5,000₫",
-      "category_name": [
-        " Biscuits, Cookies & Wafers\t"
-      ],
-      "shop_name": "Tiệm Bánh Lâm Thủy Cổ Truyền",
-      "shop_sold_count": 2157807,
-      "aweme_count": 10,
-      "live_count": 38,
-      "author_count": 38,
-      "launch_time": "2026-02-26 08:01:23",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 70631,
-      "_total_sale": 353155123,
-      "_growth_sum": 44.10000000000001,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 8510,
-          "sale_amount": 42549235
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 8451,
-          "sale_amount": 42255467
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 13454,
-          "sale_amount": 67270591
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 8916,
-          "sale_amount": 44578225
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 12333,
-          "sale_amount": 61664729
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 9183,
-          "sale_amount": 45917590
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 9784,
-          "sale_amount": 48919286
-        }
-      ],
-      "sold_count": 70631,
-      "sale_amount": 353155123,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.3,
-      "_total_sold_show": "70.6k",
-      "_total_sale_show": "$353.2M"
-    },
-    {
-      "product_id": "1736839360435094728",
-      "title": "Thư cảm ơn và Thẻ bảo hành sản phẩm - 02082026",
-      "cover": "https://s.500fd.com/tt_product/a59ca08971db4e93befc00c97a07fad2~tplv-aphluv4xwc-crop-webp:1286:1275.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736839360435094728?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "100,000 ₫",
-      "category_name": [
-        "Labels, Index Dividers & Stamps"
-      ],
-      "shop_name": "DKHOUSE VN",
-      "shop_sold_count": 232983,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-08-03 02:09:53",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 64730,
-      "_total_sale": 6473215284,
-      "_growth_sum": 41.6,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 10755,
-          "sale_amount": 1075555514
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 7075,
-          "sale_amount": 707533801
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 10904,
-          "sale_amount": 1090468363
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 7097,
-          "sale_amount": 709723347
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 7458,
-          "sale_amount": 745830551
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 9656,
-          "sale_amount": 965607712
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 11785,
-          "sale_amount": 1178495996
-        }
-      ],
-      "sold_count": 64730,
-      "sale_amount": 6473215284,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.94,
-      "_total_sold_show": "64.7k",
-      "_total_sale_show": "$6473.2M"
-    },
-    {
-      "product_id": "1734090245593662698",
-      "title": "Thư cảm ơn quý khách hàng",
-      "cover": "https://s.500fd.com/tt_product/714efcf0eeec4f2594889ff4a791646f~tplv-aphluv4xwc-crop-webp:876:876.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734090245593662698?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "110,928 ₫",
-      "category_name": [
-        "Cards"
-      ],
-      "shop_name": "Hulii.Vn",
-      "shop_sold_count": 4093832,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-01-30 00:18:00",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 50695,
-      "_total_sale": 5533009467,
-      "_growth_sum": 40.699999999999996,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 7103,
-          "sale_amount": 775297312
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 8313,
-          "sale_amount": 907284160
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 5660,
-          "sale_amount": 617730611
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 7244,
-          "sale_amount": 790601744
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 8727,
-          "sale_amount": 952532914
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 5624,
-          "sale_amount": 613786689
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 8024,
-          "sale_amount": 875776037
-        }
-      ],
-      "sold_count": 50695,
-      "sale_amount": 5533009467,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.81,
-      "_total_sold_show": "50.7k",
-      "_total_sale_show": "$5533.0M"
-    },
-    {
-      "product_id": "1736710083862758575",
-      "title": "THƯ CẢM ƠN KHÁCH HÀNG CỬA HÀNG TECHZONE",
-      "cover": "https://s.500fd.com/tt_product/68f11f5830e040eea1171fa8e7fbf24f~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736710083862758575?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "106,867 ₫",
-      "category_name": [
-        "Gifts & Wrapping"
-      ],
-      "shop_name": "Techzonehn",
-      "shop_sold_count": 16290451,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-07-28 19:23:25",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 64355,
-      "_total_sale": 7630315838,
-      "_growth_sum": 27.150000000000002,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 8279,
-          "sale_amount": 981618644
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 9133,
-          "sale_amount": 1082839786
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 11201,
-          "sale_amount": 1328014270
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 8487,
-          "sale_amount": 1006329439
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 8281,
-          "sale_amount": 981905320
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 8884,
-          "sale_amount": 1053313900
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 10090,
-          "sale_amount": 1196294479
-        }
-      ],
-      "sold_count": 64355,
-      "sale_amount": 7630315838,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.88,
-      "_total_sold_show": "64.4k",
-      "_total_sale_show": "$7630.3M"
-    },
-    {
-      "product_id": "1735680558057686903",
-      "title": "Thư Cảm Ơn - Kèm Hướng Dẫn Đổi Trả",
-      "cover": "https://s.500fd.com/tt_product/0b0b0d445d094a8bb53586593e26e43c~tplv-aphluv4xwc-crop-webp:2560:2560.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735680558057686903?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "114,441 ₫",
-      "category_name": [
-        "Cards"
-      ],
-      "shop_name": "Ngoc Anh Miền Tây  Kênh Phụ",
-      "shop_sold_count": 509836,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-05-21 23:32:46",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 164083,
-      "_total_sale": 18441991410,
-      "_growth_sum": 24.1,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 23927,
-          "sale_amount": 2689246948
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 22809,
-          "sale_amount": 2563550875
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 27619,
-          "sale_amount": 3104256431
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 18789,
-          "sale_amount": 2111812252
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 18931,
-          "sale_amount": 2127731495
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 25414,
-          "sale_amount": 2856412759
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 26594,
-          "sale_amount": 2988980650
-        }
-      ],
-      "sold_count": 164083,
-      "sale_amount": 18441991410,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.44,
-      "_total_sold_show": "164.1k",
-      "_total_sale_show": "$18442.0M"
+      "_avg_growth": 7.77,
+      "_total_sold_show": "96.4k",
+      "_total_sale_show": "$1542.4M"
     },
     {
       "product_id": "1735684022943843493",
@@ -1866,14 +2192,29 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-05-26 03:14:04",
-      "_first_seen": "2026-08-06",
+      "_first_seen": "2026-08-03",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 47450,
-      "_total_sale": 4744547013,
-      "_growth_sum": 10.879999999999999,
-      "_growth_count": 7,
+      "_appearances": 10,
+      "_total_sold": 79850,
+      "_total_sale": 7984427247,
+      "_growth_sum": 63.58,
+      "_growth_count": 10,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 8308,
+          "sale_amount": 830725694
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 13040,
+          "sale_amount": 1303988028
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 8419,
+          "sale_amount": 841844976
+        },
         {
           "date": "2026-08-06",
           "sold": 7839,
@@ -1906,84 +2247,16 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 7383,
-          "sale_amount": 738233464
+          "sold": 10016,
+          "sale_amount": 1001555000
         }
       ],
-      "sold_count": 47450,
-      "sale_amount": 4744547013,
+      "sold_count": 79850,
+      "sale_amount": 7984427247,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.55,
-      "_total_sold_show": "47.5k",
-      "_total_sale_show": "$4744.5M"
-    },
-    {
-      "product_id": "1735522200765040167",
-      "title": "Cảm Ơn Quý Khách Thân Mến - Sản Phẩm Chất Lượng Cao Đáp Ứng Nhu Cầu Khách Hàng - Trải Nghiệm Mua Sắm Tốt Nhất",
-      "cover": "https://s.500fd.com/tt_product/a541a973ef7844dd9ff3d10e98aaaa8c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735522200765040167?region=VN&local=en",
-      "region": "VN",
-      "currency": "VND",
-      "real_price": "107,108 ₫",
-      "category_name": [
-        "Business & Management"
-      ],
-      "shop_name": "Gia Dụng DTA-999",
-      "shop_sold_count": 2997773,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-05-15 19:22:26",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 59803,
-      "_total_sale": 5655155321,
-      "_growth_sum": 1.159999999999994,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 9084,
-          "sale_amount": 858973115
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 7210,
-          "sale_amount": 681835598
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 11501,
-          "sale_amount": 1087602638
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 8677,
-          "sale_amount": 820545818
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 7856,
-          "sale_amount": 742857276
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 7913,
-          "sale_amount": 748254005
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 7562,
-          "sale_amount": 715086871
-        }
-      ],
-      "sold_count": 59803,
-      "sale_amount": 5655155321,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.17,
-      "_total_sold_show": "59.8k",
-      "_total_sale_show": "$5655.2M"
+      "_avg_growth": 6.36,
+      "_total_sold_show": "79.8k",
+      "_total_sale_show": "$7984.4M"
     },
     {
       "product_id": "1735266077343188054",
@@ -2002,14 +2275,29 @@
       "live_count": 263,
       "author_count": 273,
       "launch_time": "2026-05-04 12:40:25",
-      "_first_seen": "2026-08-06",
+      "_first_seen": "2026-08-03",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 99529,
-      "_total_sale": 2935923433,
-      "_growth_sum": -26.350000000000005,
-      "_growth_count": 7,
+      "_appearances": 10,
+      "_total_sold": 129431,
+      "_total_sale": 3818030640,
+      "_growth_sum": 47.71,
+      "_growth_count": 10,
       "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 8670,
+          "sale_amount": 255765830
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 7777,
+          "sale_amount": 229425065
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12816,
+          "sale_amount": 378060503
+        },
         {
           "date": "2026-08-06",
           "sold": 16144,
@@ -2042,16 +2330,524 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 9804,
-          "sale_amount": 289199493
+          "sold": 10443,
+          "sale_amount": 308055302
         }
       ],
-      "sold_count": 99529,
-      "sale_amount": 2935923433,
+      "sold_count": 129431,
+      "sale_amount": 3818030640,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -3.76,
-      "_total_sold_show": "99.5k",
-      "_total_sale_show": "$2935.9M"
+      "_avg_growth": 4.77,
+      "_total_sold_show": "129.4k",
+      "_total_sale_show": "$3818.0M"
+    },
+    {
+      "product_id": "1735522200765040167",
+      "title": "Cảm Ơn Quý Khách Thân Mến - Sản Phẩm Chất Lượng Cao Đáp Ứng Nhu Cầu Khách Hàng - Trải Nghiệm Mua Sắm Tốt Nhất",
+      "cover": "https://s.500fd.com/tt_product/a541a973ef7844dd9ff3d10e98aaaa8c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735522200765040167?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "107,108 ₫",
+      "category_name": [
+        "Business & Management"
+      ],
+      "shop_name": "Gia Dụng DTA-999",
+      "shop_sold_count": 2997773,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-05-15 19:22:26",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 117857,
+      "_total_sale": 11151600042,
+      "_growth_sum": 48.74999999999999,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 10247,
+          "sale_amount": 968984160
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 13823,
+          "sale_amount": 1307114686
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 11267,
+          "sale_amount": 1065474904
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 9084,
+          "sale_amount": 858973115
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 7210,
+          "sale_amount": 681835598
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 11501,
+          "sale_amount": 1087602638
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 8677,
+          "sale_amount": 820545818
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 7856,
+          "sale_amount": 742857276
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 7913,
+          "sale_amount": 748254005
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 10644,
+          "sale_amount": 1006517802
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 19635,
+          "sale_amount": 1863440040
+        }
+      ],
+      "sold_count": 117857,
+      "sale_amount": 11151600042,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 4.43,
+      "_total_sold_show": "117.9k",
+      "_total_sale_show": "$11151.6M"
+    },
+    {
+      "product_id": "1734450570957522420",
+      "title": "Combo 5 bánh trung thu đủ vị 80gr LÂM THỦY - nướng mochi trứng ruốc và nhân nhuyễn",
+      "cover": "https://s.500fd.com/tt_product/b9b1bcb2665a415ba43ea95804beb55d~tplv-aphluv4xwc-crop-webp:854:854.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734450570957522420?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "5,000₫",
+      "category_name": [
+        " Biscuits, Cookies & Wafers\t"
+      ],
+      "shop_name": "Tiệm Bánh Lâm Thủy Cổ Truyền",
+      "shop_sold_count": 2157807,
+      "aweme_count": 10,
+      "live_count": 38,
+      "author_count": 38,
+      "launch_time": "2026-02-26 08:01:23",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 103535,
+      "_total_sale": 517682596,
+      "_growth_sum": 24.13000000000001,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 8857,
+          "sale_amount": 44286611
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 11106,
+          "sale_amount": 55532102
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 11493,
+          "sale_amount": 57466886
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 8510,
+          "sale_amount": 42549235
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 8451,
+          "sale_amount": 42255467
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 13454,
+          "sale_amount": 67270591
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 8916,
+          "sale_amount": 44578225
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 12333,
+          "sale_amount": 61664729
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 9183,
+          "sale_amount": 45917590
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 11232,
+          "sale_amount": 56161160
+        }
+      ],
+      "sold_count": 103535,
+      "sale_amount": 517682596,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 2.41,
+      "_total_sold_show": "103.5k",
+      "_total_sale_show": "$517.7M"
+    },
+    {
+      "product_id": "1734090245593662698",
+      "title": "Thư cảm ơn quý khách hàng",
+      "cover": "https://s.500fd.com/tt_product/714efcf0eeec4f2594889ff4a791646f~tplv-aphluv4xwc-crop-webp:876:876.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734090245593662698?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "110,928 ₫",
+      "category_name": [
+        "Cards"
+      ],
+      "shop_name": "Hulii.Vn",
+      "shop_sold_count": 4093832,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-01-30 00:18:00",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 87054,
+      "_total_sale": 9501237528,
+      "_growth_sum": 16.07999999999999,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 12415,
+          "sale_amount": 1354969505
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 9506,
+          "sale_amount": 1037509680
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 11437,
+          "sale_amount": 1248230344
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 7103,
+          "sale_amount": 775297312
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 8313,
+          "sale_amount": 907284160
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 5660,
+          "sale_amount": 617730611
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 7244,
+          "sale_amount": 790601744
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 8727,
+          "sale_amount": 952532914
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5624,
+          "sale_amount": 613786689
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 11025,
+          "sale_amount": 1203294569
+        }
+      ],
+      "sold_count": 87054,
+      "sale_amount": 9501237528,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1.61,
+      "_total_sold_show": "87.1k",
+      "_total_sale_show": "$9501.2M"
+    },
+    {
+      "product_id": "1736839360435094728",
+      "title": "Thư cảm ơn và Thẻ bảo hành sản phẩm - 02082026",
+      "cover": "https://s.500fd.com/tt_product/a59ca08971db4e93befc00c97a07fad2~tplv-aphluv4xwc-crop-webp:1286:1275.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736839360435094728?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "100,000 ₫",
+      "category_name": [
+        "Labels, Index Dividers & Stamps"
+      ],
+      "shop_name": "DKHOUSE VN",
+      "shop_sold_count": 232983,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-08-03 02:09:53",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 105122,
+      "_total_sale": 10512560657,
+      "_growth_sum": 3.0899999999999963,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 13940,
+          "sale_amount": 1394058863
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 14014,
+          "sale_amount": 1401387032
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 13861,
+          "sale_amount": 1386172034
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 10755,
+          "sale_amount": 1075555514
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 7075,
+          "sale_amount": 707533801
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 10904,
+          "sale_amount": 1090468363
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 7097,
+          "sale_amount": 709723347
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 7458,
+          "sale_amount": 745830551
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 9656,
+          "sale_amount": 965607712
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 10362,
+          "sale_amount": 1036223440
+        }
+      ],
+      "sold_count": 105122,
+      "sale_amount": 10512560657,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0.31,
+      "_total_sold_show": "105.1k",
+      "_total_sale_show": "$10512.6M"
+    },
+    {
+      "product_id": "1735680558057686903",
+      "title": "Thư Cảm Ơn - Kèm Hướng Dẫn Đổi Trả",
+      "cover": "https://s.500fd.com/tt_product/0b0b0d445d094a8bb53586593e26e43c~tplv-aphluv4xwc-crop-webp:2560:2560.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735680558057686903?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "114,441 ₫",
+      "category_name": [
+        "Cards"
+      ],
+      "shop_name": "Ngoc Anh Miền Tây  Kênh Phụ",
+      "shop_sold_count": 509836,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-05-21 23:32:46",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 197469,
+      "_total_sale": 22194419111,
+      "_growth_sum": -4.539999999999994,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 18328,
+          "sale_amount": 2059909781
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 12583,
+          "sale_amount": 1414268513
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12390,
+          "sale_amount": 1392603518
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 23927,
+          "sale_amount": 2689246948
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 22809,
+          "sale_amount": 2563550875
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 27619,
+          "sale_amount": 3104256431
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 18789,
+          "sale_amount": 2111812252
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 18931,
+          "sale_amount": 2127731495
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 25414,
+          "sale_amount": 2856412759
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 16679,
+          "sale_amount": 1874626539
+        }
+      ],
+      "sold_count": 197469,
+      "sale_amount": 22194419111,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -0.45,
+      "_total_sold_show": "197.5k",
+      "_total_sale_show": "$22194.4M"
+    },
+    {
+      "product_id": "1736710083862758575",
+      "title": "THƯ CẢM ƠN KHÁCH HÀNG CỬA HÀNG TECHZONE",
+      "cover": "https://s.500fd.com/tt_product/68f11f5830e040eea1171fa8e7fbf24f~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736710083862758575?region=VN&local=en",
+      "region": "VN",
+      "currency": "VND",
+      "real_price": "106,867 ₫",
+      "category_name": [
+        "Gifts & Wrapping"
+      ],
+      "shop_name": "Techzonehn",
+      "shop_sold_count": 16290451,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-07-28 19:23:25",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-17",
+      "_appearances": 11,
+      "_total_sold": 106276,
+      "_total_sale": 12511642335,
+      "_growth_sum": -28.36,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 11120,
+          "sale_amount": 1318443760
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 8590,
+          "sale_amount": 1018394223
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 12239,
+          "sale_amount": 1451083466
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 8279,
+          "sale_amount": 981618644
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 9133,
+          "sale_amount": 1082839786
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 11201,
+          "sale_amount": 1328014270
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 8487,
+          "sale_amount": 1006329439
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 8281,
+          "sale_amount": 981905320
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 8884,
+          "sale_amount": 1053313900
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 11137,
+          "sale_amount": 1320417752
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 8925,
+          "sale_amount": 969281775
+        }
+      ],
+      "sold_count": 106276,
+      "sale_amount": 12511642335,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -2.58,
+      "_total_sold_show": "106.3k",
+      "_total_sale_show": "$12511.6M"
     }
   ]
 }

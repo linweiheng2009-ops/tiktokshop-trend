@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "ID",
-  "generated_at": "2026-08-12T16:50:31.111Z",
+  "generated_at": "2026-08-17T01:36:59.869Z",
   "date_range": [
-    "2026-08-06",
-    "2026-08-12"
+    "2026-08-07",
+    "2026-08-17"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -26,19 +26,14 @@
       "live_count": 360,
       "author_count": 340,
       "launch_time": "2022-06-10 13:59:22",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 80809,
-      "_total_sale": 2967538027,
-      "_growth_sum": 24.080000000000002,
+      "_total_sold": 77982,
+      "_total_sale": 3025418111,
+      "_growth_sum": 54.150000000000006,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 11784,
-          "sale_amount": 432732149
-        },
         {
           "date": "2026-08-07",
           "sold": 11233,
@@ -66,16 +61,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 13097,
-          "sale_amount": 480962904
+          "sold": 8214,
+          "sale_amount": 301649937
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 13840,
+          "sale_amount": 669925200
         }
       ],
-      "sold_count": 80809,
-      "sale_amount": 2967538027,
+      "sold_count": 77982,
+      "sale_amount": 3025418111,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.44,
-      "_total_sold_show": "80.8k",
-      "_total_sale_show": "$2967.5M"
+      "_avg_growth": 7.74,
+      "_total_sold_show": "78.0k",
+      "_total_sale_show": "$3025.4M"
     },
     {
       "product_id": "1735304940106318937",
@@ -94,19 +94,14 @@
       "live_count": 168,
       "author_count": 277,
       "launch_time": "2026-04-26 18:10:55",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 65873,
-      "_total_sale": 764375552,
-      "_growth_sum": -26.339999999999996,
+      "_total_sold": 62717,
+      "_total_sale": 713658337,
+      "_growth_sum": 66.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 10685,
-          "sale_amount": 123986095
-        },
         {
           "date": "2026-08-07",
           "sold": 10172,
@@ -134,84 +129,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 6489,
-          "sale_amount": 75293865
+          "sold": 6912,
+          "sale_amount": 80203025
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 7106,
+          "sale_amount": 68359720
         }
       ],
-      "sold_count": 65873,
-      "sale_amount": 764375552,
+      "sold_count": 62717,
+      "sale_amount": 713658337,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -3.76,
-      "_total_sold_show": "65.9k",
-      "_total_sale_show": "$764.4M"
-    },
-    {
-      "product_id": "1732960949028226133",
-      "title": "[TS] Stacey Jelly Ink Lip Stain - Travel Size",
-      "cover": "https://s.500fd.com/tt_product/c8758d0aedf74ec0bb3dba14b357adc6~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732960949028226133?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp17,634",
-      "category_name": [
-        "Lipstick & Lip Gloss\t"
-      ],
-      "shop_name": "Stacey Indonesia",
-      "shop_sold_count": 6227673,
-      "aweme_count": 0,
-      "live_count": 1,
-      "author_count": 1,
-      "launch_time": "2025-10-29 11:33:27",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 49748,
-      "_total_sale": 843401781,
-      "_growth_sum": 60.51,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 5403,
-          "sale_amount": 91595567
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 8087,
-          "sale_amount": 137111227
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 6235,
-          "sale_amount": 105709914
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6607,
-          "sale_amount": 112004749
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6710,
-          "sale_amount": 113755903
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 8173,
-          "sale_amount": 138555169
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 8533,
-          "sale_amount": 144669252
-        }
-      ],
-      "sold_count": 49748,
-      "sale_amount": 843401781,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.64,
-      "_total_sold_show": "49.7k",
-      "_total_sale_show": "$843.4M"
+      "_avg_growth": 9.54,
+      "_total_sold_show": "62.7k",
+      "_total_sale_show": "$713.7M"
     },
     {
       "product_id": "1736755585903592824",
@@ -230,19 +162,14 @@
       "live_count": 110,
       "author_count": 205,
       "launch_time": "2026-08-01 06:43:15",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 42821,
-      "_total_sale": 44190838554,
-      "_growth_sum": 1.1699999999999946,
+      "_total_sold": 50684,
+      "_total_sale": 52303469279,
+      "_growth_sum": -6.610000000000005,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 6504,
-          "sale_amount": 6712236903
-        },
         {
           "date": "2026-08-07",
           "sold": 5163,
@@ -270,152 +197,84 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 5415,
-          "sale_amount": 5587872780
+          "sold": 7622,
+          "sale_amount": 7865189048
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 12160,
+          "sale_amount": 12547551360
         }
       ],
-      "sold_count": 42821,
-      "sale_amount": 44190838554,
+      "sold_count": 50684,
+      "sale_amount": 52303469279,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.17,
-      "_total_sold_show": "42.8k",
-      "_total_sale_show": "$44190.8M"
+      "_avg_growth": -0.94,
+      "_total_sold_show": "50.7k",
+      "_total_sale_show": "$52303.5M"
     },
     {
-      "product_id": "1736502874153518172",
-      "title": "[Free Stiker Nama] Kaos Anak HYKIDS Motif Kemerdekaan Indonesia Series untuk usia 1-12 Tahun",
-      "cover": "https://s.500fd.com/tt_product/78cfd6feaba54f7fa8bd2f9712fa3b7e~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736502874153518172?region=ID&local=en",
+      "product_id": "1732960949028226133",
+      "title": "[TS] Stacey Jelly Ink Lip Stain - Travel Size",
+      "cover": "https://s.500fd.com/tt_product/c8758d0aedf74ec0bb3dba14b357adc6~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732960949028226133?region=ID&local=en",
       "region": "ID",
       "currency": "IDR",
-      "real_price": "Rp13,999",
-      "category_name": [
-        "Tops"
-      ],
-      "shop_name": "Distro Anak77",
-      "shop_sold_count": 5551452,
-      "aweme_count": 37,
-      "live_count": 101,
-      "author_count": 95,
-      "launch_time": "2026-07-13 14:53:11",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 38025,
-      "_total_sale": 532280184,
-      "_growth_sum": 41.62,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 6318,
-          "sale_amount": 88440885
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4156,
-          "sale_amount": 58179159
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 6406,
-          "sale_amount": 89667140
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 4169,
-          "sale_amount": 58359201
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 4381,
-          "sale_amount": 61328228
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 5672,
-          "sale_amount": 79400086
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 6923,
-          "sale_amount": 96905485
-        }
-      ],
-      "sold_count": 38025,
-      "sale_amount": 532280184,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.95,
-      "_total_sold_show": "38.0k",
-      "_total_sale_show": "$532.3M"
-    },
-    {
-      "product_id": "1730892278872310787",
-      "title": "HANASUI Next Level Butter Balm Tint - Color Butter Balm Tinted Lip Balm Melembabkan & Mencerahkan Bibir Lightweight & Cover Bibir Gelap Beauty Hyper Gloss Lip Balm",
-      "cover": "https://s.500fd.com/tt_product/39a47454e3104662aadbe26a7143a16c~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730892278872310787?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp5,000",
+      "real_price": "Rp17,634",
       "category_name": [
         "Lipstick & Lip Gloss\t"
       ],
-      "shop_name": "Hanasui",
-      "shop_sold_count": 71120452,
-      "aweme_count": 102,
-      "live_count": 187,
-      "author_count": 207,
-      "launch_time": "2025-02-24 01:07:54",
-      "_first_seen": "2026-08-06",
+      "shop_name": "Stacey Indonesia",
+      "shop_sold_count": 6227673,
+      "aweme_count": 0,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2025-10-29 11:33:27",
+      "_first_seen": "2026-08-07",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 37689,
-      "_total_sale": 188469666,
-      "_growth_sum": 44.11,
-      "_growth_count": 7,
+      "_appearances": 6,
+      "_total_sold": 42049,
+      "_total_sale": 712881094,
+      "_growth_sum": 65.7,
+      "_growth_count": 6,
       "_trend": [
         {
-          "date": "2026-08-06",
-          "sold": 4541,
-          "sale_amount": 22707415
-        },
-        {
           "date": "2026-08-07",
-          "sold": 4510,
-          "sale_amount": 22550639
+          "sold": 8087,
+          "sale_amount": 137111227
         },
         {
           "date": "2026-08-08",
-          "sold": 7179,
-          "sale_amount": 35900558
+          "sold": 6235,
+          "sale_amount": 105709914
         },
         {
           "date": "2026-08-09",
-          "sold": 4757,
-          "sale_amount": 23790235
+          "sold": 6607,
+          "sale_amount": 112004749
         },
         {
           "date": "2026-08-10",
-          "sold": 6581,
-          "sale_amount": 32908855
+          "sold": 6710,
+          "sale_amount": 113755903
         },
         {
           "date": "2026-08-11",
-          "sold": 4900,
-          "sale_amount": 24505019
+          "sold": 8173,
+          "sale_amount": 138555169
         },
         {
           "date": "2026-08-12",
-          "sold": 5221,
-          "sale_amount": 26106945
+          "sold": 6237,
+          "sale_amount": 105744132
         }
       ],
-      "sold_count": 37689,
-      "sale_amount": 188469666,
+      "sold_count": 42049,
+      "sale_amount": 712881094,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.3,
-      "_total_sold_show": "37.7k",
-      "_total_sale_show": "$188.5M"
+      "_avg_growth": 10.95,
+      "_total_sold_show": "42.0k",
+      "_total_sale_show": "$712.9M"
     },
     {
       "product_id": "1730769965814548027",
@@ -434,19 +293,14 @@
       "live_count": 0,
       "author_count": 1,
       "launch_time": "2025-01-11 02:01:57",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 36404,
-      "_total_sale": 16381406,
-      "_growth_sum": 27.16,
+      "_total_sold": 38523,
+      "_total_sale": 17334962,
+      "_growth_sum": 171.76,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 4683,
-          "sale_amount": 2107422
-        },
         {
           "date": "2026-08-07",
           "sold": 5166,
@@ -474,152 +328,84 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 5708,
-          "sale_amount": 2568306
+          "sold": 6300,
+          "sale_amount": 2834784
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 6210,
+          "sale_amount": 2794500
         }
       ],
-      "sold_count": 36404,
-      "sale_amount": 16381406,
+      "sold_count": 38523,
+      "sale_amount": 17334962,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.88,
-      "_total_sold_show": "36.4k",
-      "_total_sale_show": "$16.4M"
+      "_avg_growth": 24.54,
+      "_total_sold_show": "38.5k",
+      "_total_sale_show": "$17.3M"
     },
     {
-      "product_id": "1729926772210436178",
-      "title": "[READY] Aimilo 5in1 Pensil Set Alat Tulis Anak Lucu Dan Penghapus Untuk Tempat Pensil Buku Tulis Sekolah Stationery",
-      "cover": "https://s.500fd.com/tt_product/36eed4acdda14225a346ecb454db6efd~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729926772210436178?region=ID&local=en",
+      "product_id": "1730892278872310787",
+      "title": "HANASUI Next Level Butter Balm Tint - Color Butter Balm Tinted Lip Balm Melembabkan & Mencerahkan Bibir Lightweight & Cover Bibir Gelap Beauty Hyper Gloss Lip Balm",
+      "cover": "https://s.500fd.com/tt_product/39a47454e3104662aadbe26a7143a16c~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730892278872310787?region=ID&local=en",
       "region": "ID",
       "currency": "IDR",
-      "real_price": "Rp2,990",
-      "category_name": [
-        "Writing & Correction Tools\t"
-      ],
-      "shop_name": "Aimilo OfficiaI Store",
-      "shop_sold_count": 31250427,
-      "aweme_count": 5,
-      "live_count": 6,
-      "author_count": 9,
-      "launch_time": "2024-01-05 22:40:42",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 31097,
-      "_total_sale": 92993444,
-      "_growth_sum": 10.880000000000003,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 5138,
-          "sale_amount": 15363833
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 3463,
-          "sale_amount": 10356665
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 3783,
-          "sale_amount": 11313116
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 4415,
-          "sale_amount": 13203394
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 5442,
-          "sale_amount": 16273473
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 4017,
-          "sale_amount": 12013537
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 4839,
-          "sale_amount": 14469426
-        }
-      ],
-      "sold_count": 31097,
-      "sale_amount": 92993444,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.55,
-      "_total_sold_show": "31.1k",
-      "_total_sale_show": "$93.0M"
-    },
-    {
-      "product_id": "1734320654222132472",
-      "title": "Animate Bubble Glow Pinkiss Lip 4 ml",
-      "cover": "https://s.500fd.com/tt_product/81f39016480b4781926ee89fe5629aab~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734320654222132472?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp10,349",
+      "real_price": "Rp5,000",
       "category_name": [
         "Lipstick & Lip Gloss\t"
       ],
-      "shop_name": "Animate",
-      "shop_sold_count": 42757416,
-      "aweme_count": 142,
-      "live_count": 78,
-      "author_count": 157,
-      "launch_time": "2026-02-15 14:03:17",
-      "_first_seen": "2026-08-06",
+      "shop_name": "Hanasui",
+      "shop_sold_count": 71120452,
+      "aweme_count": 102,
+      "live_count": 187,
+      "author_count": 207,
+      "launch_time": "2025-02-24 01:07:54",
+      "_first_seen": "2026-08-07",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 28921,
-      "_total_sale": 299277741,
-      "_growth_sum": 44.27,
-      "_growth_count": 7,
+      "_appearances": 6,
+      "_total_sold": 33921,
+      "_total_sale": 169627051,
+      "_growth_sum": 21.490000000000002,
+      "_growth_count": 6,
       "_trend": [
         {
-          "date": "2026-08-06",
-          "sold": 3830,
-          "sale_amount": 39630475
-        },
-        {
           "date": "2026-08-07",
-          "sold": 4702,
-          "sale_amount": 48654994
+          "sold": 4510,
+          "sale_amount": 22550639
         },
         {
           "date": "2026-08-08",
-          "sold": 4028,
-          "sale_amount": 41685530
+          "sold": 7179,
+          "sale_amount": 35900558
         },
         {
           "date": "2026-08-09",
-          "sold": 4700,
-          "sale_amount": 48638697
+          "sold": 4757,
+          "sale_amount": 23790235
         },
         {
           "date": "2026-08-10",
-          "sold": 3570,
-          "sale_amount": 36944550
+          "sold": 6581,
+          "sale_amount": 32908855
         },
         {
           "date": "2026-08-11",
-          "sold": 3186,
-          "sale_amount": 32965786
+          "sold": 4900,
+          "sale_amount": 24505019
         },
         {
           "date": "2026-08-12",
-          "sold": 4905,
-          "sale_amount": 50757709
+          "sold": 5994,
+          "sale_amount": 29971745
         }
       ],
-      "sold_count": 28921,
-      "sale_amount": 299277741,
+      "sold_count": 33921,
+      "sale_amount": 169627051,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.32,
-      "_total_sold_show": "28.9k",
-      "_total_sale_show": "$299.3M"
+      "_avg_growth": 3.58,
+      "_total_sold_show": "33.9k",
+      "_total_sale_show": "$169.6M"
     },
     {
       "product_id": "1736204766448878861",
@@ -638,19 +424,14 @@
       "live_count": 118,
       "author_count": 102,
       "launch_time": "2026-06-23 23:01:25",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 28850,
-      "_total_sale": 634439619,
-      "_growth_sum": 40.68999999999999,
+      "_total_sold": 32073,
+      "_total_sale": 705315721,
+      "_growth_sum": -6.8500000000000085,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 4043,
-          "sale_amount": 88899058
-        },
         {
           "date": "2026-08-07",
           "sold": 4731,
@@ -678,16 +459,400 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 4566,
-          "sale_amount": 100420398
+          "sold": 6274,
+          "sale_amount": 137975138
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 5558,
+          "sale_amount": 122220420
         }
       ],
-      "sold_count": 28850,
-      "sale_amount": 634439619,
+      "sold_count": 32073,
+      "sale_amount": 705315721,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.81,
-      "_total_sold_show": "28.9k",
-      "_total_sale_show": "$634.4M"
+      "_avg_growth": -0.98,
+      "_total_sold_show": "32.1k",
+      "_total_sale_show": "$705.3M"
+    },
+    {
+      "product_id": "1736502874153518172",
+      "title": "[Free Stiker Nama] Kaos Anak HYKIDS Motif Kemerdekaan Indonesia Series untuk usia 1-12 Tahun",
+      "cover": "https://s.500fd.com/tt_product/78cfd6feaba54f7fa8bd2f9712fa3b7e~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736502874153518172?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp13,999",
+      "category_name": [
+        "Tops"
+      ],
+      "shop_name": "Distro Anak77",
+      "shop_sold_count": 5551452,
+      "aweme_count": 37,
+      "live_count": 101,
+      "author_count": 95,
+      "launch_time": "2026-07-13 14:53:11",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-12",
+      "_appearances": 6,
+      "_total_sold": 30871,
+      "_total_sale": 432140497,
+      "_growth_sum": 9.639999999999999,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 4156,
+          "sale_amount": 58179159
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 6406,
+          "sale_amount": 89667140
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4169,
+          "sale_amount": 58359201
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 4381,
+          "sale_amount": 61328228
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5672,
+          "sale_amount": 79400086
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 6087,
+          "sale_amount": 85206683
+        }
+      ],
+      "sold_count": 30871,
+      "sale_amount": 432140497,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1.61,
+      "_total_sold_show": "30.9k",
+      "_total_sale_show": "$432.1M"
+    },
+    {
+      "product_id": "1729926772210436178",
+      "title": "[READY] Aimilo 5in1 Pensil Set Alat Tulis Anak Lucu Dan Penghapus Untuk Tempat Pensil Buku Tulis Sekolah Stationery",
+      "cover": "https://s.500fd.com/tt_product/36eed4acdda14225a346ecb454db6efd~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729926772210436178?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp2,990",
+      "category_name": [
+        "Writing & Correction Tools\t"
+      ],
+      "shop_name": "Aimilo OfficiaI Store",
+      "shop_sold_count": 31250427,
+      "aweme_count": 5,
+      "live_count": 6,
+      "author_count": 9,
+      "launch_time": "2024-01-05 22:40:42",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-12",
+      "_appearances": 6,
+      "_total_sold": 27685,
+      "_total_sale": 82790731,
+      "_growth_sum": 2.910000000000002,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 3463,
+          "sale_amount": 10356665
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 3783,
+          "sale_amount": 11313116
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4415,
+          "sale_amount": 13203394
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 5442,
+          "sale_amount": 16273473
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 4017,
+          "sale_amount": 12013537
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 6565,
+          "sale_amount": 19630546
+        }
+      ],
+      "sold_count": 27685,
+      "sale_amount": 82790731,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0.49,
+      "_total_sold_show": "27.7k",
+      "_total_sale_show": "$82.8M"
+    },
+    {
+      "product_id": "1734320654222132472",
+      "title": "Animate Bubble Glow Pinkiss Lip 4 ml",
+      "cover": "https://s.500fd.com/tt_product/81f39016480b4781926ee89fe5629aab~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734320654222132472?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp10,349",
+      "category_name": [
+        "Lipstick & Lip Gloss\t"
+      ],
+      "shop_name": "Animate",
+      "shop_sold_count": 42757416,
+      "aweme_count": 142,
+      "live_count": 78,
+      "author_count": 157,
+      "launch_time": "2026-02-15 14:03:17",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-12",
+      "_appearances": 6,
+      "_total_sold": 26196,
+      "_total_sale": 271082353,
+      "_growth_sum": -6.650000000000002,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 4702,
+          "sale_amount": 48654994
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 4028,
+          "sale_amount": 41685530
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4700,
+          "sale_amount": 48638697
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 3570,
+          "sale_amount": 36944550
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 3186,
+          "sale_amount": 32965786
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 6010,
+          "sale_amount": 62192796
+        }
+      ],
+      "sold_count": 26196,
+      "sale_amount": 271082353,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -1.11,
+      "_total_sold_show": "26.2k",
+      "_total_sale_show": "$271.1M"
+    },
+    {
+      "product_id": "1729584239350876522",
+      "title": "Azalea Smooth Foot Cream - Krim Zaitun & Honey untuk Kulit Kaki Kering Pecah - Melembabkan & Mengurangi Bau - 35gr",
+      "cover": "https://s.500fd.com/tt_product/4bed9e4358a445fb80fbf85acac300b0~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729584239350876522?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp21,125",
+      "category_name": [
+        "Hand Lotions, Creams & Scrubs\t"
+      ],
+      "shop_name": "Azalea Beauty",
+      "shop_sold_count": 3404539,
+      "aweme_count": 54,
+      "live_count": 3,
+      "author_count": 46,
+      "launch_time": "2023-02-02 11:54:36",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 10574,
+      "_total_sale": 223375750,
+      "_growth_sum": 78.34,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 10574,
+          "sale_amount": 223375750
+        }
+      ],
+      "sold_count": 10574,
+      "sale_amount": 223375750,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 78.34,
+      "_total_sold_show": "10.6k",
+      "_total_sale_show": "$223.4M"
+    },
+    {
+      "product_id": "1729385223046727059",
+      "title": "[Exfo Pad Series] NPURE Acne Clear Pad Cica / Licorice Bright & Glow Exfoliating Pad - Kapas Eksfoliasi untuk Wajah / Kulit  Berjerawat & Normal / Treatment Wajah / Travel Pack Eksfoliasi Pad/kapas mencerahkan/ membersihkan pori-pori",
+      "cover": "https://s.500fd.com/tt_product/3a59235ee52e41c092585a991e30821a~tplv-aphluv4xwc-crop-webp:2250:2250.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729385223046727059?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp1,069  - 84,449",
+      "category_name": [
+        "Acne Treatments"
+      ],
+      "shop_name": "npureofficial",
+      "shop_sold_count": 61349030,
+      "aweme_count": 55,
+      "live_count": 9,
+      "author_count": 43,
+      "launch_time": "2022-06-10 18:53:48",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 8671,
+      "_total_sale": 9269299,
+      "_growth_sum": 85.16,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 8671,
+          "sale_amount": 9269299
+        }
+      ],
+      "sold_count": 8671,
+      "sale_amount": 9269299,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 85.16,
+      "_total_sold_show": "8.7k",
+      "_total_sale_show": "$9.3M"
+    },
+    {
+      "product_id": "1729419906221509377",
+      "title": "【BEST SELLER】 NEW SYB FORTE Red Jelly Serum 20ml with Niacinamide 10% untuk mencerahkan kulit wajah & mengurangi kusam",
+      "cover": "https://s.500fd.com/tt_product/22fad1cc6370460695c902558d226fee~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729419906221509377?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp8,499",
+      "category_name": [
+        "Serums & Essences\t"
+      ],
+      "shop_name": "SYB",
+      "shop_sold_count": 24425911,
+      "aweme_count": 60,
+      "live_count": 20,
+      "author_count": 72,
+      "launch_time": "2022-06-12 03:51:34",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 6422,
+      "_total_sale": 54580578,
+      "_growth_sum": 15.17,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 6422,
+          "sale_amount": 54580578
+        }
+      ],
+      "sold_count": 6422,
+      "sale_amount": 54580578,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 15.17,
+      "_total_sold_show": "6.4k",
+      "_total_sale_show": "$54.6M"
+    },
+    {
+      "product_id": "1735769448425096601",
+      "title": "sf hijab - hijab airee sport sekolah ped tebal Jersey spandek premium",
+      "cover": "https://s.500fd.com/tt_product/94d0ab885185450caf67a29236070949~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735769448425096601?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp12,000",
+      "category_name": [
+        "Instant Hijab"
+      ],
+      "shop_name": "Sf hijabOfficial",
+      "shop_sold_count": 19463741,
+      "aweme_count": 14,
+      "live_count": 10,
+      "author_count": 16,
+      "launch_time": "2026-05-26 23:13:10",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 6140,
+      "_total_sale": 73680000,
+      "_growth_sum": 8.1,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 6140,
+          "sale_amount": 73680000
+        }
+      ],
+      "sold_count": 6140,
+      "sale_amount": 73680000,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 8.1,
+      "_total_sold_show": "6.1k",
+      "_total_sale_show": "$73.7M"
+    },
+    {
+      "product_id": "1729620279713563998",
+      "title": "Kaus Kaki Wanita Hijab Transparan Ukuran Pendek Stocking Pendek Polos Transparan Kaos Kaki Hijab - 772",
+      "cover": "https://s.500fd.com/tt_product/492b0728d2fe479a8b6ffb795f2112e0~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729620279713563998?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp2,500",
+      "category_name": [
+        "Socks"
+      ],
+      "shop_name": "WEAR MY",
+      "shop_sold_count": 2253736,
+      "aweme_count": 2,
+      "live_count": 1,
+      "author_count": 3,
+      "launch_time": "2025-01-06 17:33:04",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-17",
+      "_appearances": 1,
+      "_total_sold": 5635,
+      "_total_sale": 14087500,
+      "_growth_sum": 83.31,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 5635,
+          "sale_amount": 14087500
+        }
+      ],
+      "sold_count": 5635,
+      "sale_amount": 14087500,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 83.31,
+      "_total_sold_show": "5.6k",
+      "_total_sale_show": "$14.1M"
     }
   ],
   "total_top": [
@@ -708,19 +873,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 349108,
-      "_total_sale": 8528294,
-      "_growth_sum": 1379.27,
+      "_total_sold": 553975,
+      "_total_sale": 13323817.35,
+      "_growth_sum": 168.19,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 17154,
-          "sale_amount": 563875
-        },
         {
           "date": "2026-08-07",
           "sold": 8187,
@@ -748,16 +908,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 266497,
-          "sale_amount": 6433004
+          "sold": 204760,
+          "sale_amount": 4942726
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 349108,
-      "sale_amount": 8528294,
+      "sold_count": 553975,
+      "sale_amount": 13323817.35,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 197.04,
-      "_total_sold_show": "349.1k",
-      "_total_sale_show": "$8.5M"
+      "_avg_growth": 24.03,
+      "_total_sold_show": "554.0k",
+      "_total_sale_show": "$13.3M"
     },
     {
       "product_id": "1729448464509734958",
@@ -776,19 +941,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 323822,
-      "_total_sale": 8941065,
-      "_growth_sum": 949.47,
+      "_total_sold": 509043,
+      "_total_sale": 13826233.030000001,
+      "_growth_sum": -24.53,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 27541,
-          "sale_amount": 792236
-        },
         {
           "date": "2026-08-07",
           "sold": 45241,
@@ -816,84 +976,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 134060,
-          "sale_amount": 3577296
+          "sold": 152611,
+          "sale_amount": 4072317
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 323822,
-      "sale_amount": 8941065,
+      "sold_count": 509043,
+      "sale_amount": 13826233.030000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 135.64,
-      "_total_sold_show": "323.8k",
-      "_total_sale_show": "$8.9M"
-    },
-    {
-      "product_id": "1729612709100426165",
-      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
-      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$1.69",
-      "category_name": [
-        "冲调饮品"
-      ],
-      "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5169227,
-      "aweme_count": 70,
-      "live_count": 1176,
-      "author_count": 395,
-      "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 271425,
-      "_total_sale": 650308,
-      "_growth_sum": 480.75,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 46911,
-          "sale_amount": 66771
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 29491,
-          "sale_amount": 107779
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 35953,
-          "sale_amount": 32443
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 10927,
-          "sale_amount": 56548
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 10353,
-          "sale_amount": 26572
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 20471,
-          "sale_amount": 128215
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 117319,
-          "sale_amount": 231980
-        }
-      ],
-      "sold_count": 271425,
-      "sale_amount": 650308,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 68.68,
-      "_total_sold_show": "271.4k",
-      "_total_sale_show": "$650.3k"
+      "_avg_growth": -3.5,
+      "_total_sold_show": "509.0k",
+      "_total_sale_show": "$13.8M"
     },
     {
       "product_id": "1729679758111249333",
@@ -912,19 +1009,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 265186,
-      "_total_sale": 496527,
-      "_growth_sum": 303.39,
+      "_total_sold": 420530,
+      "_total_sale": 786044.4299999999,
+      "_growth_sum": 246.84000000000003,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 22115,
-          "sale_amount": 45707
-        },
         {
           "date": "2026-08-07",
           "sold": 48949,
@@ -952,16 +1044,89 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 80170,
-          "sale_amount": 151443
+          "sold": 118370,
+          "sale_amount": 223604
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 265186,
-      "sale_amount": 496527,
+      "sold_count": 420530,
+      "sale_amount": 786044.4299999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 43.34,
-      "_total_sold_show": "265.2k",
-      "_total_sale_show": "$496.5k"
+      "_avg_growth": 35.26,
+      "_total_sold_show": "420.5k",
+      "_total_sale_show": "$786.0k"
+    },
+    {
+      "product_id": "1729612709100426165",
+      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
+      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$1.69",
+      "category_name": [
+        "冲调饮品"
+      ],
+      "shop_name": "Caffeine, Candles & Chaos",
+      "shop_sold_count": 5169227,
+      "aweme_count": 70,
+      "live_count": 1176,
+      "author_count": 395,
+      "launch_time": "2024-12-12 17:18:36",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
+      "_appearances": 7,
+      "_total_sold": 285950,
+      "_total_sale": 705015.97,
+      "_growth_sum": 0.2000000000000064,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 29491,
+          "sale_amount": 107779
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 35953,
+          "sale_amount": 32443
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 10927,
+          "sale_amount": 56548
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 10353,
+          "sale_amount": 26572
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 20471,
+          "sale_amount": 128215
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 101015,
+          "sale_amount": 199741
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 77740,
+          "sale_amount": 153717.97
+        }
+      ],
+      "sold_count": 285950,
+      "sale_amount": 705015.97,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0.03,
+      "_total_sold_show": "285.9k",
+      "_total_sale_show": "$705.0k"
     },
     {
       "product_id": "1731406217255686451",
@@ -980,19 +1145,14 @@
       "live_count": 883,
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 184448,
-      "_total_sale": 3567819,
-      "_growth_sum": 485.2,
+      "_total_sold": 270396,
+      "_total_sale": 5238813.73,
+      "_growth_sum": 117.25,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 7584,
-          "sale_amount": 314175
-        },
         {
           "date": "2026-08-07",
           "sold": 11940,
@@ -1020,16 +1180,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 93873,
-          "sale_amount": 1992397
+          "sold": 101083,
+          "sale_amount": 2145431
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 86322,
+          "sale_amount": 1832135.73
         }
       ],
-      "sold_count": 184448,
-      "sale_amount": 3567819,
+      "sold_count": 270396,
+      "sale_amount": 5238813.73,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 69.31,
-      "_total_sold_show": "184.4k",
-      "_total_sale_show": "$3.6M"
+      "_avg_growth": 16.75,
+      "_total_sold_show": "270.4k",
+      "_total_sale_show": "$5.2M"
     },
     {
       "product_id": "1731879234948338174",
@@ -1048,19 +1213,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 153783,
-      "_total_sale": 2920872,
-      "_growth_sum": 767.56,
+      "_total_sold": 259304,
+      "_total_sale": 4570334.5,
+      "_growth_sum": -74.26000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 17656,
-          "sale_amount": 425829
-        },
         {
           "date": "2026-08-07",
           "sold": 13888,
@@ -1088,84 +1248,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 61944,
-          "sale_amount": 1043633
+          "sold": 94491,
+          "sale_amount": 1591986
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 90630,
+          "sale_amount": 1526938.5
         }
       ],
-      "sold_count": 153783,
-      "sale_amount": 2920872,
+      "sold_count": 259304,
+      "sale_amount": 4570334.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 109.65,
-      "_total_sold_show": "153.8k",
-      "_total_sale_show": "$2.9M"
-    },
-    {
-      "product_id": "1731236289885213002",
-      "title": "SEESE Cordless Pressure Washer and Single Port Charger Base, Bottle Portable Washer for Car,Home Cleaning & Garden Watering",
-      "cover": "https://s.500fd.com/tt_product/40df5ced27dd49019e8467ebe1787b56~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731236289885213002?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$34.99 - 44.97",
-      "category_name": [
-        "水枪和雪沫喷枪"
-      ],
-      "shop_name": "SEESE Store",
-      "shop_sold_count": 1832991,
-      "aweme_count": 424,
-      "live_count": 2077,
-      "author_count": 1529,
-      "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 152943,
-      "_total_sale": 7689056,
-      "_growth_sum": 2809.63,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 3454,
-          "sale_amount": 336692
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 2697,
-          "sale_amount": 112163
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 6967,
-          "sale_amount": 364873
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6046,
-          "sale_amount": 90596
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 5529,
-          "sale_amount": 300897
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 4399,
-          "sale_amount": 335969
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 123851,
-          "sale_amount": 6147866
-        }
-      ],
-      "sold_count": 152943,
-      "sale_amount": 7689056,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 401.38,
-      "_total_sold_show": "152.9k",
-      "_total_sale_show": "$7.7M"
+      "_avg_growth": -10.61,
+      "_total_sold_show": "259.3k",
+      "_total_sale_show": "$4.6M"
     },
     {
       "product_id": "1732164626458252048",
@@ -1184,19 +1281,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 135554,
-      "_total_sale": 2521005,
-      "_growth_sum": 668.9,
+      "_total_sold": 226856,
+      "_total_sale": 4446744.04,
+      "_growth_sum": 15.370000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 10230,
-          "sale_amount": 205632
-        },
         {
           "date": "2026-08-07",
           "sold": 10310,
@@ -1224,16 +1316,89 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 80097,
-          "sale_amount": 1681423
+          "sold": 89823,
+          "sale_amount": 1885583
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 91806,
+          "sale_amount": 1927211.04
         }
       ],
-      "sold_count": 135554,
-      "sale_amount": 2521005,
+      "sold_count": 226856,
+      "sale_amount": 4446744.04,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 95.56,
-      "_total_sold_show": "135.6k",
-      "_total_sale_show": "$2.5M"
+      "_avg_growth": 2.2,
+      "_total_sold_show": "226.9k",
+      "_total_sale_show": "$4.4M"
+    },
+    {
+      "product_id": "1731236289885213002",
+      "title": "SEESE Cordless Pressure Washer and Single Port Charger Base, Bottle Portable Washer for Car,Home Cleaning & Garden Watering",
+      "cover": "https://s.500fd.com/tt_product/40df5ced27dd49019e8467ebe1787b56~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731236289885213002?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$34.99 - 44.97",
+      "category_name": [
+        "水枪和雪沫喷枪"
+      ],
+      "shop_name": "SEESE Store",
+      "shop_sold_count": 1832991,
+      "aweme_count": 424,
+      "live_count": 2077,
+      "author_count": 1529,
+      "launch_time": "2025-07-10 11:27:59",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
+      "_appearances": 7,
+      "_total_sold": 226288,
+      "_total_sale": 11164554.719999999,
+      "_growth_sum": 300.58,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 2697,
+          "sale_amount": 112163
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 6967,
+          "sale_amount": 364873
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 6046,
+          "sale_amount": 90596
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 5529,
+          "sale_amount": 300897
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 4399,
+          "sale_amount": 335969
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 95828,
+          "sale_amount": 4756809
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        }
+      ],
+      "sold_count": 226288,
+      "sale_amount": 11164554.719999999,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 42.94,
+      "_total_sold_show": "226.3k",
+      "_total_sale_show": "$11.2M"
     },
     {
       "product_id": "1731528580940468633",
@@ -1252,19 +1417,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 114223,
-      "_total_sale": 1663651,
-      "_growth_sum": 6844.860000000001,
+      "_total_sold": 203669,
+      "_total_sale": 2923555.01,
+      "_growth_sum": 45.77000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 3109,
-          "sale_amount": 71115
-        },
         {
           "date": "2026-08-07",
           "sold": 1844,
@@ -1292,16 +1452,21 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 99983,
-          "sale_amount": 1437853
+          "sold": 106399,
+          "sale_amount": 1530114
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 86139,
+          "sale_amount": 1238758.01
         }
       ],
-      "sold_count": 114223,
-      "sale_amount": 1663651,
+      "sold_count": 203669,
+      "sale_amount": 2923555.01,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 977.84,
-      "_total_sold_show": "114.2k",
-      "_total_sale_show": "$1.7M"
+      "_avg_growth": 6.54,
+      "_total_sold_show": "203.7k",
+      "_total_sale_show": "$2.9M"
     },
     {
       "product_id": "1732413417772650787",
@@ -1320,19 +1485,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 79429,
-      "_total_sale": 406690,
-      "_growth_sum": 1810.1,
+      "_total_sold": 198064,
+      "_total_sale": 1000297,
+      "_growth_sum": 2798.33,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 2626,
-          "sale_amount": 13341
-        },
         {
           "date": "2026-08-07",
           "sold": 1616,
@@ -1360,359 +1520,24 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 65102,
-          "sale_amount": 325857
+          "sold": 97905,
+          "sale_amount": 490046
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 79429,
-      "sale_amount": 406690,
+      "sold_count": 198064,
+      "sale_amount": 1000297,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 258.59,
-      "_total_sold_show": "79.4k",
-      "_total_sale_show": "$406.7k"
+      "_avg_growth": 399.76,
+      "_total_sold_show": "198.1k",
+      "_total_sale_show": "$1.0M"
     }
   ],
   "growth_top": [
-    {
-      "product_id": "1732960949028226133",
-      "title": "[TS] Stacey Jelly Ink Lip Stain - Travel Size",
-      "cover": "https://s.500fd.com/tt_product/c8758d0aedf74ec0bb3dba14b357adc6~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732960949028226133?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp17,634",
-      "category_name": [
-        "Lipstick & Lip Gloss\t"
-      ],
-      "shop_name": "Stacey Indonesia",
-      "shop_sold_count": 6227673,
-      "aweme_count": 0,
-      "live_count": 1,
-      "author_count": 1,
-      "launch_time": "2025-10-29 11:33:27",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 49748,
-      "_total_sale": 843401781,
-      "_growth_sum": 60.51,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 5403,
-          "sale_amount": 91595567
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 8087,
-          "sale_amount": 137111227
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 6235,
-          "sale_amount": 105709914
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6607,
-          "sale_amount": 112004749
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6710,
-          "sale_amount": 113755903
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 8173,
-          "sale_amount": 138555169
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 8533,
-          "sale_amount": 144669252
-        }
-      ],
-      "sold_count": 49748,
-      "sale_amount": 843401781,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.64,
-      "_total_sold_show": "49.7k",
-      "_total_sale_show": "$843.4M"
-    },
-    {
-      "product_id": "1734320654222132472",
-      "title": "Animate Bubble Glow Pinkiss Lip 4 ml",
-      "cover": "https://s.500fd.com/tt_product/81f39016480b4781926ee89fe5629aab~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734320654222132472?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp10,349",
-      "category_name": [
-        "Lipstick & Lip Gloss\t"
-      ],
-      "shop_name": "Animate",
-      "shop_sold_count": 42757416,
-      "aweme_count": 142,
-      "live_count": 78,
-      "author_count": 157,
-      "launch_time": "2026-02-15 14:03:17",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 28921,
-      "_total_sale": 299277741,
-      "_growth_sum": 44.27,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 3830,
-          "sale_amount": 39630475
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4702,
-          "sale_amount": 48654994
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 4028,
-          "sale_amount": 41685530
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 4700,
-          "sale_amount": 48638697
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 3570,
-          "sale_amount": 36944550
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 3186,
-          "sale_amount": 32965786
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 4905,
-          "sale_amount": 50757709
-        }
-      ],
-      "sold_count": 28921,
-      "sale_amount": 299277741,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.32,
-      "_total_sold_show": "28.9k",
-      "_total_sale_show": "$299.3M"
-    },
-    {
-      "product_id": "1730892278872310787",
-      "title": "HANASUI Next Level Butter Balm Tint - Color Butter Balm Tinted Lip Balm Melembabkan & Mencerahkan Bibir Lightweight & Cover Bibir Gelap Beauty Hyper Gloss Lip Balm",
-      "cover": "https://s.500fd.com/tt_product/39a47454e3104662aadbe26a7143a16c~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730892278872310787?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp5,000",
-      "category_name": [
-        "Lipstick & Lip Gloss\t"
-      ],
-      "shop_name": "Hanasui",
-      "shop_sold_count": 71120452,
-      "aweme_count": 102,
-      "live_count": 187,
-      "author_count": 207,
-      "launch_time": "2025-02-24 01:07:54",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 37689,
-      "_total_sale": 188469666,
-      "_growth_sum": 44.11,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 4541,
-          "sale_amount": 22707415
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4510,
-          "sale_amount": 22550639
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 7179,
-          "sale_amount": 35900558
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 4757,
-          "sale_amount": 23790235
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6581,
-          "sale_amount": 32908855
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 4900,
-          "sale_amount": 24505019
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 5221,
-          "sale_amount": 26106945
-        }
-      ],
-      "sold_count": 37689,
-      "sale_amount": 188469666,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.3,
-      "_total_sold_show": "37.7k",
-      "_total_sale_show": "$188.5M"
-    },
-    {
-      "product_id": "1736502874153518172",
-      "title": "[Free Stiker Nama] Kaos Anak HYKIDS Motif Kemerdekaan Indonesia Series untuk usia 1-12 Tahun",
-      "cover": "https://s.500fd.com/tt_product/78cfd6feaba54f7fa8bd2f9712fa3b7e~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736502874153518172?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp13,999",
-      "category_name": [
-        "Tops"
-      ],
-      "shop_name": "Distro Anak77",
-      "shop_sold_count": 5551452,
-      "aweme_count": 37,
-      "live_count": 101,
-      "author_count": 95,
-      "launch_time": "2026-07-13 14:53:11",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 38025,
-      "_total_sale": 532280184,
-      "_growth_sum": 41.62,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 6318,
-          "sale_amount": 88440885
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4156,
-          "sale_amount": 58179159
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 6406,
-          "sale_amount": 89667140
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 4169,
-          "sale_amount": 58359201
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 4381,
-          "sale_amount": 61328228
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 5672,
-          "sale_amount": 79400086
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 6923,
-          "sale_amount": 96905485
-        }
-      ],
-      "sold_count": 38025,
-      "sale_amount": 532280184,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.95,
-      "_total_sold_show": "38.0k",
-      "_total_sale_show": "$532.3M"
-    },
-    {
-      "product_id": "1736204766448878861",
-      "title": "Baju Jersey 17'an \" YSA STORE \"",
-      "cover": "https://s.500fd.com/tt_product/4a79248b0b90444ea6360ae952acc13d~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736204766448878861?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp21,990",
-      "category_name": [
-        "Jerseys"
-      ],
-      "shop_name": "STORE YSA",
-      "shop_sold_count": 571365,
-      "aweme_count": 50,
-      "live_count": 118,
-      "author_count": 102,
-      "launch_time": "2026-06-23 23:01:25",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 28850,
-      "_total_sale": 634439619,
-      "_growth_sum": 40.68999999999999,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 4043,
-          "sale_amount": 88899058
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4731,
-          "sale_amount": 104033261
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 3221,
-          "sale_amount": 70831756
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 4122,
-          "sale_amount": 90653933
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 4967,
-          "sale_amount": 109221685
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 3200,
-          "sale_amount": 70379528
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 4566,
-          "sale_amount": 100420398
-        }
-      ],
-      "sold_count": 28850,
-      "sale_amount": 634439619,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.81,
-      "_total_sold_show": "28.9k",
-      "_total_sale_show": "$634.4M"
-    },
     {
       "product_id": "1730769965814548027",
       "title": "UNIQSOO Tas Serut Sepatu Anti Kuning Pouch Travel Multifungsi Shoes Bag Penyimpanan Cover Sepatu dan Sendal Kantong Sepatu Tali Serut Serbaguna XY089",
@@ -1730,19 +1555,14 @@
       "live_count": 0,
       "author_count": 1,
       "launch_time": "2025-01-11 02:01:57",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 36404,
-      "_total_sale": 16381406,
-      "_growth_sum": 27.16,
+      "_total_sold": 38523,
+      "_total_sale": 17334962,
+      "_growth_sum": 171.76,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 4683,
-          "sale_amount": 2107422
-        },
         {
           "date": "2026-08-07",
           "sold": 5166,
@@ -1770,220 +1590,84 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 5708,
-          "sale_amount": 2568306
+          "sold": 6300,
+          "sale_amount": 2834784
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 6210,
+          "sale_amount": 2794500
         }
       ],
-      "sold_count": 36404,
-      "sale_amount": 16381406,
+      "sold_count": 38523,
+      "sale_amount": 17334962,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.88,
-      "_total_sold_show": "36.4k",
-      "_total_sale_show": "$16.4M"
+      "_avg_growth": 24.54,
+      "_total_sold_show": "38.5k",
+      "_total_sale_show": "$17.3M"
     },
     {
-      "product_id": "1729382420060341472",
-      "title": "MAYBELLINE Superstay Matte Ink Liquid Long Lasting Waterproof Matte Lipstick Lipcream Make Up Transferproof Tahan 16 Jam",
-      "cover": "https://s.500fd.com/tt_product/eadf484a58cb49bfa62fac8b49146917~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729382420060341472?region=ID&local=en",
+      "product_id": "1732960949028226133",
+      "title": "[TS] Stacey Jelly Ink Lip Stain - Travel Size",
+      "cover": "https://s.500fd.com/tt_product/c8758d0aedf74ec0bb3dba14b357adc6~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732960949028226133?region=ID&local=en",
       "region": "ID",
       "currency": "IDR",
-      "real_price": "Rp43,905",
+      "real_price": "Rp17,634",
       "category_name": [
         "Lipstick & Lip Gloss\t"
       ],
-      "shop_name": "Maybelline Indonesia",
-      "shop_sold_count": 267351703,
-      "aweme_count": 195,
-      "live_count": 360,
-      "author_count": 340,
-      "launch_time": "2022-06-10 13:59:22",
-      "_first_seen": "2026-08-06",
+      "shop_name": "Stacey Indonesia",
+      "shop_sold_count": 6227673,
+      "aweme_count": 0,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2025-10-29 11:33:27",
+      "_first_seen": "2026-08-07",
       "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 80809,
-      "_total_sale": 2967538027,
-      "_growth_sum": 24.080000000000002,
-      "_growth_count": 7,
+      "_appearances": 6,
+      "_total_sold": 42049,
+      "_total_sale": 712881094,
+      "_growth_sum": 65.7,
+      "_growth_count": 6,
       "_trend": [
         {
-          "date": "2026-08-06",
-          "sold": 11784,
-          "sale_amount": 432732149
-        },
-        {
           "date": "2026-08-07",
-          "sold": 11233,
-          "sale_amount": 412506141
+          "sold": 8087,
+          "sale_amount": 137111227
         },
         {
           "date": "2026-08-08",
-          "sold": 13602,
-          "sale_amount": 499512162
+          "sold": 6235,
+          "sale_amount": 105709914
         },
         {
           "date": "2026-08-09",
-          "sold": 9254,
-          "sale_amount": 339815968
+          "sold": 6607,
+          "sale_amount": 112004749
         },
         {
           "date": "2026-08-10",
-          "sold": 9323,
-          "sale_amount": 342377566
+          "sold": 6710,
+          "sale_amount": 113755903
         },
         {
           "date": "2026-08-11",
-          "sold": 12516,
-          "sale_amount": 459631137
+          "sold": 8173,
+          "sale_amount": 138555169
         },
         {
           "date": "2026-08-12",
-          "sold": 13097,
-          "sale_amount": 480962904
+          "sold": 6237,
+          "sale_amount": 105744132
         }
       ],
-      "sold_count": 80809,
-      "sale_amount": 2967538027,
+      "sold_count": 42049,
+      "sale_amount": 712881094,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.44,
-      "_total_sold_show": "80.8k",
-      "_total_sale_show": "$2967.5M"
-    },
-    {
-      "product_id": "1729926772210436178",
-      "title": "[READY] Aimilo 5in1 Pensil Set Alat Tulis Anak Lucu Dan Penghapus Untuk Tempat Pensil Buku Tulis Sekolah Stationery",
-      "cover": "https://s.500fd.com/tt_product/36eed4acdda14225a346ecb454db6efd~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729926772210436178?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp2,990",
-      "category_name": [
-        "Writing & Correction Tools\t"
-      ],
-      "shop_name": "Aimilo OfficiaI Store",
-      "shop_sold_count": 31250427,
-      "aweme_count": 5,
-      "live_count": 6,
-      "author_count": 9,
-      "launch_time": "2024-01-05 22:40:42",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 31097,
-      "_total_sale": 92993444,
-      "_growth_sum": 10.880000000000003,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 5138,
-          "sale_amount": 15363833
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 3463,
-          "sale_amount": 10356665
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 3783,
-          "sale_amount": 11313116
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 4415,
-          "sale_amount": 13203394
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 5442,
-          "sale_amount": 16273473
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 4017,
-          "sale_amount": 12013537
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 4839,
-          "sale_amount": 14469426
-        }
-      ],
-      "sold_count": 31097,
-      "sale_amount": 92993444,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.55,
-      "_total_sold_show": "31.1k",
-      "_total_sale_show": "$93.0M"
-    },
-    {
-      "product_id": "1736755585903592824",
-      "title": "【NEW LAUNCH】SCARLETT Eau De Parfum & Extrait De Parfum 30ml Wangi Tahan Lama - Wangi Mewah - Parfum Uniseks",
-      "cover": "https://s.500fd.com/tt_product/7fccd0f3d250491787efb1a8fd2e2d4a~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736755585903592824?region=ID&local=en",
-      "region": "ID",
-      "currency": "IDR",
-      "real_price": "Rp1,031,871",
-      "category_name": [
-        "Unisex Perfume"
-      ],
-      "shop_name": "Scarlett Whitening",
-      "shop_sold_count": 124136311,
-      "aweme_count": 219,
-      "live_count": 110,
-      "author_count": 205,
-      "launch_time": "2026-08-01 06:43:15",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
-      "_appearances": 7,
-      "_total_sold": 42821,
-      "_total_sale": 44190838554,
-      "_growth_sum": 1.1699999999999946,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 6504,
-          "sale_amount": 6712236903
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 5163,
-          "sale_amount": 5328038774
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 8235,
-          "sale_amount": 8498806814
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6213,
-          "sale_amount": 6411956119
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 5625,
-          "sale_amount": 5804877869
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 5666,
-          "sale_amount": 5847049295
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 5415,
-          "sale_amount": 5587872780
-        }
-      ],
-      "sold_count": 42821,
-      "sale_amount": 44190838554,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.17,
-      "_total_sold_show": "42.8k",
-      "_total_sale_show": "$44190.8M"
+      "_avg_growth": 10.95,
+      "_total_sold_show": "42.0k",
+      "_total_sale_show": "$712.9M"
     },
     {
       "product_id": "1735304940106318937",
@@ -2002,19 +1686,14 @@
       "live_count": 168,
       "author_count": 277,
       "launch_time": "2026-04-26 18:10:55",
-      "_first_seen": "2026-08-06",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
       "_appearances": 7,
-      "_total_sold": 65873,
-      "_total_sale": 764375552,
-      "_growth_sum": -26.339999999999996,
+      "_total_sold": 62717,
+      "_total_sale": 713658337,
+      "_growth_sum": 66.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-06",
-          "sold": 10685,
-          "sale_amount": 123986095
-        },
         {
           "date": "2026-08-07",
           "sold": 10172,
@@ -2042,16 +1721,477 @@
         },
         {
           "date": "2026-08-12",
-          "sold": 6489,
-          "sale_amount": 75293865
+          "sold": 6912,
+          "sale_amount": 80203025
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 7106,
+          "sale_amount": 68359720
         }
       ],
-      "sold_count": 65873,
-      "sale_amount": 764375552,
+      "sold_count": 62717,
+      "sale_amount": 713658337,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -3.76,
-      "_total_sold_show": "65.9k",
-      "_total_sale_show": "$764.4M"
+      "_avg_growth": 9.54,
+      "_total_sold_show": "62.7k",
+      "_total_sale_show": "$713.7M"
+    },
+    {
+      "product_id": "1729382420060341472",
+      "title": "MAYBELLINE Superstay Matte Ink Liquid Long Lasting Waterproof Matte Lipstick Lipcream Make Up Transferproof Tahan 16 Jam",
+      "cover": "https://s.500fd.com/tt_product/eadf484a58cb49bfa62fac8b49146917~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729382420060341472?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp43,905",
+      "category_name": [
+        "Lipstick & Lip Gloss\t"
+      ],
+      "shop_name": "Maybelline Indonesia",
+      "shop_sold_count": 267351703,
+      "aweme_count": 195,
+      "live_count": 360,
+      "author_count": 340,
+      "launch_time": "2022-06-10 13:59:22",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
+      "_appearances": 7,
+      "_total_sold": 77982,
+      "_total_sale": 3025418111,
+      "_growth_sum": 54.150000000000006,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 11233,
+          "sale_amount": 412506141
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 13602,
+          "sale_amount": 499512162
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 9254,
+          "sale_amount": 339815968
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 9323,
+          "sale_amount": 342377566
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 12516,
+          "sale_amount": 459631137
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 8214,
+          "sale_amount": 301649937
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 13840,
+          "sale_amount": 669925200
+        }
+      ],
+      "sold_count": 77982,
+      "sale_amount": 3025418111,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 7.74,
+      "_total_sold_show": "78.0k",
+      "_total_sale_show": "$3025.4M"
+    },
+    {
+      "product_id": "1730892278872310787",
+      "title": "HANASUI Next Level Butter Balm Tint - Color Butter Balm Tinted Lip Balm Melembabkan & Mencerahkan Bibir Lightweight & Cover Bibir Gelap Beauty Hyper Gloss Lip Balm",
+      "cover": "https://s.500fd.com/tt_product/39a47454e3104662aadbe26a7143a16c~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730892278872310787?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp5,000",
+      "category_name": [
+        "Lipstick & Lip Gloss\t"
+      ],
+      "shop_name": "Hanasui",
+      "shop_sold_count": 71120452,
+      "aweme_count": 102,
+      "live_count": 187,
+      "author_count": 207,
+      "launch_time": "2025-02-24 01:07:54",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-12",
+      "_appearances": 6,
+      "_total_sold": 33921,
+      "_total_sale": 169627051,
+      "_growth_sum": 21.490000000000002,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 4510,
+          "sale_amount": 22550639
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 7179,
+          "sale_amount": 35900558
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4757,
+          "sale_amount": 23790235
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6581,
+          "sale_amount": 32908855
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 4900,
+          "sale_amount": 24505019
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 5994,
+          "sale_amount": 29971745
+        }
+      ],
+      "sold_count": 33921,
+      "sale_amount": 169627051,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 3.58,
+      "_total_sold_show": "33.9k",
+      "_total_sale_show": "$169.6M"
+    },
+    {
+      "product_id": "1736502874153518172",
+      "title": "[Free Stiker Nama] Kaos Anak HYKIDS Motif Kemerdekaan Indonesia Series untuk usia 1-12 Tahun",
+      "cover": "https://s.500fd.com/tt_product/78cfd6feaba54f7fa8bd2f9712fa3b7e~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736502874153518172?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp13,999",
+      "category_name": [
+        "Tops"
+      ],
+      "shop_name": "Distro Anak77",
+      "shop_sold_count": 5551452,
+      "aweme_count": 37,
+      "live_count": 101,
+      "author_count": 95,
+      "launch_time": "2026-07-13 14:53:11",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-12",
+      "_appearances": 6,
+      "_total_sold": 30871,
+      "_total_sale": 432140497,
+      "_growth_sum": 9.639999999999999,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 4156,
+          "sale_amount": 58179159
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 6406,
+          "sale_amount": 89667140
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4169,
+          "sale_amount": 58359201
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 4381,
+          "sale_amount": 61328228
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5672,
+          "sale_amount": 79400086
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 6087,
+          "sale_amount": 85206683
+        }
+      ],
+      "sold_count": 30871,
+      "sale_amount": 432140497,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1.61,
+      "_total_sold_show": "30.9k",
+      "_total_sale_show": "$432.1M"
+    },
+    {
+      "product_id": "1729926772210436178",
+      "title": "[READY] Aimilo 5in1 Pensil Set Alat Tulis Anak Lucu Dan Penghapus Untuk Tempat Pensil Buku Tulis Sekolah Stationery",
+      "cover": "https://s.500fd.com/tt_product/36eed4acdda14225a346ecb454db6efd~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729926772210436178?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp2,990",
+      "category_name": [
+        "Writing & Correction Tools\t"
+      ],
+      "shop_name": "Aimilo OfficiaI Store",
+      "shop_sold_count": 31250427,
+      "aweme_count": 5,
+      "live_count": 6,
+      "author_count": 9,
+      "launch_time": "2024-01-05 22:40:42",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-12",
+      "_appearances": 6,
+      "_total_sold": 27685,
+      "_total_sale": 82790731,
+      "_growth_sum": 2.910000000000002,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 3463,
+          "sale_amount": 10356665
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 3783,
+          "sale_amount": 11313116
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4415,
+          "sale_amount": 13203394
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 5442,
+          "sale_amount": 16273473
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 4017,
+          "sale_amount": 12013537
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 6565,
+          "sale_amount": 19630546
+        }
+      ],
+      "sold_count": 27685,
+      "sale_amount": 82790731,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0.49,
+      "_total_sold_show": "27.7k",
+      "_total_sale_show": "$82.8M"
+    },
+    {
+      "product_id": "1736755585903592824",
+      "title": "【NEW LAUNCH】SCARLETT Eau De Parfum & Extrait De Parfum 30ml Wangi Tahan Lama - Wangi Mewah - Parfum Uniseks",
+      "cover": "https://s.500fd.com/tt_product/7fccd0f3d250491787efb1a8fd2e2d4a~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736755585903592824?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp1,031,871",
+      "category_name": [
+        "Unisex Perfume"
+      ],
+      "shop_name": "Scarlett Whitening",
+      "shop_sold_count": 124136311,
+      "aweme_count": 219,
+      "live_count": 110,
+      "author_count": 205,
+      "launch_time": "2026-08-01 06:43:15",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
+      "_appearances": 7,
+      "_total_sold": 50684,
+      "_total_sale": 52303469279,
+      "_growth_sum": -6.610000000000005,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 5163,
+          "sale_amount": 5328038774
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 8235,
+          "sale_amount": 8498806814
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 6213,
+          "sale_amount": 6411956119
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 5625,
+          "sale_amount": 5804877869
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5666,
+          "sale_amount": 5847049295
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 7622,
+          "sale_amount": 7865189048
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 12160,
+          "sale_amount": 12547551360
+        }
+      ],
+      "sold_count": 50684,
+      "sale_amount": 52303469279,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -0.94,
+      "_total_sold_show": "50.7k",
+      "_total_sale_show": "$52303.5M"
+    },
+    {
+      "product_id": "1736204766448878861",
+      "title": "Baju Jersey 17'an \" YSA STORE \"",
+      "cover": "https://s.500fd.com/tt_product/4a79248b0b90444ea6360ae952acc13d~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736204766448878861?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp21,990",
+      "category_name": [
+        "Jerseys"
+      ],
+      "shop_name": "STORE YSA",
+      "shop_sold_count": 571365,
+      "aweme_count": 50,
+      "live_count": 118,
+      "author_count": 102,
+      "launch_time": "2026-06-23 23:01:25",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-17",
+      "_appearances": 7,
+      "_total_sold": 32073,
+      "_total_sale": 705315721,
+      "_growth_sum": -6.8500000000000085,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 4731,
+          "sale_amount": 104033261
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 3221,
+          "sale_amount": 70831756
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4122,
+          "sale_amount": 90653933
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 4967,
+          "sale_amount": 109221685
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 3200,
+          "sale_amount": 70379528
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 6274,
+          "sale_amount": 137975138
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 5558,
+          "sale_amount": 122220420
+        }
+      ],
+      "sold_count": 32073,
+      "sale_amount": 705315721,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -0.98,
+      "_total_sold_show": "32.1k",
+      "_total_sale_show": "$705.3M"
+    },
+    {
+      "product_id": "1734320654222132472",
+      "title": "Animate Bubble Glow Pinkiss Lip 4 ml",
+      "cover": "https://s.500fd.com/tt_product/81f39016480b4781926ee89fe5629aab~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734320654222132472?region=ID&local=en",
+      "region": "ID",
+      "currency": "IDR",
+      "real_price": "Rp10,349",
+      "category_name": [
+        "Lipstick & Lip Gloss\t"
+      ],
+      "shop_name": "Animate",
+      "shop_sold_count": 42757416,
+      "aweme_count": 142,
+      "live_count": 78,
+      "author_count": 157,
+      "launch_time": "2026-02-15 14:03:17",
+      "_first_seen": "2026-08-07",
+      "_last_seen": "2026-08-12",
+      "_appearances": 6,
+      "_total_sold": 26196,
+      "_total_sale": 271082353,
+      "_growth_sum": -6.650000000000002,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-07",
+          "sold": 4702,
+          "sale_amount": 48654994
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 4028,
+          "sale_amount": 41685530
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 4700,
+          "sale_amount": 48638697
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 3570,
+          "sale_amount": 36944550
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 3186,
+          "sale_amount": 32965786
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 6010,
+          "sale_amount": 62192796
+        }
+      ],
+      "sold_count": 26196,
+      "sale_amount": 271082353,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -1.11,
+      "_total_sold_show": "26.2k",
+      "_total_sale_show": "$271.1M"
     }
   ]
 }

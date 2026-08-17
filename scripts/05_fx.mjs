@@ -4,7 +4,8 @@
 
 import { writeFile, mkdir } from 'node:fs/promises';
 
-const ROOT = '/Users/linweiheng/.openclaw/workspace/projects/tiktokshop-trend';
+// ROOT: 兼容本地 Mac + GitHub Actions 容器（都用 process.cwd()）
+const ROOT = process.cwd();
 const OUT = `${ROOT}/data/fx.json`;
 
 // Frankfurter 不支持 VND，硬编码（最近 6 个月波动 23000-26000）
