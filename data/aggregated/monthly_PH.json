@@ -1,13 +1,13 @@
 {
   "period": "monthly",
   "region": "PH",
-  "generated_at": "2026-08-17T01:46:21.396Z",
+  "generated_at": "2026-08-18T01:41:07.018Z",
   "date_range": [
     "2026-08-03",
-    "2026-08-17"
+    "2026-08-18"
   ],
-  "daily_count": 110,
-  "total_count": 110,
+  "daily_count": 120,
+  "total_count": 120,
   "daily_top": [
     {
       "product_id": "1730591441747281569",
@@ -27,12 +27,12 @@
       "author_count": 105,
       "launch_time": "2024-12-10 10:30:23",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 114095,
-      "_total_sale": 14441082.46,
-      "_growth_sum": 35.57000000000001,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 119581,
+      "_total_sale": 15335300.46,
+      "_growth_sum": 40.38000000000001,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -88,14 +88,19 @@
           "date": "2026-08-17",
           "sold": 5234,
           "sale_amount": 1050411.46
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 5486,
+          "sale_amount": 894218
         }
       ],
-      "sold_count": 114095,
-      "sale_amount": 14441082.46,
+      "sold_count": 119581,
+      "sale_amount": 15335300.46,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.23,
-      "_total_sold_show": "114.1k",
-      "_total_sale_show": "$14.4M"
+      "_avg_growth": 3.37,
+      "_total_sold_show": "119.6k",
+      "_total_sale_show": "$15.3M"
     },
     {
       "product_id": "1734436777058469027",
@@ -281,12 +286,12 @@
       "author_count": 223,
       "launch_time": "2024-12-06 09:48:45",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-12",
-      "_appearances": 10,
-      "_total_sold": 80753,
-      "_total_sale": 4683989,
-      "_growth_sum": 46.62999999999998,
-      "_growth_count": 10,
+      "_last_seen": "2026-08-18",
+      "_appearances": 11,
+      "_total_sold": 91956,
+      "_total_sale": 5333763,
+      "_growth_sum": 215.28999999999996,
+      "_growth_count": 11,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -337,14 +342,19 @@
           "date": "2026-08-12",
           "sold": 8751,
           "sale_amount": 507584
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 11203,
+          "sale_amount": 649774
         }
       ],
-      "sold_count": 80753,
-      "sale_amount": 4683989,
+      "sold_count": 91956,
+      "sale_amount": 5333763,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.66,
-      "_total_sold_show": "80.8k",
-      "_total_sale_show": "$4.7M"
+      "_avg_growth": 19.57,
+      "_total_sold_show": "92.0k",
+      "_total_sale_show": "$5.3M"
     },
     {
       "product_id": "1733011189528757946",
@@ -428,6 +438,94 @@
       "_avg_growth": 11.2,
       "_total_sold_show": "80.6k",
       "_total_sale_show": "$1.1M"
+    },
+    {
+      "product_id": "1736465001096250843",
+      "title": "New Plain Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
+      "cover": "https://s.500fd.com/tt_product/49fda9fdbd25430b88063ff9e1c0b0b4~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736465001096250843?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱10.60",
+      "category_name": [
+        "Curtains"
+      ],
+      "shop_name": "Lumina Curtains",
+      "shop_sold_count": 114400,
+      "aweme_count": 11,
+      "live_count": 64,
+      "author_count": 42,
+      "launch_time": "2026-07-12 19:56:22",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-18",
+      "_appearances": 11,
+      "_total_sold": 78728,
+      "_total_sale": 779452.6,
+      "_growth_sum": 725.6500000000001,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 6836,
+          "sale_amount": 67682
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 10731,
+          "sale_amount": 106240
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 6928,
+          "sale_amount": 68588
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 6450,
+          "sale_amount": 63864
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 4348,
+          "sale_amount": 43050
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 4750,
+          "sale_amount": 47026
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 5543,
+          "sale_amount": 54883
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6832,
+          "sale_amount": 67645
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5044,
+          "sale_amount": 49937
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 8242,
+          "sale_amount": 81600
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 13024,
+          "sale_amount": 128937.6
+        }
+      ],
+      "sold_count": 78728,
+      "sale_amount": 779452.6,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 65.97,
+      "_total_sold_show": "78.7k",
+      "_total_sale_show": "$779.5k"
     },
     {
       "product_id": "1735893324238718195",
@@ -684,89 +782,6 @@
       "_total_sale_show": "$3.4M"
     },
     {
-      "product_id": "1736465001096250843",
-      "title": "New Plain Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
-      "cover": "https://s.500fd.com/tt_product/49fda9fdbd25430b88063ff9e1c0b0b4~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736465001096250843?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱10.60",
-      "category_name": [
-        "Curtains"
-      ],
-      "shop_name": "Lumina Curtains",
-      "shop_sold_count": 114400,
-      "aweme_count": 11,
-      "live_count": 64,
-      "author_count": 42,
-      "launch_time": "2026-07-12 19:56:22",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-12",
-      "_appearances": 10,
-      "_total_sold": 65704,
-      "_total_sale": 650515,
-      "_growth_sum": 63.57,
-      "_growth_count": 10,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 6836,
-          "sale_amount": 67682
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 10731,
-          "sale_amount": 106240
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 6928,
-          "sale_amount": 68588
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 6450,
-          "sale_amount": 63864
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4348,
-          "sale_amount": 43050
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 4750,
-          "sale_amount": 47026
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 5543,
-          "sale_amount": 54883
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6832,
-          "sale_amount": 67645
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 5044,
-          "sale_amount": 49937
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 8242,
-          "sale_amount": 81600
-        }
-      ],
-      "sold_count": 65704,
-      "sale_amount": 650515,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.36,
-      "_total_sold_show": "65.7k",
-      "_total_sale_show": "$650.5k"
-    },
-    {
       "product_id": "1735299522673149715",
       "title": "Magic Sarap 8g x 16 Multi-function Spice Granules Full-bodied Rich Chicken Flavor",
       "cover": "https://s.500fd.com/tt_product/8fc72548711449a4a964993c9b2bcdc0~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
@@ -867,25 +882,154 @@
       "author_count": 48,
       "launch_time": "2025-03-05 21:41:18",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 10723,
-      "_total_sale": 428920,
-      "_growth_sum": 266.85,
-      "_growth_count": 1,
+      "_last_seen": "2026-08-18",
+      "_appearances": 2,
+      "_total_sold": 31866,
+      "_total_sale": 1274640,
+      "_growth_sum": 364.02000000000004,
+      "_growth_count": 2,
       "_trend": [
         {
           "date": "2026-08-17",
           "sold": 10723,
           "sale_amount": 428920
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 21143,
+          "sale_amount": 845720
         }
       ],
-      "sold_count": 10723,
-      "sale_amount": 428920,
+      "sold_count": 31866,
+      "sale_amount": 1274640,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 266.85,
-      "_total_sold_show": "10.7k",
-      "_total_sale_show": "$428.9k"
+      "_avg_growth": 182.01,
+      "_total_sold_show": "31.9k",
+      "_total_sale_show": "$1.3M"
+    },
+    {
+      "product_id": "1735851360402113776",
+      "title": "（This gift includes only the toolkit）Retro-style nails with a cool tortoiseshell gradient effect and French tips with subtle checkered patterns. Reusable and easy to apply—perfect for autumn and everyday looks.",
+      "cover": "https://s.500fd.com/tt_product/8be2c72bc7094f30a7875f287f33193c~tplv-aphluv4xwc-crop-webp:1920:1920.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735851360402113776?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱25.00  - 225.00",
+      "category_name": [
+        "Nail Art Decoration & Accessories"
+      ],
+      "shop_name": "MISS SXY",
+      "shop_sold_count": 255435,
+      "aweme_count": 4,
+      "live_count": 1,
+      "author_count": 5,
+      "launch_time": "2026-06-10 02:02:23",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-18",
+      "_appearances": 2,
+      "_total_sold": 13027,
+      "_total_sale": 325675,
+      "_growth_sum": 43.230000000000004,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 6332,
+          "sale_amount": 158300
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 6695,
+          "sale_amount": 167375
+        }
+      ],
+      "sold_count": 13027,
+      "sale_amount": 325675,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 21.62,
+      "_total_sold_show": "13.0k",
+      "_total_sale_show": "$325.7k"
+    },
+    {
+      "product_id": "1735162764593104307",
+      "title": "Mas mura ang bundle BQI Upgraded Version 100-120 Cluster False Eyelashes Self-Adhesive Softer Lashes Glue-Free 10-12mm C Curl Natural False Eyelashes Long-lasting Curling Lazy Single Cluster Eyelashes Reusable Eye Makeup",
+      "cover": "https://s.500fd.com/tt_product/3008fdf397454a6296fda01bd5ed59d0~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735162764593104307?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱13.99",
+      "category_name": [
+        "False Eyelashes & Adhesives"
+      ],
+      "shop_name": "Saturday amusement park",
+      "shop_sold_count": 6918924,
+      "aweme_count": 16,
+      "live_count": 26,
+      "author_count": 20,
+      "launch_time": "2026-04-17 16:12:18",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-18",
+      "_appearances": 2,
+      "_total_sold": 11064,
+      "_total_sale": 154785.36,
+      "_growth_sum": 5.710000000000001,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 5207,
+          "sale_amount": 72845.93
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 5857,
+          "sale_amount": 81939.43
+        }
+      ],
+      "sold_count": 11064,
+      "sale_amount": 154785.36,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 2.86,
+      "_total_sold_show": "11.1k",
+      "_total_sale_show": "$154.8k"
+    },
+    {
+      "product_id": "1736482358295496010",
+      "title": "[NEW] Seoul Secrets 10X Whitening Soap 72-Hours Long-Lasting Fresh Fragrance for Body | Brightening Body Soap | Moisturizing Beauty Bar | Deep Clean | All Skin Types",
+      "cover": "https://s.500fd.com/tt_product/f8e4c701875844b6997ea2fe450782fe~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736482358295496010?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱45.00",
+      "category_name": [
+        "Body Wash & Soap"
+      ],
+      "shop_name": "SEOUL SECRETS",
+      "shop_sold_count": 5229828,
+      "aweme_count": 49,
+      "live_count": 11,
+      "author_count": 40,
+      "launch_time": "2026-07-13 15:00:15",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-18",
+      "_appearances": 1,
+      "_total_sold": 9133,
+      "_total_sale": 410985,
+      "_growth_sum": 0,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 9133,
+          "sale_amount": 410985
+        }
+      ],
+      "sold_count": 9133,
+      "sale_amount": 410985,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0,
+      "_total_sold_show": "9.1k",
+      "_total_sale_show": "$411.0k"
     },
     {
       "product_id": "1732046103640770448",
@@ -964,6 +1108,44 @@
       "_total_sale_show": "$633.3k"
     },
     {
+      "product_id": "1732770898798479335",
+      "title": "Hikari Magic Tawas Cream for moisturizing, underarm whitening, soothing, brightening, underarm deodorizing, skincare",
+      "cover": "https://s.500fd.com/tt_product/1a553c20fac14dfea3ee50e4847e253e~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732770898798479335?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱8.63",
+      "category_name": [
+        "Body Creams & Lotions\t"
+      ],
+      "shop_name": "A&J Beauty and Wellness Shop",
+      "shop_sold_count": 9365557,
+      "aweme_count": 44,
+      "live_count": 22,
+      "author_count": 59,
+      "launch_time": "2025-10-08 14:20:50",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-18",
+      "_appearances": 1,
+      "_total_sold": 7781,
+      "_total_sale": 67150.03,
+      "_growth_sum": 73.8,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 7781,
+          "sale_amount": 67150.03
+        }
+      ],
+      "sold_count": 7781,
+      "sale_amount": 67150.03,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 73.8,
+      "_total_sold_show": "7.8k",
+      "_total_sale_show": "$67.2k"
+    },
+    {
       "product_id": "1731383280304621200",
       "title": "（95-100PCS）  Colorful Dense Fuzzy wire  Christmas Present  New Year gift  Fuzzy wires  Chenille yarn  Pipe Cleaner  Fluffy Sticks  Craft  Children's Handmade DIY  Macaron  Flowers Arts Decorations   For Boyfriend and Girlfriend gifts  Christmas Gift",
       "cover": "https://s.500fd.com/tt_product/6f9f3903691e408ea188f20b98a219fb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -1002,42 +1184,42 @@
       "_total_sale_show": "$144.8k"
     },
     {
-      "product_id": "1735851360402113776",
-      "title": "（This gift includes only the toolkit）Retro-style nails with a cool tortoiseshell gradient effect and French tips with subtle checkered patterns. Reusable and easy to apply—perfect for autumn and everyday looks.",
-      "cover": "https://s.500fd.com/tt_product/8be2c72bc7094f30a7875f287f33193c~tplv-aphluv4xwc-crop-webp:1920:1920.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735851360402113776?region=PH&local=en",
+      "product_id": "1734600717246498122",
+      "title": "sanapo mini mop with sponge for absorbing water, perfect for home use, desktops, handheld use, and bathroom cleaning – a lazy person's table cleaning marvel.",
+      "cover": "https://s.500fd.com/tt_product/d6b05a2a32ff4bfcaccf0411cc26cb8c~tplv-o3syd03w52-crop-webp:1006:1006.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734600717246498122?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱25.00  - 225.00",
+      "real_price": "₱19.20",
       "category_name": [
-        "Nail Art Decoration & Accessories"
+        "Mops"
       ],
-      "shop_name": "MISS SXY",
-      "shop_sold_count": 255435,
-      "aweme_count": 4,
-      "live_count": 1,
-      "author_count": 5,
-      "launch_time": "2026-06-10 02:02:23",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
+      "shop_name": "SUPER LV",
+      "shop_sold_count": 3259683,
+      "aweme_count": 22,
+      "live_count": 0,
+      "author_count": 18,
+      "launch_time": "2026-04-06 09:18:26",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-18",
       "_appearances": 1,
-      "_total_sold": 6332,
-      "_total_sale": 158300,
-      "_growth_sum": 37.5,
+      "_total_sold": 5982,
+      "_total_sale": 114854.4,
+      "_growth_sum": 51.98,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 6332,
-          "sale_amount": 158300
+          "date": "2026-08-18",
+          "sold": 5982,
+          "sale_amount": 114854.4
         }
       ],
-      "sold_count": 6332,
-      "sale_amount": 158300,
+      "sold_count": 5982,
+      "sale_amount": 114854.4,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 37.5,
-      "_total_sold_show": "6.3k",
-      "_total_sale_show": "$158.3k"
+      "_avg_growth": 51.98,
+      "_total_sold_show": "6.0k",
+      "_total_sale_show": "$114.9k"
     },
     {
       "product_id": "1729640333411453016",
@@ -1078,6 +1260,44 @@
       "_total_sale_show": "$235.6k"
     },
     {
+      "product_id": "1729431211155884475",
+      "title": "Umbrella Automatic Sunny Umbrella Anti-ultraviolet Folding Umbrella Men Women UV Design",
+      "cover": "https://s.500fd.com/tt_product/341fda3f5dbe4d5ab31538f38829cd5a~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729431211155884475?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱124.99  - 125.00",
+      "category_name": [
+        "Umbrellas"
+      ],
+      "shop_name": "HOLO",
+      "shop_sold_count": 18530816,
+      "aweme_count": 29,
+      "live_count": 57,
+      "author_count": 58,
+      "launch_time": "2022-08-17 16:29:05",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-18",
+      "_appearances": 1,
+      "_total_sold": 5596,
+      "_total_sale": 573590,
+      "_growth_sum": 36.35,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 5596,
+          "sale_amount": 573590
+        }
+      ],
+      "sold_count": 5596,
+      "sale_amount": 573590,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 36.35,
+      "_total_sold_show": "5.6k",
+      "_total_sale_show": "$573.6k"
+    },
+    {
       "product_id": "1734597813021279773",
       "title": "B1T1 Biscuit Assorties – Delicious Assorted Crispy Biscuits Variety Pack for Snacks, Sharing & Gifting 300g",
       "cover": "https://s.500fd.com/tt_product/9981fa710dd84bff9e1cc07e7de707d9~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
@@ -1114,44 +1334,6 @@
       "_avg_growth": 18.64,
       "_total_sold_show": "5.4k",
       "_total_sale_show": "$209.2k"
-    },
-    {
-      "product_id": "1735162764593104307",
-      "title": "Mas mura ang bundle BQI Upgraded Version 100-120 Cluster False Eyelashes Self-Adhesive Softer Lashes Glue-Free 10-12mm C Curl Natural False Eyelashes Long-lasting Curling Lazy Single Cluster Eyelashes Reusable Eye Makeup",
-      "cover": "https://s.500fd.com/tt_product/3008fdf397454a6296fda01bd5ed59d0~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735162764593104307?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱13.99",
-      "category_name": [
-        "False Eyelashes & Adhesives"
-      ],
-      "shop_name": "Saturday amusement park",
-      "shop_sold_count": 6918924,
-      "aweme_count": 16,
-      "live_count": 26,
-      "author_count": 20,
-      "launch_time": "2026-04-17 16:12:18",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 5207,
-      "_total_sale": 72845.93,
-      "_growth_sum": -6.77,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 5207,
-          "sale_amount": 72845.93
-        }
-      ],
-      "sold_count": 5207,
-      "sale_amount": 72845.93,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -6.77,
-      "_total_sold_show": "5.2k",
-      "_total_sale_show": "$72.8k"
     }
   ],
   "total_top": [
@@ -1173,12 +1355,12 @@
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 1102713,
-      "_total_sale": 26719671.35,
-      "_growth_sum": 158.56,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 1386471,
+      "_total_sale": 33569347.7,
+      "_growth_sum": 193.75,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1234,14 +1416,19 @@
           "date": "2026-08-17",
           "sold": 283758,
           "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 1102713,
-      "sale_amount": 26719671.35,
+      "sold_count": 1386471,
+      "sale_amount": 33569347.7,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 14.41,
-      "_total_sold_show": "1.1M",
-      "_total_sale_show": "$26.7M"
+      "_avg_growth": 16.15,
+      "_total_sold_show": "1.4M",
+      "_total_sale_show": "$33.6M"
     },
     {
       "product_id": "1729448464509734958",
@@ -1261,12 +1448,12 @@
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 1043242,
-      "_total_sale": 28138297.03,
-      "_growth_sum": 19.29,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 1237453,
+      "_total_sale": 33320680.060000002,
+      "_growth_sum": 18.91,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1322,14 +1509,19 @@
           "date": "2026-08-17",
           "sold": 194211,
           "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 1043242,
-      "sale_amount": 28138297.03,
+      "sold_count": 1237453,
+      "sale_amount": 33320680.060000002,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.75,
-      "_total_sold_show": "1.0M",
-      "_total_sale_show": "$28.1M"
+      "_avg_growth": 1.58,
+      "_total_sold_show": "1.2M",
+      "_total_sale_show": "$33.3M"
     },
     {
       "product_id": "1729679758111249333",
@@ -1349,12 +1541,12 @@
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 794432,
-      "_total_sale": 1496288.43,
-      "_growth_sum": 307.48,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 933691,
+      "_total_sale": 1759351.8599999999,
+      "_growth_sum": 287.09000000000003,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1410,14 +1602,19 @@
           "date": "2026-08-17",
           "sold": 139259,
           "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 794432,
-      "sale_amount": 1496288.43,
+      "sold_count": 933691,
+      "sale_amount": 1759351.8599999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 27.95,
-      "_total_sold_show": "794.4k",
-      "_total_sale_show": "$1.5M"
+      "_avg_growth": 23.92,
+      "_total_sold_show": "933.7k",
+      "_total_sale_show": "$1.8M"
     },
     {
       "product_id": "1729612709100426165",
@@ -1437,12 +1634,12 @@
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 668235,
-      "_total_sale": 1434934.97,
-      "_growth_sum": 46.48000000000001,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 745975,
+      "_total_sale": 1588652.94,
+      "_growth_sum": 29.440000000000012,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1498,14 +1695,19 @@
           "date": "2026-08-17",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
-      "sold_count": 668235,
-      "sale_amount": 1434934.97,
+      "sold_count": 745975,
+      "sale_amount": 1588652.94,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.23,
-      "_total_sold_show": "668.2k",
-      "_total_sale_show": "$1.4M"
+      "_avg_growth": 2.45,
+      "_total_sold_show": "746.0k",
+      "_total_sale_show": "$1.6M"
     },
     {
       "product_id": "1732164626458252048",
@@ -1525,12 +1727,12 @@
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 599561,
-      "_total_sale": 12261534.04,
-      "_growth_sum": 8.840000000000007,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 691367,
+      "_total_sale": 14188745.079999998,
+      "_growth_sum": 10.380000000000006,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1586,14 +1788,19 @@
           "date": "2026-08-17",
           "sold": 91806,
           "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 91806,
+          "sale_amount": 1927211.04
         }
       ],
-      "sold_count": 599561,
-      "sale_amount": 12261534.04,
+      "sold_count": 691367,
+      "sale_amount": 14188745.079999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.8,
-      "_total_sold_show": "599.6k",
-      "_total_sale_show": "$12.3M"
+      "_avg_growth": 0.87,
+      "_total_sold_show": "691.4k",
+      "_total_sale_show": "$14.2M"
     },
     {
       "product_id": "1731879234948338174",
@@ -1613,12 +1820,12 @@
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 583679,
-      "_total_sale": 10163763.5,
-      "_growth_sum": -56.70000000000001,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 674309,
+      "_total_sale": 11690702,
+      "_growth_sum": -74.95000000000002,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1674,14 +1881,19 @@
           "date": "2026-08-17",
           "sold": 90630,
           "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 90630,
+          "sale_amount": 1526938.5
         }
       ],
-      "sold_count": 583679,
-      "sale_amount": 10163763.5,
+      "sold_count": 674309,
+      "sale_amount": 11690702,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -5.15,
-      "_total_sold_show": "583.7k",
-      "_total_sale_show": "$10.2M"
+      "_avg_growth": -6.25,
+      "_total_sold_show": "674.3k",
+      "_total_sale_show": "$11.7M"
     },
     {
       "product_id": "1731406217255686451",
@@ -1701,12 +1913,12 @@
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 561074,
-      "_total_sale": 11561506.73,
-      "_growth_sum": 119.89999999999998,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 647396,
+      "_total_sale": 13393642.46,
+      "_growth_sum": 132.70999999999998,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1762,102 +1974,19 @@
           "date": "2026-08-17",
           "sold": 86322,
           "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 86322,
+          "sale_amount": 1832135.73
         }
       ],
-      "sold_count": 561074,
-      "sale_amount": 11561506.73,
+      "sold_count": 647396,
+      "sale_amount": 13393642.46,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 10.9,
-      "_total_sold_show": "561.1k",
-      "_total_sale_show": "$11.6M"
-    },
-    {
-      "product_id": "1731528580940468633",
-      "title": "Bare Anatomy Nature x Science Rosemary Water with Rice Water |100% Natural Extract | Soft & Smooth Hair Non-Greasy & Fast Absorbing | 200 ml",
-      "cover": "https://s.500fd.com/tt_product/d69fc8512935405f84767d6636eff827~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731528580940468633?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$9.99",
-      "category_name": [
-        "脱发产品"
-      ],
-      "shop_name": "Bare Anatomy Haircare",
-      "shop_sold_count": 753529,
-      "aweme_count": 387,
-      "live_count": 818,
-      "author_count": 717,
-      "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 512008,
-      "_total_sale": 7384154.01,
-      "_growth_sum": 72.56000000000002,
-      "_growth_count": 11,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 106240,
-          "sale_amount": 1527827
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 82062,
-          "sale_amount": 1180126
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 116928,
-          "sale_amount": 1681531
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 3109,
-          "sale_amount": 71115
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 1844,
-          "sale_amount": 28877
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 3668,
-          "sale_amount": 28577
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 2659,
-          "sale_amount": 26278
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 1524,
-          "sale_amount": 51142
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 1436,
-          "sale_amount": 19809
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 106399,
-          "sale_amount": 1530114
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 86139,
-          "sale_amount": 1238758.01
-        }
-      ],
-      "sold_count": 512008,
-      "sale_amount": 7384154.01,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.6,
-      "_total_sold_show": "512.0k",
-      "_total_sale_show": "$7.4M"
+      "_avg_growth": 11.06,
+      "_total_sold_show": "647.4k",
+      "_total_sale_show": "$13.4M"
     },
     {
       "product_id": "1731236289885213002",
@@ -1877,12 +2006,12 @@
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 498277,
-      "_total_sale": 24831067.72,
-      "_growth_sum": 298.90999999999997,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 603099,
+      "_total_sale": 30034315.439999998,
+      "_growth_sum": 471.88,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -1938,14 +2067,112 @@
           "date": "2026-08-17",
           "sold": 104822,
           "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 104822,
+          "sale_amount": 5203247.72
         }
       ],
-      "sold_count": 498277,
-      "sale_amount": 24831067.72,
+      "sold_count": 603099,
+      "sale_amount": 30034315.439999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 27.17,
-      "_total_sold_show": "498.3k",
-      "_total_sale_show": "$24.8M"
+      "_avg_growth": 39.32,
+      "_total_sold_show": "603.1k",
+      "_total_sale_show": "$30.0M"
+    },
+    {
+      "product_id": "1731528580940468633",
+      "title": "Bare Anatomy Nature x Science Rosemary Water with Rice Water |100% Natural Extract | Soft & Smooth Hair Non-Greasy & Fast Absorbing | 200 ml",
+      "cover": "https://s.500fd.com/tt_product/d69fc8512935405f84767d6636eff827~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731528580940468633?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$9.99",
+      "category_name": [
+        "脱发产品"
+      ],
+      "shop_name": "Bare Anatomy Haircare",
+      "shop_sold_count": 753529,
+      "aweme_count": 387,
+      "live_count": 818,
+      "author_count": 717,
+      "launch_time": "2025-10-23 13:58:30",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 598147,
+      "_total_sale": 8622912.02,
+      "_growth_sum": 141.01000000000002,
+      "_growth_count": 12,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 106240,
+          "sale_amount": 1527827
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 82062,
+          "sale_amount": 1180126
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 116928,
+          "sale_amount": 1681531
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 3109,
+          "sale_amount": 71115
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 1844,
+          "sale_amount": 28877
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 3668,
+          "sale_amount": 28577
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 2659,
+          "sale_amount": 26278
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 1524,
+          "sale_amount": 51142
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 1436,
+          "sale_amount": 19809
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 106399,
+          "sale_amount": 1530114
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        }
+      ],
+      "sold_count": 598147,
+      "sale_amount": 8622912.02,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 11.75,
+      "_total_sold_show": "598.1k",
+      "_total_sale_show": "$8.6M"
     },
     {
       "product_id": "1732413417772650787",
@@ -1965,12 +2192,12 @@
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 496913,
-      "_total_sale": 2496330,
-      "_growth_sum": 2796.0499999999997,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 585371,
+      "_total_sale": 2939089,
+      "_growth_sum": 5502.459999999999,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2026,17 +2253,284 @@
           "date": "2026-08-17",
           "sold": 88458,
           "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 496913,
-      "sale_amount": 2496330,
+      "sold_count": 585371,
+      "sale_amount": 2939089,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 254.19,
-      "_total_sold_show": "496.9k",
-      "_total_sale_show": "$2.5M"
+      "_avg_growth": 458.54,
+      "_total_sold_show": "585.4k",
+      "_total_sale_show": "$2.9M"
     }
   ],
   "growth_top": [
+    {
+      "product_id": "1730931908492428332",
+      "title": "Dehumidifier 500ML | Solve Dampness and Moisture Problems | Perfect for Living Room, Kitchen, Bedroom, and Bathroom",
+      "cover": "https://s.500fd.com/tt_product/ffcca6e51ffc4d179bfdeaaf4033d827~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730931908492428332?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱40.00",
+      "category_name": [
+        "Moth, Mold & Damp Proofing"
+      ],
+      "shop_name": "NATRUTH-PH",
+      "shop_sold_count": 471642,
+      "aweme_count": 56,
+      "live_count": 5,
+      "author_count": 48,
+      "launch_time": "2025-03-05 21:41:18",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-18",
+      "_appearances": 2,
+      "_total_sold": 31866,
+      "_total_sale": 1274640,
+      "_growth_sum": 364.02000000000004,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 10723,
+          "sale_amount": 428920
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 21143,
+          "sale_amount": 845720
+        }
+      ],
+      "sold_count": 31866,
+      "sale_amount": 1274640,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 182.01,
+      "_total_sold_show": "31.9k",
+      "_total_sale_show": "$1.3M"
+    },
+    {
+      "product_id": "1736465001096250843",
+      "title": "New Plain Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
+      "cover": "https://s.500fd.com/tt_product/49fda9fdbd25430b88063ff9e1c0b0b4~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736465001096250843?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱10.60",
+      "category_name": [
+        "Curtains"
+      ],
+      "shop_name": "Lumina Curtains",
+      "shop_sold_count": 114400,
+      "aweme_count": 11,
+      "live_count": 64,
+      "author_count": 42,
+      "launch_time": "2026-07-12 19:56:22",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-18",
+      "_appearances": 11,
+      "_total_sold": 78728,
+      "_total_sale": 779452.6,
+      "_growth_sum": 725.6500000000001,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 6836,
+          "sale_amount": 67682
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 10731,
+          "sale_amount": 106240
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 6928,
+          "sale_amount": 68588
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 6450,
+          "sale_amount": 63864
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 4348,
+          "sale_amount": 43050
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 4750,
+          "sale_amount": 47026
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 5543,
+          "sale_amount": 54883
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6832,
+          "sale_amount": 67645
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5044,
+          "sale_amount": 49937
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 8242,
+          "sale_amount": 81600
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 13024,
+          "sale_amount": 128937.6
+        }
+      ],
+      "sold_count": 78728,
+      "sale_amount": 779452.6,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 65.97,
+      "_total_sold_show": "78.7k",
+      "_total_sale_show": "$779.5k"
+    },
+    {
+      "product_id": "1735851360402113776",
+      "title": "（This gift includes only the toolkit）Retro-style nails with a cool tortoiseshell gradient effect and French tips with subtle checkered patterns. Reusable and easy to apply—perfect for autumn and everyday looks.",
+      "cover": "https://s.500fd.com/tt_product/8be2c72bc7094f30a7875f287f33193c~tplv-aphluv4xwc-crop-webp:1920:1920.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735851360402113776?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱25.00  - 225.00",
+      "category_name": [
+        "Nail Art Decoration & Accessories"
+      ],
+      "shop_name": "MISS SXY",
+      "shop_sold_count": 255435,
+      "aweme_count": 4,
+      "live_count": 1,
+      "author_count": 5,
+      "launch_time": "2026-06-10 02:02:23",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-18",
+      "_appearances": 2,
+      "_total_sold": 13027,
+      "_total_sale": 325675,
+      "_growth_sum": 43.230000000000004,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 6332,
+          "sale_amount": 158300
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 6695,
+          "sale_amount": 167375
+        }
+      ],
+      "sold_count": 13027,
+      "sale_amount": 325675,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 21.62,
+      "_total_sold_show": "13.0k",
+      "_total_sale_show": "$325.7k"
+    },
+    {
+      "product_id": "1730531415480895463",
+      "title": "[New Packaging] Hikari UltraFresh Sunscreen 50ML for all skin type, whitening, brightening, no white cast, easy to blend, sun protection",
+      "cover": "https://s.500fd.com/tt_product/459a9b2037544619a61f9d757992fe6d~tplv-aphluv4xwc-crop-webp:2000:2000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730531415480895463?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱58.00",
+      "category_name": [
+        "Facial Sunscreen & Sun Care\t"
+      ],
+      "shop_name": "A&J Beauty and Wellness Shop",
+      "shop_sold_count": 9267445,
+      "aweme_count": 182,
+      "live_count": 89,
+      "author_count": 223,
+      "launch_time": "2024-12-06 09:48:45",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-18",
+      "_appearances": 11,
+      "_total_sold": 91956,
+      "_total_sale": 5333763,
+      "_growth_sum": 215.28999999999996,
+      "_growth_count": 11,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 8425,
+          "sale_amount": 488656
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 11364,
+          "sale_amount": 659174
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 9264,
+          "sale_amount": 537316
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 7468,
+          "sale_amount": 433177
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 5928,
+          "sale_amount": 343847
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 9456,
+          "sale_amount": 548474
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 7134,
+          "sale_amount": 413799
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6458,
+          "sale_amount": 374620
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 6505,
+          "sale_amount": 377342
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 8751,
+          "sale_amount": 507584
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 11203,
+          "sale_amount": 649774
+        }
+      ],
+      "sold_count": 91956,
+      "sale_amount": 5333763,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 19.57,
+      "_total_sold_show": "92.0k",
+      "_total_sale_show": "$5.3M"
+    },
     {
       "product_id": "1733011189528757946",
       "title": "FUZZY WIRE DIY Craft Kit 100pcs - 8MM High Density Fuzzy Sticks,Pipe cleaner with Complete Tools, Multi-Color Assortment, All in One Creative Art Supplies",
@@ -2209,89 +2703,6 @@
       "_total_sale_show": "$2.2M"
     },
     {
-      "product_id": "1736465001096250843",
-      "title": "New Plain Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
-      "cover": "https://s.500fd.com/tt_product/49fda9fdbd25430b88063ff9e1c0b0b4~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736465001096250843?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱10.60",
-      "category_name": [
-        "Curtains"
-      ],
-      "shop_name": "Lumina Curtains",
-      "shop_sold_count": 114400,
-      "aweme_count": 11,
-      "live_count": 64,
-      "author_count": 42,
-      "launch_time": "2026-07-12 19:56:22",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-12",
-      "_appearances": 10,
-      "_total_sold": 65704,
-      "_total_sale": 650515,
-      "_growth_sum": 63.57,
-      "_growth_count": 10,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 6836,
-          "sale_amount": 67682
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 10731,
-          "sale_amount": 106240
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 6928,
-          "sale_amount": 68588
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 6450,
-          "sale_amount": 63864
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4348,
-          "sale_amount": 43050
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 4750,
-          "sale_amount": 47026
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 5543,
-          "sale_amount": 54883
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6832,
-          "sale_amount": 67645
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 5044,
-          "sale_amount": 49937
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 8242,
-          "sale_amount": 81600
-        }
-      ],
-      "sold_count": 65704,
-      "sale_amount": 650515,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.36,
-      "_total_sold_show": "65.7k",
-      "_total_sale_show": "$650.5k"
-    },
-    {
       "product_id": "1734436777058469027",
       "title": "【Lenie’s Top Pick】JMCY Setting Spray Dual-use hydrating & setting spray that keeps makeup fresh, smudge-proof, 24H long-lasting, oil-control with SPF25 PA++",
       "cover": "https://s.500fd.com/tt_product/ef830bdf544b44deb78306be358ac58c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
@@ -2373,89 +2784,6 @@
       "_avg_growth": 4.77,
       "_total_sold_show": "109.6k",
       "_total_sale_show": "$5.4M"
-    },
-    {
-      "product_id": "1730531415480895463",
-      "title": "[New Packaging] Hikari UltraFresh Sunscreen 50ML for all skin type, whitening, brightening, no white cast, easy to blend, sun protection",
-      "cover": "https://s.500fd.com/tt_product/459a9b2037544619a61f9d757992fe6d~tplv-aphluv4xwc-crop-webp:2000:2000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730531415480895463?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱58.00",
-      "category_name": [
-        "Facial Sunscreen & Sun Care\t"
-      ],
-      "shop_name": "A&J Beauty and Wellness Shop",
-      "shop_sold_count": 9267445,
-      "aweme_count": 182,
-      "live_count": 89,
-      "author_count": 223,
-      "launch_time": "2024-12-06 09:48:45",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-12",
-      "_appearances": 10,
-      "_total_sold": 80753,
-      "_total_sale": 4683989,
-      "_growth_sum": 46.62999999999998,
-      "_growth_count": 10,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 8425,
-          "sale_amount": 488656
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 11364,
-          "sale_amount": 659174
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 9264,
-          "sale_amount": 537316
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 7468,
-          "sale_amount": 433177
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 5928,
-          "sale_amount": 343847
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 9456,
-          "sale_amount": 548474
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 7134,
-          "sale_amount": 413799
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6458,
-          "sale_amount": 374620
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 6505,
-          "sale_amount": 377342
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 8751,
-          "sale_amount": 507584
-        }
-      ],
-      "sold_count": 80753,
-      "sale_amount": 4683989,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.66,
-      "_total_sold_show": "80.8k",
-      "_total_sale_show": "$4.7M"
     },
     {
       "product_id": "1735299522673149715",
@@ -2558,12 +2886,12 @@
       "author_count": 105,
       "launch_time": "2024-12-10 10:30:23",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-17",
-      "_appearances": 11,
-      "_total_sold": 114095,
-      "_total_sale": 14441082.46,
-      "_growth_sum": 35.57000000000001,
-      "_growth_count": 11,
+      "_last_seen": "2026-08-18",
+      "_appearances": 12,
+      "_total_sold": 119581,
+      "_total_sale": 15335300.46,
+      "_growth_sum": 40.38000000000001,
+      "_growth_count": 12,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2619,14 +2947,62 @@
           "date": "2026-08-17",
           "sold": 5234,
           "sale_amount": 1050411.46
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 5486,
+          "sale_amount": 894218
         }
       ],
-      "sold_count": 114095,
-      "sale_amount": 14441082.46,
+      "sold_count": 119581,
+      "sale_amount": 15335300.46,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.23,
-      "_total_sold_show": "114.1k",
-      "_total_sale_show": "$14.4M"
+      "_avg_growth": 3.37,
+      "_total_sold_show": "119.6k",
+      "_total_sale_show": "$15.3M"
+    },
+    {
+      "product_id": "1735162764593104307",
+      "title": "Mas mura ang bundle BQI Upgraded Version 100-120 Cluster False Eyelashes Self-Adhesive Softer Lashes Glue-Free 10-12mm C Curl Natural False Eyelashes Long-lasting Curling Lazy Single Cluster Eyelashes Reusable Eye Makeup",
+      "cover": "https://s.500fd.com/tt_product/3008fdf397454a6296fda01bd5ed59d0~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735162764593104307?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱13.99",
+      "category_name": [
+        "False Eyelashes & Adhesives"
+      ],
+      "shop_name": "Saturday amusement park",
+      "shop_sold_count": 6918924,
+      "aweme_count": 16,
+      "live_count": 26,
+      "author_count": 20,
+      "launch_time": "2026-04-17 16:12:18",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-18",
+      "_appearances": 2,
+      "_total_sold": 11064,
+      "_total_sale": 154785.36,
+      "_growth_sum": 5.710000000000001,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 5207,
+          "sale_amount": 72845.93
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 5857,
+          "sale_amount": 81939.43
+        }
+      ],
+      "sold_count": 11064,
+      "sale_amount": 154785.36,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 2.86,
+      "_total_sold_show": "11.1k",
+      "_total_sale_show": "$154.8k"
     },
     {
       "product_id": "1730754462056548199",
