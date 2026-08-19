@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "PH",
-  "generated_at": "2026-08-18T01:41:06.962Z",
+  "generated_at": "2026-08-19T01:43:16.259Z",
   "date_range": [
-    "2026-08-08",
-    "2026-08-18"
+    "2026-08-09",
+    "2026-08-19"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -26,19 +26,14 @@
       "live_count": 107,
       "author_count": 105,
       "launch_time": "2024-12-10 10:30:23",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 69945,
-      "_total_sale": 9229802.46,
-      "_growth_sum": 54.67,
+      "_total_sold": 60968,
+      "_total_sale": 8611070.76,
+      "_growth_sum": 47.49000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 15226,
-          "sale_amount": 1872906
-        },
         {
           "date": "2026-08-09",
           "sold": 10358,
@@ -68,14 +63,19 @@
           "date": "2026-08-18",
           "sold": 5486,
           "sale_amount": 894218
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 6249,
+          "sale_amount": 1254174.3
         }
       ],
-      "sold_count": 69945,
-      "sale_amount": 9229802.46,
+      "sold_count": 60968,
+      "sale_amount": 8611070.76,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 7.81,
-      "_total_sold_show": "69.9k",
-      "_total_sale_show": "$9.2M"
+      "_avg_growth": 6.78,
+      "_total_sold_show": "61.0k",
+      "_total_sale_show": "$8.6M"
     },
     {
       "product_id": "1734436777058469027",
@@ -94,19 +94,14 @@
       "live_count": 49,
       "author_count": 89,
       "launch_time": "2026-02-24 05:10:28",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-12",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 5,
-      "_total_sold": 58161,
-      "_total_sale": 2849786,
-      "_growth_sum": 54.17,
+      "_total_sold": 50757,
+      "_total_sale": 2487024,
+      "_growth_sum": 136.09,
       "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 14136,
-          "sale_amount": 692630
-        },
         {
           "date": "2026-08-09",
           "sold": 9928,
@@ -126,14 +121,19 @@
           "date": "2026-08-12",
           "sold": 8847,
           "sale_amount": 433489
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 6732,
+          "sale_amount": 329868
         }
       ],
-      "sold_count": 58161,
-      "sale_amount": 2849786,
+      "sold_count": 50757,
+      "sale_amount": 2487024,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 10.83,
-      "_total_sold_show": "58.2k",
-      "_total_sale_show": "$2.8M"
+      "_avg_growth": 27.22,
+      "_total_sold_show": "50.8k",
+      "_total_sale_show": "$2.5M"
     },
     {
       "product_id": "1730531415480895463",
@@ -152,19 +152,14 @@
       "live_count": 89,
       "author_count": 223,
       "launch_time": "2024-12-06 09:48:45",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 6,
-      "_total_sold": 49507,
-      "_total_sale": 2871593,
-      "_growth_sum": 192.09,
+      "_total_sold": 46725,
+      "_total_sale": 2710211,
+      "_growth_sum": 92.14999999999998,
       "_growth_count": 6,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 9456,
-          "sale_amount": 548474
-        },
         {
           "date": "2026-08-09",
           "sold": 7134,
@@ -189,14 +184,125 @@
           "date": "2026-08-18",
           "sold": 11203,
           "sale_amount": 649774
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 6674,
+          "sale_amount": 387092
         }
       ],
-      "sold_count": 49507,
-      "sale_amount": 2871593,
+      "sold_count": 46725,
+      "sale_amount": 2710211,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 32.02,
-      "_total_sold_show": "49.5k",
-      "_total_sale_show": "$2.9M"
+      "_avg_growth": 15.36,
+      "_total_sold_show": "46.7k",
+      "_total_sale_show": "$2.7M"
+    },
+    {
+      "product_id": "1730931908492428332",
+      "title": "Dehumidifier 500ML | Solve Dampness and Moisture Problems | Perfect for Living Room, Kitchen, Bedroom, and Bathroom",
+      "cover": "https://s.500fd.com/tt_product/ffcca6e51ffc4d179bfdeaaf4033d827~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730931908492428332?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱40.00",
+      "category_name": [
+        "Moth, Mold & Damp Proofing"
+      ],
+      "shop_name": "NATRUTH-PH",
+      "shop_sold_count": 471642,
+      "aweme_count": 56,
+      "live_count": 5,
+      "author_count": 48,
+      "launch_time": "2025-03-05 21:41:18",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-19",
+      "_appearances": 3,
+      "_total_sold": 42766,
+      "_total_sale": 1710640,
+      "_growth_sum": 315.57000000000005,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 10723,
+          "sale_amount": 428920
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 21143,
+          "sale_amount": 845720
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 10900,
+          "sale_amount": 436000
+        }
+      ],
+      "sold_count": 42766,
+      "sale_amount": 1710640,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 105.19,
+      "_total_sold_show": "42.8k",
+      "_total_sale_show": "$1.7M"
+    },
+    {
+      "product_id": "1730346047548459676",
+      "title": "[BEST SELLER] The Originote Brightening Moisturizer 50 ml – Whitening Cream Tone Up Moisturizer Dark Spot Remover Cream Rejuvinating Cream Repair Hydrate Moisture Hydrating",
+      "cover": "https://s.500fd.com/tt_product/9522b93489524d4eb076857a9091e4a8~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730346047548459676?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱92.00",
+      "category_name": [
+        "Moisturizers & Mists"
+      ],
+      "shop_name": "The Originote.PH",
+      "shop_sold_count": 7600754,
+      "aweme_count": 194,
+      "live_count": 107,
+      "author_count": 226,
+      "launch_time": "2024-05-30 14:36:16",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
+      "_appearances": 5,
+      "_total_sold": 40506,
+      "_total_sale": 3972367.8,
+      "_growth_sum": 108.3,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 6264,
+          "sale_amount": 576252
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6582,
+          "sale_amount": 605568
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 8522,
+          "sale_amount": 784014
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 9145,
+          "sale_amount": 841350
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 9993,
+          "sale_amount": 1165183.8
+        }
+      ],
+      "sold_count": 40506,
+      "sale_amount": 3972367.8,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 21.66,
+      "_total_sold_show": "40.5k",
+      "_total_sale_show": "$4.0M"
     },
     {
       "product_id": "1736465001096250843",
@@ -215,19 +321,14 @@
       "live_count": 64,
       "author_count": 42,
       "launch_time": "2026-07-12 19:56:22",
-      "_first_seen": "2026-08-08",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-18",
-      "_appearances": 6,
-      "_total_sold": 43435,
-      "_total_sale": 430028.6,
-      "_growth_sum": 697.59,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 38685,
+      "_total_sale": 383002.6,
+      "_growth_sum": 688.34,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 4750,
-          "sale_amount": 47026
-        },
         {
           "date": "2026-08-09",
           "sold": 5543,
@@ -254,12 +355,12 @@
           "sale_amount": 128937.6
         }
       ],
-      "sold_count": 43435,
-      "sale_amount": 430028.6,
+      "sold_count": 38685,
+      "sale_amount": 383002.6,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 116.27,
-      "_total_sold_show": "43.4k",
-      "_total_sale_show": "$430.0k"
+      "_avg_growth": 137.67,
+      "_total_sold_show": "38.7k",
+      "_total_sale_show": "$383.0k"
     },
     {
       "product_id": "1733011189528757946",
@@ -278,19 +379,14 @@
       "live_count": 20,
       "author_count": 23,
       "launch_time": "2025-10-29 05:18:56",
-      "_first_seen": "2026-08-08",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 40154,
-      "_total_sale": 558205,
-      "_growth_sum": 16,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 32782,
+      "_total_sale": 455720,
+      "_growth_sum": 38.9,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 7372,
-          "sale_amount": 102485
-        },
         {
           "date": "2026-08-09",
           "sold": 7811,
@@ -312,128 +408,12 @@
           "sale_amount": 102518
         }
       ],
-      "sold_count": 40154,
-      "sale_amount": 558205,
+      "sold_count": 32782,
+      "sale_amount": 455720,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.2,
-      "_total_sold_show": "40.2k",
-      "_total_sale_show": "$558.2k"
-    },
-    {
-      "product_id": "1730346047548459676",
-      "title": "[BEST SELLER] The Originote Brightening Moisturizer 50 ml – Whitening Cream Tone Up Moisturizer Dark Spot Remover Cream Rejuvinating Cream Repair Hydrate Moisture Hydrating",
-      "cover": "https://s.500fd.com/tt_product/9522b93489524d4eb076857a9091e4a8~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730346047548459676?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱92.00",
-      "category_name": [
-        "Moisturizers & Mists"
-      ],
-      "shop_name": "The Originote.PH",
-      "shop_sold_count": 7600754,
-      "aweme_count": 194,
-      "live_count": 107,
-      "author_count": 226,
-      "launch_time": "2024-05-30 14:36:16",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 40137,
-      "_total_sale": 3692577,
-      "_growth_sum": 43.86,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 9624,
-          "sale_amount": 885393
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6264,
-          "sale_amount": 576252
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6582,
-          "sale_amount": 605568
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 8522,
-          "sale_amount": 784014
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 9145,
-          "sale_amount": 841350
-        }
-      ],
-      "sold_count": 40137,
-      "sale_amount": 3692577,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.77,
-      "_total_sold_show": "40.1k",
-      "_total_sale_show": "$3.7M"
-    },
-    {
-      "product_id": "1730754462056548199",
-      "title": "Unisex EVA Raincoat Portable Rain Poncho Jacket For Men Women Raincoat Reusable Quality Thickened Waterproof Adult Long Raincoat With Hood And Drawstring",
-      "cover": "https://s.500fd.com/tt_product/73dbf657448a45148e0b92752dd46e6f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1730754462056548199?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱45.80",
-      "category_name": [
-        "Raincoats"
-      ],
-      "shop_name": "Goodthing NO.1 Shop",
-      "shop_sold_count": 228302,
-      "aweme_count": 13,
-      "live_count": 14,
-      "author_count": 21,
-      "launch_time": "2025-01-17 03:51:04",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 39107,
-      "_total_sale": 1790940,
-      "_growth_sum": 22.200000000000003,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 9546,
-          "sale_amount": 437159
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6326,
-          "sale_amount": 289692
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 8750,
-          "sale_amount": 400729
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 6516,
-          "sale_amount": 298396
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 7969,
-          "sale_amount": 364964
-        }
-      ],
-      "sold_count": 39107,
-      "sale_amount": 1790940,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.44,
-      "_total_sold_show": "39.1k",
-      "_total_sale_show": "$1.8M"
+      "_avg_growth": 9.72,
+      "_total_sold_show": "32.8k",
+      "_total_sale_show": "$455.7k"
     },
     {
       "product_id": "1735893324238718195",
@@ -452,19 +432,14 @@
       "live_count": 1,
       "author_count": 3,
       "launch_time": "2026-06-07 20:17:34",
-      "_first_seen": "2026-08-08",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-17",
-      "_appearances": 6,
-      "_total_sold": 36704,
-      "_total_sale": 1072460.6400000001,
-      "_growth_sum": 79.53,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 32237,
+      "_total_sale": 941233.64,
+      "_growth_sum": 111.45,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 4467,
-          "sale_amount": 131227
-        },
         {
           "date": "2026-08-09",
           "sold": 5717,
@@ -491,12 +466,65 @@
           "sale_amount": 184920.64
         }
       ],
-      "sold_count": 36704,
-      "sale_amount": 1072460.6400000001,
+      "sold_count": 32237,
+      "sale_amount": 941233.64,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 13.26,
-      "_total_sold_show": "36.7k",
-      "_total_sale_show": "$1.1M"
+      "_avg_growth": 22.29,
+      "_total_sold_show": "32.2k",
+      "_total_sale_show": "$941.2k"
+    },
+    {
+      "product_id": "1730754462056548199",
+      "title": "Unisex EVA Raincoat Portable Rain Poncho Jacket For Men Women Raincoat Reusable Quality Thickened Waterproof Adult Long Raincoat With Hood And Drawstring",
+      "cover": "https://s.500fd.com/tt_product/73dbf657448a45148e0b92752dd46e6f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730754462056548199?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱45.80",
+      "category_name": [
+        "Raincoats"
+      ],
+      "shop_name": "Goodthing NO.1 Shop",
+      "shop_sold_count": 228302,
+      "aweme_count": 13,
+      "live_count": 14,
+      "author_count": 21,
+      "launch_time": "2025-01-17 03:51:04",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-12",
+      "_appearances": 4,
+      "_total_sold": 29561,
+      "_total_sale": 1353781,
+      "_growth_sum": -37.01,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 6326,
+          "sale_amount": 289692
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 8750,
+          "sale_amount": 400729
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 6516,
+          "sale_amount": 298396
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 7969,
+          "sale_amount": 364964
+        }
+      ],
+      "sold_count": 29561,
+      "sale_amount": 1353781,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -9.25,
+      "_total_sold_show": "29.6k",
+      "_total_sale_show": "$1.4M"
     },
     {
       "product_id": "1731513320311522467",
@@ -515,19 +543,14 @@
       "live_count": 37,
       "author_count": 47,
       "launch_time": "2025-05-28 09:26:10",
-      "_first_seen": "2026-08-08",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 32500,
-      "_total_sale": 1267500,
-      "_growth_sum": -29.410000000000004,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 26409,
+      "_total_sale": 1029955,
+      "_growth_sum": -15.090000000000003,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 6091,
-          "sale_amount": 237545
-        },
         {
           "date": "2026-08-09",
           "sold": 7107,
@@ -549,55 +572,12 @@
           "sale_amount": 354405
         }
       ],
-      "sold_count": 32500,
-      "sale_amount": 1267500,
+      "sold_count": 26409,
+      "sale_amount": 1029955,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -5.88,
-      "_total_sold_show": "32.5k",
-      "_total_sale_show": "$1.3M"
-    },
-    {
-      "product_id": "1730931908492428332",
-      "title": "Dehumidifier 500ML | Solve Dampness and Moisture Problems | Perfect for Living Room, Kitchen, Bedroom, and Bathroom",
-      "cover": "https://s.500fd.com/tt_product/ffcca6e51ffc4d179bfdeaaf4033d827~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730931908492428332?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱40.00",
-      "category_name": [
-        "Moth, Mold & Damp Proofing"
-      ],
-      "shop_name": "NATRUTH-PH",
-      "shop_sold_count": 471642,
-      "aweme_count": 56,
-      "live_count": 5,
-      "author_count": 48,
-      "launch_time": "2025-03-05 21:41:18",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-18",
-      "_appearances": 2,
-      "_total_sold": 31866,
-      "_total_sale": 1274640,
-      "_growth_sum": 364.02000000000004,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 10723,
-          "sale_amount": 428920
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 21143,
-          "sale_amount": 845720
-        }
-      ],
-      "sold_count": 31866,
-      "sale_amount": 1274640,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 182.01,
-      "_total_sold_show": "31.9k",
-      "_total_sale_show": "$1.3M"
+      "_avg_growth": -3.77,
+      "_total_sold_show": "26.4k",
+      "_total_sale_show": "$1.0M"
     },
     {
       "product_id": "1735299522673149715",
@@ -616,19 +596,14 @@
       "live_count": 26,
       "author_count": 26,
       "launch_time": "2026-05-04 03:24:22",
-      "_first_seen": "2026-08-08",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 31270,
-      "_total_sale": 562881,
-      "_growth_sum": -1.6800000000000015,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 23972,
+      "_total_sale": 431507,
+      "_growth_sum": -24.31,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 7298,
-          "sale_amount": 131374
-        },
         {
           "date": "2026-08-09",
           "sold": 5530,
@@ -650,12 +625,12 @@
           "sale_amount": 130622
         }
       ],
-      "sold_count": 31270,
-      "sale_amount": 562881,
+      "sold_count": 23972,
+      "sale_amount": 431507,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -0.34,
-      "_total_sold_show": "31.3k",
-      "_total_sale_show": "$562.9k"
+      "_avg_growth": -6.08,
+      "_total_sold_show": "24.0k",
+      "_total_sale_show": "$431.5k"
     },
     {
       "product_id": "1735851360402113776",
@@ -782,6 +757,44 @@
       "_total_sale_show": "$411.0k"
     },
     {
+      "product_id": "1734247410080450287",
+      "title": "1/10pcs 30*30cm Marble Tiles Sticker Foam Wall Decor Peel and Stick Eco-friendly PVC Self-adhesive Waterproof Backsplash Wall Panels DIY for Home Bathroom Kitchen Living Room Decor",
+      "cover": "https://s.500fd.com/tt_product/9c2b879a4c954755a73a047fb1a85781~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1734247410080450287?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.00",
+      "category_name": [
+        "Wallpaper & Wall Trim"
+      ],
+      "shop_name": "GeminiHome.ph",
+      "shop_sold_count": 11966007,
+      "aweme_count": 8,
+      "live_count": 29,
+      "author_count": 18,
+      "launch_time": "2026-01-31 10:00:34",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-19",
+      "_appearances": 1,
+      "_total_sold": 8870,
+      "_total_sale": 79830,
+      "_growth_sum": 71.87,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 8870,
+          "sale_amount": 79830
+        }
+      ],
+      "sold_count": 8870,
+      "sale_amount": 79830,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 71.87,
+      "_total_sold_show": "8.9k",
+      "_total_sale_show": "$79.8k"
+    },
+    {
       "product_id": "1732046103640770448",
       "title": "【YH】Fashion Stainless Steel Birthstone Screw Back Stud Earrings Accessories For Unisex.",
       "cover": "https://s.500fd.com/tt_product/2a637be5258143389f969c07b87685fa~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -896,6 +909,44 @@
       "_total_sale_show": "$67.2k"
     },
     {
+      "product_id": "1731569946475529553",
+      "title": "Ganda ng Black Starry Curtain! May Butterfly & Flower Design Curtains Color Blue Orange Red Purple Green Black Window Door Room Kurtina Sale Balcony Door Curtains Household Textiles – 85x190cm | 1pc | COD",
+      "cover": "https://s.500fd.com/tt_product/fe8a5dc4ad9d4062b4307394e9b7251c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731569946475529553?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.30",
+      "category_name": [
+        "Curtains"
+      ],
+      "shop_name": "78 Kurtina Household Textiles",
+      "shop_sold_count": 977916,
+      "aweme_count": 2,
+      "live_count": 24,
+      "author_count": 22,
+      "launch_time": "2025-06-05 19:43:50",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-19",
+      "_appearances": 1,
+      "_total_sold": 7284,
+      "_total_sale": 79395.6,
+      "_growth_sum": 94.03,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 7284,
+          "sale_amount": 79395.6
+        }
+      ],
+      "sold_count": 7284,
+      "sale_amount": 79395.6,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 94.03,
+      "_total_sold_show": "7.3k",
+      "_total_sale_show": "$79.4k"
+    },
+    {
       "product_id": "1731383280304621200",
       "title": "（95-100PCS）  Colorful Dense Fuzzy wire  Christmas Present  New Year gift  Fuzzy wires  Chenille yarn  Pipe Cleaner  Fluffy Sticks  Craft  Children's Handmade DIY  Macaron  Flowers Arts Decorations   For Boyfriend and Girlfriend gifts  Christmas Gift",
       "cover": "https://s.500fd.com/tt_product/6f9f3903691e408ea188f20b98a219fb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -932,6 +983,120 @@
       "_avg_growth": 1079.39,
       "_total_sold_show": "6.6k",
       "_total_sale_show": "$144.8k"
+    },
+    {
+      "product_id": "1731831790309442956",
+      "title": "BONITA Tawas Calamansi Persimmon Odor Eliminator + Whitening Soap 80g Natural Deodorant Bar Face & Body Pampaputi ng Kili-kili, Singit with Niacinamide Brightening & Body Odor Solution Deodorize Antibacterial Daily Sensitive Cleanser Cleansing Skin Repair",
+      "cover": "https://s.500fd.com/tt_product/e3dee195b44445a9a97ce5220398d7e4~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731831790309442956?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.00",
+      "category_name": [
+        "Body Wash & Soap"
+      ],
+      "shop_name": "shopwithbonita",
+      "shop_sold_count": 6801264,
+      "aweme_count": 37,
+      "live_count": 21,
+      "author_count": 46,
+      "launch_time": "2025-07-02 20:46:15",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-19",
+      "_appearances": 1,
+      "_total_sold": 6339,
+      "_total_sale": 57051,
+      "_growth_sum": 91.57,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 6339,
+          "sale_amount": 57051
+        }
+      ],
+      "sold_count": 6339,
+      "sale_amount": 57051,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 91.57,
+      "_total_sold_show": "6.3k",
+      "_total_sale_show": "$57.1k"
+    },
+    {
+      "product_id": "1732222496946816707",
+      "title": "Black Lababo Kurtina Kitchen Half Curtain 70*100cm Red Green Printed Sink Curtain Window Cabinet Short Curtain Christmas Home Decor 1PC COD",
+      "cover": "https://s.500fd.com/tt_product/0439c906d3e64280a7b665f080f055f1~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1732222496946816707?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.90",
+      "category_name": [
+        "Curtains"
+      ],
+      "shop_name": "Amy's Curtain Store",
+      "shop_sold_count": 396161,
+      "aweme_count": 4,
+      "live_count": 11,
+      "author_count": 13,
+      "launch_time": "2025-09-24 23:08:24",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-19",
+      "_appearances": 1,
+      "_total_sold": 6292,
+      "_total_sale": 62290.8,
+      "_growth_sum": 59.86,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 6292,
+          "sale_amount": 62290.8
+        }
+      ],
+      "sold_count": 6292,
+      "sale_amount": 62290.8,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 59.86,
+      "_total_sold_show": "6.3k",
+      "_total_sale_show": "$62.3k"
+    },
+    {
+      "product_id": "1736403696365634948",
+      "title": "Button Cell Fairy Lights Colorful & Warm White 1m/2m/3m – 3 Modes Flashing LED String Lights for Room Decor Party DIY Christmas Decoration Magical Atmosphere - Wedding",
+      "cover": "https://s.500fd.com/tt_product/b1ba8db8c17846fca182f04c914d74a7~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736403696365634948?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.98  - 15.98",
+      "category_name": [
+        "Bulbs, Tubes & Strips"
+      ],
+      "shop_name": "SSStellarFete",
+      "shop_sold_count": 44110,
+      "aweme_count": 13,
+      "live_count": 5,
+      "author_count": 15,
+      "launch_time": "2026-07-12 14:34:04",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-19",
+      "_appearances": 1,
+      "_total_sold": 6100,
+      "_total_sale": 60878,
+      "_growth_sum": 12.96,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 6100,
+          "sale_amount": 60878
+        }
+      ],
+      "sold_count": 6100,
+      "sale_amount": 60878,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 12.96,
+      "_total_sold_show": "6.1k",
+      "_total_sale_show": "$60.9k"
     },
     {
       "product_id": "1734600717246498122",
@@ -1104,19 +1269,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 829546,
-      "_total_sale": 19810610.7,
-      "_growth_sum": 255.65,
+      "_total_sold": 1105418,
+      "_total_sale": 26326410.049999997,
+      "_growth_sum": 294.52000000000004,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 7886,
-          "sale_amount": 333877
-        },
         {
           "date": "2026-08-09",
           "sold": 6876,
@@ -1146,14 +1306,19 @@
           "date": "2026-08-18",
           "sold": 283758,
           "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 829546,
-      "sale_amount": 19810610.7,
+      "sold_count": 1105418,
+      "sale_amount": 26326410.049999997,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 36.52,
-      "_total_sold_show": "829.5k",
-      "_total_sale_show": "$19.8M"
+      "_avg_growth": 42.07,
+      "_total_sold_show": "1.1M",
+      "_total_sale_show": "$26.3M"
     },
     {
       "product_id": "1729448464509734958",
@@ -1172,19 +1337,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 658013,
-      "_total_sale": 18239593.060000002,
-      "_growth_sum": -89.17999999999999,
+      "_total_sold": 819632,
+      "_total_sale": 23122009.090000004,
+      "_growth_sum": -61.60000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 32592,
-          "sale_amount": 299967
-        },
         {
           "date": "2026-08-09",
           "sold": 38511,
@@ -1214,14 +1374,19 @@
           "date": "2026-08-18",
           "sold": 194211,
           "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 658013,
-      "sale_amount": 18239593.060000002,
+      "sold_count": 819632,
+      "sale_amount": 23122009.090000004,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -12.74,
-      "_total_sold_show": "658.0k",
-      "_total_sale_show": "$18.2M"
+      "_avg_growth": -8.8,
+      "_total_sold_show": "819.6k",
+      "_total_sale_show": "$23.1M"
     },
     {
       "product_id": "1729679758111249333",
@@ -1240,19 +1405,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 510840,
-      "_total_sale": 1008228.8599999999,
-      "_growth_sum": 105.10999999999999,
+      "_total_sold": 627353,
+      "_total_sale": 1204981.2899999998,
+      "_growth_sum": 138.25000000000006,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 22746,
-          "sale_amount": 66311
-        },
         {
           "date": "2026-08-09",
           "sold": 20033,
@@ -1282,218 +1442,19 @@
           "date": "2026-08-18",
           "sold": 139259,
           "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 510840,
-      "sale_amount": 1008228.8599999999,
+      "sold_count": 627353,
+      "sale_amount": 1204981.2899999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 15.02,
-      "_total_sold_show": "510.8k",
-      "_total_sale_show": "$1.0M"
-    },
-    {
-      "product_id": "1731406217255686451",
-      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
-      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$16.99 - 21.99",
-      "category_name": [
-        "女士文胸"
-      ],
-      "shop_name": "OEAK Apparel",
-      "shop_sold_count": 1625742,
-      "aweme_count": 292,
-      "live_count": 883,
-      "author_count": 567,
-      "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
-      "_appearances": 7,
-      "_total_sold": 344778,
-      "_total_sale": 6677681.460000001,
-      "_growth_sum": 72.62,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 12690,
-          "sale_amount": 148985
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 19259,
-          "sale_amount": 299295
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 18901,
-          "sale_amount": 276854
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 20201,
-          "sale_amount": 142845
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 101083,
-          "sale_amount": 2145431
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        }
-      ],
-      "sold_count": 344778,
-      "sale_amount": 6677681.460000001,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 10.37,
-      "_total_sold_show": "344.8k",
-      "_total_sale_show": "$6.7M"
-    },
-    {
-      "product_id": "1731879234948338174",
-      "title": "DRDENT Purple Teeth Whitening Strips - 7/21 Whitening Sessions - Non Sensitive Teeth Whitening - Peroxide-Free",
-      "cover": "https://s.500fd.com/tt_product/5e5c97cc0eb0474ea22a22781b1abfb7~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731879234948338174?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$14.99 - 22.49",
-      "category_name": [
-        "牙齿美白"
-      ],
-      "shop_name": "DR DENT",
-      "shop_sold_count": 1128716,
-      "aweme_count": 341,
-      "live_count": 1210,
-      "author_count": 1010,
-      "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
-      "_appearances": 7,
-      "_total_sold": 336046,
-      "_total_sale": 5947845,
-      "_growth_sum": -71.17000000000002,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 20681,
-          "sale_amount": 294338
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 18795,
-          "sale_amount": 238098
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 14134,
-          "sale_amount": 449987
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 6685,
-          "sale_amount": 319559
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 94491,
-          "sale_amount": 1591986
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        }
-      ],
-      "sold_count": 336046,
-      "sale_amount": 5947845,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -10.17,
-      "_total_sold_show": "336.0k",
-      "_total_sale_show": "$5.9M"
-    },
-    {
-      "product_id": "1729612709100426165",
-      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
-      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$1.69",
-      "category_name": [
-        "冲调饮品"
-      ],
-      "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5169227,
-      "aweme_count": 70,
-      "live_count": 1176,
-      "author_count": 395,
-      "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
-      "_appearances": 7,
-      "_total_sold": 334199,
-      "_total_sale": 750954.94,
-      "_growth_sum": 20.290000000000006,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 35953,
-          "sale_amount": 32443
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 10927,
-          "sale_amount": 56548
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 10353,
-          "sale_amount": 26572
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 20471,
-          "sale_amount": 128215
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 101015,
-          "sale_amount": 199741
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        }
-      ],
-      "sold_count": 334199,
-      "sale_amount": 750954.94,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 2.9,
-      "_total_sold_show": "334.2k",
-      "_total_sale_show": "$751.0k"
+      "_avg_growth": 19.75,
+      "_total_sold_show": "627.4k",
+      "_total_sale_show": "$1.2M"
     },
     {
       "product_id": "1731236289885213002",
@@ -1512,19 +1473,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 328413,
-      "_total_sale": 16255639.439999998,
-      "_growth_sum": 495.47,
+      "_total_sold": 426268,
+      "_total_sale": 21094014.159999996,
+      "_growth_sum": 510.12,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 6967,
-          "sale_amount": 364873
-        },
         {
           "date": "2026-08-09",
           "sold": 6046,
@@ -1554,14 +1510,155 @@
           "date": "2026-08-18",
           "sold": 104822,
           "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 104822,
+          "sale_amount": 5203247.72
         }
       ],
-      "sold_count": 328413,
-      "sale_amount": 16255639.439999998,
+      "sold_count": 426268,
+      "sale_amount": 21094014.159999996,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 70.78,
-      "_total_sold_show": "328.4k",
-      "_total_sale_show": "$16.3M"
+      "_avg_growth": 72.87,
+      "_total_sold_show": "426.3k",
+      "_total_sale_show": "$21.1M"
+    },
+    {
+      "product_id": "1731406217255686451",
+      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
+      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$16.99 - 21.99",
+      "category_name": [
+        "女士文胸"
+      ],
+      "shop_name": "OEAK Apparel",
+      "shop_sold_count": 1625742,
+      "aweme_count": 292,
+      "live_count": 883,
+      "author_count": 567,
+      "launch_time": "2025-07-25 13:10:01",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
+      "_appearances": 7,
+      "_total_sold": 418410,
+      "_total_sale": 8360832.190000001,
+      "_growth_sum": 79.15,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 19259,
+          "sale_amount": 299295
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 18901,
+          "sale_amount": 276854
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 20201,
+          "sale_amount": 142845
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 101083,
+          "sale_amount": 2145431
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        }
+      ],
+      "sold_count": 418410,
+      "sale_amount": 8360832.190000001,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 11.31,
+      "_total_sold_show": "418.4k",
+      "_total_sale_show": "$8.4M"
+    },
+    {
+      "product_id": "1731879234948338174",
+      "title": "DRDENT Purple Teeth Whitening Strips - 7/21 Whitening Sessions - Non Sensitive Teeth Whitening - Peroxide-Free",
+      "cover": "https://s.500fd.com/tt_product/5e5c97cc0eb0474ea22a22781b1abfb7~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731879234948338174?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$14.99 - 22.49",
+      "category_name": [
+        "牙齿美白"
+      ],
+      "shop_name": "DR DENT",
+      "shop_sold_count": 1128716,
+      "aweme_count": 341,
+      "live_count": 1210,
+      "author_count": 1010,
+      "launch_time": "2025-11-10 23:46:59",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
+      "_appearances": 7,
+      "_total_sold": 405995,
+      "_total_sale": 7180445.5,
+      "_growth_sum": -138.32999999999998,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 18795,
+          "sale_amount": 238098
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 14134,
+          "sale_amount": 449987
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 6685,
+          "sale_amount": 319559
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 94491,
+          "sale_amount": 1591986
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        }
+      ],
+      "sold_count": 405995,
+      "sale_amount": 7180445.5,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -19.76,
+      "_total_sold_show": "406.0k",
+      "_total_sale_show": "$7.2M"
     },
     {
       "product_id": "1732164626458252048",
@@ -1580,19 +1677,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 308352,
-      "_total_sale": 6263887.08,
-      "_growth_sum": 16.130000000000006,
+      "_total_sold": 390014,
+      "_total_sale": 8017602.12,
+      "_growth_sum": 19.280000000000005,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 10144,
-          "sale_amount": 173496
-        },
         {
           "date": "2026-08-09",
           "sold": 7381,
@@ -1622,82 +1714,87 @@
           "date": "2026-08-18",
           "sold": 91806,
           "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 91806,
+          "sale_amount": 1927211.04
         }
       ],
-      "sold_count": 308352,
-      "sale_amount": 6263887.08,
+      "sold_count": 390014,
+      "sale_amount": 8017602.12,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 2.3,
-      "_total_sold_show": "308.4k",
-      "_total_sale_show": "$6.3M"
+      "_avg_growth": 2.75,
+      "_total_sold_show": "390.0k",
+      "_total_sale_show": "$8.0M"
     },
     {
-      "product_id": "1731528580940468633",
-      "title": "Bare Anatomy Nature x Science Rosemary Water with Rice Water |100% Natural Extract | Soft & Smooth Hair Non-Greasy & Fast Absorbing | 200 ml",
-      "cover": "https://s.500fd.com/tt_product/d69fc8512935405f84767d6636eff827~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731528580940468633?region=US&local=en",
+      "product_id": "1729612709100426165",
+      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
+      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$9.99",
+      "real_price": "$1.69",
       "category_name": [
-        "脱发产品"
+        "冲调饮品"
       ],
-      "shop_name": "Bare Anatomy Haircare",
-      "shop_sold_count": 753529,
-      "aweme_count": 387,
-      "live_count": 818,
-      "author_count": 717,
-      "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "shop_name": "Caffeine, Candles & Chaos",
+      "shop_sold_count": 5169227,
+      "aweme_count": 70,
+      "live_count": 1176,
+      "author_count": 395,
+      "launch_time": "2024-12-12 17:18:36",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 287964,
-      "_total_sale": 4133436.0199999996,
-      "_growth_sum": 154.91000000000003,
+      "_total_sold": 375986,
+      "_total_sale": 872229.9099999999,
+      "_growth_sum": -18.65999999999999,
       "_growth_count": 7,
       "_trend": [
         {
-          "date": "2026-08-08",
-          "sold": 3668,
-          "sale_amount": 28577
-        },
-        {
           "date": "2026-08-09",
-          "sold": 2659,
-          "sale_amount": 26278
+          "sold": 10927,
+          "sale_amount": 56548
         },
         {
           "date": "2026-08-10",
-          "sold": 1524,
-          "sale_amount": 51142
+          "sold": 10353,
+          "sale_amount": 26572
         },
         {
           "date": "2026-08-11",
-          "sold": 1436,
-          "sale_amount": 19809
+          "sold": 20471,
+          "sale_amount": 128215
         },
         {
           "date": "2026-08-12",
-          "sold": 106399,
-          "sale_amount": 1530114
+          "sold": 101015,
+          "sale_amount": 199741
         },
         {
           "date": "2026-08-17",
-          "sold": 86139,
-          "sale_amount": 1238758.01
+          "sold": 77740,
+          "sale_amount": 153717.97
         },
         {
           "date": "2026-08-18",
-          "sold": 86139,
-          "sale_amount": 1238758.01
+          "sold": 77740,
+          "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
-      "sold_count": 287964,
-      "sale_amount": 4133436.0199999996,
+      "sold_count": 375986,
+      "sale_amount": 872229.9099999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 22.13,
-      "_total_sold_show": "288.0k",
-      "_total_sale_show": "$4.1M"
+      "_avg_growth": -2.67,
+      "_total_sold_show": "376.0k",
+      "_total_sale_show": "$872.2k"
     },
     {
       "product_id": "1732413417772650787",
@@ -1716,19 +1813,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 284906,
-      "_total_sale": 1431381,
-      "_growth_sum": 5543.2,
+      "_total_sold": 371077,
+      "_total_sale": 1861519,
+      "_growth_sum": 8208.09,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 2287,
-          "sale_amount": 12621
-        },
         {
           "date": "2026-08-09",
           "sold": 2333,
@@ -1758,60 +1850,90 @@
           "date": "2026-08-18",
           "sold": 88458,
           "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 284906,
-      "sale_amount": 1431381,
+      "sold_count": 371077,
+      "sale_amount": 1861519,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 791.89,
-      "_total_sold_show": "284.9k",
-      "_total_sale_show": "$1.4M"
-    }
-  ],
-  "growth_top": [
+      "_avg_growth": 1172.58,
+      "_total_sold_show": "371.1k",
+      "_total_sale_show": "$1.9M"
+    },
     {
-      "product_id": "1730931908492428332",
-      "title": "Dehumidifier 500ML | Solve Dampness and Moisture Problems | Perfect for Living Room, Kitchen, Bedroom, and Bathroom",
-      "cover": "https://s.500fd.com/tt_product/ffcca6e51ffc4d179bfdeaaf4033d827~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730931908492428332?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱40.00",
+      "product_id": "1731528580940468633",
+      "title": "Bare Anatomy Nature x Science Rosemary Water with Rice Water |100% Natural Extract | Soft & Smooth Hair Non-Greasy & Fast Absorbing | 200 ml",
+      "cover": "https://s.500fd.com/tt_product/d69fc8512935405f84767d6636eff827~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731528580940468633?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$9.99",
       "category_name": [
-        "Moth, Mold & Damp Proofing"
+        "脱发产品"
       ],
-      "shop_name": "NATRUTH-PH",
-      "shop_sold_count": 471642,
-      "aweme_count": 56,
-      "live_count": 5,
-      "author_count": 48,
-      "launch_time": "2025-03-05 21:41:18",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-18",
-      "_appearances": 2,
-      "_total_sold": 31866,
-      "_total_sale": 1274640,
-      "_growth_sum": 364.02000000000004,
-      "_growth_count": 2,
+      "shop_name": "Bare Anatomy Haircare",
+      "shop_sold_count": 753529,
+      "aweme_count": 387,
+      "live_count": 818,
+      "author_count": 717,
+      "launch_time": "2025-10-23 13:58:30",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
+      "_appearances": 7,
+      "_total_sold": 370435,
+      "_total_sale": 5343617.029999999,
+      "_growth_sum": 124.44000000000001,
+      "_growth_count": 7,
       "_trend": [
         {
+          "date": "2026-08-09",
+          "sold": 2659,
+          "sale_amount": 26278
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 1524,
+          "sale_amount": 51142
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 1436,
+          "sale_amount": 19809
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 106399,
+          "sale_amount": 1530114
+        },
+        {
           "date": "2026-08-17",
-          "sold": 10723,
-          "sale_amount": 428920
+          "sold": 86139,
+          "sale_amount": 1238758.01
         },
         {
           "date": "2026-08-18",
-          "sold": 21143,
-          "sale_amount": 845720
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 86139,
+          "sale_amount": 1238758.01
         }
       ],
-      "sold_count": 31866,
-      "sale_amount": 1274640,
+      "sold_count": 370435,
+      "sale_amount": 5343617.029999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 182.01,
-      "_total_sold_show": "31.9k",
-      "_total_sale_show": "$1.3M"
-    },
+      "_avg_growth": 17.78,
+      "_total_sold_show": "370.4k",
+      "_total_sale_show": "$5.3M"
+    }
+  ],
+  "growth_top": [
     {
       "product_id": "1736465001096250843",
       "title": "New Plain Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
@@ -1829,19 +1951,14 @@
       "live_count": 64,
       "author_count": 42,
       "launch_time": "2026-07-12 19:56:22",
-      "_first_seen": "2026-08-08",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-18",
-      "_appearances": 6,
-      "_total_sold": 43435,
-      "_total_sale": 430028.6,
-      "_growth_sum": 697.59,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 38685,
+      "_total_sale": 383002.6,
+      "_growth_sum": 688.34,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 4750,
-          "sale_amount": 47026
-        },
         {
           "date": "2026-08-09",
           "sold": 5543,
@@ -1868,75 +1985,234 @@
           "sale_amount": 128937.6
         }
       ],
-      "sold_count": 43435,
-      "sale_amount": 430028.6,
+      "sold_count": 38685,
+      "sale_amount": 383002.6,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 116.27,
-      "_total_sold_show": "43.4k",
-      "_total_sale_show": "$430.0k"
+      "_avg_growth": 137.67,
+      "_total_sold_show": "38.7k",
+      "_total_sale_show": "$383.0k"
     },
     {
-      "product_id": "1730531415480895463",
-      "title": "[New Packaging] Hikari UltraFresh Sunscreen 50ML for all skin type, whitening, brightening, no white cast, easy to blend, sun protection",
-      "cover": "https://s.500fd.com/tt_product/459a9b2037544619a61f9d757992fe6d~tplv-aphluv4xwc-crop-webp:2000:2000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730531415480895463?region=PH&local=en",
+      "product_id": "1730931908492428332",
+      "title": "Dehumidifier 500ML | Solve Dampness and Moisture Problems | Perfect for Living Room, Kitchen, Bedroom, and Bathroom",
+      "cover": "https://s.500fd.com/tt_product/ffcca6e51ffc4d179bfdeaaf4033d827~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730931908492428332?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱58.00",
+      "real_price": "₱40.00",
       "category_name": [
-        "Facial Sunscreen & Sun Care\t"
+        "Moth, Mold & Damp Proofing"
       ],
-      "shop_name": "A&J Beauty and Wellness Shop",
-      "shop_sold_count": 9267445,
-      "aweme_count": 182,
-      "live_count": 89,
-      "author_count": 223,
-      "launch_time": "2024-12-06 09:48:45",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
-      "_appearances": 6,
-      "_total_sold": 49507,
-      "_total_sale": 2871593,
-      "_growth_sum": 192.09,
-      "_growth_count": 6,
+      "shop_name": "NATRUTH-PH",
+      "shop_sold_count": 471642,
+      "aweme_count": 56,
+      "live_count": 5,
+      "author_count": 48,
+      "launch_time": "2025-03-05 21:41:18",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-19",
+      "_appearances": 3,
+      "_total_sold": 42766,
+      "_total_sale": 1710640,
+      "_growth_sum": 315.57000000000005,
+      "_growth_count": 3,
       "_trend": [
         {
-          "date": "2026-08-08",
-          "sold": 9456,
-          "sale_amount": 548474
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 7134,
-          "sale_amount": 413799
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6458,
-          "sale_amount": 374620
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 6505,
-          "sale_amount": 377342
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 8751,
-          "sale_amount": 507584
+          "date": "2026-08-17",
+          "sold": 10723,
+          "sale_amount": 428920
         },
         {
           "date": "2026-08-18",
-          "sold": 11203,
-          "sale_amount": 649774
+          "sold": 21143,
+          "sale_amount": 845720
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 10900,
+          "sale_amount": 436000
         }
       ],
-      "sold_count": 49507,
-      "sale_amount": 2871593,
+      "sold_count": 42766,
+      "sale_amount": 1710640,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 32.02,
-      "_total_sold_show": "49.5k",
-      "_total_sale_show": "$2.9M"
+      "_avg_growth": 105.19,
+      "_total_sold_show": "42.8k",
+      "_total_sale_show": "$1.7M"
+    },
+    {
+      "product_id": "1734436777058469027",
+      "title": "【Lenie’s Top Pick】JMCY Setting Spray Dual-use hydrating & setting spray that keeps makeup fresh, smudge-proof, 24H long-lasting, oil-control with SPF25 PA++",
+      "cover": "https://s.500fd.com/tt_product/ef830bdf544b44deb78306be358ac58c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734436777058469027?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱49.00",
+      "category_name": [
+        "Makeup Fixing Spray"
+      ],
+      "shop_name": "JMCY Beauty",
+      "shop_sold_count": 4203453,
+      "aweme_count": 67,
+      "live_count": 49,
+      "author_count": 89,
+      "launch_time": "2026-02-24 05:10:28",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
+      "_appearances": 5,
+      "_total_sold": 50757,
+      "_total_sale": 2487024,
+      "_growth_sum": 136.09,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 9928,
+          "sale_amount": 486447
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 10855,
+          "sale_amount": 531861
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 14395,
+          "sale_amount": 705359
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 8847,
+          "sale_amount": 433489
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 6732,
+          "sale_amount": 329868
+        }
+      ],
+      "sold_count": 50757,
+      "sale_amount": 2487024,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 27.22,
+      "_total_sold_show": "50.8k",
+      "_total_sale_show": "$2.5M"
+    },
+    {
+      "product_id": "1735893324238718195",
+      "title": "French nude color wearable nail art with white border, square-shaped short nail stickers, detachable fake nails (free gift of tool kit)",
+      "cover": "https://s.500fd.com/tt_product/b61e873df6d1468382f4235fd3e8b8f2~tplv-aphluv4xwc-crop-webp:1013:1013.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735893324238718195?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱28.44  - 75.85",
+      "category_name": [
+        "Nail Art Decoration & Accessories"
+      ],
+      "shop_name": "Glovely",
+      "shop_sold_count": 121885,
+      "aweme_count": 2,
+      "live_count": 1,
+      "author_count": 3,
+      "launch_time": "2026-06-07 20:17:34",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-17",
+      "_appearances": 5,
+      "_total_sold": 32237,
+      "_total_sale": 941233.64,
+      "_growth_sum": 111.45,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 5717,
+          "sale_amount": 167951
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6888,
+          "sale_amount": 202351
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 4438,
+          "sale_amount": 130389
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 8701,
+          "sale_amount": 255622
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 6493,
+          "sale_amount": 184920.64
+        }
+      ],
+      "sold_count": 32237,
+      "sale_amount": 941233.64,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 22.29,
+      "_total_sold_show": "32.2k",
+      "_total_sale_show": "$941.2k"
+    },
+    {
+      "product_id": "1730346047548459676",
+      "title": "[BEST SELLER] The Originote Brightening Moisturizer 50 ml – Whitening Cream Tone Up Moisturizer Dark Spot Remover Cream Rejuvinating Cream Repair Hydrate Moisture Hydrating",
+      "cover": "https://s.500fd.com/tt_product/9522b93489524d4eb076857a9091e4a8~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730346047548459676?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱92.00",
+      "category_name": [
+        "Moisturizers & Mists"
+      ],
+      "shop_name": "The Originote.PH",
+      "shop_sold_count": 7600754,
+      "aweme_count": 194,
+      "live_count": 107,
+      "author_count": 226,
+      "launch_time": "2024-05-30 14:36:16",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
+      "_appearances": 5,
+      "_total_sold": 40506,
+      "_total_sale": 3972367.8,
+      "_growth_sum": 108.3,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 6264,
+          "sale_amount": 576252
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6582,
+          "sale_amount": 605568
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 8522,
+          "sale_amount": 784014
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 9145,
+          "sale_amount": 841350
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 9993,
+          "sale_amount": 1165183.8
+        }
+      ],
+      "sold_count": 40506,
+      "sale_amount": 3972367.8,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 21.66,
+      "_total_sold_show": "40.5k",
+      "_total_sale_show": "$4.0M"
     },
     {
       "product_id": "1735851360402113776",
@@ -1982,183 +2258,120 @@
       "_total_sale_show": "$325.7k"
     },
     {
-      "product_id": "1735893324238718195",
-      "title": "French nude color wearable nail art with white border, square-shaped short nail stickers, detachable fake nails (free gift of tool kit)",
-      "cover": "https://s.500fd.com/tt_product/b61e873df6d1468382f4235fd3e8b8f2~tplv-aphluv4xwc-crop-webp:1013:1013.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735893324238718195?region=PH&local=en",
+      "product_id": "1730531415480895463",
+      "title": "[New Packaging] Hikari UltraFresh Sunscreen 50ML for all skin type, whitening, brightening, no white cast, easy to blend, sun protection",
+      "cover": "https://s.500fd.com/tt_product/459a9b2037544619a61f9d757992fe6d~tplv-aphluv4xwc-crop-webp:2000:2000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730531415480895463?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱28.44  - 75.85",
+      "real_price": "₱58.00",
       "category_name": [
-        "Nail Art Decoration & Accessories"
+        "Facial Sunscreen & Sun Care\t"
       ],
-      "shop_name": "Glovely",
-      "shop_sold_count": 121885,
-      "aweme_count": 2,
-      "live_count": 1,
-      "author_count": 3,
-      "launch_time": "2026-06-07 20:17:34",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-17",
+      "shop_name": "A&J Beauty and Wellness Shop",
+      "shop_sold_count": 9267445,
+      "aweme_count": 182,
+      "live_count": 89,
+      "author_count": 223,
+      "launch_time": "2024-12-06 09:48:45",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 6,
-      "_total_sold": 36704,
-      "_total_sale": 1072460.6400000001,
-      "_growth_sum": 79.53,
+      "_total_sold": 46725,
+      "_total_sale": 2710211,
+      "_growth_sum": 92.14999999999998,
       "_growth_count": 6,
       "_trend": [
         {
-          "date": "2026-08-08",
-          "sold": 4467,
-          "sale_amount": 131227
-        },
-        {
           "date": "2026-08-09",
-          "sold": 5717,
-          "sale_amount": 167951
+          "sold": 7134,
+          "sale_amount": 413799
         },
         {
           "date": "2026-08-10",
-          "sold": 6888,
-          "sale_amount": 202351
+          "sold": 6458,
+          "sale_amount": 374620
         },
         {
           "date": "2026-08-11",
-          "sold": 4438,
-          "sale_amount": 130389
+          "sold": 6505,
+          "sale_amount": 377342
         },
         {
           "date": "2026-08-12",
-          "sold": 8701,
-          "sale_amount": 255622
+          "sold": 8751,
+          "sale_amount": 507584
         },
         {
-          "date": "2026-08-17",
-          "sold": 6493,
-          "sale_amount": 184920.64
+          "date": "2026-08-18",
+          "sold": 11203,
+          "sale_amount": 649774
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 6674,
+          "sale_amount": 387092
         }
       ],
-      "sold_count": 36704,
-      "sale_amount": 1072460.6400000001,
+      "sold_count": 46725,
+      "sale_amount": 2710211,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 13.26,
-      "_total_sold_show": "36.7k",
-      "_total_sale_show": "$1.1M"
+      "_avg_growth": 15.36,
+      "_total_sold_show": "46.7k",
+      "_total_sale_show": "$2.7M"
     },
     {
-      "product_id": "1734436777058469027",
-      "title": "【Lenie’s Top Pick】JMCY Setting Spray Dual-use hydrating & setting spray that keeps makeup fresh, smudge-proof, 24H long-lasting, oil-control with SPF25 PA++",
-      "cover": "https://s.500fd.com/tt_product/ef830bdf544b44deb78306be358ac58c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734436777058469027?region=PH&local=en",
+      "product_id": "1733011189528757946",
+      "title": "FUZZY WIRE DIY Craft Kit 100pcs - 8MM High Density Fuzzy Sticks,Pipe cleaner with Complete Tools, Multi-Color Assortment, All in One Creative Art Supplies",
+      "cover": "https://s.500fd.com/tt_product/13ac6c62878840eda64c3c72b04b5b7b~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733011189528757946?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱49.00",
+      "real_price": "₱13.90",
       "category_name": [
-        "Makeup Fixing Spray"
+        "Specialty DIY Supplies"
       ],
-      "shop_name": "JMCY Beauty",
-      "shop_sold_count": 4203453,
-      "aweme_count": 67,
-      "live_count": 49,
-      "author_count": 89,
-      "launch_time": "2026-02-24 05:10:28",
-      "_first_seen": "2026-08-08",
+      "shop_name": "wee one",
+      "shop_sold_count": 1193402,
+      "aweme_count": 7,
+      "live_count": 20,
+      "author_count": 23,
+      "launch_time": "2025-10-29 05:18:56",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 58161,
-      "_total_sale": 2849786,
-      "_growth_sum": 54.17,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 32782,
+      "_total_sale": 455720,
+      "_growth_sum": 38.9,
+      "_growth_count": 4,
       "_trend": [
         {
-          "date": "2026-08-08",
-          "sold": 14136,
-          "sale_amount": 692630
-        },
-        {
           "date": "2026-08-09",
-          "sold": 9928,
-          "sale_amount": 486447
+          "sold": 7811,
+          "sale_amount": 108588
         },
         {
           "date": "2026-08-10",
-          "sold": 10855,
-          "sale_amount": 531861
+          "sold": 7933,
+          "sale_amount": 110286
         },
         {
           "date": "2026-08-11",
-          "sold": 14395,
-          "sale_amount": 705359
+          "sold": 9663,
+          "sale_amount": 134328
         },
         {
           "date": "2026-08-12",
-          "sold": 8847,
-          "sale_amount": 433489
+          "sold": 7375,
+          "sale_amount": 102518
         }
       ],
-      "sold_count": 58161,
-      "sale_amount": 2849786,
+      "sold_count": 32782,
+      "sale_amount": 455720,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 10.83,
-      "_total_sold_show": "58.2k",
-      "_total_sale_show": "$2.8M"
-    },
-    {
-      "product_id": "1730346047548459676",
-      "title": "[BEST SELLER] The Originote Brightening Moisturizer 50 ml – Whitening Cream Tone Up Moisturizer Dark Spot Remover Cream Rejuvinating Cream Repair Hydrate Moisture Hydrating",
-      "cover": "https://s.500fd.com/tt_product/9522b93489524d4eb076857a9091e4a8~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730346047548459676?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱92.00",
-      "category_name": [
-        "Moisturizers & Mists"
-      ],
-      "shop_name": "The Originote.PH",
-      "shop_sold_count": 7600754,
-      "aweme_count": 194,
-      "live_count": 107,
-      "author_count": 226,
-      "launch_time": "2024-05-30 14:36:16",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 40137,
-      "_total_sale": 3692577,
-      "_growth_sum": 43.86,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 9624,
-          "sale_amount": 885393
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6264,
-          "sale_amount": 576252
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6582,
-          "sale_amount": 605568
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 8522,
-          "sale_amount": 784014
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 9145,
-          "sale_amount": 841350
-        }
-      ],
-      "sold_count": 40137,
-      "sale_amount": 3692577,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.77,
-      "_total_sold_show": "40.1k",
-      "_total_sale_show": "$3.7M"
+      "_avg_growth": 9.72,
+      "_total_sold_show": "32.8k",
+      "_total_sale_show": "$455.7k"
     },
     {
       "product_id": "1730591441747281569",
@@ -2177,19 +2390,14 @@
       "live_count": 107,
       "author_count": 105,
       "launch_time": "2024-12-10 10:30:23",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-18",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-19",
       "_appearances": 7,
-      "_total_sold": 69945,
-      "_total_sale": 9229802.46,
-      "_growth_sum": 54.67,
+      "_total_sold": 60968,
+      "_total_sale": 8611070.76,
+      "_growth_sum": 47.49000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 15226,
-          "sale_amount": 1872906
-        },
         {
           "date": "2026-08-09",
           "sold": 10358,
@@ -2219,130 +2427,19 @@
           "date": "2026-08-18",
           "sold": 5486,
           "sale_amount": 894218
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 6249,
+          "sale_amount": 1254174.3
         }
       ],
-      "sold_count": 69945,
-      "sale_amount": 9229802.46,
+      "sold_count": 60968,
+      "sale_amount": 8611070.76,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 7.81,
-      "_total_sold_show": "69.9k",
-      "_total_sale_show": "$9.2M"
-    },
-    {
-      "product_id": "1730754462056548199",
-      "title": "Unisex EVA Raincoat Portable Rain Poncho Jacket For Men Women Raincoat Reusable Quality Thickened Waterproof Adult Long Raincoat With Hood And Drawstring",
-      "cover": "https://s.500fd.com/tt_product/73dbf657448a45148e0b92752dd46e6f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1730754462056548199?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱45.80",
-      "category_name": [
-        "Raincoats"
-      ],
-      "shop_name": "Goodthing NO.1 Shop",
-      "shop_sold_count": 228302,
-      "aweme_count": 13,
-      "live_count": 14,
-      "author_count": 21,
-      "launch_time": "2025-01-17 03:51:04",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 39107,
-      "_total_sale": 1790940,
-      "_growth_sum": 22.200000000000003,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 9546,
-          "sale_amount": 437159
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 6326,
-          "sale_amount": 289692
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 8750,
-          "sale_amount": 400729
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 6516,
-          "sale_amount": 298396
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 7969,
-          "sale_amount": 364964
-        }
-      ],
-      "sold_count": 39107,
-      "sale_amount": 1790940,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.44,
-      "_total_sold_show": "39.1k",
-      "_total_sale_show": "$1.8M"
-    },
-    {
-      "product_id": "1733011189528757946",
-      "title": "FUZZY WIRE DIY Craft Kit 100pcs - 8MM High Density Fuzzy Sticks,Pipe cleaner with Complete Tools, Multi-Color Assortment, All in One Creative Art Supplies",
-      "cover": "https://s.500fd.com/tt_product/13ac6c62878840eda64c3c72b04b5b7b~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733011189528757946?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱13.90",
-      "category_name": [
-        "Specialty DIY Supplies"
-      ],
-      "shop_name": "wee one",
-      "shop_sold_count": 1193402,
-      "aweme_count": 7,
-      "live_count": 20,
-      "author_count": 23,
-      "launch_time": "2025-10-29 05:18:56",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 40154,
-      "_total_sale": 558205,
-      "_growth_sum": 16,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 7372,
-          "sale_amount": 102485
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 7811,
-          "sale_amount": 108588
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 7933,
-          "sale_amount": 110286
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 9663,
-          "sale_amount": 134328
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 7375,
-          "sale_amount": 102518
-        }
-      ],
-      "sold_count": 40154,
-      "sale_amount": 558205,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.2,
-      "_total_sold_show": "40.2k",
-      "_total_sale_show": "$558.2k"
+      "_avg_growth": 6.78,
+      "_total_sold_show": "61.0k",
+      "_total_sale_show": "$8.6M"
     },
     {
       "product_id": "1735162764593104307",
@@ -2388,64 +2485,6 @@
       "_total_sale_show": "$154.8k"
     },
     {
-      "product_id": "1735299522673149715",
-      "title": "Magic Sarap 8g x 16 Multi-function Spice Granules Full-bodied Rich Chicken Flavor",
-      "cover": "https://s.500fd.com/tt_product/8fc72548711449a4a964993c9b2bcdc0~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735299522673149715?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱18.00",
-      "category_name": [
-        "Flavor Enhancers"
-      ],
-      "shop_name": "Delicious Wholesaler",
-      "shop_sold_count": 805493,
-      "aweme_count": 15,
-      "live_count": 26,
-      "author_count": 26,
-      "launch_time": "2026-05-04 03:24:22",
-      "_first_seen": "2026-08-08",
-      "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 31270,
-      "_total_sale": 562881,
-      "_growth_sum": -1.6800000000000015,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 7298,
-          "sale_amount": 131374
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 5530,
-          "sale_amount": 99551
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 5396,
-          "sale_amount": 97135
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 5789,
-          "sale_amount": 104199
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 7257,
-          "sale_amount": 130622
-        }
-      ],
-      "sold_count": 31270,
-      "sale_amount": 562881,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -0.34,
-      "_total_sold_show": "31.3k",
-      "_total_sale_show": "$562.9k"
-    },
-    {
       "product_id": "1731513320311522467",
       "title": "【Hajie Alejandro Approved】JMCY Velvet Matte Lip Tint | 24H Glossy Transfer-Proof Lipstick |  Moisturizer High Pigment Moisturizing Gloss | Summer Beach-Ready Makeup  jmcy 2 in 1 Cosmetic Pinoy Fave Tiktok Viral Lipgloss #SummerLipMagicPH​​",
       "cover": "https://s.500fd.com/tt_product/7ff82ece6b8f4bda93ca2fe5dc344c81~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -2462,19 +2501,14 @@
       "live_count": 37,
       "author_count": 47,
       "launch_time": "2025-05-28 09:26:10",
-      "_first_seen": "2026-08-08",
+      "_first_seen": "2026-08-09",
       "_last_seen": "2026-08-12",
-      "_appearances": 5,
-      "_total_sold": 32500,
-      "_total_sale": 1267500,
-      "_growth_sum": -29.410000000000004,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 26409,
+      "_total_sale": 1029955,
+      "_growth_sum": -15.090000000000003,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-08",
-          "sold": 6091,
-          "sale_amount": 237545
-        },
         {
           "date": "2026-08-09",
           "sold": 7107,
@@ -2496,12 +2530,118 @@
           "sale_amount": 354405
         }
       ],
-      "sold_count": 32500,
-      "sale_amount": 1267500,
+      "sold_count": 26409,
+      "sale_amount": 1029955,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -5.88,
-      "_total_sold_show": "32.5k",
-      "_total_sale_show": "$1.3M"
+      "_avg_growth": -3.77,
+      "_total_sold_show": "26.4k",
+      "_total_sale_show": "$1.0M"
+    },
+    {
+      "product_id": "1735299522673149715",
+      "title": "Magic Sarap 8g x 16 Multi-function Spice Granules Full-bodied Rich Chicken Flavor",
+      "cover": "https://s.500fd.com/tt_product/8fc72548711449a4a964993c9b2bcdc0~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735299522673149715?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱18.00",
+      "category_name": [
+        "Flavor Enhancers"
+      ],
+      "shop_name": "Delicious Wholesaler",
+      "shop_sold_count": 805493,
+      "aweme_count": 15,
+      "live_count": 26,
+      "author_count": 26,
+      "launch_time": "2026-05-04 03:24:22",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-12",
+      "_appearances": 4,
+      "_total_sold": 23972,
+      "_total_sale": 431507,
+      "_growth_sum": -24.31,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 5530,
+          "sale_amount": 99551
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 5396,
+          "sale_amount": 97135
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 5789,
+          "sale_amount": 104199
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 7257,
+          "sale_amount": 130622
+        }
+      ],
+      "sold_count": 23972,
+      "sale_amount": 431507,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -6.08,
+      "_total_sold_show": "24.0k",
+      "_total_sale_show": "$431.5k"
+    },
+    {
+      "product_id": "1730754462056548199",
+      "title": "Unisex EVA Raincoat Portable Rain Poncho Jacket For Men Women Raincoat Reusable Quality Thickened Waterproof Adult Long Raincoat With Hood And Drawstring",
+      "cover": "https://s.500fd.com/tt_product/73dbf657448a45148e0b92752dd46e6f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730754462056548199?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱45.80",
+      "category_name": [
+        "Raincoats"
+      ],
+      "shop_name": "Goodthing NO.1 Shop",
+      "shop_sold_count": 228302,
+      "aweme_count": 13,
+      "live_count": 14,
+      "author_count": 21,
+      "launch_time": "2025-01-17 03:51:04",
+      "_first_seen": "2026-08-09",
+      "_last_seen": "2026-08-12",
+      "_appearances": 4,
+      "_total_sold": 29561,
+      "_total_sale": 1353781,
+      "_growth_sum": -37.01,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-09",
+          "sold": 6326,
+          "sale_amount": 289692
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 8750,
+          "sale_amount": 400729
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 6516,
+          "sale_amount": 298396
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 7969,
+          "sale_amount": 364964
+        }
+      ],
+      "sold_count": 29561,
+      "sale_amount": 1353781,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -9.25,
+      "_total_sold_show": "29.6k",
+      "_total_sale_show": "$1.4M"
     }
   ]
 }
