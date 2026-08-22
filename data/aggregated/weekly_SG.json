@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "SG",
-  "generated_at": "2026-08-21T01:47:10.910Z",
+  "generated_at": "2026-08-22T01:40:38.477Z",
   "date_range": [
-    "2026-08-11",
-    "2026-08-21"
+    "2026-08-12",
+    "2026-08-22"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -26,19 +26,14 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-03-24 03:10:44",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 3492,
-      "_total_sale": 7334.900000000001,
-      "_growth_sum": 86.60000000000001,
+      "_total_sold": 3633,
+      "_total_sale": 7529.900000000001,
+      "_growth_sum": 86.47000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 259,
-          "sale_amount": 545
-        },
         {
           "date": "2026-08-12",
           "sold": 424,
@@ -68,14 +63,19 @@
           "date": "2026-08-21",
           "sold": 543,
           "sale_amount": 1140.3
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 400,
+          "sale_amount": 740
         }
       ],
-      "sold_count": 3492,
-      "sale_amount": 7334.900000000001,
+      "sold_count": 3633,
+      "sale_amount": 7529.900000000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.37,
-      "_total_sold_show": "3.5k",
-      "_total_sale_show": "$7.3k"
+      "_avg_growth": 12.35,
+      "_total_sold_show": "3.6k",
+      "_total_sale_show": "$7.5k"
     },
     {
       "product_id": "1736949972938491731",
@@ -94,19 +94,14 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-08-10 02:12:14",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 2933,
-      "_total_sale": 14662,
-      "_growth_sum": 121.13,
+      "_total_sold": 3143,
+      "_total_sale": 15715,
+      "_growth_sum": 118.28,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 170,
-          "sale_amount": 847
-        },
         {
           "date": "2026-08-12",
           "sold": 332,
@@ -136,14 +131,77 @@
           "date": "2026-08-21",
           "sold": 615,
           "sale_amount": 3075
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 380,
+          "sale_amount": 1900
         }
       ],
-      "sold_count": 2933,
-      "sale_amount": 14662,
+      "sold_count": 3143,
+      "sale_amount": 15715,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 17.3,
-      "_total_sold_show": "2.9k",
-      "_total_sale_show": "$14.7k"
+      "_avg_growth": 16.9,
+      "_total_sold_show": "3.1k",
+      "_total_sale_show": "$15.7k"
+    },
+    {
+      "product_id": "1734585728022185538",
+      "title": "LDECO 100% Natural 15g Cat Treats Stick Tuna & Chicken & Salmon Cat Strip Snack Pet Wet Food 猫条 宠物零食",
+      "cover": "https://s.500fd.com/tt_product/8f2bbb5ac8734f76988f6db81fa2476d~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734585728022185538?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$0.20",
+      "category_name": [
+        "Cat Food"
+      ],
+      "shop_name": "LDECO",
+      "shop_sold_count": 45861,
+      "aweme_count": 1,
+      "live_count": 0,
+      "author_count": 1,
+      "launch_time": "2026-03-11 01:38:47",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
+      "_appearances": 5,
+      "_total_sold": 2324,
+      "_total_sale": 465,
+      "_growth_sum": 655.71,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-12",
+          "sold": 424,
+          "sale_amount": 85
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 400,
+          "sale_amount": 80
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 360,
+          "sale_amount": 72
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 260,
+          "sale_amount": 52
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 880,
+          "sale_amount": 176
+        }
+      ],
+      "sold_count": 2324,
+      "sale_amount": 465,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 131.14,
+      "_total_sold_show": "2.3k",
+      "_total_sale_show": "$465"
     },
     {
       "product_id": "1735511058960058331",
@@ -162,19 +220,14 @@
       "live_count": 7,
       "author_count": 8,
       "launch_time": "2026-05-10 09:03:36",
-      "_first_seen": "2026-08-11",
+      "_first_seen": "2026-08-12",
       "_last_seen": "2026-08-19",
-      "_appearances": 5,
-      "_total_sold": 2799,
-      "_total_sale": 13996,
-      "_growth_sum": 103.1,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 2161,
+      "_total_sale": 10806,
+      "_growth_sum": 70.46,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 638,
-          "sale_amount": 3190
-        },
         {
           "date": "2026-08-12",
           "sold": 392,
@@ -196,65 +249,60 @@
           "sale_amount": 2860
         }
       ],
-      "sold_count": 2799,
-      "sale_amount": 13996,
+      "sold_count": 2161,
+      "sale_amount": 10806,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 20.62,
-      "_total_sold_show": "2.8k",
-      "_total_sale_show": "$14.0k"
+      "_avg_growth": 17.61,
+      "_total_sold_show": "2.2k",
+      "_total_sale_show": "$10.8k"
     },
     {
-      "product_id": "1732322554692011535",
-      "title": "Drain Fly Killer Japan Powerful Sink Drain Cleaner for Kitchen & Bathroom Clog Removal (Enyzme Powder)",
-      "cover": "https://s.500fd.com/tt_product/b9d25e8ed72a4651a93b4dc549a1b798~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732322554692011535?region=SG&local=en",
+      "product_id": "1732380674396686132",
+      "title": "(HOME+) Cockroach Repellent Magic Box Cockroach Safe Non-toxic Repellent Box Cockroach Repellent Gel",
+      "cover": "https://s.500fd.com/tt_product/49474a33ae374dfa84a47acc39b1aa3d~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1732380674396686132?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$1.30",
+      "real_price": "S$0.95",
       "category_name": [
-        "Household Cleaners"
+        "Pest & Weed Control"
       ],
-      "shop_name": "Krafter",
-      "shop_sold_count": 325079,
+      "shop_name": "HOMEPLUS.SG",
+      "shop_sold_count": 73278,
       "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 2,
-      "launch_time": "2025-12-06 13:29:15",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
-      "_appearances": 4,
-      "_total_sold": 1996,
-      "_total_sale": 2513.83,
-      "_growth_sum": 2423.36,
-      "_growth_count": 4,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2025-12-08 17:14:46",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-22",
+      "_appearances": 3,
+      "_total_sold": 2025,
+      "_total_sale": 1711.6100000000001,
+      "_growth_sum": 185.75999999999996,
+      "_growth_count": 3,
       "_trend": [
         {
-          "date": "2026-08-11",
-          "sold": 748,
-          "sale_amount": 974
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 491,
-          "sale_amount": 639
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 428,
-          "sale_amount": 509.32
+          "date": "2026-08-20",
+          "sold": 1142,
+          "sale_amount": 1084.9
         },
         {
           "date": "2026-08-21",
-          "sold": 329,
-          "sale_amount": 391.51
+          "sold": 532,
+          "sale_amount": 356.44
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 351,
+          "sale_amount": 270.27
         }
       ],
-      "sold_count": 1996,
-      "sale_amount": 2513.83,
+      "sold_count": 2025,
+      "sale_amount": 1711.6100000000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 605.84,
+      "_avg_growth": 61.92,
       "_total_sold_show": "2.0k",
-      "_total_sale_show": "$2.5k"
+      "_total_sale_show": "$1.7k"
     },
     {
       "product_id": "1730343155714262632",
@@ -273,19 +321,14 @@
       "live_count": 3,
       "author_count": 7,
       "launch_time": "2025-09-08 19:22:29",
-      "_first_seen": "2026-08-11",
+      "_first_seen": "2026-08-12",
       "_last_seen": "2026-08-20",
-      "_appearances": 5,
-      "_total_sold": 1891,
-      "_total_sale": 23641.5,
-      "_growth_sum": 94.08,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 1512,
+      "_total_sale": 18900.5,
+      "_growth_sum": 64.73,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 379,
-          "sale_amount": 4741
-        },
         {
           "date": "2026-08-12",
           "sold": 407,
@@ -307,113 +350,103 @@
           "sale_amount": 3625
         }
       ],
-      "sold_count": 1891,
-      "sale_amount": 23641.5,
+      "sold_count": 1512,
+      "sale_amount": 18900.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 18.82,
-      "_total_sold_show": "1.9k",
-      "_total_sale_show": "$23.6k"
+      "_avg_growth": 16.18,
+      "_total_sold_show": "1.5k",
+      "_total_sale_show": "$18.9k"
     },
     {
-      "product_id": "1734585728022185538",
-      "title": "LDECO 100% Natural 15g Cat Treats Stick Tuna & Chicken & Salmon Cat Strip Snack Pet Wet Food 猫条 宠物零食",
-      "cover": "https://s.500fd.com/tt_product/8f2bbb5ac8734f76988f6db81fa2476d~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734585728022185538?region=SG&local=en",
+      "product_id": "1732322554692011535",
+      "title": "Drain Fly Killer Japan Powerful Sink Drain Cleaner for Kitchen & Bathroom Clog Removal (Enyzme Powder)",
+      "cover": "https://s.500fd.com/tt_product/b9d25e8ed72a4651a93b4dc549a1b798~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732322554692011535?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$0.20",
+      "real_price": "S$1.30",
       "category_name": [
-        "Cat Food"
+        "Household Cleaners"
       ],
-      "shop_name": "LDECO",
-      "shop_sold_count": 45861,
-      "aweme_count": 1,
-      "live_count": 0,
-      "author_count": 1,
-      "launch_time": "2026-03-11 01:38:47",
-      "_first_seen": "2026-08-11",
+      "shop_name": "Krafter",
+      "shop_sold_count": 325079,
+      "aweme_count": 0,
+      "live_count": 2,
+      "author_count": 2,
+      "launch_time": "2025-12-06 13:29:15",
+      "_first_seen": "2026-08-12",
       "_last_seen": "2026-08-21",
-      "_appearances": 5,
-      "_total_sold": 1759,
-      "_total_sale": 352,
-      "_growth_sum": 417.89,
-      "_growth_count": 5,
+      "_appearances": 3,
+      "_total_sold": 1248,
+      "_total_sale": 1539.83,
+      "_growth_sum": 2389.07,
+      "_growth_count": 3,
       "_trend": [
         {
-          "date": "2026-08-11",
-          "sold": 315,
-          "sale_amount": 63
-        },
-        {
           "date": "2026-08-12",
-          "sold": 424,
-          "sale_amount": 85
+          "sold": 491,
+          "sale_amount": 639
         },
         {
           "date": "2026-08-18",
-          "sold": 400,
-          "sale_amount": 80
-        },
-        {
-          "date": "2026-08-19",
-          "sold": 360,
-          "sale_amount": 72
+          "sold": 428,
+          "sale_amount": 509.32
         },
         {
           "date": "2026-08-21",
-          "sold": 260,
-          "sale_amount": 52
+          "sold": 329,
+          "sale_amount": 391.51
         }
       ],
-      "sold_count": 1759,
-      "sale_amount": 352,
+      "sold_count": 1248,
+      "sale_amount": 1539.83,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 83.58,
-      "_total_sold_show": "1.8k",
-      "_total_sale_show": "$352"
+      "_avg_growth": 796.36,
+      "_total_sold_show": "1.2k",
+      "_total_sale_show": "$1.5k"
     },
     {
-      "product_id": "1732380674396686132",
-      "title": "(HOME+) Cockroach Repellent Magic Box Cockroach Safe Non-toxic Repellent Box Cockroach Repellent Gel",
-      "cover": "https://s.500fd.com/tt_product/49474a33ae374dfa84a47acc39b1aa3d~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1732380674396686132?region=SG&local=en",
+      "product_id": "1736137167747777640",
+      "title": "mixshop Mini Baby Wet Wipes, Soft Wet Tissue, Hand, Mouth, Body [SG READY STOCK]",
+      "cover": "https://s.500fd.com/tt_product/d48ff4bbbb364b9b8b1012d141a77bb3~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736137167747777640?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$0.95",
+      "real_price": "S$0.20  - 0.99",
       "category_name": [
-        "Pest & Weed Control"
+        "Wipes & Holders"
       ],
-      "shop_name": "HOMEPLUS.SG",
-      "shop_sold_count": 73278,
-      "aweme_count": 0,
-      "live_count": 1,
-      "author_count": 1,
-      "launch_time": "2025-12-08 17:14:46",
-      "_first_seen": "2026-08-20",
-      "_last_seen": "2026-08-21",
+      "shop_name": "mixshopsg",
+      "shop_sold_count": 150801,
+      "aweme_count": 3,
+      "live_count": 0,
+      "author_count": 2,
+      "launch_time": "2026-06-20 20:21:01",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-22",
       "_appearances": 2,
-      "_total_sold": 1674,
-      "_total_sale": 1441.3400000000001,
-      "_growth_sum": 219.77999999999997,
+      "_total_sold": 900,
+      "_total_sale": 180,
+      "_growth_sum": 496.43,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-20",
-          "sold": 1142,
-          "sale_amount": 1084.9
+          "date": "2026-08-19",
+          "sold": 480,
+          "sale_amount": 96
         },
         {
-          "date": "2026-08-21",
-          "sold": 532,
-          "sale_amount": 356.44
+          "date": "2026-08-22",
+          "sold": 420,
+          "sale_amount": 84
         }
       ],
-      "sold_count": 1674,
-      "sale_amount": 1441.3400000000001,
+      "sold_count": 900,
+      "sale_amount": 180,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 109.89,
-      "_total_sold_show": "1.7k",
-      "_total_sale_show": "$1.4k"
+      "_avg_growth": 248.22,
+      "_total_sold_show": "900",
+      "_total_sale_show": "$180"
     },
     {
       "product_id": "1736229024047728328",
@@ -454,47 +487,47 @@
       "_total_sale_show": "$5.8k"
     },
     {
-      "product_id": "1729569664796493598",
-      "title": "BARE️ Silicone Bra Invisible Bra Adhesive Stick On Bra Everyday Seamless Sticky Bra",
-      "cover": "https://s.500fd.com/tt_product/9e922e1e88f145d1aeec741c57bea130~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729569664796493598?region=SG&local=en",
+      "product_id": "1731825811415860535",
+      "title": "Kirei Kirei Anti-Bacterial Hand Wash Hand Soap, (200ml Refill, 250ml/450ml Bottles)",
+      "cover": "https://s.500fd.com/tt_product/336477bd8863452a8c09bd7fee82b908~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731825811415860535?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$15.02",
+      "real_price": "S$1.47",
       "category_name": [
-        "Bras"
+        "Hand Wash\t"
       ],
-      "shop_name": "Wear BARE",
-      "shop_sold_count": 70000,
-      "aweme_count": 1,
-      "live_count": 1,
-      "author_count": 2,
-      "launch_time": "2024-04-30 03:44:08",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
+      "shop_name": "DiaperKing",
+      "shop_sold_count": 50737,
+      "aweme_count": 17,
+      "live_count": 0,
+      "author_count": 17,
+      "launch_time": "2025-12-06 18:03:49",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-22",
       "_appearances": 2,
-      "_total_sold": 795,
-      "_total_sale": 11200,
-      "_growth_sum": 31.11,
+      "_total_sold": 805,
+      "_total_sale": 1183.35,
+      "_growth_sum": 143.01,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-11",
-          "sold": 451,
-          "sale_amount": 6352
+          "date": "2026-08-19",
+          "sold": 500,
+          "sale_amount": 735
         },
         {
-          "date": "2026-08-12",
-          "sold": 344,
-          "sale_amount": 4848
+          "date": "2026-08-22",
+          "sold": 305,
+          "sale_amount": 448.35
         }
       ],
-      "sold_count": 795,
-      "sale_amount": 11200,
+      "sold_count": 805,
+      "sale_amount": 1183.35,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 15.55,
-      "_total_sold_show": "795",
-      "_total_sale_show": "$11.2k"
+      "_avg_growth": 71.5,
+      "_total_sold_show": "805",
+      "_total_sale_show": "$1.2k"
     },
     {
       "product_id": "1735681831654950244",
@@ -535,133 +568,47 @@
       "_total_sale_show": "$3.4k"
     },
     {
-      "product_id": "1736611280553149735",
-      "title": "[LIMITED EDITION] Winnie the Pooh Edition (Mooncake Gift Set) - With Winnie the Pooh Tumbler GWP",
-      "cover": "https://s.500fd.com/tt_product/8f62e806f5034ddeba8edbc3275dd3ad~tplv-aphluv4xwc-crop-webp:1100:1100.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736611280553149735?region=SG&local=en",
+      "product_id": "1730914150107284602",
+      "title": "AQUABLANCE Toilet Air Freshener | Solid Perfume Fragrance Home Car Toilet | Deodorization Enchanting Air Fragrance Aroma Freshener | Long-lasting 200ML",
+      "cover": "https://s.500fd.com/tt_product/55afd8bf7ce148d5addb7bb132077442~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730914150107284602?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$23.90",
+      "real_price": "S$4.40",
       "category_name": [
-        "Gift Sets"
+        "Home Fragrances"
       ],
-      "shop_name": "Fragrance Bak Kwa",
-      "shop_sold_count": 19072,
-      "aweme_count": 0,
+      "shop_name": "Clarkkara",
+      "shop_sold_count": 204228,
+      "aweme_count": 13,
       "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-08-03 10:55:08",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
+      "author_count": 13,
+      "launch_time": "2025-12-06 16:54:55",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-22",
       "_appearances": 2,
-      "_total_sold": 641,
-      "_total_sale": 25042,
-      "_growth_sum": -7.89,
+      "_total_sold": 740,
+      "_total_sale": 3259.33,
+      "_growth_sum": 135.07,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-11",
-          "sold": 222,
-          "sale_amount": 8675
+          "date": "2026-08-18",
+          "sold": 407,
+          "sale_amount": 1790.8
         },
         {
-          "date": "2026-08-12",
-          "sold": 419,
-          "sale_amount": 16367
+          "date": "2026-08-22",
+          "sold": 333,
+          "sale_amount": 1468.53
         }
       ],
-      "sold_count": 641,
-      "sale_amount": 25042,
+      "sold_count": 740,
+      "sale_amount": 3259.33,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -3.94,
-      "_total_sold_show": "641",
-      "_total_sale_show": "$25.0k"
-    },
-    {
-      "product_id": "1729561722215236787",
-      "title": "[LIVE] Japan Kids Children Baby Clothings (Nishimatsuya) - Soft Airy Breathable Comfy (Packet Romper Playset Pajamas & Hanger Set)",
-      "cover": "https://s.500fd.com/tt_product/25e61a955d9f4c8eab9cff5f6cac4548~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729561722215236787?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$10.00",
-      "category_name": [
-        "Bodysuits & One-pieces"
-      ],
-      "shop_name": "Bond Born SG",
-      "shop_sold_count": 35755,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2024-03-01 14:20:13",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
-      "_appearances": 2,
-      "_total_sold": 638,
-      "_total_sale": 6385,
-      "_growth_sum": -41.480000000000004,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 287,
-          "sale_amount": 2872
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 351,
-          "sale_amount": 3513
-        }
-      ],
-      "sold_count": 638,
-      "sale_amount": 6385,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -20.74,
-      "_total_sold_show": "638",
-      "_total_sale_show": "$6.4k"
-    },
-    {
-      "product_id": "1734993841840686265",
-      "title": "Yingbao Womens High Waist Cotton Panties Soft Comfy Breathable Stretchy Full Coverage Ladies Underwear Plain Color Plus Size",
-      "cover": "https://s.500fd.com/tt_product/9a1a6ec1fdde401c82bdef1b3f8f7a12~tplv-o3syd03w52-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734993841840686265?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$3.46  - 4.00",
-      "category_name": [
-        "Panties"
-      ],
-      "shop_name": "Ruizhii",
-      "shop_sold_count": 1916,
-      "aweme_count": 1,
-      "live_count": 0,
-      "author_count": 1,
-      "launch_time": "2026-05-28 06:06:55",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
-      "_appearances": 2,
-      "_total_sold": 631,
-      "_total_sale": 2183,
-      "_growth_sum": 2.4000000000000004,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 280,
-          "sale_amount": 969
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 351,
-          "sale_amount": 1214
-        }
-      ],
-      "sold_count": 631,
-      "sale_amount": 2183,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.2,
-      "_total_sold_show": "631",
-      "_total_sale_show": "$2.2k"
+      "_avg_growth": 67.53,
+      "_total_sold_show": "740",
+      "_total_sale_show": "$3.3k"
     },
     {
       "product_id": "1733872498875401846",
@@ -864,118 +811,80 @@
       "_total_sale_show": "$50.3k"
     },
     {
-      "product_id": "1731825811415860535",
-      "title": "Kirei Kirei Anti-Bacterial Hand Wash Hand Soap, (200ml Refill, 250ml/450ml Bottles)",
-      "cover": "https://s.500fd.com/tt_product/336477bd8863452a8c09bd7fee82b908~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731825811415860535?region=SG&local=en",
+      "product_id": "1736611280553149735",
+      "title": "[LIMITED EDITION] Winnie the Pooh Edition (Mooncake Gift Set) - With Winnie the Pooh Tumbler GWP",
+      "cover": "https://s.500fd.com/tt_product/8f62e806f5034ddeba8edbc3275dd3ad~tplv-aphluv4xwc-crop-webp:1100:1100.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736611280553149735?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$1.47",
+      "real_price": "S$23.90",
       "category_name": [
-        "Hand Wash\t"
+        "Gift Sets"
       ],
-      "shop_name": "DiaperKing",
-      "shop_sold_count": 50737,
-      "aweme_count": 17,
+      "shop_name": "Fragrance Bak Kwa",
+      "shop_sold_count": 19072,
+      "aweme_count": 0,
       "live_count": 0,
-      "author_count": 17,
-      "launch_time": "2025-12-06 18:03:49",
-      "_first_seen": "2026-08-19",
-      "_last_seen": "2026-08-19",
+      "author_count": 0,
+      "launch_time": "2026-08-03 10:55:08",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-12",
       "_appearances": 1,
-      "_total_sold": 500,
-      "_total_sale": 735,
-      "_growth_sum": 82.48,
+      "_total_sold": 419,
+      "_total_sale": 16367,
+      "_growth_sum": 2.95,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-19",
-          "sold": 500,
-          "sale_amount": 735
+          "date": "2026-08-12",
+          "sold": 419,
+          "sale_amount": 16367
         }
       ],
-      "sold_count": 500,
-      "sale_amount": 735,
+      "sold_count": 419,
+      "sale_amount": 16367,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 82.48,
-      "_total_sold_show": "500",
-      "_total_sale_show": "$735"
+      "_avg_growth": 2.95,
+      "_total_sold_show": "419",
+      "_total_sale_show": "$16.4k"
     },
     {
-      "product_id": "1736137167747777640",
-      "title": "mixshop Mini Baby Wet Wipes, Soft Wet Tissue, Hand, Mouth, Body [SG READY STOCK]",
-      "cover": "https://s.500fd.com/tt_product/d48ff4bbbb364b9b8b1012d141a77bb3~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736137167747777640?region=SG&local=en",
+      "product_id": "1736875384090101084",
+      "title": "Portable Phone Desk Stand, Lazy Person Holder, Multi-Function Keychain Mount, Compact and Easy to Carry, Desktop Phone Stand with Keychain",
+      "cover": "https://s.500fd.com/tt_product/5e8e3d898dbd4ba4bff6292defb4e018~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736875384090101084?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$0.20  - 0.99",
+      "real_price": "S$6.40",
       "category_name": [
-        "Wipes & Holders"
+        "Phone Holders & Mounts"
       ],
-      "shop_name": "mixshopsg",
-      "shop_sold_count": 150801,
-      "aweme_count": 3,
+      "shop_name": "Openair Digital",
+      "shop_sold_count": 33114,
+      "aweme_count": 21,
       "live_count": 0,
-      "author_count": 2,
-      "launch_time": "2026-06-20 20:21:01",
-      "_first_seen": "2026-08-19",
-      "_last_seen": "2026-08-19",
+      "author_count": 21,
+      "launch_time": "2026-08-07 07:41:41",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-22",
       "_appearances": 1,
-      "_total_sold": 480,
-      "_total_sale": 96,
-      "_growth_sum": 71.43,
+      "_total_sold": 400,
+      "_total_sale": 2560,
+      "_growth_sum": 1076.47,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-19",
-          "sold": 480,
-          "sale_amount": 96
+          "date": "2026-08-22",
+          "sold": 400,
+          "sale_amount": 2560
         }
       ],
-      "sold_count": 480,
-      "sale_amount": 96,
+      "sold_count": 400,
+      "sale_amount": 2560,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 71.43,
-      "_total_sold_show": "480",
-      "_total_sale_show": "$96"
-    },
-    {
-      "product_id": "1730914150107284602",
-      "title": "AQUABLANCE Toilet Air Freshener | Solid Perfume Fragrance Home Car Toilet | Deodorization Enchanting Air Fragrance Aroma Freshener | Long-lasting 200ML",
-      "cover": "https://s.500fd.com/tt_product/55afd8bf7ce148d5addb7bb132077442~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730914150107284602?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$4.40",
-      "category_name": [
-        "Home Fragrances"
-      ],
-      "shop_name": "Clarkkara",
-      "shop_sold_count": 204228,
-      "aweme_count": 13,
-      "live_count": 0,
-      "author_count": 13,
-      "launch_time": "2025-12-06 16:54:55",
-      "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-18",
-      "_appearances": 1,
-      "_total_sold": 407,
-      "_total_sale": 1790.8,
-      "_growth_sum": 46.93,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-18",
-          "sold": 407,
-          "sale_amount": 1790.8
-        }
-      ],
-      "sold_count": 407,
-      "sale_amount": 1790.8,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 46.93,
-      "_total_sold_show": "407",
-      "_total_sale_show": "$1.8k"
+      "_avg_growth": 1076.47,
+      "_total_sold_show": "400",
+      "_total_sale_show": "$2.6k"
     },
     {
       "product_id": "1736050722469480217",
@@ -1130,6 +1039,82 @@
       "_total_sale_show": "$158.84"
     },
     {
+      "product_id": "1729561722215236787",
+      "title": "[LIVE] Japan Kids Children Baby Clothings (Nishimatsuya) - Soft Airy Breathable Comfy (Packet Romper Playset Pajamas & Hanger Set)",
+      "cover": "https://s.500fd.com/tt_product/25e61a955d9f4c8eab9cff5f6cac4548~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729561722215236787?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$10.00",
+      "category_name": [
+        "Bodysuits & One-pieces"
+      ],
+      "shop_name": "Bond Born SG",
+      "shop_sold_count": 35755,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2024-03-01 14:20:13",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-12",
+      "_appearances": 1,
+      "_total_sold": 351,
+      "_total_sale": 3513,
+      "_growth_sum": -16.03,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-12",
+          "sold": 351,
+          "sale_amount": 3513
+        }
+      ],
+      "sold_count": 351,
+      "sale_amount": 3513,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -16.03,
+      "_total_sold_show": "351",
+      "_total_sale_show": "$3.5k"
+    },
+    {
+      "product_id": "1734993841840686265",
+      "title": "Yingbao Womens High Waist Cotton Panties Soft Comfy Breathable Stretchy Full Coverage Ladies Underwear Plain Color Plus Size",
+      "cover": "https://s.500fd.com/tt_product/9a1a6ec1fdde401c82bdef1b3f8f7a12~tplv-o3syd03w52-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734993841840686265?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$3.46  - 4.00",
+      "category_name": [
+        "Panties"
+      ],
+      "shop_name": "Ruizhii",
+      "shop_sold_count": 1916,
+      "aweme_count": 1,
+      "live_count": 0,
+      "author_count": 1,
+      "launch_time": "2026-05-28 06:06:55",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-12",
+      "_appearances": 1,
+      "_total_sold": 351,
+      "_total_sale": 1214,
+      "_growth_sum": -4.88,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-12",
+          "sold": 351,
+          "sale_amount": 1214
+        }
+      ],
+      "sold_count": 351,
+      "sale_amount": 1214,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -4.88,
+      "_total_sold_show": "351",
+      "_total_sale_show": "$1.2k"
+    },
+    {
       "product_id": "1729551399186367602",
       "title": "(LOCAL READY STOCK) B-P911  HILTON HOTEL COMFORTABLE SOFT POLYSTER COTTON 1KG PILLOW",
       "cover": "https://s.500fd.com/tt_product/5474c83f7e224839a073b4a281696c5b~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -1204,6 +1189,44 @@
       "_avg_growth": 84.21,
       "_total_sold_show": "350",
       "_total_sale_show": "$1.6k"
+    },
+    {
+      "product_id": "1729569664796493598",
+      "title": "BARE️ Silicone Bra Invisible Bra Adhesive Stick On Bra Everyday Seamless Sticky Bra",
+      "cover": "https://s.500fd.com/tt_product/9e922e1e88f145d1aeec741c57bea130~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729569664796493598?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$15.02",
+      "category_name": [
+        "Bras"
+      ],
+      "shop_name": "Wear BARE",
+      "shop_sold_count": 70000,
+      "aweme_count": 1,
+      "live_count": 1,
+      "author_count": 2,
+      "launch_time": "2024-04-30 03:44:08",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-12",
+      "_appearances": 1,
+      "_total_sold": 344,
+      "_total_sale": 4848,
+      "_growth_sum": 9.55,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-12",
+          "sold": 344,
+          "sale_amount": 4848
+        }
+      ],
+      "sold_count": 344,
+      "sale_amount": 4848,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 9.55,
+      "_total_sold_show": "344",
+      "_total_sale_show": "$4.8k"
     },
     {
       "product_id": "1736464503127901885",
@@ -1396,6 +1419,82 @@
       "_total_sale_show": "$3.5k"
     },
     {
+      "product_id": "1736254502721849156",
+      "title": "Portable 4‑in‑1 USB OTG memory drive, 1 TB capacity, MFi certification for iPhone/iOS (app required), Android, and PC, includes a Type‑C adapter and high‑speed data transfer.",
+      "cover": "https://s.500fd.com/tt_product/e46cb56e34664a7e8aa0e3d5bb06d932~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736254502721849156?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$13.94",
+      "category_name": [
+        "Selfie Accessories"
+      ],
+      "shop_name": "HJST",
+      "shop_sold_count": 37268,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-06-27 23:01:10",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-22",
+      "_appearances": 1,
+      "_total_sold": 308,
+      "_total_sale": 4275.04,
+      "_growth_sum": 294.87,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-22",
+          "sold": 308,
+          "sale_amount": 4275.04
+        }
+      ],
+      "sold_count": 308,
+      "sale_amount": 4275.04,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 294.87,
+      "_total_sold_show": "308",
+      "_total_sale_show": "$4.3k"
+    },
+    {
+      "product_id": "1736683962273727710",
+      "title": "Galaxy Projector 2-in-1 Starry Sky Projector, Galaxy Star Projector Starry Projector Light, Galaxy Dual-Mode Night Light, Galaxy Projector USB",
+      "cover": "https://s.500fd.com/tt_product/ebb87a3d3e9e4fbf8136f36694f43f07~tplv-o3syd03w52-crop-webp:1600:1600.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736683962273727710?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$7.90",
+      "category_name": [
+        "Novelty Lighting"
+      ],
+      "shop_name": "Sylvani",
+      "shop_sold_count": 7961,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-07-26 18:48:54",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-22",
+      "_appearances": 1,
+      "_total_sold": 307,
+      "_total_sale": 2425.3,
+      "_growth_sum": 122.46,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-22",
+          "sold": 307,
+          "sale_amount": 2425.3
+        }
+      ],
+      "sold_count": 307,
+      "sale_amount": 2425.3,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 122.46,
+      "_total_sold_show": "307",
+      "_total_sale_show": "$2.4k"
+    },
+    {
       "product_id": "1736260130251114226",
       "title": "KATHWI Gloudy Mountain Car Fragrance, No.5, Longjing Tea, Blue Horizon Balm, long-lasting and pleasant fragrance, the latest luxury car fragrance 150g",
       "cover": "https://s.500fd.com/tt_product/eb6144579b0e482884ecca3e4f7415d6~tplv-aphluv4xwc-crop-webp:800:800.webp",
@@ -1566,19 +1665,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 1643559,
-      "_total_sale": 39357771.75,
-      "_growth_sum": 150.5,
+      "_total_sold": 1907308,
+      "_total_sale": 46040784.1,
+      "_growth_sum": 196.76,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 20009,
-          "sale_amount": 166664
-        },
         {
           "date": "2026-08-12",
           "sold": 204760,
@@ -1608,14 +1702,19 @@
           "date": "2026-08-21",
           "sold": 283758,
           "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 1643559,
-      "sale_amount": 39357771.75,
+      "sold_count": 1907308,
+      "sale_amount": 46040784.1,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 21.5,
-      "_total_sold_show": "1.6M",
-      "_total_sale_show": "$39.4M"
+      "_avg_growth": 28.11,
+      "_total_sold_show": "1.9M",
+      "_total_sale_show": "$46.0M"
     },
     {
       "product_id": "1729448464509734958",
@@ -1634,19 +1733,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 1136185,
-      "_total_sale": 31114757.150000006,
-      "_growth_sum": -67.13999999999997,
+      "_total_sold": 1317877,
+      "_total_sale": 35166615.18000001,
+      "_growth_sum": -5.05,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 12519,
-          "sale_amount": 1130525
-        },
         {
           "date": "2026-08-12",
           "sold": 152611,
@@ -1676,14 +1770,19 @@
           "date": "2026-08-21",
           "sold": 194211,
           "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 1136185,
-      "sale_amount": 31114757.150000006,
+      "sold_count": 1317877,
+      "sale_amount": 35166615.18000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -9.59,
-      "_total_sold_show": "1.1M",
-      "_total_sale_show": "$31.1M"
+      "_avg_growth": -0.72,
+      "_total_sold_show": "1.3M",
+      "_total_sale_show": "$35.2M"
     },
     {
       "product_id": "1729679758111249333",
@@ -1702,19 +1801,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 868596,
-      "_total_sale": 1572123.15,
-      "_growth_sum": 123.33000000000003,
+      "_total_sold": 953924,
+      "_total_sale": 1801984.5799999998,
+      "_growth_sum": -109.85,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 53931,
-          "sale_amount": 33202
-        },
         {
           "date": "2026-08-12",
           "sold": 118370,
@@ -1744,14 +1838,19 @@
           "date": "2026-08-21",
           "sold": 139259,
           "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 868596,
-      "sale_amount": 1572123.15,
+      "sold_count": 953924,
+      "sale_amount": 1801984.5799999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 17.62,
-      "_total_sold_show": "868.6k",
-      "_total_sale_show": "$1.6M"
+      "_avg_growth": -15.69,
+      "_total_sold_show": "953.9k",
+      "_total_sale_show": "$1.8M"
     },
     {
       "product_id": "1731236289885213002",
@@ -1770,19 +1869,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 624337,
-      "_total_sale": 31109016.599999994,
-      "_growth_sum": 877.83,
+      "_total_sold": 724760,
+      "_total_sale": 35976295.31999999,
+      "_growth_sum": 1071.24,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 4399,
-          "sale_amount": 335969
-        },
         {
           "date": "2026-08-12",
           "sold": 95828,
@@ -1812,14 +1906,19 @@
           "date": "2026-08-21",
           "sold": 104822,
           "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 104822,
+          "sale_amount": 5203247.72
         }
       ],
-      "sold_count": 624337,
-      "sale_amount": 31109016.599999994,
+      "sold_count": 724760,
+      "sale_amount": 35976295.31999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 125.4,
-      "_total_sold_show": "624.3k",
-      "_total_sale_show": "$31.1M"
+      "_avg_growth": 153.03,
+      "_total_sold_show": "724.8k",
+      "_total_sale_show": "$36.0M"
     },
     {
       "product_id": "1732164626458252048",
@@ -1838,19 +1937,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 559602,
-      "_total_sale": 11642208.2,
-      "_growth_sum": 59.6,
+      "_total_sold": 640659,
+      "_total_sale": 13448849.239999998,
+      "_growth_sum": -0.6700000000000008,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 10749,
-          "sale_amount": 120570
-        },
         {
           "date": "2026-08-12",
           "sold": 89823,
@@ -1880,14 +1974,19 @@
           "date": "2026-08-21",
           "sold": 91806,
           "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 91806,
+          "sale_amount": 1927211.04
         }
       ],
-      "sold_count": 559602,
-      "sale_amount": 11642208.2,
+      "sold_count": 640659,
+      "sale_amount": 13448849.239999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.51,
-      "_total_sold_show": "559.6k",
-      "_total_sale_show": "$11.6M"
+      "_avg_growth": -0.1,
+      "_total_sold_show": "640.7k",
+      "_total_sale_show": "$13.4M"
     },
     {
       "product_id": "1731879234948338174",
@@ -1906,19 +2005,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 554326,
-      "_total_sale": 9546237.5,
-      "_growth_sum": -140.91,
+      "_total_sold": 638271,
+      "_total_sale": 10753617,
+      "_growth_sum": -106.46000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 6685,
-          "sale_amount": 319559
-        },
         {
           "date": "2026-08-12",
           "sold": 94491,
@@ -1948,82 +2042,19 @@
           "date": "2026-08-21",
           "sold": 90630,
           "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 90630,
+          "sale_amount": 1526938.5
         }
       ],
-      "sold_count": 554326,
-      "sale_amount": 9546237.5,
+      "sold_count": 638271,
+      "sale_amount": 10753617,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -20.13,
-      "_total_sold_show": "554.3k",
-      "_total_sale_show": "$9.5M"
-    },
-    {
-      "product_id": "1731406217255686451",
-      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
-      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$16.99 - 21.99",
-      "category_name": [
-        "女士文胸"
-      ],
-      "shop_name": "OEAK Apparel",
-      "shop_sold_count": 1625742,
-      "aweme_count": 292,
-      "live_count": 883,
-      "author_count": 567,
-      "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
-      "_appearances": 7,
-      "_total_sold": 552894,
-      "_total_sale": 11448954.65,
-      "_growth_sum": 54.86000000000001,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 20201,
-          "sale_amount": 142845
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 101083,
-          "sale_amount": 2145431
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
-        {
-          "date": "2026-08-19",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        }
-      ],
-      "sold_count": 552894,
-      "sale_amount": 11448954.65,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 7.84,
-      "_total_sold_show": "552.9k",
-      "_total_sale_show": "$11.4M"
+      "_avg_growth": -15.21,
+      "_total_sold_show": "638.3k",
+      "_total_sale_show": "$10.8M"
     },
     {
       "product_id": "1732413417772650787",
@@ -2042,19 +2073,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 543736,
-      "_total_sale": 2721351,
-      "_growth_sum": 13636.43,
+      "_total_sold": 628653,
+      "_total_sale": 3146600,
+      "_growth_sum": 16258.8,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 3541,
-          "sale_amount": 17510
-        },
         {
           "date": "2026-08-12",
           "sold": 97905,
@@ -2084,14 +2110,19 @@
           "date": "2026-08-21",
           "sold": 88458,
           "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 543736,
-      "sale_amount": 2721351,
+      "sold_count": 628653,
+      "sale_amount": 3146600,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1948.06,
-      "_total_sold_show": "543.7k",
-      "_total_sale_show": "$2.7M"
+      "_avg_growth": 2322.69,
+      "_total_sold_show": "628.7k",
+      "_total_sale_show": "$3.1M"
     },
     {
       "product_id": "1731528580940468633",
@@ -2110,19 +2141,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 538530,
-      "_total_sale": 7743713.049999999,
-      "_growth_sum": 331.53999999999996,
+      "_total_sold": 623233,
+      "_total_sale": 8962662.059999999,
+      "_growth_sum": 405.76,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 1436,
-          "sale_amount": 19809
-        },
         {
           "date": "2026-08-12",
           "sold": 106399,
@@ -2152,14 +2178,87 @@
           "date": "2026-08-21",
           "sold": 86139,
           "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 86139,
+          "sale_amount": 1238758.01
         }
       ],
-      "sold_count": 538530,
-      "sale_amount": 7743713.049999999,
+      "sold_count": 623233,
+      "sale_amount": 8962662.059999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 47.36,
-      "_total_sold_show": "538.5k",
-      "_total_sale_show": "$7.7M"
+      "_avg_growth": 57.97,
+      "_total_sold_show": "623.2k",
+      "_total_sale_show": "$9.0M"
+    },
+    {
+      "product_id": "1731406217255686451",
+      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
+      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$16.99 - 21.99",
+      "category_name": [
+        "女士文胸"
+      ],
+      "shop_name": "OEAK Apparel",
+      "shop_sold_count": 1625742,
+      "aweme_count": 292,
+      "live_count": 883,
+      "author_count": 567,
+      "launch_time": "2025-07-25 13:10:01",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
+      "_appearances": 7,
+      "_total_sold": 619015,
+      "_total_sale": 13138245.38,
+      "_growth_sum": 60.790000000000006,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-12",
+          "sold": 101083,
+          "sale_amount": 2145431
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        }
+      ],
+      "sold_count": 619015,
+      "sale_amount": 13138245.38,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 8.68,
+      "_total_sold_show": "619.0k",
+      "_total_sale_show": "$13.1M"
     },
     {
       "product_id": "1729612709100426165",
@@ -2178,19 +2277,14 @@
       "live_count": 1176,
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 510186,
-      "_total_sale": 1096545.8499999999,
-      "_growth_sum": 22.12000000000001,
+      "_total_sold": 567455,
+      "_total_sale": 1122048.8199999998,
+      "_growth_sum": -92.65,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 20471,
-          "sale_amount": 128215
-        },
         {
           "date": "2026-08-12",
           "sold": 101015,
@@ -2220,13 +2314,18 @@
           "date": "2026-08-21",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
-      "sold_count": 510186,
-      "sale_amount": 1096545.8499999999,
+      "sold_count": 567455,
+      "sale_amount": 1122048.8199999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.16,
-      "_total_sold_show": "510.2k",
+      "_avg_growth": -13.24,
+      "_total_sold_show": "567.5k",
       "_total_sale_show": "$1.1M"
     }
   ],
@@ -2334,19 +2433,14 @@
       "live_count": 2,
       "author_count": 2,
       "launch_time": "2025-12-06 13:29:15",
-      "_first_seen": "2026-08-11",
+      "_first_seen": "2026-08-12",
       "_last_seen": "2026-08-21",
-      "_appearances": 4,
-      "_total_sold": 1996,
-      "_total_sale": 2513.83,
-      "_growth_sum": 2423.36,
-      "_growth_count": 4,
+      "_appearances": 3,
+      "_total_sold": 1248,
+      "_total_sale": 1539.83,
+      "_growth_sum": 2389.07,
+      "_growth_count": 3,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 748,
-          "sale_amount": 974
-        },
         {
           "date": "2026-08-12",
           "sold": 491,
@@ -2363,55 +2457,55 @@
           "sale_amount": 391.51
         }
       ],
-      "sold_count": 1996,
-      "sale_amount": 2513.83,
+      "sold_count": 1248,
+      "sale_amount": 1539.83,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 605.84,
-      "_total_sold_show": "2.0k",
-      "_total_sale_show": "$2.5k"
+      "_avg_growth": 796.36,
+      "_total_sold_show": "1.2k",
+      "_total_sale_show": "$1.5k"
     },
     {
-      "product_id": "1732380674396686132",
-      "title": "(HOME+) Cockroach Repellent Magic Box Cockroach Safe Non-toxic Repellent Box Cockroach Repellent Gel",
-      "cover": "https://s.500fd.com/tt_product/49474a33ae374dfa84a47acc39b1aa3d~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1732380674396686132?region=SG&local=en",
+      "product_id": "1736137167747777640",
+      "title": "mixshop Mini Baby Wet Wipes, Soft Wet Tissue, Hand, Mouth, Body [SG READY STOCK]",
+      "cover": "https://s.500fd.com/tt_product/d48ff4bbbb364b9b8b1012d141a77bb3~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736137167747777640?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$0.95",
+      "real_price": "S$0.20  - 0.99",
       "category_name": [
-        "Pest & Weed Control"
+        "Wipes & Holders"
       ],
-      "shop_name": "HOMEPLUS.SG",
-      "shop_sold_count": 73278,
-      "aweme_count": 0,
-      "live_count": 1,
-      "author_count": 1,
-      "launch_time": "2025-12-08 17:14:46",
-      "_first_seen": "2026-08-20",
-      "_last_seen": "2026-08-21",
+      "shop_name": "mixshopsg",
+      "shop_sold_count": 150801,
+      "aweme_count": 3,
+      "live_count": 0,
+      "author_count": 2,
+      "launch_time": "2026-06-20 20:21:01",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-22",
       "_appearances": 2,
-      "_total_sold": 1674,
-      "_total_sale": 1441.3400000000001,
-      "_growth_sum": 219.77999999999997,
+      "_total_sold": 900,
+      "_total_sale": 180,
+      "_growth_sum": 496.43,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-20",
-          "sold": 1142,
-          "sale_amount": 1084.9
+          "date": "2026-08-19",
+          "sold": 480,
+          "sale_amount": 96
         },
         {
-          "date": "2026-08-21",
-          "sold": 532,
-          "sale_amount": 356.44
+          "date": "2026-08-22",
+          "sold": 420,
+          "sale_amount": 84
         }
       ],
-      "sold_count": 1674,
-      "sale_amount": 1441.3400000000001,
+      "sold_count": 900,
+      "sale_amount": 180,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 109.89,
-      "_total_sold_show": "1.7k",
-      "_total_sale_show": "$1.4k"
+      "_avg_growth": 248.22,
+      "_total_sold_show": "900",
+      "_total_sale_show": "$180"
     },
     {
       "product_id": "1734585728022185538",
@@ -2430,19 +2524,14 @@
       "live_count": 0,
       "author_count": 1,
       "launch_time": "2026-03-11 01:38:47",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 5,
-      "_total_sold": 1759,
-      "_total_sale": 352,
-      "_growth_sum": 417.89,
+      "_total_sold": 2324,
+      "_total_sale": 465,
+      "_growth_sum": 655.71,
       "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 315,
-          "sale_amount": 63
-        },
         {
           "date": "2026-08-12",
           "sold": 424,
@@ -2462,14 +2551,153 @@
           "date": "2026-08-21",
           "sold": 260,
           "sale_amount": 52
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 880,
+          "sale_amount": 176
         }
       ],
-      "sold_count": 1759,
-      "sale_amount": 352,
+      "sold_count": 2324,
+      "sale_amount": 465,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 83.58,
-      "_total_sold_show": "1.8k",
-      "_total_sale_show": "$352"
+      "_avg_growth": 131.14,
+      "_total_sold_show": "2.3k",
+      "_total_sale_show": "$465"
+    },
+    {
+      "product_id": "1731825811415860535",
+      "title": "Kirei Kirei Anti-Bacterial Hand Wash Hand Soap, (200ml Refill, 250ml/450ml Bottles)",
+      "cover": "https://s.500fd.com/tt_product/336477bd8863452a8c09bd7fee82b908~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731825811415860535?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$1.47",
+      "category_name": [
+        "Hand Wash\t"
+      ],
+      "shop_name": "DiaperKing",
+      "shop_sold_count": 50737,
+      "aweme_count": 17,
+      "live_count": 0,
+      "author_count": 17,
+      "launch_time": "2025-12-06 18:03:49",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-22",
+      "_appearances": 2,
+      "_total_sold": 805,
+      "_total_sale": 1183.35,
+      "_growth_sum": 143.01,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 500,
+          "sale_amount": 735
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 305,
+          "sale_amount": 448.35
+        }
+      ],
+      "sold_count": 805,
+      "sale_amount": 1183.35,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 71.5,
+      "_total_sold_show": "805",
+      "_total_sale_show": "$1.2k"
+    },
+    {
+      "product_id": "1730914150107284602",
+      "title": "AQUABLANCE Toilet Air Freshener | Solid Perfume Fragrance Home Car Toilet | Deodorization Enchanting Air Fragrance Aroma Freshener | Long-lasting 200ML",
+      "cover": "https://s.500fd.com/tt_product/55afd8bf7ce148d5addb7bb132077442~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730914150107284602?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$4.40",
+      "category_name": [
+        "Home Fragrances"
+      ],
+      "shop_name": "Clarkkara",
+      "shop_sold_count": 204228,
+      "aweme_count": 13,
+      "live_count": 0,
+      "author_count": 13,
+      "launch_time": "2025-12-06 16:54:55",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-22",
+      "_appearances": 2,
+      "_total_sold": 740,
+      "_total_sale": 3259.33,
+      "_growth_sum": 135.07,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 407,
+          "sale_amount": 1790.8
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 333,
+          "sale_amount": 1468.53
+        }
+      ],
+      "sold_count": 740,
+      "sale_amount": 3259.33,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 67.53,
+      "_total_sold_show": "740",
+      "_total_sale_show": "$3.3k"
+    },
+    {
+      "product_id": "1732380674396686132",
+      "title": "(HOME+) Cockroach Repellent Magic Box Cockroach Safe Non-toxic Repellent Box Cockroach Repellent Gel",
+      "cover": "https://s.500fd.com/tt_product/49474a33ae374dfa84a47acc39b1aa3d~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1732380674396686132?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$0.95",
+      "category_name": [
+        "Pest & Weed Control"
+      ],
+      "shop_name": "HOMEPLUS.SG",
+      "shop_sold_count": 73278,
+      "aweme_count": 0,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2025-12-08 17:14:46",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-22",
+      "_appearances": 3,
+      "_total_sold": 2025,
+      "_total_sale": 1711.6100000000001,
+      "_growth_sum": 185.75999999999996,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-20",
+          "sold": 1142,
+          "sale_amount": 1084.9
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 532,
+          "sale_amount": 356.44
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 351,
+          "sale_amount": 270.27
+        }
+      ],
+      "sold_count": 2025,
+      "sale_amount": 1711.6100000000001,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 61.92,
+      "_total_sold_show": "2.0k",
+      "_total_sale_show": "$1.7k"
     },
     {
       "product_id": "1735511058960058331",
@@ -2488,19 +2716,14 @@
       "live_count": 7,
       "author_count": 8,
       "launch_time": "2026-05-10 09:03:36",
-      "_first_seen": "2026-08-11",
+      "_first_seen": "2026-08-12",
       "_last_seen": "2026-08-19",
-      "_appearances": 5,
-      "_total_sold": 2799,
-      "_total_sale": 13996,
-      "_growth_sum": 103.1,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 2161,
+      "_total_sale": 10806,
+      "_growth_sum": 70.46,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 638,
-          "sale_amount": 3190
-        },
         {
           "date": "2026-08-12",
           "sold": 392,
@@ -2522,70 +2745,12 @@
           "sale_amount": 2860
         }
       ],
-      "sold_count": 2799,
-      "sale_amount": 13996,
+      "sold_count": 2161,
+      "sale_amount": 10806,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 20.62,
-      "_total_sold_show": "2.8k",
-      "_total_sale_show": "$14.0k"
-    },
-    {
-      "product_id": "1730343155714262632",
-      "title": "Automatic Essential Oil Diffuser for Home Office Car - Large 200ml Capacity",
-      "cover": "https://s.500fd.com/tt_product/5f529fe8c5a14d459f19376ad37ebd62~tplv-aphluv4xwc-crop-webp:2048:2048.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730343155714262632?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$12.50",
-      "category_name": [
-        "Home Fragrances"
-      ],
-      "shop_name": "Alchemist Singapore",
-      "shop_sold_count": 668965,
-      "aweme_count": 4,
-      "live_count": 3,
-      "author_count": 7,
-      "launch_time": "2025-09-08 19:22:29",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-20",
-      "_appearances": 5,
-      "_total_sold": 1891,
-      "_total_sale": 23641.5,
-      "_growth_sum": 94.08,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 379,
-          "sale_amount": 4741
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 407,
-          "sale_amount": 5088
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 407,
-          "sale_amount": 5087.5
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 408,
-          "sale_amount": 5100
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 290,
-          "sale_amount": 3625
-        }
-      ],
-      "sold_count": 1891,
-      "sale_amount": 23641.5,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 18.82,
-      "_total_sold_show": "1.9k",
-      "_total_sale_show": "$23.6k"
+      "_avg_growth": 17.61,
+      "_total_sold_show": "2.2k",
+      "_total_sale_show": "$10.8k"
     },
     {
       "product_id": "1736949972938491731",
@@ -2604,19 +2769,14 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-08-10 02:12:14",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 2933,
-      "_total_sale": 14662,
-      "_growth_sum": 121.13,
+      "_total_sold": 3143,
+      "_total_sale": 15715,
+      "_growth_sum": 118.28,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 170,
-          "sale_amount": 847
-        },
         {
           "date": "2026-08-12",
           "sold": 332,
@@ -2646,57 +2806,72 @@
           "date": "2026-08-21",
           "sold": 615,
           "sale_amount": 3075
-        }
-      ],
-      "sold_count": 2933,
-      "sale_amount": 14662,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 17.3,
-      "_total_sold_show": "2.9k",
-      "_total_sale_show": "$14.7k"
-    },
-    {
-      "product_id": "1729569664796493598",
-      "title": "BARE️ Silicone Bra Invisible Bra Adhesive Stick On Bra Everyday Seamless Sticky Bra",
-      "cover": "https://s.500fd.com/tt_product/9e922e1e88f145d1aeec741c57bea130~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729569664796493598?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$15.02",
-      "category_name": [
-        "Bras"
-      ],
-      "shop_name": "Wear BARE",
-      "shop_sold_count": 70000,
-      "aweme_count": 1,
-      "live_count": 1,
-      "author_count": 2,
-      "launch_time": "2024-04-30 03:44:08",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
-      "_appearances": 2,
-      "_total_sold": 795,
-      "_total_sale": 11200,
-      "_growth_sum": 31.11,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 451,
-          "sale_amount": 6352
         },
         {
-          "date": "2026-08-12",
-          "sold": 344,
-          "sale_amount": 4848
+          "date": "2026-08-22",
+          "sold": 380,
+          "sale_amount": 1900
         }
       ],
-      "sold_count": 795,
-      "sale_amount": 11200,
+      "sold_count": 3143,
+      "sale_amount": 15715,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 15.55,
-      "_total_sold_show": "795",
-      "_total_sale_show": "$11.2k"
+      "_avg_growth": 16.9,
+      "_total_sold_show": "3.1k",
+      "_total_sale_show": "$15.7k"
+    },
+    {
+      "product_id": "1730343155714262632",
+      "title": "Automatic Essential Oil Diffuser for Home Office Car - Large 200ml Capacity",
+      "cover": "https://s.500fd.com/tt_product/5f529fe8c5a14d459f19376ad37ebd62~tplv-aphluv4xwc-crop-webp:2048:2048.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730343155714262632?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$12.50",
+      "category_name": [
+        "Home Fragrances"
+      ],
+      "shop_name": "Alchemist Singapore",
+      "shop_sold_count": 668965,
+      "aweme_count": 4,
+      "live_count": 3,
+      "author_count": 7,
+      "launch_time": "2025-09-08 19:22:29",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-20",
+      "_appearances": 4,
+      "_total_sold": 1512,
+      "_total_sale": 18900.5,
+      "_growth_sum": 64.73,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-12",
+          "sold": 407,
+          "sale_amount": 5088
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 407,
+          "sale_amount": 5087.5
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 408,
+          "sale_amount": 5100
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 290,
+          "sale_amount": 3625
+        }
+      ],
+      "sold_count": 1512,
+      "sale_amount": 18900.5,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 16.18,
+      "_total_sold_show": "1.5k",
+      "_total_sale_show": "$18.9k"
     },
     {
       "product_id": "1734760814147568744",
@@ -2715,19 +2890,14 @@
       "live_count": 0,
       "author_count": 0,
       "launch_time": "2026-03-24 03:10:44",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-21",
+      "_first_seen": "2026-08-12",
+      "_last_seen": "2026-08-22",
       "_appearances": 7,
-      "_total_sold": 3492,
-      "_total_sale": 7334.900000000001,
-      "_growth_sum": 86.60000000000001,
+      "_total_sold": 3633,
+      "_total_sale": 7529.900000000001,
+      "_growth_sum": 86.47000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 259,
-          "sale_amount": 545
-        },
         {
           "date": "2026-08-12",
           "sold": 424,
@@ -2757,143 +2927,19 @@
           "date": "2026-08-21",
           "sold": 543,
           "sale_amount": 1140.3
-        }
-      ],
-      "sold_count": 3492,
-      "sale_amount": 7334.900000000001,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.37,
-      "_total_sold_show": "3.5k",
-      "_total_sale_show": "$7.3k"
-    },
-    {
-      "product_id": "1734993841840686265",
-      "title": "Yingbao Womens High Waist Cotton Panties Soft Comfy Breathable Stretchy Full Coverage Ladies Underwear Plain Color Plus Size",
-      "cover": "https://s.500fd.com/tt_product/9a1a6ec1fdde401c82bdef1b3f8f7a12~tplv-o3syd03w52-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734993841840686265?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$3.46  - 4.00",
-      "category_name": [
-        "Panties"
-      ],
-      "shop_name": "Ruizhii",
-      "shop_sold_count": 1916,
-      "aweme_count": 1,
-      "live_count": 0,
-      "author_count": 1,
-      "launch_time": "2026-05-28 06:06:55",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
-      "_appearances": 2,
-      "_total_sold": 631,
-      "_total_sale": 2183,
-      "_growth_sum": 2.4000000000000004,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 280,
-          "sale_amount": 969
         },
         {
-          "date": "2026-08-12",
-          "sold": 351,
-          "sale_amount": 1214
+          "date": "2026-08-22",
+          "sold": 400,
+          "sale_amount": 740
         }
       ],
-      "sold_count": 631,
-      "sale_amount": 2183,
+      "sold_count": 3633,
+      "sale_amount": 7529.900000000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.2,
-      "_total_sold_show": "631",
-      "_total_sale_show": "$2.2k"
-    },
-    {
-      "product_id": "1736611280553149735",
-      "title": "[LIMITED EDITION] Winnie the Pooh Edition (Mooncake Gift Set) - With Winnie the Pooh Tumbler GWP",
-      "cover": "https://s.500fd.com/tt_product/8f62e806f5034ddeba8edbc3275dd3ad~tplv-aphluv4xwc-crop-webp:1100:1100.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736611280553149735?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$23.90",
-      "category_name": [
-        "Gift Sets"
-      ],
-      "shop_name": "Fragrance Bak Kwa",
-      "shop_sold_count": 19072,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-08-03 10:55:08",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
-      "_appearances": 2,
-      "_total_sold": 641,
-      "_total_sale": 25042,
-      "_growth_sum": -7.89,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 222,
-          "sale_amount": 8675
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 419,
-          "sale_amount": 16367
-        }
-      ],
-      "sold_count": 641,
-      "sale_amount": 25042,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -3.94,
-      "_total_sold_show": "641",
-      "_total_sale_show": "$25.0k"
-    },
-    {
-      "product_id": "1729561722215236787",
-      "title": "[LIVE] Japan Kids Children Baby Clothings (Nishimatsuya) - Soft Airy Breathable Comfy (Packet Romper Playset Pajamas & Hanger Set)",
-      "cover": "https://s.500fd.com/tt_product/25e61a955d9f4c8eab9cff5f6cac4548~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729561722215236787?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$10.00",
-      "category_name": [
-        "Bodysuits & One-pieces"
-      ],
-      "shop_name": "Bond Born SG",
-      "shop_sold_count": 35755,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2024-03-01 14:20:13",
-      "_first_seen": "2026-08-11",
-      "_last_seen": "2026-08-12",
-      "_appearances": 2,
-      "_total_sold": 638,
-      "_total_sale": 6385,
-      "_growth_sum": -41.480000000000004,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-11",
-          "sold": 287,
-          "sale_amount": 2872
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 351,
-          "sale_amount": 3513
-        }
-      ],
-      "sold_count": 638,
-      "sale_amount": 6385,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -20.74,
-      "_total_sold_show": "638",
-      "_total_sale_show": "$6.4k"
+      "_avg_growth": 12.35,
+      "_total_sold_show": "3.6k",
+      "_total_sale_show": "$7.5k"
     }
   ]
 }

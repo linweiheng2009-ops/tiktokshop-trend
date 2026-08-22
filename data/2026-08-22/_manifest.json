@@ -1,0 +1,90 @@
+{
+  "date": "2026-08-22",
+  "fetched_at": "2026-08-22T01:40:20.470Z",
+  "source": "fastmoss.com/api/goods/saleRank",
+  "regions": [
+    "US",
+    "SG",
+    "MY",
+    "PH",
+    "ID",
+    "TH",
+    "VN"
+  ],
+  "pages": [
+    "daily",
+    "total"
+  ],
+  "files": [
+    {
+      "region": "US",
+      "rank_type": "daily",
+      "count": 10
+    },
+    {
+      "region": "US",
+      "rank_type": "total",
+      "count": 10
+    },
+    {
+      "region": "SG",
+      "rank_type": "daily",
+      "count": 10
+    },
+    {
+      "region": "SG",
+      "rank_type": "total",
+      "count": 10
+    },
+    {
+      "region": "MY",
+      "rank_type": "daily",
+      "count": 10
+    },
+    {
+      "region": "MY",
+      "rank_type": "total",
+      "count": 10
+    },
+    {
+      "region": "PH",
+      "rank_type": "daily",
+      "count": 10
+    },
+    {
+      "region": "PH",
+      "rank_type": "total",
+      "count": 10
+    },
+    {
+      "region": "ID",
+      "rank_type": "daily",
+      "count": 10
+    },
+    {
+      "region": "ID",
+      "rank_type": "total",
+      "count": 10
+    },
+    {
+      "region": "TH",
+      "rank_type": "daily",
+      "count": 10
+    },
+    {
+      "region": "TH",
+      "rank_type": "total",
+      "count": 10
+    },
+    {
+      "region": "VN",
+      "rank_type": "daily",
+      "count": 10
+    },
+    {
+      "region": "VN",
+      "rank_type": "total",
+      "count": 10
+    }
+  ]
+}
