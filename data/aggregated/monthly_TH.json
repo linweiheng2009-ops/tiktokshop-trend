@@ -1,13 +1,13 @@
 {
   "period": "monthly",
   "region": "TH",
-  "generated_at": "2026-08-22T01:40:38.598Z",
+  "generated_at": "2026-08-23T01:50:07.239Z",
   "date_range": [
     "2026-08-03",
-    "2026-08-22"
+    "2026-08-23"
   ],
-  "daily_count": 160,
-  "total_count": 160,
+  "daily_count": 170,
+  "total_count": 170,
   "daily_top": [
     {
       "product_id": "1736392931011822670",
@@ -125,12 +125,12 @@
       "author_count": 78,
       "launch_time": "2023-11-02 02:09:37",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 15,
-      "_total_sold": 119607,
-      "_total_sale": 7057191,
-      "_growth_sum": 398.94,
-      "_growth_count": 15,
+      "_last_seen": "2026-08-23",
+      "_appearances": 16,
+      "_total_sold": 125179,
+      "_total_sale": 7385939,
+      "_growth_sum": 362.11,
+      "_growth_count": 16,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -206,14 +206,19 @@
           "date": "2026-08-22",
           "sold": 8821,
           "sale_amount": 520439
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 5572,
+          "sale_amount": 328748
         }
       ],
-      "sold_count": 119607,
-      "sale_amount": 7057191,
+      "sold_count": 125179,
+      "sale_amount": 7385939,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 26.6,
-      "_total_sold_show": "119.6k",
-      "_total_sale_show": "$7.1M"
+      "_avg_growth": 22.63,
+      "_total_sold_show": "125.2k",
+      "_total_sale_show": "$7.4M"
     },
     {
       "product_id": "1729863417554503787",
@@ -233,12 +238,12 @@
       "author_count": 25,
       "launch_time": "2023-12-16 14:16:11",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 13,
-      "_total_sold": 100627,
-      "_total_sale": 301861,
-      "_growth_sum": 211.29,
-      "_growth_count": 13,
+      "_last_seen": "2026-08-23",
+      "_appearances": 14,
+      "_total_sold": 108405,
+      "_total_sale": 325195,
+      "_growth_sum": 206.38,
+      "_growth_count": 14,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -304,14 +309,19 @@
           "date": "2026-08-22",
           "sold": 8180,
           "sale_amount": 24540
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 7778,
+          "sale_amount": 23334
         }
       ],
-      "sold_count": 100627,
-      "sale_amount": 301861,
+      "sold_count": 108405,
+      "sale_amount": 325195,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 16.25,
-      "_total_sold_show": "100.6k",
-      "_total_sale_show": "$301.9k"
+      "_avg_growth": 14.74,
+      "_total_sold_show": "108.4k",
+      "_total_sale_show": "$325.2k"
     },
     {
       "product_id": "1733587410864539046",
@@ -586,6 +596,69 @@
       "_avg_growth": 1.42,
       "_total_sold_show": "73.9k",
       "_total_sale_show": "$2.1M"
+    },
+    {
+      "product_id": "1732164463083031336",
+      "title": "วางบนผนัง30*60cm สติกเกอร์ติดผนังลายหินอ่อน ขนาด 30×30 ซม & 30×60 ซม กันน้ำ กันชื้น ทนความร้อน สติ๊กเกอร์พีวีซี ติดตั้งง่าย ไม่ต้องใช้กาว DIY ตกแต่งผนัง",
+      "cover": "https://s.500fd.com/tt_product/328c808bd713447c850f5624ff48ee5f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732164463083031336?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿5.99  - 11.99",
+      "category_name": [
+        "Decorative Stickers"
+      ],
+      "shop_name": "fogo mart",
+      "shop_sold_count": 562477,
+      "aweme_count": 3,
+      "live_count": 0,
+      "author_count": 3,
+      "launch_time": "2025-06-30 23:01:04",
+      "_first_seen": "2026-08-17",
+      "_last_seen": "2026-08-23",
+      "_appearances": 6,
+      "_total_sold": 69428,
+      "_total_sale": 415873.72,
+      "_growth_sum": 284.85999999999996,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-17",
+          "sold": 8787,
+          "sale_amount": 52634.13
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 13178,
+          "sale_amount": 78936.22
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 7563,
+          "sale_amount": 45302.37
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 14526,
+          "sale_amount": 87010.74
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 13058,
+          "sale_amount": 78217.42
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 12316,
+          "sale_amount": 73772.84
+        }
+      ],
+      "sold_count": 69428,
+      "sale_amount": 415873.72,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 47.48,
+      "_total_sold_show": "69.4k",
+      "_total_sale_show": "$415.9k"
     },
     {
       "product_id": "1736378156366792683",
@@ -930,62 +1003,62 @@
       "_total_sale_show": "$1.1M"
     },
     {
-      "product_id": "1732164463083031336",
-      "title": "วางบนผนัง30*60cm สติกเกอร์ติดผนังลายหินอ่อน ขนาด 30×30 ซม & 30×60 ซม กันน้ำ กันชื้น ทนความร้อน สติ๊กเกอร์พีวีซี ติดตั้งง่าย ไม่ต้องใช้กาว DIY ตกแต่งผนัง",
-      "cover": "https://s.500fd.com/tt_product/328c808bd713447c850f5624ff48ee5f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732164463083031336?region=TH&local=en",
+      "product_id": "1735373273049498784",
+      "title": "โปรตีนเจนนี่ [ตะกร้าบริษัท] 1 เสริฟ โปรตีน 24 กรัม มี 7 รสชาติ",
+      "cover": "https://s.500fd.com/tt_product/b0d705de3f944ffd9ab7650b0cdb3da2~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735373273049498784?region=TH&local=en",
       "region": "TH",
       "currency": "THB",
-      "real_price": "฿5.99  - 11.99",
+      "real_price": "฿54.00",
       "category_name": [
-        "Decorative Stickers"
+        "Meal Replacement & Protein Drinks"
       ],
-      "shop_name": "fogo mart",
-      "shop_sold_count": 562477,
-      "aweme_count": 3,
-      "live_count": 0,
-      "author_count": 3,
-      "launch_time": "2025-06-30 23:01:04",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-22",
+      "shop_name": "SomjaneThailand",
+      "shop_sold_count": 1646327,
+      "aweme_count": 83,
+      "live_count": 540,
+      "author_count": 375,
+      "launch_time": "2026-05-01 00:21:51",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-23",
       "_appearances": 5,
-      "_total_sold": 57112,
-      "_total_sale": 342100.88,
-      "_growth_sum": 290.53999999999996,
+      "_total_sold": 55499,
+      "_total_sale": 2996946,
+      "_growth_sum": 1714.11,
       "_growth_count": 5,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 8787,
-          "sale_amount": 52634.13
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 13178,
-          "sale_amount": 78936.22
+          "date": "2026-08-19",
+          "sold": 8186,
+          "sale_amount": 442044
         },
         {
           "date": "2026-08-20",
-          "sold": 7563,
-          "sale_amount": 45302.37
+          "sold": 16368,
+          "sale_amount": 883872
         },
         {
           "date": "2026-08-21",
-          "sold": 14526,
-          "sale_amount": 87010.74
+          "sold": 11016,
+          "sale_amount": 594864
         },
         {
           "date": "2026-08-22",
-          "sold": 13058,
-          "sale_amount": 78217.42
+          "sold": 12002,
+          "sale_amount": 648108
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 7927,
+          "sale_amount": 428058
         }
       ],
-      "sold_count": 57112,
-      "sale_amount": 342100.88,
+      "sold_count": 55499,
+      "sale_amount": 2996946,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 58.11,
-      "_total_sold_show": "57.1k",
-      "_total_sale_show": "$342.1k"
+      "_avg_growth": 342.82,
+      "_total_sold_show": "55.5k",
+      "_total_sale_show": "$3.0M"
     },
     {
       "product_id": "1729858177955498178",
@@ -1005,12 +1078,12 @@
       "author_count": 1,
       "launch_time": "2023-12-15 01:30:22",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-21",
-      "_appearances": 5,
-      "_total_sold": 48026,
-      "_total_sale": 221399.86000000002,
-      "_growth_sum": 0.13000000000000078,
-      "_growth_count": 5,
+      "_last_seen": "2026-08-23",
+      "_appearances": 6,
+      "_total_sold": 53676,
+      "_total_sale": 247446.36000000002,
+      "_growth_sum": -9.09,
+      "_growth_count": 6,
       "_trend": [
         {
           "date": "2026-08-17",
@@ -1036,67 +1109,19 @@
           "date": "2026-08-21",
           "sold": 9465,
           "sale_amount": 43633.65
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 5650,
+          "sale_amount": 26046.5
         }
       ],
-      "sold_count": 48026,
-      "sale_amount": 221399.86000000002,
+      "sold_count": 53676,
+      "sale_amount": 247446.36000000002,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.03,
-      "_total_sold_show": "48.0k",
-      "_total_sale_show": "$221.4k"
-    },
-    {
-      "product_id": "1735373273049498784",
-      "title": "โปรตีนเจนนี่ [ตะกร้าบริษัท] 1 เสริฟ โปรตีน 24 กรัม มี 7 รสชาติ",
-      "cover": "https://s.500fd.com/tt_product/b0d705de3f944ffd9ab7650b0cdb3da2~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735373273049498784?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿54.00",
-      "category_name": [
-        "Meal Replacement & Protein Drinks"
-      ],
-      "shop_name": "SomjaneThailand",
-      "shop_sold_count": 1646327,
-      "aweme_count": 83,
-      "live_count": 540,
-      "author_count": 375,
-      "launch_time": "2026-05-01 00:21:51",
-      "_first_seen": "2026-08-19",
-      "_last_seen": "2026-08-22",
-      "_appearances": 4,
-      "_total_sold": 47572,
-      "_total_sale": 2568888,
-      "_growth_sum": 1748.06,
-      "_growth_count": 4,
-      "_trend": [
-        {
-          "date": "2026-08-19",
-          "sold": 8186,
-          "sale_amount": 442044
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 16368,
-          "sale_amount": 883872
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 11016,
-          "sale_amount": 594864
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 12002,
-          "sale_amount": 648108
-        }
-      ],
-      "sold_count": 47572,
-      "sale_amount": 2568888,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 437.01,
-      "_total_sold_show": "47.6k",
-      "_total_sale_show": "$2.6M"
+      "_avg_growth": -1.51,
+      "_total_sold_show": "53.7k",
+      "_total_sale_show": "$247.4k"
     },
     {
       "product_id": "1736365467365246403",
@@ -1155,6 +1180,54 @@
       "_avg_growth": 5.36,
       "_total_sold_show": "45.3k",
       "_total_sale_show": "$453.4k"
+    },
+    {
+      "product_id": "1733615154114299180",
+      "title": "กางเกงในลูกไม้สไตล์ฝรั่งเศสสุดหรูสำหรับผู้หญิง ระบายอากาศได้ดี ป้องกันแบคทีเรีย ลายตัวอักษร เอวสูง ยกสะโพก M-4XL( 115 )",
+      "cover": "https://s.500fd.com/tt_product/6ff6bc13e51a4edcabe101b0d870ae8b~tplv-aphluv4xwc-crop-webp:1280:1286.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733615154114299180?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿17.55  - 120.00",
+      "category_name": [
+        "Panties"
+      ],
+      "shop_name": "Fashion Shopping 130",
+      "shop_sold_count": 807414,
+      "aweme_count": 7,
+      "live_count": 42,
+      "author_count": 32,
+      "launch_time": "2026-01-06 05:51:45",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-23",
+      "_appearances": 3,
+      "_total_sold": 18519,
+      "_total_sale": 325008.45,
+      "_growth_sum": 192.01000000000002,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 7229,
+          "sale_amount": 126868.95
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 5800,
+          "sale_amount": 101790
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 5490,
+          "sale_amount": 96349.5
+        }
+      ],
+      "sold_count": 18519,
+      "sale_amount": 325008.45,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 64,
+      "_total_sold_show": "18.5k",
+      "_total_sale_show": "$325.0k"
     },
     {
       "product_id": "1735933480387970400",
@@ -1243,47 +1316,47 @@
       "_total_sale_show": "$8.2k"
     },
     {
-      "product_id": "1733615154114299180",
-      "title": "กางเกงในลูกไม้สไตล์ฝรั่งเศสสุดหรูสำหรับผู้หญิง ระบายอากาศได้ดี ป้องกันแบคทีเรีย ลายตัวอักษร เอวสูง ยกสะโพก M-4XL( 115 )",
-      "cover": "https://s.500fd.com/tt_product/6ff6bc13e51a4edcabe101b0d870ae8b~tplv-aphluv4xwc-crop-webp:1280:1286.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733615154114299180?region=TH&local=en",
+      "product_id": "1735694814065952597",
+      "title": "(5 แพ็ก) Beibei คุณภาพสู กระดาษ ทิชชู่เนื้อนุ่ม 1000 ดึง/5 แพ็ค กระดาษชำระ  เหมาะสำหรับใช้ในห้องน้ำ",
+      "cover": "https://s.500fd.com/tt_product/4ad1108305884deaa465aa17282e1af8~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735694814065952597?region=TH&local=en",
       "region": "TH",
       "currency": "THB",
-      "real_price": "฿17.55  - 120.00",
+      "real_price": "฿0.60",
       "category_name": [
-        "Panties"
+        "Tissues & Napkins"
       ],
-      "shop_name": "Fashion Shopping 130",
-      "shop_sold_count": 807414,
-      "aweme_count": 7,
-      "live_count": 42,
-      "author_count": 32,
-      "launch_time": "2026-01-06 05:51:45",
+      "shop_name": "Beibei แท้",
+      "shop_sold_count": 1620679,
+      "aweme_count": 10,
+      "live_count": 142,
+      "author_count": 93,
+      "launch_time": "2026-05-26 05:22:18",
       "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-20",
+      "_last_seen": "2026-08-23",
       "_appearances": 2,
-      "_total_sold": 13029,
-      "_total_sale": 228658.95,
-      "_growth_sum": 191.22000000000003,
+      "_total_sold": 13578,
+      "_total_sale": 8146.8,
+      "_growth_sum": 500.97999999999996,
       "_growth_count": 2,
       "_trend": [
         {
           "date": "2026-08-18",
-          "sold": 7229,
-          "sale_amount": 126868.95
+          "sold": 8830,
+          "sale_amount": 5298
         },
         {
-          "date": "2026-08-20",
-          "sold": 5800,
-          "sale_amount": 101790
+          "date": "2026-08-23",
+          "sold": 4748,
+          "sale_amount": 2848.8
         }
       ],
-      "sold_count": 13029,
-      "sale_amount": 228658.95,
+      "sold_count": 13578,
+      "sale_amount": 8146.8,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 95.61,
-      "_total_sold_show": "13.0k",
-      "_total_sale_show": "$228.7k"
+      "_avg_growth": 250.49,
+      "_total_sold_show": "13.6k",
+      "_total_sale_show": "$8.1k"
     },
     {
       "product_id": "1731822401346046530",
@@ -1441,44 +1514,6 @@
       "_avg_growth": 0,
       "_total_sold_show": "9.3k",
       "_total_sale_show": "$6.4M"
-    },
-    {
-      "product_id": "1735694814065952597",
-      "title": "(5 แพ็ก) Beibei คุณภาพสู กระดาษ ทิชชู่เนื้อนุ่ม 1000 ดึง/5 แพ็ค กระดาษชำระ  เหมาะสำหรับใช้ในห้องน้ำ",
-      "cover": "https://s.500fd.com/tt_product/4ad1108305884deaa465aa17282e1af8~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735694814065952597?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿0.60",
-      "category_name": [
-        "Tissues & Napkins"
-      ],
-      "shop_name": "Beibei แท้",
-      "shop_sold_count": 1620679,
-      "aweme_count": 10,
-      "live_count": 142,
-      "author_count": 93,
-      "launch_time": "2026-05-26 05:22:18",
-      "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-18",
-      "_appearances": 1,
-      "_total_sold": 8830,
-      "_total_sale": 5298,
-      "_growth_sum": 499.46,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-18",
-          "sold": 8830,
-          "sale_amount": 5298
-        }
-      ],
-      "sold_count": 8830,
-      "sale_amount": 5298,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 499.46,
-      "_total_sold_show": "8.8k",
-      "_total_sale_show": "$5.3k"
     },
     {
       "product_id": "1736568617426912951",
@@ -1861,6 +1896,44 @@
       "_total_sale_show": "$107.1k"
     },
     {
+      "product_id": "1734422626915091607",
+      "title": "BANPHAI 10ห่อ กระดาษทิชชูน้องหมี ขนาด: 200มม*200มม*4ชั้น สำหรับใช้ในบ้านที่ดีที่สุด ขาย ตรงจากโรงงาน สัมผัสกับผิวได้โดยตรง เหมาะสำหรับแม่และ เด็ก เด็กหญิง เด็กผู้ชาย",
+      "cover": "https://s.500fd.com/tt_product/924b7d9f05264a8092f85557ee1dbca0~tplv-o3syd03w52-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734422626915091607?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿0.54",
+      "category_name": [
+        "Tissues & Napkins"
+      ],
+      "shop_name": "BAN PHAI ร้านโรงงาน",
+      "shop_sold_count": 989387,
+      "aweme_count": 25,
+      "live_count": 52,
+      "author_count": 51,
+      "launch_time": "2026-02-20 22:17:44",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-23",
+      "_appearances": 1,
+      "_total_sold": 4873,
+      "_total_sale": 2631.42,
+      "_growth_sum": -10.91,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-23",
+          "sold": 4873,
+          "sale_amount": 2631.42
+        }
+      ],
+      "sold_count": 4873,
+      "sale_amount": 2631.42,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -10.91,
+      "_total_sold_show": "4.9k",
+      "_total_sale_show": "$2.6k"
+    },
+    {
       "product_id": "1733078797059917294",
       "title": "ทิชชู่แบบแขวน ทิชชู่ SHIBAQ กระดาษทิชชู่หนานุ่ม 5หิ้ว หนาพิเศษ   ซับน้ำไวไม่เปื่อยเป็นขุยง่าย",
       "cover": "https://s.500fd.com/tt_product/856408b2fa5c4a4cb5be97a3a20c3e5b~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -1897,6 +1970,82 @@
       "_avg_growth": 61.71,
       "_total_sold_show": "4.8k",
       "_total_sale_show": "$3.4k"
+    },
+    {
+      "product_id": "1733674823948862780",
+      "title": "SUPERMOM l 237 Foundation brush แปรงรองพื้น ขนสังเคราะห์ แยกชิ้น (มีกล่องแพ็คเกจ)",
+      "cover": "https://s.500fd.com/tt_product/c445ee23de01436aafdb4a4ae76ffabc~tplv-aphluv4xwc-crop-webp:960:1280.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733674823948862780?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿490.00",
+      "category_name": [
+        "Makeup Brushes"
+      ],
+      "shop_name": "SUPERMOM COSMETICS",
+      "shop_sold_count": 829729,
+      "aweme_count": 0,
+      "live_count": 15,
+      "author_count": 14,
+      "launch_time": "2025-12-22 11:59:30",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-23",
+      "_appearances": 1,
+      "_total_sold": 4759,
+      "_total_sale": 2236730,
+      "_growth_sum": 3159.59,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-23",
+          "sold": 4759,
+          "sale_amount": 2236730
+        }
+      ],
+      "sold_count": 4759,
+      "sale_amount": 2236730,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 3159.59,
+      "_total_sold_show": "4.8k",
+      "_total_sale_show": "$2.2M"
+    },
+    {
+      "product_id": "1735674887784269777",
+      "title": "Dr.PONG InnerDeo Japanese Persimmon Lozenge  เม็ดอมดูแลกลิ่นตัว กลิ่นแก่ กลิ่นปากหอมทันที น้ำตาล 0%",
+      "cover": "https://s.500fd.com/tt_product/90dc7c2a9cc84e2d9bace89b22085c51~tplv-aphluv4xwc-crop-webp:2000:2000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735674887784269777?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿152.15",
+      "category_name": [
+        "Beauty Supplement"
+      ],
+      "shop_name": "drpongshop",
+      "shop_sold_count": 66513477,
+      "aweme_count": 18,
+      "live_count": 97,
+      "author_count": 67,
+      "launch_time": "2026-05-20 20:21:08",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-23",
+      "_appearances": 1,
+      "_total_sold": 4384,
+      "_total_sale": 619678.4,
+      "_growth_sum": 7.14,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-23",
+          "sold": 4384,
+          "sale_amount": 619678.4
+        }
+      ],
+      "sold_count": 4384,
+      "sale_amount": 619678.4,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 7.14,
+      "_total_sold_show": "4.4k",
+      "_total_sale_show": "$619.7k"
     }
   ],
   "total_top": [
@@ -1918,12 +2067,12 @@
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 2521503,
-      "_total_sale": 60968053.10000001,
-      "_growth_sum": 334.51,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 2805261,
+      "_total_sale": 67817729.45,
+      "_growth_sum": 369.7,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2004,14 +2153,19 @@
           "date": "2026-08-22",
           "sold": 283758,
           "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 2521503,
-      "sale_amount": 60968053.10000001,
+      "sold_count": 2805261,
+      "sale_amount": 67817729.45,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 20.91,
-      "_total_sold_show": "2.5M",
-      "_total_sale_show": "$61.0M"
+      "_avg_growth": 21.75,
+      "_total_sold_show": "2.8M",
+      "_total_sale_show": "$67.8M"
     },
     {
       "product_id": "1729448464509734958",
@@ -2031,12 +2185,12 @@
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 2014297,
-      "_total_sale": 54050212.18000001,
-      "_growth_sum": 17.390000000000004,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 2208508,
+      "_total_sale": 59232595.21000001,
+      "_growth_sum": 17.010000000000005,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2117,14 +2271,19 @@
           "date": "2026-08-22",
           "sold": 194211,
           "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 2014297,
-      "sale_amount": 54050212.18000001,
+      "sold_count": 2208508,
+      "sale_amount": 59232595.21000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.09,
-      "_total_sold_show": "2.0M",
-      "_total_sale_show": "$54.1M"
+      "_avg_growth": 1,
+      "_total_sold_show": "2.2M",
+      "_total_sale_show": "$59.2M"
     },
     {
       "product_id": "1729679758111249333",
@@ -2144,12 +2303,12 @@
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 1490727,
-      "_total_sale": 2811605.58,
-      "_growth_sum": 205.5300000000001,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1629986,
+      "_total_sale": 3074669.0100000002,
+      "_growth_sum": 185.1400000000001,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2230,14 +2389,19 @@
           "date": "2026-08-22",
           "sold": 139259,
           "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 1490727,
-      "sale_amount": 2811605.58,
+      "sold_count": 1629986,
+      "sale_amount": 3074669.0100000002,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.85,
-      "_total_sold_show": "1.5M",
-      "_total_sale_show": "$2.8M"
+      "_avg_growth": 10.89,
+      "_total_sold_show": "1.6M",
+      "_total_sale_show": "$3.1M"
     },
     {
       "product_id": "1732164626458252048",
@@ -2257,12 +2421,12 @@
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 1058591,
-      "_total_sale": 21897589.239999995,
-      "_growth_sum": 16.540000000000003,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1150397,
+      "_total_sale": 23824800.279999994,
+      "_growth_sum": 18.080000000000002,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2343,14 +2507,19 @@
           "date": "2026-08-22",
           "sold": 91806,
           "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 91806,
+          "sale_amount": 1927211.04
         }
       ],
-      "sold_count": 1058591,
-      "sale_amount": 21897589.239999995,
+      "sold_count": 1150397,
+      "sale_amount": 23824800.279999994,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.03,
-      "_total_sold_show": "1.1M",
-      "_total_sale_show": "$21.9M"
+      "_avg_growth": 1.06,
+      "_total_sold_show": "1.2M",
+      "_total_sale_show": "$23.8M"
     },
     {
       "product_id": "1729612709100426165",
@@ -2370,12 +2539,12 @@
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 1056935,
-      "_total_sale": 2203524.82,
-      "_growth_sum": -38.719999999999985,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1134675,
+      "_total_sale": 2357242.79,
+      "_growth_sum": -55.759999999999984,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2456,14 +2625,19 @@
           "date": "2026-08-22",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
-      "sold_count": 1056935,
-      "sale_amount": 2203524.82,
+      "sold_count": 1134675,
+      "sale_amount": 2357242.79,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -2.42,
+      "_avg_growth": -3.28,
       "_total_sold_show": "1.1M",
-      "_total_sale_show": "$2.2M"
+      "_total_sale_show": "$2.4M"
     },
     {
       "product_id": "1731879234948338174",
@@ -2483,12 +2657,12 @@
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 1036829,
-      "_total_sale": 17798456,
-      "_growth_sum": -147.95000000000002,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1127459,
+      "_total_sale": 19325394.5,
+      "_growth_sum": -166.20000000000002,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2569,14 +2743,19 @@
           "date": "2026-08-22",
           "sold": 90630,
           "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 90630,
+          "sale_amount": 1526938.5
         }
       ],
-      "sold_count": 1036829,
-      "sale_amount": 17798456,
+      "sold_count": 1127459,
+      "sale_amount": 19325394.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -9.25,
-      "_total_sold_show": "1.0M",
-      "_total_sale_show": "$17.8M"
+      "_avg_growth": -9.78,
+      "_total_sold_show": "1.1M",
+      "_total_sale_show": "$19.3M"
     },
     {
       "product_id": "1731236289885213002",
@@ -2596,12 +2775,12 @@
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 1022387,
-      "_total_sale": 50847306.31999999,
-      "_growth_sum": 1163.76,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1127209,
+      "_total_sale": 56050554.03999999,
+      "_growth_sum": 1336.73,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2682,14 +2861,19 @@
           "date": "2026-08-22",
           "sold": 104822,
           "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 104822,
+          "sale_amount": 5203247.72
         }
       ],
-      "sold_count": 1022387,
-      "sale_amount": 50847306.31999999,
+      "sold_count": 1127209,
+      "sale_amount": 56050554.03999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 72.73,
-      "_total_sold_show": "1.0M",
-      "_total_sale_show": "$50.8M"
+      "_avg_growth": 78.63,
+      "_total_sold_show": "1.1M",
+      "_total_sale_show": "$56.1M"
     },
     {
       "product_id": "1731406217255686451",
@@ -2709,12 +2893,12 @@
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 992684,
-      "_total_sale": 20722185.380000003,
-      "_growth_sum": 183.95,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1079006,
+      "_total_sale": 22554321.110000003,
+      "_growth_sum": 196.76,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2795,14 +2979,19 @@
           "date": "2026-08-22",
           "sold": 86322,
           "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 86322,
+          "sale_amount": 1832135.73
         }
       ],
-      "sold_count": 992684,
-      "sale_amount": 20722185.380000003,
+      "sold_count": 1079006,
+      "sale_amount": 22554321.110000003,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 11.5,
-      "_total_sold_show": "992.7k",
-      "_total_sale_show": "$20.7M"
+      "_avg_growth": 11.57,
+      "_total_sold_show": "1.1M",
+      "_total_sale_show": "$22.6M"
     },
     {
       "product_id": "1731528580940468633",
@@ -2822,12 +3011,12 @@
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 942703,
-      "_total_sale": 13577944.059999999,
-      "_growth_sum": 414.81,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1028842,
+      "_total_sale": 14816702.069999998,
+      "_growth_sum": 483.26,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2908,14 +3097,19 @@
           "date": "2026-08-22",
           "sold": 86139,
           "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 86139,
+          "sale_amount": 1238758.01
         }
       ],
-      "sold_count": 942703,
-      "sale_amount": 13577944.059999999,
+      "sold_count": 1028842,
+      "sale_amount": 14816702.069999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 25.93,
-      "_total_sold_show": "942.7k",
-      "_total_sale_show": "$13.6M"
+      "_avg_growth": 28.43,
+      "_total_sold_show": "1.0M",
+      "_total_sale_show": "$14.8M"
     },
     {
       "product_id": "1732413417772650787",
@@ -2935,12 +3129,12 @@
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 16,
-      "_total_sold": 939203,
-      "_total_sale": 4710125,
-      "_growth_sum": 16328.099999999999,
-      "_growth_count": 16,
+      "_last_seen": "2026-08-23",
+      "_appearances": 17,
+      "_total_sold": 1027661,
+      "_total_sale": 5152884,
+      "_growth_sum": 19034.51,
+      "_growth_count": 17,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3021,70 +3215,22 @@
           "date": "2026-08-22",
           "sold": 88458,
           "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 939203,
-      "sale_amount": 4710125,
+      "sold_count": 1027661,
+      "sale_amount": 5152884,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1020.51,
-      "_total_sold_show": "939.2k",
-      "_total_sale_show": "$4.7M"
+      "_avg_growth": 1119.68,
+      "_total_sold_show": "1.0M",
+      "_total_sale_show": "$5.2M"
     }
   ],
   "growth_top": [
-    {
-      "product_id": "1735373273049498784",
-      "title": "โปรตีนเจนนี่ [ตะกร้าบริษัท] 1 เสริฟ โปรตีน 24 กรัม มี 7 รสชาติ",
-      "cover": "https://s.500fd.com/tt_product/b0d705de3f944ffd9ab7650b0cdb3da2~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735373273049498784?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿54.00",
-      "category_name": [
-        "Meal Replacement & Protein Drinks"
-      ],
-      "shop_name": "SomjaneThailand",
-      "shop_sold_count": 1646327,
-      "aweme_count": 83,
-      "live_count": 540,
-      "author_count": 375,
-      "launch_time": "2026-05-01 00:21:51",
-      "_first_seen": "2026-08-19",
-      "_last_seen": "2026-08-22",
-      "_appearances": 4,
-      "_total_sold": 47572,
-      "_total_sale": 2568888,
-      "_growth_sum": 1748.06,
-      "_growth_count": 4,
-      "_trend": [
-        {
-          "date": "2026-08-19",
-          "sold": 8186,
-          "sale_amount": 442044
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 16368,
-          "sale_amount": 883872
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 11016,
-          "sale_amount": 594864
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 12002,
-          "sale_amount": 648108
-        }
-      ],
-      "sold_count": 47572,
-      "sale_amount": 2568888,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 437.01,
-      "_total_sold_show": "47.6k",
-      "_total_sale_show": "$2.6M"
-    },
     {
       "product_id": "1730965222340135147",
       "title": "กางเกงในเอวสูง กางเกงชั้นในผู้หญิง  เก็บพุง ใส่สวยดูดี ใส่สบาย",
@@ -3172,6 +3318,107 @@
       "_avg_growth": 372.52,
       "_total_sold_show": "63.6k",
       "_total_sale_show": "$1.2M"
+    },
+    {
+      "product_id": "1735373273049498784",
+      "title": "โปรตีนเจนนี่ [ตะกร้าบริษัท] 1 เสริฟ โปรตีน 24 กรัม มี 7 รสชาติ",
+      "cover": "https://s.500fd.com/tt_product/b0d705de3f944ffd9ab7650b0cdb3da2~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735373273049498784?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿54.00",
+      "category_name": [
+        "Meal Replacement & Protein Drinks"
+      ],
+      "shop_name": "SomjaneThailand",
+      "shop_sold_count": 1646327,
+      "aweme_count": 83,
+      "live_count": 540,
+      "author_count": 375,
+      "launch_time": "2026-05-01 00:21:51",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-23",
+      "_appearances": 5,
+      "_total_sold": 55499,
+      "_total_sale": 2996946,
+      "_growth_sum": 1714.11,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 8186,
+          "sale_amount": 442044
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 16368,
+          "sale_amount": 883872
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 11016,
+          "sale_amount": 594864
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 12002,
+          "sale_amount": 648108
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 7927,
+          "sale_amount": 428058
+        }
+      ],
+      "sold_count": 55499,
+      "sale_amount": 2996946,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 342.82,
+      "_total_sold_show": "55.5k",
+      "_total_sale_show": "$3.0M"
+    },
+    {
+      "product_id": "1735694814065952597",
+      "title": "(5 แพ็ก) Beibei คุณภาพสู กระดาษ ทิชชู่เนื้อนุ่ม 1000 ดึง/5 แพ็ค กระดาษชำระ  เหมาะสำหรับใช้ในห้องน้ำ",
+      "cover": "https://s.500fd.com/tt_product/4ad1108305884deaa465aa17282e1af8~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735694814065952597?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿0.60",
+      "category_name": [
+        "Tissues & Napkins"
+      ],
+      "shop_name": "Beibei แท้",
+      "shop_sold_count": 1620679,
+      "aweme_count": 10,
+      "live_count": 142,
+      "author_count": 93,
+      "launch_time": "2026-05-26 05:22:18",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-23",
+      "_appearances": 2,
+      "_total_sold": 13578,
+      "_total_sale": 8146.8,
+      "_growth_sum": 500.97999999999996,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 8830,
+          "sale_amount": 5298
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 4748,
+          "sale_amount": 2848.8
+        }
+      ],
+      "sold_count": 13578,
+      "sale_amount": 8146.8,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 250.49,
+      "_total_sold_show": "13.6k",
+      "_total_sale_show": "$8.1k"
     },
     {
       "product_id": "1731822401346046530",
@@ -3320,12 +3567,12 @@
       "author_count": 32,
       "launch_time": "2026-01-06 05:51:45",
       "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-20",
-      "_appearances": 2,
-      "_total_sold": 13029,
-      "_total_sale": 228658.95,
-      "_growth_sum": 191.22000000000003,
-      "_growth_count": 2,
+      "_last_seen": "2026-08-23",
+      "_appearances": 3,
+      "_total_sold": 18519,
+      "_total_sale": 325008.45,
+      "_growth_sum": 192.01000000000002,
+      "_growth_count": 3,
       "_trend": [
         {
           "date": "2026-08-18",
@@ -3336,14 +3583,19 @@
           "date": "2026-08-20",
           "sold": 5800,
           "sale_amount": 101790
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 5490,
+          "sale_amount": 96349.5
         }
       ],
-      "sold_count": 13029,
-      "sale_amount": 228658.95,
+      "sold_count": 18519,
+      "sale_amount": 325008.45,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 95.61,
-      "_total_sold_show": "13.0k",
-      "_total_sale_show": "$228.7k"
+      "_avg_growth": 64,
+      "_total_sold_show": "18.5k",
+      "_total_sale_show": "$325.0k"
     },
     {
       "product_id": "1732164463083031336",
@@ -3363,12 +3615,12 @@
       "author_count": 3,
       "launch_time": "2025-06-30 23:01:04",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-22",
-      "_appearances": 5,
-      "_total_sold": 57112,
-      "_total_sale": 342100.88,
-      "_growth_sum": 290.53999999999996,
-      "_growth_count": 5,
+      "_last_seen": "2026-08-23",
+      "_appearances": 6,
+      "_total_sold": 69428,
+      "_total_sale": 415873.72,
+      "_growth_sum": 284.85999999999996,
+      "_growth_count": 6,
       "_trend": [
         {
           "date": "2026-08-17",
@@ -3394,14 +3646,19 @@
           "date": "2026-08-22",
           "sold": 13058,
           "sale_amount": 78217.42
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 12316,
+          "sale_amount": 73772.84
         }
       ],
-      "sold_count": 57112,
-      "sale_amount": 342100.88,
+      "sold_count": 69428,
+      "sale_amount": 415873.72,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 58.11,
-      "_total_sold_show": "57.1k",
-      "_total_sale_show": "$342.1k"
+      "_avg_growth": 47.48,
+      "_total_sold_show": "69.4k",
+      "_total_sale_show": "$415.9k"
     },
     {
       "product_id": "1736378156366792683",
@@ -3509,12 +3766,12 @@
       "author_count": 78,
       "launch_time": "2023-11-02 02:09:37",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 15,
-      "_total_sold": 119607,
-      "_total_sale": 7057191,
-      "_growth_sum": 398.94,
-      "_growth_count": 15,
+      "_last_seen": "2026-08-23",
+      "_appearances": 16,
+      "_total_sold": 125179,
+      "_total_sale": 7385939,
+      "_growth_sum": 362.11,
+      "_growth_count": 16,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3590,14 +3847,19 @@
           "date": "2026-08-22",
           "sold": 8821,
           "sale_amount": 520439
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 5572,
+          "sale_amount": 328748
         }
       ],
-      "sold_count": 119607,
-      "sale_amount": 7057191,
+      "sold_count": 125179,
+      "sale_amount": 7385939,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 26.6,
-      "_total_sold_show": "119.6k",
-      "_total_sale_show": "$7.1M"
+      "_avg_growth": 22.63,
+      "_total_sold_show": "125.2k",
+      "_total_sale_show": "$7.4M"
     },
     {
       "product_id": "1733587410864539046",
@@ -3720,12 +3982,12 @@
       "author_count": 25,
       "launch_time": "2023-12-16 14:16:11",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-22",
-      "_appearances": 13,
-      "_total_sold": 100627,
-      "_total_sale": 301861,
-      "_growth_sum": 211.29,
-      "_growth_count": 13,
+      "_last_seen": "2026-08-23",
+      "_appearances": 14,
+      "_total_sold": 108405,
+      "_total_sale": 325195,
+      "_growth_sum": 206.38,
+      "_growth_count": 14,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3791,14 +4053,19 @@
           "date": "2026-08-22",
           "sold": 8180,
           "sale_amount": 24540
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 7778,
+          "sale_amount": 23334
         }
       ],
-      "sold_count": 100627,
-      "sale_amount": 301861,
+      "sold_count": 108405,
+      "sale_amount": 325195,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 16.25,
-      "_total_sold_show": "100.6k",
-      "_total_sale_show": "$301.9k"
+      "_avg_growth": 14.74,
+      "_total_sold_show": "108.4k",
+      "_total_sale_show": "$325.2k"
     },
     {
       "product_id": "1736365467365246403",
@@ -4311,12 +4578,12 @@
       "author_count": 1,
       "launch_time": "2023-12-15 01:30:22",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-21",
-      "_appearances": 5,
-      "_total_sold": 48026,
-      "_total_sale": 221399.86000000002,
-      "_growth_sum": 0.13000000000000078,
-      "_growth_count": 5,
+      "_last_seen": "2026-08-23",
+      "_appearances": 6,
+      "_total_sold": 53676,
+      "_total_sale": 247446.36000000002,
+      "_growth_sum": -9.09,
+      "_growth_count": 6,
       "_trend": [
         {
           "date": "2026-08-17",
@@ -4342,14 +4609,19 @@
           "date": "2026-08-21",
           "sold": 9465,
           "sale_amount": 43633.65
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 5650,
+          "sale_amount": 26046.5
         }
       ],
-      "sold_count": 48026,
-      "sale_amount": 221399.86000000002,
+      "sold_count": 53676,
+      "sale_amount": 247446.36000000002,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.03,
-      "_total_sold_show": "48.0k",
-      "_total_sale_show": "$221.4k"
+      "_avg_growth": -1.51,
+      "_total_sold_show": "53.7k",
+      "_total_sale_show": "$247.4k"
     }
   ]
 }
