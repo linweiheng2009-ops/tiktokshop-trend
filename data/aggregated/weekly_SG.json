@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "SG",
-  "generated_at": "2026-08-23T01:50:07.142Z",
+  "generated_at": "2026-08-24T01:47:47.292Z",
   "date_range": [
-    "2026-08-17",
-    "2026-08-23"
+    "2026-08-18",
+    "2026-08-24"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -21,24 +21,19 @@
         "Massage Devices\t"
       ],
       "shop_name": "DT Department Store",
-      "shop_sold_count": 56233,
+      "shop_sold_count": 56822,
       "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
+      "live_count": 1,
+      "author_count": 1,
       "launch_time": "2026-08-10 02:12:14",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
-      "_total_sold": 3466,
-      "_total_sale": 17330,
-      "_growth_sum": 170.35999999999999,
+      "_total_sold": 3561,
+      "_total_sale": 17805,
+      "_growth_sum": 69.91,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 480,
-          "sale_amount": 2400
-        },
         {
           "date": "2026-08-18",
           "sold": 565,
@@ -68,14 +63,19 @@
           "date": "2026-08-23",
           "sold": 655,
           "sale_amount": 3275
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 575,
+          "sale_amount": 2875
         }
       ],
-      "sold_count": 3466,
-      "sale_amount": 17330,
+      "sold_count": 3561,
+      "sale_amount": 17805,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 24.34,
-      "_total_sold_show": "3.5k",
-      "_total_sale_show": "$17.3k"
+      "_avg_growth": 9.99,
+      "_total_sold_show": "3.6k",
+      "_total_sale_show": "$17.8k"
     },
     {
       "product_id": "1734760814147568744",
@@ -89,24 +89,19 @@
         "Storage Bags"
       ],
       "shop_name": "mixshopsg",
-      "shop_sold_count": 148023,
+      "shop_sold_count": 149289,
       "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
+      "live_count": 1,
+      "author_count": 1,
       "launch_time": "2026-03-24 03:10:44",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-22",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 6,
-      "_total_sold": 3209,
-      "_total_sale": 6638.900000000001,
-      "_growth_sum": 74.00000000000001,
+      "_total_sold": 3130,
+      "_total_sale": 6447.740000000001,
+      "_growth_sum": 144.05,
       "_growth_count": 6,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 500,
-          "sale_amount": 1050
-        },
         {
           "date": "2026-08-18",
           "sold": 778,
@@ -131,14 +126,19 @@
           "date": "2026-08-22",
           "sold": 400,
           "sale_amount": 740
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 421,
+          "sale_amount": 858.84
         }
       ],
-      "sold_count": 3209,
-      "sale_amount": 6638.900000000001,
+      "sold_count": 3130,
+      "sale_amount": 6447.740000000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.33,
-      "_total_sold_show": "3.2k",
-      "_total_sale_show": "$6.6k"
+      "_avg_growth": 24.01,
+      "_total_sold_show": "3.1k",
+      "_total_sale_show": "$6.4k"
     },
     {
       "product_id": "1732380674396686132",
@@ -211,12 +211,12 @@
       "author_count": 1,
       "launch_time": "2026-03-11 01:38:47",
       "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-22",
-      "_appearances": 4,
-      "_total_sold": 1900,
-      "_total_sale": 380,
-      "_growth_sum": 658.46,
-      "_growth_count": 4,
+      "_last_seen": "2026-08-24",
+      "_appearances": 5,
+      "_total_sold": 2420,
+      "_total_sale": 484,
+      "_growth_sum": 847.35,
+      "_growth_count": 5,
       "_trend": [
         {
           "date": "2026-08-18",
@@ -237,14 +237,19 @@
           "date": "2026-08-22",
           "sold": 880,
           "sale_amount": 176
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 520,
+          "sale_amount": 104
         }
       ],
-      "sold_count": 1900,
-      "sale_amount": 380,
+      "sold_count": 2420,
+      "sale_amount": 484,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 164.62,
-      "_total_sold_show": "1.9k",
-      "_total_sale_show": "$380"
+      "_avg_growth": 169.47,
+      "_total_sold_show": "2.4k",
+      "_total_sale_show": "$484"
     },
     {
       "product_id": "1735511058960058331",
@@ -258,24 +263,19 @@
         "Crisps & Puffed Snacks"
       ],
       "shop_name": "Mr peyek",
-      "shop_sold_count": 61611,
-      "aweme_count": 4,
-      "live_count": 9,
-      "author_count": 9,
+      "shop_sold_count": 62168,
+      "aweme_count": 0,
+      "live_count": 12,
+      "author_count": 6,
       "launch_time": "2026-05-10 09:03:36",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-19",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 3,
-      "_total_sold": 1769,
-      "_total_sale": 8845,
-      "_growth_sum": 37.13,
+      "_total_sold": 2263,
+      "_total_sale": 11315,
+      "_growth_sum": 9.58,
       "_growth_count": 3,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 537,
-          "sale_amount": 2685
-        },
         {
           "date": "2026-08-18",
           "sold": 660,
@@ -285,14 +285,67 @@
           "date": "2026-08-19",
           "sold": 572,
           "sale_amount": 2860
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 1031,
+          "sale_amount": 5155
         }
       ],
-      "sold_count": 1769,
-      "sale_amount": 8845,
+      "sold_count": 2263,
+      "sale_amount": 11315,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.38,
-      "_total_sold_show": "1.8k",
-      "_total_sale_show": "$8.8k"
+      "_avg_growth": 3.19,
+      "_total_sold_show": "2.3k",
+      "_total_sale_show": "$11.3k"
+    },
+    {
+      "product_id": "1733872498875401846",
+      "title": "Casual Large Capacity Fishing Shoulder Bag Versatile Style Adjustable Strap Fashion Crossbody Bag Multi Functional Nylon Sports Fitness Pouch Outdoor Activities",
+      "cover": "https://s.500fd.com/tt_product/59a2bffa5b0d4e1581329dca70d3001c~tplv-o3syd03w52-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733872498875401846?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$8.20",
+      "category_name": [
+        "Fishing"
+      ],
+      "shop_name": "xing xin zhen",
+      "shop_sold_count": 1111,
+      "aweme_count": 49,
+      "live_count": 0,
+      "author_count": 49,
+      "launch_time": "2026-03-03 06:33:36",
+      "_first_seen": "2026-08-21",
+      "_last_seen": "2026-08-24",
+      "_appearances": 3,
+      "_total_sold": 1236,
+      "_total_sale": 10135.2,
+      "_growth_sum": 159.27,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-21",
+          "sold": 625,
+          "sale_amount": 5125
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 261,
+          "sale_amount": 2140.2
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 350,
+          "sale_amount": 2870
+        }
+      ],
+      "sold_count": 1236,
+      "sale_amount": 10135.2,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 53.09,
+      "_total_sold_show": "1.2k",
+      "_total_sale_show": "$10.1k"
     },
     {
       "product_id": "1736415877828019481",
@@ -392,24 +445,19 @@
         "Home Fragrances"
       ],
       "shop_name": "Alchemist Singapore",
-      "shop_sold_count": 670469,
-      "aweme_count": 1,
-      "live_count": 6,
-      "author_count": 5,
+      "shop_sold_count": 671092,
+      "aweme_count": 3,
+      "live_count": 9,
+      "author_count": 10,
       "launch_time": "2025-09-08 19:22:29",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-20",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 3,
-      "_total_sold": 1105,
-      "_total_sale": 13812.5,
-      "_growth_sum": 74.69,
+      "_total_sold": 972,
+      "_total_sale": 12150,
+      "_growth_sum": 46.019999999999996,
       "_growth_count": 3,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 407,
-          "sale_amount": 5087.5
-        },
         {
           "date": "2026-08-18",
           "sold": 408,
@@ -419,95 +467,19 @@
           "date": "2026-08-20",
           "sold": 290,
           "sale_amount": 3625
-        }
-      ],
-      "sold_count": 1105,
-      "sale_amount": 13812.5,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 24.9,
-      "_total_sold_show": "1.1k",
-      "_total_sale_show": "$13.8k"
-    },
-    {
-      "product_id": "1733872498875401846",
-      "title": "Casual Large Capacity Fishing Shoulder Bag Versatile Style Adjustable Strap Fashion Crossbody Bag Multi Functional Nylon Sports Fitness Pouch Outdoor Activities",
-      "cover": "https://s.500fd.com/tt_product/59a2bffa5b0d4e1581329dca70d3001c~tplv-o3syd03w52-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733872498875401846?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$8.20",
-      "category_name": [
-        "Fishing"
-      ],
-      "shop_name": "xing xin zhen",
-      "shop_sold_count": 1111,
-      "aweme_count": 49,
-      "live_count": 0,
-      "author_count": 49,
-      "launch_time": "2026-03-03 06:33:36",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-23",
-      "_appearances": 2,
-      "_total_sold": 886,
-      "_total_sale": 7265.2,
-      "_growth_sum": 125.17,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 625,
-          "sale_amount": 5125
         },
         {
-          "date": "2026-08-23",
-          "sold": 261,
-          "sale_amount": 2140.2
+          "date": "2026-08-24",
+          "sold": 274,
+          "sale_amount": 3425
         }
       ],
-      "sold_count": 886,
-      "sale_amount": 7265.2,
+      "sold_count": 972,
+      "sale_amount": 12150,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 62.59,
-      "_total_sold_show": "886",
-      "_total_sale_show": "$7.3k"
-    },
-    {
-      "product_id": "1736229024047728328",
-      "title": "15082026 BALDBODHI (Link 1) EXCLUSIVE SPECIAL PRODUCTS LINK",
-      "cover": "https://s.500fd.com/tt_product/c345f8495ff94aca8c4fc35cd3ef2a61~tplv-aphluv4xwc-crop-webp:686:664.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736229024047728328?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$6.80",
-      "category_name": [
-        "Fengshui Ornaments"
-      ],
-      "shop_name": "Fortune Treasure SG",
-      "shop_sold_count": 7812,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-06-24 22:47:02",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 849,
-      "_total_sale": 5773.2,
-      "_growth_sum": 0,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 849,
-          "sale_amount": 5773.2
-        }
-      ],
-      "sold_count": 849,
-      "sale_amount": 5773.2,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "849",
-      "_total_sale_show": "$5.8k"
+      "_avg_growth": 15.34,
+      "_total_sold_show": "972",
+      "_total_sale_show": "$12.2k"
     },
     {
       "product_id": "1731825811415860535",
@@ -596,44 +568,6 @@
       "_total_sale_show": "$900.8299999999999"
     },
     {
-      "product_id": "1735681831654950244",
-      "title": "Korean-style elastic waist drawstring loose sports shorts, new summer model with side slits, slimming A-line casual outerwear shorts for women",
-      "cover": "https://s.500fd.com/tt_product/a55c28ae484e4e75a46d4df53ba2a5d2~tplv-o3syd03w52-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735681831654950244?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$4.47",
-      "category_name": [
-        "Shorts"
-      ],
-      "shop_name": "AuraStyle",
-      "shop_sold_count": 538,
-      "aweme_count": 26,
-      "live_count": 0,
-      "author_count": 26,
-      "launch_time": "2026-07-11 15:35:14",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 750,
-      "_total_sale": 3352.5,
-      "_growth_sum": 0,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 750,
-          "sale_amount": 3352.5
-        }
-      ],
-      "sold_count": 750,
-      "sale_amount": 3352.5,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "750",
-      "_total_sale_show": "$3.4k"
-    },
-    {
       "product_id": "1730914150107284602",
       "title": "AQUABLANCE Toilet Air Freshener | Solid Perfume Fragrance Home Car Toilet | Deodorization Enchanting Air Fragrance Aroma Freshener | Long-lasting 200ML",
       "cover": "https://s.500fd.com/tt_product/55afd8bf7ce148d5addb7bb132077442~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
@@ -715,47 +649,42 @@
       "_total_sale_show": "$2.9k"
     },
     {
-      "product_id": "1730416945409460020",
-      "title": "(HOME+) Toilet Fragrance Deodorant Gel Deodorant Toilet Cleaner",
-      "cover": "https://s.500fd.com/tt_product/95ab9c5fe5ae4ed680c4f30351235a27~tplv-o3syd03w52-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730416945409460020?region=SG&local=en",
+      "product_id": "1736579383113320136",
+      "title": "21082026 - BALDBODHI (Link 1) SUPER FULI EXCLUSIVE SPECIAL PRODUCTS LINK",
+      "cover": "https://s.500fd.com/tt_product/c345f8495ff94aca8c4fc35cd3ef2a61~tplv-aphluv4xwc-crop-webp:686:664.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736579383113320136?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$0.49",
+      "real_price": "S$1,044.90",
       "category_name": [
-        "Household Cleaners"
+        "Business & Management"
       ],
-      "shop_name": "HOMEPLUS.SG",
-      "shop_sold_count": 70251,
+      "shop_name": "Fortune Treasure SG",
+      "shop_sold_count": 9519,
       "aweme_count": 0,
       "live_count": 0,
       "author_count": 0,
-      "launch_time": "2025-12-06 16:02:25",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
-      "_appearances": 2,
-      "_total_sold": 661,
-      "_total_sale": 281.84000000000003,
-      "_growth_sum": 642,
-      "_growth_count": 2,
+      "launch_time": "2026-07-18 00:00:41",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-24",
+      "_appearances": 1,
+      "_total_sold": 620,
+      "_total_sale": 647838,
+      "_growth_sum": 0,
+      "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 361,
-          "sale_amount": 158.84
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 300,
-          "sale_amount": 123
+          "date": "2026-08-24",
+          "sold": 620,
+          "sale_amount": 647838
         }
       ],
-      "sold_count": 661,
-      "sale_amount": 281.84000000000003,
+      "sold_count": 620,
+      "sale_amount": 647838,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 321,
-      "_total_sold_show": "661",
-      "_total_sale_show": "$281.84000000000003"
+      "_avg_growth": 0,
+      "_total_sold_show": "620",
+      "_total_sale_show": "$647.8k"
     },
     {
       "product_id": "1736640901549425732",
@@ -882,6 +811,49 @@
       "_total_sale_show": "$809.97"
     },
     {
+      "product_id": "1736046802633656050",
+      "title": "KATHWI Mountain Forest Car Fragrance, No. 5, White Tea, Qud Wood Balm, long-lasting and pleasant fragrance, the latest luxury car fragrance 120ml",
+      "cover": "https://s.500fd.com/tt_product/98f10a236201453e9e54b9b398cc07ad~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736046802633656050?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$14.40  - 25.41",
+      "category_name": [
+        "Car Fragrance"
+      ],
+      "shop_name": "Kathwi Shop SG",
+      "shop_sold_count": 10927,
+      "aweme_count": 11,
+      "live_count": 5,
+      "author_count": 12,
+      "launch_time": "2026-06-18 21:18:32",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-24",
+      "_appearances": 2,
+      "_total_sold": 594,
+      "_total_sale": 8829.380000000001,
+      "_growth_sum": 691.75,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-20",
+          "sold": 314,
+          "sale_amount": 4637.78
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 280,
+          "sale_amount": 4191.6
+        }
+      ],
+      "sold_count": 594,
+      "sale_amount": 8829.380000000001,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 345.88,
+      "_total_sold_show": "594",
+      "_total_sale_show": "$8.8k"
+    },
+    {
       "product_id": "1736254502721849156",
       "title": "Portable 4‑in‑1 USB OTG memory drive, 1 TB capacity, MFi certification for iPhone/iOS (app required), Android, and PC, includes a Type‑C adapter and high‑speed data transfer.",
       "cover": "https://s.500fd.com/tt_product/e46cb56e34664a7e8aa0e3d5bb06d932~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -925,42 +897,85 @@
       "_total_sale_show": "$7.9k"
     },
     {
-      "product_id": "1736948453079353165",
-      "title": "FENTINY Pro-Xylane Nourishing Hydrating Eye Cream",
-      "cover": "https://s.500fd.com/tt_product/40ead19fcebe4b289fc1d6be0635748d~tplv-aphluv4xwc-crop-webp:1262:1262.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736948453079353165?region=SG&local=en",
+      "product_id": "1729604276833585120",
+      "title": "《SG Stock Available for Immediate Dispatch》300g Red Bean and Coix Seed Fresh Oxygenated Green Bean Soup",
+      "cover": "https://s.500fd.com/tt_product/d80da70226f14bbfa4e5ef58f7e7d3eb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729604276833585120?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$96.30",
+      "real_price": "S$1.40  - 1.90",
       "category_name": [
-        "Eye Treatments\t"
+        "Instant Rice & Porridge"
       ],
-      "shop_name": "FENTINY",
-      "shop_sold_count": 2741,
+      "shop_name": "HYZ Choice Flavorful Bites",
+      "shop_sold_count": 49620,
       "aweme_count": 0,
       "live_count": 0,
       "author_count": 0,
-      "launch_time": "2026-08-12 12:10:43",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
+      "launch_time": "2024-04-22 01:07:01",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-24",
+      "_appearances": 2,
+      "_total_sold": 549,
+      "_total_sale": 713.7,
+      "_growth_sum": 277.26,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-20",
+          "sold": 283,
+          "sale_amount": 367.9
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 266,
+          "sale_amount": 345.8
+        }
+      ],
+      "sold_count": 549,
+      "sale_amount": 713.7,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 138.63,
+      "_total_sold_show": "549",
+      "_total_sale_show": "$713.7"
+    },
+    {
+      "product_id": "1732380686527596340",
+      "title": "(HOME+) Non Disposable Raincoat Portable Raincoat for Outdoor Travel Adult and Kids Raincoat",
+      "cover": "https://s.500fd.com/tt_product/0dbd7d9e234e49edb7761d710713f330~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732380686527596340?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$1.70  - 1.76",
+      "category_name": [
+        "Raincoats"
+      ],
+      "shop_name": "HOMEPLUS.SG",
+      "shop_sold_count": 78813,
+      "aweme_count": 17,
+      "live_count": 0,
+      "author_count": 17,
+      "launch_time": "2026-02-06 20:18:30",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-24",
       "_appearances": 1,
-      "_total_sold": 508,
-      "_total_sale": 50292,
-      "_growth_sum": 0,
+      "_total_sold": 417,
+      "_total_sale": 667.2,
+      "_growth_sum": 338.95,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 508,
-          "sale_amount": 50292
+          "date": "2026-08-24",
+          "sold": 417,
+          "sale_amount": 667.2
         }
       ],
-      "sold_count": 508,
-      "sale_amount": 50292,
+      "sold_count": 417,
+      "sale_amount": 667.2,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "508",
-      "_total_sale_show": "$50.3k"
+      "_avg_growth": 338.95,
+      "_total_sold_show": "417",
+      "_total_sale_show": "$667.2"
     },
     {
       "product_id": "1736875384090101084",
@@ -1115,44 +1130,6 @@
       "_total_sale_show": "$2.6k"
     },
     {
-      "product_id": "1729551399186367602",
-      "title": "(LOCAL READY STOCK) B-P911  HILTON HOTEL COMFORTABLE SOFT POLYSTER COTTON 1KG PILLOW",
-      "cover": "https://s.500fd.com/tt_product/5474c83f7e224839a073b4a281696c5b~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729551399186367602?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$8.72  - 15.52",
-      "category_name": [
-        "Pillows & Bed Wedges"
-      ],
-      "shop_name": "SnugSG",
-      "shop_sold_count": 493691,
-      "aweme_count": 3,
-      "live_count": 2,
-      "author_count": 5,
-      "launch_time": "2024-01-25 19:30:05",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 350,
-      "_total_sale": 2768.5,
-      "_growth_sum": 182.26,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 350,
-          "sale_amount": 2768.5
-        }
-      ],
-      "sold_count": 350,
-      "sale_amount": 2768.5,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 182.26,
-      "_total_sold_show": "350",
-      "_total_sale_show": "$2.8k"
-    },
-    {
       "product_id": "1731137804337841483",
       "title": "KUEH POPIA CARBONARA (CARBONARA SPRING ROLL) - 200G",
       "cover": "https://s.500fd.com/tt_product/873c6953ef3046328410cc0aecff1909~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -1267,44 +1244,6 @@
       "_total_sale_show": "$2.0k"
     },
     {
-      "product_id": "1732952262556813210",
-      "title": "Stainless Steel Oral Hygiene Tongue Scraper Oral Care Cleaning Tongue Moss Anti Bad Breath Metal Brush Dental Kit Tongue Cleaner Eliminating Bad Breath and Oral Care",
-      "cover": "https://s.500fd.com/tt_product/b54d98dcc5284bd3be9bafb40333ca76~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1732952262556813210?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$1.99  - 2.79",
-      "category_name": [
-        "Tongue Cleaners"
-      ],
-      "shop_name": "VividVerve Beauty & Health",
-      "shop_sold_count": 215921,
-      "aweme_count": 41,
-      "live_count": 0,
-      "author_count": 25,
-      "launch_time": "2026-03-11 02:02:01",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 324,
-      "_total_sale": 644.76,
-      "_growth_sum": 500,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 324,
-          "sale_amount": 644.76
-        }
-      ],
-      "sold_count": 324,
-      "sale_amount": 644.76,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 500,
-      "_total_sold_show": "324",
-      "_total_sale_show": "$644.76"
-    },
-    {
       "product_id": "1737011993469683582",
       "title": "Longchamp Le Pliage Original Large Tote Bag | French Luxury Rich Girl Style | TikTok Viral",
       "cover": "https://s.500fd.com/tt_product/242f88058aff4d1db1aca4e39f2d06aa~tplv-aphluv4xwc-crop-webp:750:1000.webp",
@@ -1379,44 +1318,6 @@
       "_avg_growth": 0,
       "_total_sold_show": "320",
       "_total_sale_show": "$1.4k"
-    },
-    {
-      "product_id": "1736046802633656050",
-      "title": "KATHWI Mountain Forest Car Fragrance, No. 5, White Tea, Qud Wood Balm, long-lasting and pleasant fragrance, the latest luxury car fragrance 120ml",
-      "cover": "https://s.500fd.com/tt_product/98f10a236201453e9e54b9b398cc07ad~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736046802633656050?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$14.40  - 25.41",
-      "category_name": [
-        "Car Fragrance"
-      ],
-      "shop_name": "Kathwi Shop SG",
-      "shop_sold_count": 10927,
-      "aweme_count": 11,
-      "live_count": 5,
-      "author_count": 12,
-      "launch_time": "2026-06-18 21:18:32",
-      "_first_seen": "2026-08-20",
-      "_last_seen": "2026-08-20",
-      "_appearances": 1,
-      "_total_sold": 314,
-      "_total_sale": 4637.78,
-      "_growth_sum": 423.33,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-20",
-          "sold": 314,
-          "sale_amount": 4637.78
-        }
-      ],
-      "sold_count": 314,
-      "sale_amount": 4637.78,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 423.33,
-      "_total_sold_show": "314",
-      "_total_sale_show": "$4.6k"
     },
     {
       "product_id": "1735930502018401868",
@@ -1495,6 +1396,44 @@
       "_total_sale_show": "$2.4k"
     },
     {
+      "product_id": "1730416945409460020",
+      "title": "(HOME+) Toilet Fragrance Deodorant Gel Deodorant Toilet Cleaner",
+      "cover": "https://s.500fd.com/tt_product/95ab9c5fe5ae4ed680c4f30351235a27~tplv-o3syd03w52-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730416945409460020?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$0.41",
+      "category_name": [
+        "Household Cleaners"
+      ],
+      "shop_name": "HOMEPLUS.SG",
+      "shop_sold_count": 77247,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2025-12-06 16:02:25",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-23",
+      "_appearances": 1,
+      "_total_sold": 300,
+      "_total_sale": 123,
+      "_growth_sum": 20,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-23",
+          "sold": 300,
+          "sale_amount": 123
+        }
+      ],
+      "sold_count": 300,
+      "sale_amount": 123,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 20,
+      "_total_sold_show": "300",
+      "_total_sale_show": "$123"
+    },
+    {
       "product_id": "1736260130251114226",
       "title": "KATHWI Gloudy Mountain Car Fragrance, No.5, Longjing Tea, Blue Horizon Balm, long-lasting and pleasant fragrance, the latest luxury car fragrance 150g",
       "cover": "https://s.500fd.com/tt_product/eb6144579b0e482884ecca3e4f7415d6~tplv-aphluv4xwc-crop-webp:800:800.webp",
@@ -1571,44 +1510,6 @@
       "_total_sale_show": "$2.8k"
     },
     {
-      "product_id": "1729604276833585120",
-      "title": "《SG Stock Available for Immediate Dispatch》300g Red Bean and Coix Seed Fresh Oxygenated Green Bean Soup",
-      "cover": "https://s.500fd.com/tt_product/d80da70226f14bbfa4e5ef58f7e7d3eb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729604276833585120?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$1.40  - 1.90",
-      "category_name": [
-        "Instant Rice & Porridge"
-      ],
-      "shop_name": "HYZ Choice Flavorful Bites",
-      "shop_sold_count": 49620,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2024-04-22 01:07:01",
-      "_first_seen": "2026-08-20",
-      "_last_seen": "2026-08-20",
-      "_appearances": 1,
-      "_total_sold": 283,
-      "_total_sale": 367.9,
-      "_growth_sum": 217.98,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-20",
-          "sold": 283,
-          "sale_amount": 367.9
-        }
-      ],
-      "sold_count": 283,
-      "sale_amount": 367.9,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 217.98,
-      "_total_sold_show": "283",
-      "_total_sale_show": "$367.9"
-    },
-    {
       "product_id": "1732753327430992908",
       "title": "Shortsleeve PJs • Playsets • Dresses (All sales are final)",
       "cover": "https://s.500fd.com/tt_product/136f46b07e3f47a8a7c4b086c5221c89~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -1665,19 +1566,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 1986306,
       "_total_sale": 47947734.45,
       "_growth_sum": 246.32999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 283758,
-          "sale_amount": 6849676.35
-        },
         {
           "date": "2026-08-18",
           "sold": 283758,
@@ -1705,6 +1601,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 283758,
+          "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-24",
           "sold": 283758,
           "sale_amount": 6849676.35
         }
@@ -1733,19 +1634,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 1359477,
       "_total_sale": 36276681.21,
       "_growth_sum": -2.6599999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 194211,
-          "sale_amount": 5182383.03
-        },
         {
           "date": "2026-08-18",
           "sold": 194211,
@@ -1773,6 +1669,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 194211,
+          "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-24",
           "sold": 194211,
           "sale_amount": 5182383.03
         }
@@ -1801,19 +1702,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 974813,
       "_total_sale": 1841444.0099999998,
       "_growth_sum": -142.73000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 139259,
-          "sale_amount": 263063.43
-        },
         {
           "date": "2026-08-18",
           "sold": 139259,
@@ -1841,6 +1737,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 139259,
+          "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-24",
           "sold": 139259,
           "sale_amount": 263063.43
         }
@@ -1869,19 +1770,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 733754,
       "_total_sale": 36422734.04,
       "_growth_sum": 1210.79,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 104822,
-          "sale_amount": 5203247.72
-        },
         {
           "date": "2026-08-18",
           "sold": 104822,
@@ -1909,6 +1805,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-24",
           "sold": 104822,
           "sale_amount": 5203247.72
         }
@@ -1937,19 +1838,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 642642,
       "_total_sale": 13490477.279999997,
       "_growth_sum": 10.780000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
         {
           "date": "2026-08-18",
           "sold": 91806,
@@ -1977,6 +1873,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-24",
           "sold": 91806,
           "sale_amount": 1927211.04
         }
@@ -2005,19 +1906,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 634410,
       "_total_sale": 10688569.5,
       "_growth_sum": -127.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        },
         {
           "date": "2026-08-18",
           "sold": 90630,
@@ -2045,6 +1941,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-24",
           "sold": 90630,
           "sale_amount": 1526938.5
         }
@@ -2073,19 +1974,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 619206,
       "_total_sale": 3099313,
       "_growth_sum": 18944.87,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 88458,
-          "sale_amount": 442759
-        },
         {
           "date": "2026-08-18",
           "sold": 88458,
@@ -2113,6 +2009,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 88458,
+          "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-24",
           "sold": 88458,
           "sale_amount": 442759
         }
@@ -2141,19 +2042,14 @@
       "live_count": 883,
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 604254,
       "_total_sale": 12824950.110000001,
       "_growth_sum": 89.67,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
         {
           "date": "2026-08-18",
           "sold": 86322,
@@ -2181,6 +2077,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-24",
           "sold": 86322,
           "sale_amount": 1832135.73
         }
@@ -2209,19 +2110,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 602973,
       "_total_sale": 8671306.07,
       "_growth_sum": 479.15,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 86139,
-          "sale_amount": 1238758.01
-        },
         {
           "date": "2026-08-18",
           "sold": 86139,
@@ -2249,6 +2145,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-24",
           "sold": 86139,
           "sale_amount": 1238758.01
         }
@@ -2277,19 +2178,14 @@
       "live_count": 1176,
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 544180,
       "_total_sale": 1076025.79,
       "_growth_sum": -119.27999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        },
         {
           "date": "2026-08-18",
           "sold": 77740,
@@ -2317,6 +2213,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 77740,
+          "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-24",
           "sold": 77740,
           "sale_amount": 153717.97
         }
@@ -2460,47 +2361,47 @@
       "_total_sale_show": "$180.7k"
     },
     {
-      "product_id": "1730416945409460020",
-      "title": "(HOME+) Toilet Fragrance Deodorant Gel Deodorant Toilet Cleaner",
-      "cover": "https://s.500fd.com/tt_product/95ab9c5fe5ae4ed680c4f30351235a27~tplv-o3syd03w52-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1730416945409460020?region=SG&local=en",
+      "product_id": "1736046802633656050",
+      "title": "KATHWI Mountain Forest Car Fragrance, No. 5, White Tea, Qud Wood Balm, long-lasting and pleasant fragrance, the latest luxury car fragrance 120ml",
+      "cover": "https://s.500fd.com/tt_product/98f10a236201453e9e54b9b398cc07ad~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736046802633656050?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$0.49",
+      "real_price": "S$14.40  - 25.41",
       "category_name": [
-        "Household Cleaners"
+        "Car Fragrance"
       ],
-      "shop_name": "HOMEPLUS.SG",
-      "shop_sold_count": 70251,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2025-12-06 16:02:25",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "shop_name": "Kathwi Shop SG",
+      "shop_sold_count": 10927,
+      "aweme_count": 11,
+      "live_count": 5,
+      "author_count": 12,
+      "launch_time": "2026-06-18 21:18:32",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-24",
       "_appearances": 2,
-      "_total_sold": 661,
-      "_total_sale": 281.84000000000003,
-      "_growth_sum": 642,
+      "_total_sold": 594,
+      "_total_sale": 8829.380000000001,
+      "_growth_sum": 691.75,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 361,
-          "sale_amount": 158.84
+          "date": "2026-08-20",
+          "sold": 314,
+          "sale_amount": 4637.78
         },
         {
-          "date": "2026-08-23",
-          "sold": 300,
-          "sale_amount": 123
+          "date": "2026-08-24",
+          "sold": 280,
+          "sale_amount": 4191.6
         }
       ],
-      "sold_count": 661,
-      "sale_amount": 281.84000000000003,
+      "sold_count": 594,
+      "sale_amount": 8829.380000000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 321,
-      "_total_sold_show": "661",
-      "_total_sale_show": "$281.84000000000003"
+      "_avg_growth": 345.88,
+      "_total_sold_show": "594",
+      "_total_sale_show": "$8.8k"
     },
     {
       "product_id": "1734585728022185538",
@@ -2520,12 +2421,12 @@
       "author_count": 1,
       "launch_time": "2026-03-11 01:38:47",
       "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-22",
-      "_appearances": 4,
-      "_total_sold": 1900,
-      "_total_sale": 380,
-      "_growth_sum": 658.46,
-      "_growth_count": 4,
+      "_last_seen": "2026-08-24",
+      "_appearances": 5,
+      "_total_sold": 2420,
+      "_total_sale": 484,
+      "_growth_sum": 847.35,
+      "_growth_count": 5,
       "_trend": [
         {
           "date": "2026-08-18",
@@ -2546,14 +2447,19 @@
           "date": "2026-08-22",
           "sold": 880,
           "sale_amount": 176
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 520,
+          "sale_amount": 104
         }
       ],
-      "sold_count": 1900,
-      "sale_amount": 380,
+      "sold_count": 2420,
+      "sale_amount": 484,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 164.62,
-      "_total_sold_show": "1.9k",
-      "_total_sale_show": "$380"
+      "_avg_growth": 169.47,
+      "_total_sold_show": "2.4k",
+      "_total_sale_show": "$484"
     },
     {
       "product_id": "1736137167747777640",
@@ -2647,6 +2553,49 @@
       "_total_sale_show": "$7.9k"
     },
     {
+      "product_id": "1729604276833585120",
+      "title": "《SG Stock Available for Immediate Dispatch》300g Red Bean and Coix Seed Fresh Oxygenated Green Bean Soup",
+      "cover": "https://s.500fd.com/tt_product/d80da70226f14bbfa4e5ef58f7e7d3eb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729604276833585120?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$1.40  - 1.90",
+      "category_name": [
+        "Instant Rice & Porridge"
+      ],
+      "shop_name": "HYZ Choice Flavorful Bites",
+      "shop_sold_count": 49620,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2024-04-22 01:07:01",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-24",
+      "_appearances": 2,
+      "_total_sold": 549,
+      "_total_sale": 713.7,
+      "_growth_sum": 277.26,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-20",
+          "sold": 283,
+          "sale_amount": 367.9
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 266,
+          "sale_amount": 345.8
+        }
+      ],
+      "sold_count": 549,
+      "sale_amount": 713.7,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 138.63,
+      "_total_sold_show": "549",
+      "_total_sale_show": "$713.7"
+    },
+    {
       "product_id": "1731825811415860535",
       "title": "Kirei Kirei Anti-Bacterial Hand Wash Hand Soap, (200ml Refill, 250ml/450ml Bottles)",
       "cover": "https://s.500fd.com/tt_product/336477bd8863452a8c09bd7fee82b908~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
@@ -2733,49 +2682,6 @@
       "_total_sale_show": "$3.3k"
     },
     {
-      "product_id": "1733872498875401846",
-      "title": "Casual Large Capacity Fishing Shoulder Bag Versatile Style Adjustable Strap Fashion Crossbody Bag Multi Functional Nylon Sports Fitness Pouch Outdoor Activities",
-      "cover": "https://s.500fd.com/tt_product/59a2bffa5b0d4e1581329dca70d3001c~tplv-o3syd03w52-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733872498875401846?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$8.20",
-      "category_name": [
-        "Fishing"
-      ],
-      "shop_name": "xing xin zhen",
-      "shop_sold_count": 1111,
-      "aweme_count": 49,
-      "live_count": 0,
-      "author_count": 49,
-      "launch_time": "2026-03-03 06:33:36",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-23",
-      "_appearances": 2,
-      "_total_sold": 886,
-      "_total_sale": 7265.2,
-      "_growth_sum": 125.17,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 625,
-          "sale_amount": 5125
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 261,
-          "sale_amount": 2140.2
-        }
-      ],
-      "sold_count": 886,
-      "sale_amount": 7265.2,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 62.59,
-      "_total_sold_show": "886",
-      "_total_sale_show": "$7.3k"
-    },
-    {
       "product_id": "1732380674396686132",
       "title": "(HOME+) Cockroach Repellent Magic Box Cockroach Safe Non-toxic Repellent Box Cockroach Repellent Gel",
       "cover": "https://s.500fd.com/tt_product/49474a33ae374dfa84a47acc39b1aa3d~tplv-aphluv4xwc-crop-webp:800:800.webp",
@@ -2829,6 +2735,117 @@
       "_total_sale_show": "$2.1k"
     },
     {
+      "product_id": "1733872498875401846",
+      "title": "Casual Large Capacity Fishing Shoulder Bag Versatile Style Adjustable Strap Fashion Crossbody Bag Multi Functional Nylon Sports Fitness Pouch Outdoor Activities",
+      "cover": "https://s.500fd.com/tt_product/59a2bffa5b0d4e1581329dca70d3001c~tplv-o3syd03w52-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733872498875401846?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$8.20",
+      "category_name": [
+        "Fishing"
+      ],
+      "shop_name": "xing xin zhen",
+      "shop_sold_count": 1111,
+      "aweme_count": 49,
+      "live_count": 0,
+      "author_count": 49,
+      "launch_time": "2026-03-03 06:33:36",
+      "_first_seen": "2026-08-21",
+      "_last_seen": "2026-08-24",
+      "_appearances": 3,
+      "_total_sold": 1236,
+      "_total_sale": 10135.2,
+      "_growth_sum": 159.27,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-21",
+          "sold": 625,
+          "sale_amount": 5125
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 261,
+          "sale_amount": 2140.2
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 350,
+          "sale_amount": 2870
+        }
+      ],
+      "sold_count": 1236,
+      "sale_amount": 10135.2,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 53.09,
+      "_total_sold_show": "1.2k",
+      "_total_sale_show": "$10.1k"
+    },
+    {
+      "product_id": "1734760814147568744",
+      "title": "Mixshop Pumpless Vacuum Bag | Travel Compression Storage Organizer | No Pump Needed | Save Luggage Space",
+      "cover": "https://s.500fd.com/tt_product/47f313f993244ab5934e30a2ca037c3a~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734760814147568744?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$2.10",
+      "category_name": [
+        "Storage Bags"
+      ],
+      "shop_name": "mixshopsg",
+      "shop_sold_count": 149289,
+      "aweme_count": 0,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2026-03-24 03:10:44",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
+      "_appearances": 6,
+      "_total_sold": 3130,
+      "_total_sale": 6447.740000000001,
+      "_growth_sum": 144.05,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 778,
+          "sale_amount": 1633.8
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 366,
+          "sale_amount": 768.6
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 622,
+          "sale_amount": 1306.2
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 543,
+          "sale_amount": 1140.3
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 400,
+          "sale_amount": 740
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 421,
+          "sale_amount": 858.84
+        }
+      ],
+      "sold_count": 3130,
+      "sale_amount": 6447.740000000001,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 24.01,
+      "_total_sold_show": "3.1k",
+      "_total_sale_show": "$6.4k"
+    },
+    {
       "product_id": "1730343155714262632",
       "title": "Automatic Essential Oil Diffuser for Home Office Car - Large 200ml Capacity",
       "cover": "https://s.500fd.com/tt_product/5f529fe8c5a14d459f19376ad37ebd62~tplv-aphluv4xwc-crop-webp:2048:2048.webp",
@@ -2840,24 +2857,19 @@
         "Home Fragrances"
       ],
       "shop_name": "Alchemist Singapore",
-      "shop_sold_count": 670469,
-      "aweme_count": 1,
-      "live_count": 6,
-      "author_count": 5,
+      "shop_sold_count": 671092,
+      "aweme_count": 3,
+      "live_count": 9,
+      "author_count": 10,
       "launch_time": "2025-09-08 19:22:29",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-20",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 3,
-      "_total_sold": 1105,
-      "_total_sale": 13812.5,
-      "_growth_sum": 74.69,
+      "_total_sold": 972,
+      "_total_sale": 12150,
+      "_growth_sum": 46.019999999999996,
       "_growth_count": 3,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 407,
-          "sale_amount": 5087.5
-        },
         {
           "date": "2026-08-18",
           "sold": 408,
@@ -2867,14 +2879,19 @@
           "date": "2026-08-20",
           "sold": 290,
           "sale_amount": 3625
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 274,
+          "sale_amount": 3425
         }
       ],
-      "sold_count": 1105,
-      "sale_amount": 13812.5,
+      "sold_count": 972,
+      "sale_amount": 12150,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 24.9,
-      "_total_sold_show": "1.1k",
-      "_total_sale_show": "$13.8k"
+      "_avg_growth": 15.34,
+      "_total_sold_show": "972",
+      "_total_sale_show": "$12.2k"
     },
     {
       "product_id": "1736949972938491731",
@@ -2888,24 +2905,19 @@
         "Massage Devices\t"
       ],
       "shop_name": "DT Department Store",
-      "shop_sold_count": 56233,
+      "shop_sold_count": 56822,
       "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
+      "live_count": 1,
+      "author_count": 1,
       "launch_time": "2026-08-10 02:12:14",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
-      "_total_sold": 3466,
-      "_total_sale": 17330,
-      "_growth_sum": 170.35999999999999,
+      "_total_sold": 3561,
+      "_total_sale": 17805,
+      "_growth_sum": 69.91,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 480,
-          "sale_amount": 2400
-        },
         {
           "date": "2026-08-18",
           "sold": 565,
@@ -2935,14 +2947,19 @@
           "date": "2026-08-23",
           "sold": 655,
           "sale_amount": 3275
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 575,
+          "sale_amount": 2875
         }
       ],
-      "sold_count": 3466,
-      "sale_amount": 17330,
+      "sold_count": 3561,
+      "sale_amount": 17805,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 24.34,
-      "_total_sold_show": "3.5k",
-      "_total_sale_show": "$17.3k"
+      "_avg_growth": 9.99,
+      "_total_sold_show": "3.6k",
+      "_total_sale_show": "$17.8k"
     },
     {
       "product_id": "1735511058960058331",
@@ -2956,24 +2973,19 @@
         "Crisps & Puffed Snacks"
       ],
       "shop_name": "Mr peyek",
-      "shop_sold_count": 61611,
-      "aweme_count": 4,
-      "live_count": 9,
-      "author_count": 9,
+      "shop_sold_count": 62168,
+      "aweme_count": 0,
+      "live_count": 12,
+      "author_count": 6,
       "launch_time": "2026-05-10 09:03:36",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-19",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 3,
-      "_total_sold": 1769,
-      "_total_sale": 8845,
-      "_growth_sum": 37.13,
+      "_total_sold": 2263,
+      "_total_sale": 11315,
+      "_growth_sum": 9.58,
       "_growth_count": 3,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 537,
-          "sale_amount": 2685
-        },
         {
           "date": "2026-08-18",
           "sold": 660,
@@ -2983,77 +2995,19 @@
           "date": "2026-08-19",
           "sold": 572,
           "sale_amount": 2860
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 1031,
+          "sale_amount": 5155
         }
       ],
-      "sold_count": 1769,
-      "sale_amount": 8845,
+      "sold_count": 2263,
+      "sale_amount": 11315,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.38,
-      "_total_sold_show": "1.8k",
-      "_total_sale_show": "$8.8k"
-    },
-    {
-      "product_id": "1734760814147568744",
-      "title": "Mixshop Pumpless Vacuum Bag | Travel Compression Storage Organizer | No Pump Needed | Save Luggage Space",
-      "cover": "https://s.500fd.com/tt_product/47f313f993244ab5934e30a2ca037c3a~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734760814147568744?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$2.10",
-      "category_name": [
-        "Storage Bags"
-      ],
-      "shop_name": "mixshopsg",
-      "shop_sold_count": 148023,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-03-24 03:10:44",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-22",
-      "_appearances": 6,
-      "_total_sold": 3209,
-      "_total_sale": 6638.900000000001,
-      "_growth_sum": 74.00000000000001,
-      "_growth_count": 6,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 500,
-          "sale_amount": 1050
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 778,
-          "sale_amount": 1633.8
-        },
-        {
-          "date": "2026-08-19",
-          "sold": 366,
-          "sale_amount": 768.6
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 622,
-          "sale_amount": 1306.2
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 543,
-          "sale_amount": 1140.3
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 400,
-          "sale_amount": 740
-        }
-      ],
-      "sold_count": 3209,
-      "sale_amount": 6638.900000000001,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.33,
-      "_total_sold_show": "3.2k",
-      "_total_sale_show": "$6.6k"
+      "_avg_growth": 3.19,
+      "_total_sold_show": "2.3k",
+      "_total_sale_show": "$11.3k"
     }
   ]
 }

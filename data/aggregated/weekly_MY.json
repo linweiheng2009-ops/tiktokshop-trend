@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "MY",
-  "generated_at": "2026-08-23T01:50:07.148Z",
+  "generated_at": "2026-08-24T01:47:47.299Z",
   "date_range": [
-    "2026-08-17",
-    "2026-08-23"
+    "2026-08-18",
+    "2026-08-24"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -27,12 +27,12 @@
       "author_count": 87,
       "launch_time": "2024-04-19 08:28:23",
       "_first_seen": "2026-08-22",
-      "_last_seen": "2026-08-23",
-      "_appearances": 2,
-      "_total_sold": 40586,
-      "_total_sale": 192783.5,
-      "_growth_sum": -12.16,
-      "_growth_count": 2,
+      "_last_seen": "2026-08-24",
+      "_appearances": 3,
+      "_total_sold": 52279,
+      "_total_sale": 248325.25,
+      "_growth_sum": -41.47,
+      "_growth_count": 3,
       "_trend": [
         {
           "date": "2026-08-22",
@@ -43,14 +43,19 @@
           "date": "2026-08-23",
           "sold": 16542,
           "sale_amount": 78574.5
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 11693,
+          "sale_amount": 55541.75
         }
       ],
-      "sold_count": 40586,
-      "sale_amount": 192783.5,
+      "sold_count": 52279,
+      "sale_amount": 248325.25,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -6.08,
-      "_total_sold_show": "40.6k",
-      "_total_sale_show": "$192.8k"
+      "_avg_growth": -13.82,
+      "_total_sold_show": "52.3k",
+      "_total_sale_show": "$248.3k"
     },
     {
       "product_id": "1732199437230638501",
@@ -70,12 +75,12 @@
       "author_count": 45,
       "launch_time": "2025-08-13 22:40:58",
       "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-23",
-      "_appearances": 6,
-      "_total_sold": 40544,
-      "_total_sale": 47031.04,
-      "_growth_sum": 368.44999999999993,
-      "_growth_count": 6,
+      "_last_seen": "2026-08-24",
+      "_appearances": 7,
+      "_total_sold": 45704,
+      "_total_sale": 53016.64,
+      "_growth_sum": 362.2699999999999,
+      "_growth_count": 7,
       "_trend": [
         {
           "date": "2026-08-18",
@@ -106,14 +111,19 @@
           "date": "2026-08-23",
           "sold": 5500,
           "sale_amount": 6380
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 5160,
+          "sale_amount": 5985.6
         }
       ],
-      "sold_count": 40544,
-      "sale_amount": 47031.04,
+      "sold_count": 45704,
+      "sale_amount": 53016.64,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 61.41,
-      "_total_sold_show": "40.5k",
-      "_total_sale_show": "$47.0k"
+      "_avg_growth": 51.75,
+      "_total_sold_show": "45.7k",
+      "_total_sale_show": "$53.0k"
     },
     {
       "product_id": "1729550982771738420",
@@ -127,24 +137,19 @@
         "Underscarves"
       ],
       "shop_name": "Kedai Abang S",
-      "shop_sold_count": 2723254,
-      "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 1,
+      "shop_sold_count": 2726916,
+      "aweme_count": 3,
+      "live_count": 22,
+      "author_count": 16,
       "launch_time": "2024-02-12 09:45:33",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
-      "_total_sold": 36339,
-      "_total_sale": 68635.33,
-      "_growth_sum": -9.61,
+      "_total_sold": 38891,
+      "_total_sale": 73970.17,
+      "_growth_sum": 69.59,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 3654,
-          "sale_amount": 6394.5
-        },
         {
           "date": "2026-08-18",
           "sold": 5056,
@@ -174,14 +179,19 @@
           "date": "2026-08-23",
           "sold": 4593,
           "sale_amount": 9140.07
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 6206,
+          "sale_amount": 11729.34
         }
       ],
-      "sold_count": 36339,
-      "sale_amount": 68635.33,
+      "sold_count": 38891,
+      "sale_amount": 73970.17,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -1.37,
-      "_total_sold_show": "36.3k",
-      "_total_sale_show": "$68.6k"
+      "_avg_growth": 9.94,
+      "_total_sold_show": "38.9k",
+      "_total_sale_show": "$74.0k"
     },
     {
       "product_id": "1736299123820955644",
@@ -195,24 +205,19 @@
         "Beans & Grains"
       ],
       "shop_name": "aisy fresh picks 2",
-      "shop_sold_count": 221559,
-      "aweme_count": 19,
-      "live_count": 31,
-      "author_count": 39,
+      "shop_sold_count": 226119,
+      "aweme_count": 20,
+      "live_count": 86,
+      "author_count": 66,
       "launch_time": "2026-06-29 22:49:41",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
-      "_total_sold": 29345,
-      "_total_sale": 5869,
-      "_growth_sum": -28.65,
+      "_total_sold": 28811,
+      "_total_sale": 5762.2,
+      "_growth_sum": 2.1799999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 4452,
-          "sale_amount": 890.4
-        },
         {
           "date": "2026-08-18",
           "sold": 5195,
@@ -242,14 +247,19 @@
           "date": "2026-08-23",
           "sold": 2916,
           "sale_amount": 583.2
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 3918,
+          "sale_amount": 783.6
         }
       ],
-      "sold_count": 29345,
-      "sale_amount": 5869,
+      "sold_count": 28811,
+      "sale_amount": 5762.2,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -4.09,
-      "_total_sold_show": "29.3k",
-      "_total_sale_show": "$5.9k"
+      "_avg_growth": 0.31,
+      "_total_sold_show": "28.8k",
+      "_total_sale_show": "$5.8k"
     },
     {
       "product_id": "1731868375417325222",
@@ -305,52 +315,95 @@
       "_total_sale_show": "$47.5k"
     },
     {
-      "product_id": "1729815265838204344",
-      "title": "CUBRE MI X SALLY WHOO BEDAK ASAS KUSYEN",
-      "cover": "https://s.500fd.com/tt_product/275677bc91c34a0884d56f053bcc9811~tplv-aphluv4xwc-crop-webp:1023:1023.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729815265838204344?region=MY&local=en",
+      "product_id": "1731760198429934884",
+      "title": "SAMBAL GARING(bilis+bawang goreng)                            ((HUMAIRA))",
+      "cover": "https://s.500fd.com/tt_product/c422e35a03ba46d7a783cacc93bd8cd3~tplv-aphluv4xwc-crop-webp:828:828.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731760198429934884?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM5.00",
+      "real_price": "RM10.00  - 18.90",
       "category_name": [
-        "Concealer & Foundation\t"
+        "Canned, Jarred & Packaged Foods"
       ],
-      "shop_name": "Cubremi",
-      "shop_sold_count": 3553555,
-      "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 1,
-      "launch_time": "2024-09-07 08:02:19",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-22",
+      "shop_name": "AL HUMAIRA FOOD INDUSTRY",
+      "shop_sold_count": 1177707,
+      "aweme_count": 19,
+      "live_count": 77,
+      "author_count": 63,
+      "launch_time": "2025-06-26 13:56:17",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 3,
-      "_total_sold": 21274,
-      "_total_sale": 116660.4,
-      "_growth_sum": 787.47,
+      "_total_sold": 14857,
+      "_total_sale": 148570,
+      "_growth_sum": 931.4499999999999,
       "_growth_count": 3,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 11789,
-          "sale_amount": 58945
+          "date": "2026-08-18",
+          "sold": 7595,
+          "sale_amount": 75950
         },
         {
           "date": "2026-08-20",
-          "sold": 4069,
-          "sale_amount": 20345
+          "sold": 3783,
+          "sale_amount": 37830
         },
         {
-          "date": "2026-08-22",
-          "sold": 5416,
-          "sale_amount": 37370.4
+          "date": "2026-08-24",
+          "sold": 3479,
+          "sale_amount": 34790
         }
       ],
-      "sold_count": 21274,
-      "sale_amount": 116660.4,
+      "sold_count": 14857,
+      "sale_amount": 148570,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 262.49,
-      "_total_sold_show": "21.3k",
-      "_total_sale_show": "$116.7k"
+      "_avg_growth": 310.48,
+      "_total_sold_show": "14.9k",
+      "_total_sale_show": "$148.6k"
+    },
+    {
+      "product_id": "1729579128450812568",
+      "title": "Sambal Nyet Berapi by Khairulaming",
+      "cover": "https://s.500fd.com/tt_product/40dc29b52fcf4ee199856c5c702d26f1~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729579128450812568?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM13.57",
+      "category_name": [
+        "Cooking Sauces"
+      ],
+      "shop_name": "khairulamingbrand",
+      "shop_sold_count": 3800885,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2023-01-05 04:05:32",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
+      "_appearances": 2,
+      "_total_sold": 12997,
+      "_total_sale": 189046.3,
+      "_growth_sum": 1803.96,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 8726,
+          "sale_amount": 130191.92
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 4271,
+          "sale_amount": 58854.38
+        }
+      ],
+      "sold_count": 12997,
+      "sale_amount": 189046.3,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 901.98,
+      "_total_sold_show": "13.0k",
+      "_total_sale_show": "$189.0k"
     },
     {
       "product_id": "1730697905726916562",
@@ -366,22 +419,17 @@
       "shop_name": "momohouse.os",
       "shop_sold_count": 35469265,
       "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
+      "live_count": 8,
+      "author_count": 3,
       "launch_time": "2025-01-06 16:36:05",
-      "_first_seen": "2026-08-17",
+      "_first_seen": "2026-08-20",
       "_last_seen": "2026-08-22",
-      "_appearances": 4,
-      "_total_sold": 16027,
-      "_total_sale": 3365.6699999999996,
-      "_growth_sum": 11.939999999999998,
-      "_growth_count": 4,
+      "_appearances": 3,
+      "_total_sold": 12978,
+      "_total_sale": 2725.38,
+      "_growth_sum": 29.06,
+      "_growth_count": 3,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 3049,
-          "sale_amount": 640.29
-        },
         {
           "date": "2026-08-20",
           "sold": 4033,
@@ -398,12 +446,12 @@
           "sale_amount": 997.29
         }
       ],
-      "sold_count": 16027,
-      "sale_amount": 3365.6699999999996,
+      "sold_count": 12978,
+      "sale_amount": 2725.38,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 2.98,
-      "_total_sold_show": "16.0k",
-      "_total_sale_show": "$3.4k"
+      "_avg_growth": 9.69,
+      "_total_sold_show": "13.0k",
+      "_total_sale_show": "$2.7k"
     },
     {
       "product_id": "1736454538879599924",
@@ -449,85 +497,47 @@
       "_total_sale_show": "$197.0k"
     },
     {
-      "product_id": "1731760198429934884",
-      "title": "SAMBAL GARING(bilis+bawang goreng)                            ((HUMAIRA))",
-      "cover": "https://s.500fd.com/tt_product/c422e35a03ba46d7a783cacc93bd8cd3~tplv-aphluv4xwc-crop-webp:828:828.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731760198429934884?region=MY&local=en",
+      "product_id": "1729815265838204344",
+      "title": "CUBRE MI X SALLY WHOO BEDAK ASAS KUSYEN",
+      "cover": "https://s.500fd.com/tt_product/275677bc91c34a0884d56f053bcc9811~tplv-aphluv4xwc-crop-webp:1023:1023.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729815265838204344?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM10.00  - 18.90",
+      "real_price": "RM5.00",
       "category_name": [
-        "Canned, Jarred & Packaged Foods"
+        "Concealer & Foundation\t"
       ],
-      "shop_name": "AL HUMAIRA FOOD INDUSTRY",
-      "shop_sold_count": 1177707,
-      "aweme_count": 19,
-      "live_count": 77,
-      "author_count": 63,
-      "launch_time": "2025-06-26 13:56:17",
-      "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-20",
+      "shop_name": "Cubremi",
+      "shop_sold_count": 3579599,
+      "aweme_count": 2,
+      "live_count": 4,
+      "author_count": 5,
+      "launch_time": "2024-09-07 08:02:19",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-22",
       "_appearances": 2,
-      "_total_sold": 11378,
-      "_total_sale": 113780,
-      "_growth_sum": 614.8,
+      "_total_sold": 9485,
+      "_total_sale": 57715.4,
+      "_growth_sum": 214.2,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-18",
-          "sold": 7595,
-          "sale_amount": 75950
+          "date": "2026-08-20",
+          "sold": 4069,
+          "sale_amount": 20345
         },
         {
-          "date": "2026-08-20",
-          "sold": 3783,
-          "sale_amount": 37830
+          "date": "2026-08-22",
+          "sold": 5416,
+          "sale_amount": 37370.4
         }
       ],
-      "sold_count": 11378,
-      "sale_amount": 113780,
+      "sold_count": 9485,
+      "sale_amount": 57715.4,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 307.4,
-      "_total_sold_show": "11.4k",
-      "_total_sale_show": "$113.8k"
-    },
-    {
-      "product_id": "1729579128450812568",
-      "title": "Sambal Nyet Berapi by Khairulaming",
-      "cover": "https://s.500fd.com/tt_product/40dc29b52fcf4ee199856c5c702d26f1~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729579128450812568?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM13.57",
-      "category_name": [
-        "Cooking Sauces"
-      ],
-      "shop_name": "khairulamingbrand",
-      "shop_sold_count": 3800885,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2023-01-05 04:05:32",
-      "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-18",
-      "_appearances": 1,
-      "_total_sold": 8726,
-      "_total_sale": 130191.92,
-      "_growth_sum": 1177.6,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-18",
-          "sold": 8726,
-          "sale_amount": 130191.92
-        }
-      ],
-      "sold_count": 8726,
-      "sale_amount": 130191.92,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 1177.6,
-      "_total_sold_show": "8.7k",
-      "_total_sale_show": "$130.2k"
+      "_avg_growth": 107.1,
+      "_total_sold_show": "9.5k",
+      "_total_sale_show": "$57.7k"
     },
     {
       "product_id": "1735766767207285978",
@@ -571,49 +581,6 @@
       "_avg_growth": 70.5,
       "_total_sold_show": "8.7k",
       "_total_sale_show": "$63.3k"
-    },
-    {
-      "product_id": "1733550924989040029",
-      "title": "Glad2Glow Body Serum Collection-Retinol Bright Body Serum/ Niacinamide Bright Body Serum/ Bright Body Serum 300ml/ Moist & Smooth Body Serum 300ml Penjagaan Badan",
-      "cover": "https://s.500fd.com/tt_product/fb83970ea9004139875a4a992f0ee474~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733550924989040029?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM9.90",
-      "category_name": [
-        "Body Creams & Lotions\t"
-      ],
-      "shop_name": "Glad2Glow.my",
-      "shop_sold_count": 16794985,
-      "aweme_count": 24,
-      "live_count": 13,
-      "author_count": 30,
-      "launch_time": "2025-12-12 19:53:46",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-18",
-      "_appearances": 2,
-      "_total_sold": 8512,
-      "_total_sale": 84268.79999999999,
-      "_growth_sum": 19.49,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 3878,
-          "sale_amount": 38392.2
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 4634,
-          "sale_amount": 45876.6
-        }
-      ],
-      "sold_count": 8512,
-      "sale_amount": 84268.79999999999,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 9.74,
-      "_total_sold_show": "8.5k",
-      "_total_sale_show": "$84.3k"
     },
     {
       "product_id": "1735371501346981743",
@@ -702,44 +669,6 @@
       "_total_sale_show": "$62.1k"
     },
     {
-      "product_id": "1735580065609713299",
-      "title": "Pillow Case Patchwork Bedding Sarung Bantal Dalam Kapas Pactwork High Quality Tebal (1 PCS) Sarung Bantal Bajet Kualiti Pillow Case Premium Soft Textiles",
-      "cover": "https://s.500fd.com/tt_product/d0e43c50d0e44bb9a28bdd3673d79055~tplv-aphluv4xwc-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735580065609713299?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM5.39",
-      "category_name": [
-        "Sheets & Pillowcases"
-      ],
-      "shop_name": "Easyonline",
-      "shop_sold_count": 13017919,
-      "aweme_count": 2,
-      "live_count": 0,
-      "author_count": 2,
-      "launch_time": "2026-05-19 23:46:18",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 8006,
-      "_total_sale": 43152.34,
-      "_growth_sum": 0,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 8006,
-          "sale_amount": 43152.34
-        }
-      ],
-      "sold_count": 8006,
-      "sale_amount": 43152.34,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "8.0k",
-      "_total_sale_show": "$43.2k"
-    },
-    {
       "product_id": "1736821304982472096",
       "title": "INSTANT SARONG AYUNI DAGU BERGETAH MATERIAL MOSCREPE",
       "cover": "https://s.500fd.com/tt_product/5460e5d79b9243c892894a63719dd942~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -826,80 +755,85 @@
       "_total_sale_show": "$288.9k"
     },
     {
-      "product_id": "1736982916454450889",
-      "title": "057-BLS- NALIYA Blouse Material Crincle Kain loose dipakai mempunyai butang dibahagian leher dan sesuai dipakai harian casual selesa sesuai untuk semua peringkat umur",
-      "cover": "https://s.500fd.com/tt_product/6a66d621fbcf49cc95f7504d1c28612c~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736982916454450889?region=MY&local=en",
+      "product_id": "1729716428019500453",
+      "title": "TBF Merdeka Car Magnet & Sticker 2026 | Premium Malaysia Flag & State Decorations | 14 Designs",
+      "cover": "https://s.500fd.com/tt_product/df0d205399704cd3b8bc22239aeb2a95~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729716428019500453?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM14.18  - 16.55",
+      "real_price": "RM7.65",
       "category_name": [
-        "Blouses & Shirts"
+        "Gifts & Wrapping"
       ],
-      "shop_name": "Amiably Collection",
-      "shop_sold_count": 1542116,
-      "aweme_count": 1,
-      "live_count": 0,
-      "author_count": 1,
-      "launch_time": "2026-08-12 19:55:44",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 4985,
-      "_total_sale": 63359.35,
-      "_growth_sum": 0,
-      "_growth_count": 1,
+      "shop_name": "TBF The Box Factory",
+      "shop_sold_count": 48396551,
+      "aweme_count": 21,
+      "live_count": 52,
+      "author_count": 50,
+      "launch_time": "2024-07-11 10:02:19",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-24",
+      "_appearances": 2,
+      "_total_sold": 5871,
+      "_total_sale": 48162.11,
+      "_growth_sum": 8.64,
+      "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 4985,
-          "sale_amount": 63359.35
+          "date": "2026-08-23",
+          "sold": 2747,
+          "sale_amount": 21014.55
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 3124,
+          "sale_amount": 27147.56
         }
       ],
-      "sold_count": 4985,
-      "sale_amount": 63359.35,
+      "sold_count": 5871,
+      "sale_amount": 48162.11,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "5.0k",
-      "_total_sale_show": "$63.4k"
+      "_avg_growth": 4.32,
+      "_total_sold_show": "5.9k",
+      "_total_sale_show": "$48.2k"
     },
     {
-      "product_id": "1737015091091310353",
-      "title": "T-shirt 3D FLOWERS KAIN SEJUK LAYRA",
-      "cover": "https://s.500fd.com/tt_product/38ae687cc7e94392913871820ba016a8~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1737015091091310353?region=MY&local=en",
+      "product_id": "1733550924989040029",
+      "title": "Glad2Glow Body Serum Collection-Retinol Bright Body Serum/ Niacinamide Bright Body Serum/ Bright Body Serum 300ml/ Moist & Smooth Body Serum 300ml Penjagaan Badan",
+      "cover": "https://s.500fd.com/tt_product/fb83970ea9004139875a4a992f0ee474~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733550924989040029?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM6.90",
+      "real_price": "RM11.30  - 27.20",
       "category_name": [
-        "T-shirts"
+        "Body Creams & Lotions\t"
       ],
-      "shop_name": "KHANI FASHION SHOP",
-      "shop_sold_count": 2050956,
-      "aweme_count": 1,
-      "live_count": 0,
-      "author_count": 1,
-      "launch_time": "2026-08-13 20:05:32",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
+      "shop_name": "Glad2Glow.my",
+      "shop_sold_count": 16794985,
+      "aweme_count": 38,
+      "live_count": 38,
+      "author_count": 50,
+      "launch_time": "2025-12-12 19:53:46",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-18",
       "_appearances": 1,
-      "_total_sold": 4780,
-      "_total_sale": 32982,
-      "_growth_sum": 107.65,
+      "_total_sold": 4634,
+      "_total_sale": 45876.6,
+      "_growth_sum": 19.49,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 4780,
-          "sale_amount": 32982
+          "date": "2026-08-18",
+          "sold": 4634,
+          "sale_amount": 45876.6
         }
       ],
-      "sold_count": 4780,
-      "sale_amount": 32982,
+      "sold_count": 4634,
+      "sale_amount": 45876.6,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 107.65,
-      "_total_sold_show": "4.8k",
-      "_total_sale_show": "$33.0k"
+      "_avg_growth": 19.49,
+      "_total_sold_show": "4.6k",
+      "_total_sale_show": "$45.9k"
     },
     {
       "product_id": "1731510159085503928",
@@ -1282,44 +1216,6 @@
       "_total_sale_show": "$27.0k"
     },
     {
-      "product_id": "1732881548751242997",
-      "title": "SOCKS LEGEND 1 Pasang Kualiti Tinggi Stokin Buku Lali Rendah Pertengahan Betis Unisex Warna Hitam Kelabu Putih Anti-Bau Free Size Ready Stock & Fast Shipping",
-      "cover": "https://s.500fd.com/tt_product/c6a55d00873441a39b11c8f40607ba7b~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732881548751242997?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM0.80  - 2.56",
-      "category_name": [
-        "Socks"
-      ],
-      "shop_name": "Socks Legend",
-      "shop_sold_count": 1350176,
-      "aweme_count": 2,
-      "live_count": 0,
-      "author_count": 2,
-      "launch_time": "2025-10-19 02:39:26",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
-      "_appearances": 1,
-      "_total_sold": 3301,
-      "_total_sale": 2640.8,
-      "_growth_sum": 32.36,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 3301,
-          "sale_amount": 2640.8
-        }
-      ],
-      "sold_count": 3301,
-      "sale_amount": 2640.8,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 32.36,
-      "_total_sold_show": "3.3k",
-      "_total_sale_show": "$2.6k"
-    },
-    {
       "product_id": "1734958170947880825",
       "title": "KEK GULA HANGUS /KEK SARANG SEMUT  MUTASYA NORRAIZA 500 gram saiz 6 tahan 10 hari Food Snack Makanan",
       "cover": "https://s.500fd.com/tt_product/f792a071fd924af09c1046c5a163616e~tplv-aphluv4xwc-crop-webp:1013:1013.webp",
@@ -1434,6 +1330,44 @@
       "_total_sale_show": "$28.4k"
     },
     {
+      "product_id": "1729662724194338931",
+      "title": "RUYI 6oup Design 450ml Insulated Tumbler Coffee Travel Mug Vacuum Insulated Glass Bottle Classic Student Officer Worker Brand New Kitchenware Steel",
+      "cover": "https://s.500fd.com/tt_product/46a22c4b4e37418a99e6fa863e4dee7f~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729662724194338931?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM3.43",
+      "category_name": [
+        "Vacuum Flasks"
+      ],
+      "shop_name": "RUYI HOME",
+      "shop_sold_count": 1862159,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2023-12-06 03:01:34",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-24",
+      "_appearances": 1,
+      "_total_sold": 3140,
+      "_total_sale": 10707.4,
+      "_growth_sum": 0,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-24",
+          "sold": 3140,
+          "sale_amount": 10707.4
+        }
+      ],
+      "sold_count": 3140,
+      "sale_amount": 10707.4,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0,
+      "_total_sold_show": "3.1k",
+      "_total_sale_show": "$10.7k"
+    },
+    {
       "product_id": "1736448008027341849",
       "title": "Aksesori Merdeka Kanak-kanak & dewasa (Sticker Muka, Keris, Ribbon, Tanjak, Tiara, Brooch, Kipas Tangan)",
       "cover": "https://s.500fd.com/tt_product/e9fac77e394843c68d53eaf027d9bad4~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
@@ -1472,80 +1406,80 @@
       "_total_sale_show": "$5.3k"
     },
     {
-      "product_id": "1737010784152159421",
-      "title": "[RAIU] BAJU KURUNG MODEN MATERIAL PREMIUM CHIFFON CREPE BY THE PANDA OUTFIT HQ",
-      "cover": "https://s.500fd.com/tt_product/3fe3e5c0870c48608eac40ee48f5591c~tplv-aphluv4xwc-crop-webp:810:1080.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1737010784152159421?region=MY&local=en",
+      "product_id": "1731431464612365516",
+      "title": "[ Stok Sedia Ada ] Wayar Batang 1-40 Warna Chenille Stems 50pcs/100pcs+- 7-8mm (Saiz Tebal/Gebu) Kawat Batang Chenille Berwarna-warni / Kraf Kawat Bunga / Kawat Rambut / Kraf Seni DIY",
+      "cover": "https://s.500fd.com/tt_product/e41210f4f0a246c9990b3d1e0e43af18~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731431464612365516?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM11.99",
+      "real_price": "RM1.80  - 2.91",
       "category_name": [
-        "Clothing Sets"
+        "Slime & Squishy Toys"
       ],
-      "shop_name": "THE PANDA OUTFIT HQ",
-      "shop_sold_count": 1129688,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-08-13 10:16:01",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-17",
+      "shop_name": "Charlene Store.",
+      "shop_sold_count": 6061429,
+      "aweme_count": 2,
+      "live_count": 11,
+      "author_count": 9,
+      "launch_time": "2025-05-21 08:07:59",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-24",
       "_appearances": 1,
-      "_total_sold": 3101,
-      "_total_sale": 37180.99,
-      "_growth_sum": 0,
+      "_total_sold": 2997,
+      "_total_sale": 5094.9,
+      "_growth_sum": 27.1,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 3101,
-          "sale_amount": 37180.99
+          "date": "2026-08-24",
+          "sold": 2997,
+          "sale_amount": 5094.9
         }
       ],
-      "sold_count": 3101,
-      "sale_amount": 37180.99,
+      "sold_count": 2997,
+      "sale_amount": 5094.9,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "3.1k",
-      "_total_sale_show": "$37.2k"
+      "_avg_growth": 27.1,
+      "_total_sold_show": "3.0k",
+      "_total_sale_show": "$5.1k"
     },
     {
-      "product_id": "1729716428019500453",
-      "title": "TBF Merdeka Car Magnet & Sticker 2026 | Premium Malaysia Flag & State Decorations | 14 Designs",
-      "cover": "https://s.500fd.com/tt_product/df0d205399704cd3b8bc22239aeb2a95~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729716428019500453?region=MY&local=en",
+      "product_id": "1736257281516275412",
+      "title": "PERFUME PARADISE BELLAZ SIGNATURE - PEN 10ML",
+      "cover": "https://s.500fd.com/tt_product/88cac69dfefa4d8bbe965a6bc268e9c8~tplv-aphluv4xwc-crop-webp:4320:5400.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736257281516275412?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM7.65",
+      "real_price": "RM10.75",
       "category_name": [
-        "Gifts & Wrapping"
+        "Unisex Perfume"
       ],
-      "shop_name": "TBF The Box Factory",
-      "shop_sold_count": 48396551,
-      "aweme_count": 21,
-      "live_count": 52,
-      "author_count": 50,
-      "launch_time": "2024-07-11 10:02:19",
-      "_first_seen": "2026-08-23",
-      "_last_seen": "2026-08-23",
+      "shop_name": "Perfume Paradise HQ",
+      "shop_sold_count": 3520421,
+      "aweme_count": 10,
+      "live_count": 29,
+      "author_count": 26,
+      "launch_time": "2026-06-26 19:22:55",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-24",
       "_appearances": 1,
-      "_total_sold": 2747,
-      "_total_sale": 21014.55,
-      "_growth_sum": -5.08,
+      "_total_sold": 2922,
+      "_total_sale": 29453.76,
+      "_growth_sum": 18.2,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-23",
-          "sold": 2747,
-          "sale_amount": 21014.55
+          "date": "2026-08-24",
+          "sold": 2922,
+          "sale_amount": 29453.76
         }
       ],
-      "sold_count": 2747,
-      "sale_amount": 21014.55,
+      "sold_count": 2922,
+      "sale_amount": 29453.76,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -5.08,
-      "_total_sold_show": "2.7k",
-      "_total_sale_show": "$21.0k"
+      "_avg_growth": 18.2,
+      "_total_sold_show": "2.9k",
+      "_total_sale_show": "$29.5k"
     }
   ],
   "total_top": [
@@ -1566,19 +1500,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 1986306,
       "_total_sale": 47947734.45,
       "_growth_sum": 246.32999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 283758,
-          "sale_amount": 6849676.35
-        },
         {
           "date": "2026-08-18",
           "sold": 283758,
@@ -1606,6 +1535,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 283758,
+          "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-24",
           "sold": 283758,
           "sale_amount": 6849676.35
         }
@@ -1634,19 +1568,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 1359477,
       "_total_sale": 36276681.21,
       "_growth_sum": -2.6599999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 194211,
-          "sale_amount": 5182383.03
-        },
         {
           "date": "2026-08-18",
           "sold": 194211,
@@ -1674,6 +1603,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 194211,
+          "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-24",
           "sold": 194211,
           "sale_amount": 5182383.03
         }
@@ -1702,19 +1636,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 974813,
       "_total_sale": 1841444.0099999998,
       "_growth_sum": -142.73000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 139259,
-          "sale_amount": 263063.43
-        },
         {
           "date": "2026-08-18",
           "sold": 139259,
@@ -1742,6 +1671,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 139259,
+          "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-24",
           "sold": 139259,
           "sale_amount": 263063.43
         }
@@ -1770,19 +1704,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 733754,
       "_total_sale": 36422734.04,
       "_growth_sum": 1210.79,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 104822,
-          "sale_amount": 5203247.72
-        },
         {
           "date": "2026-08-18",
           "sold": 104822,
@@ -1810,6 +1739,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-24",
           "sold": 104822,
           "sale_amount": 5203247.72
         }
@@ -1838,19 +1772,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 642642,
       "_total_sale": 13490477.279999997,
       "_growth_sum": 10.780000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
         {
           "date": "2026-08-18",
           "sold": 91806,
@@ -1878,6 +1807,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-24",
           "sold": 91806,
           "sale_amount": 1927211.04
         }
@@ -1906,19 +1840,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 634410,
       "_total_sale": 10688569.5,
       "_growth_sum": -127.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        },
         {
           "date": "2026-08-18",
           "sold": 90630,
@@ -1946,6 +1875,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-24",
           "sold": 90630,
           "sale_amount": 1526938.5
         }
@@ -1974,19 +1908,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 619206,
       "_total_sale": 3099313,
       "_growth_sum": 18944.87,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 88458,
-          "sale_amount": 442759
-        },
         {
           "date": "2026-08-18",
           "sold": 88458,
@@ -2014,6 +1943,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 88458,
+          "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-24",
           "sold": 88458,
           "sale_amount": 442759
         }
@@ -2042,19 +1976,14 @@
       "live_count": 883,
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 604254,
       "_total_sale": 12824950.110000001,
       "_growth_sum": 89.67,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
         {
           "date": "2026-08-18",
           "sold": 86322,
@@ -2082,6 +2011,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-24",
           "sold": 86322,
           "sale_amount": 1832135.73
         }
@@ -2110,19 +2044,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 602973,
       "_total_sale": 8671306.07,
       "_growth_sum": 479.15,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 86139,
-          "sale_amount": 1238758.01
-        },
         {
           "date": "2026-08-18",
           "sold": 86139,
@@ -2150,6 +2079,11 @@
         },
         {
           "date": "2026-08-23",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-24",
           "sold": 86139,
           "sale_amount": 1238758.01
         }
@@ -2178,19 +2112,14 @@
       "live_count": 1176,
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
       "_appearances": 7,
       "_total_sold": 544180,
       "_total_sale": 1076025.79,
       "_growth_sum": -119.27999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        },
         {
           "date": "2026-08-18",
           "sold": 77740,
@@ -2220,6 +2149,11 @@
           "date": "2026-08-23",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
       "sold_count": 544180,
@@ -2231,6 +2165,49 @@
     }
   ],
   "growth_top": [
+    {
+      "product_id": "1729579128450812568",
+      "title": "Sambal Nyet Berapi by Khairulaming",
+      "cover": "https://s.500fd.com/tt_product/40dc29b52fcf4ee199856c5c702d26f1~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729579128450812568?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM13.57",
+      "category_name": [
+        "Cooking Sauces"
+      ],
+      "shop_name": "khairulamingbrand",
+      "shop_sold_count": 3800885,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2023-01-05 04:05:32",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
+      "_appearances": 2,
+      "_total_sold": 12997,
+      "_total_sale": 189046.3,
+      "_growth_sum": 1803.96,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 8726,
+          "sale_amount": 130191.92
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 4271,
+          "sale_amount": 58854.38
+        }
+      ],
+      "sold_count": 12997,
+      "sale_amount": 189046.3,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 901.98,
+      "_total_sold_show": "13.0k",
+      "_total_sale_show": "$189.0k"
+    },
     {
       "product_id": "1736454538879599924",
       "title": "S BELLE SILLA - COTTON VOILE",
@@ -2292,12 +2269,12 @@
       "author_count": 63,
       "launch_time": "2025-06-26 13:56:17",
       "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-20",
-      "_appearances": 2,
-      "_total_sold": 11378,
-      "_total_sale": 113780,
-      "_growth_sum": 614.8,
-      "_growth_count": 2,
+      "_last_seen": "2026-08-24",
+      "_appearances": 3,
+      "_total_sold": 14857,
+      "_total_sale": 148570,
+      "_growth_sum": 931.4499999999999,
+      "_growth_count": 3,
       "_trend": [
         {
           "date": "2026-08-18",
@@ -2308,62 +2285,19 @@
           "date": "2026-08-20",
           "sold": 3783,
           "sale_amount": 37830
-        }
-      ],
-      "sold_count": 11378,
-      "sale_amount": 113780,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 307.4,
-      "_total_sold_show": "11.4k",
-      "_total_sale_show": "$113.8k"
-    },
-    {
-      "product_id": "1729815265838204344",
-      "title": "CUBRE MI X SALLY WHOO BEDAK ASAS KUSYEN",
-      "cover": "https://s.500fd.com/tt_product/275677bc91c34a0884d56f053bcc9811~tplv-aphluv4xwc-crop-webp:1023:1023.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729815265838204344?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM5.00",
-      "category_name": [
-        "Concealer & Foundation\t"
-      ],
-      "shop_name": "Cubremi",
-      "shop_sold_count": 3553555,
-      "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 1,
-      "launch_time": "2024-09-07 08:02:19",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-22",
-      "_appearances": 3,
-      "_total_sold": 21274,
-      "_total_sale": 116660.4,
-      "_growth_sum": 787.47,
-      "_growth_count": 3,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 11789,
-          "sale_amount": 58945
         },
         {
-          "date": "2026-08-20",
-          "sold": 4069,
-          "sale_amount": 20345
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 5416,
-          "sale_amount": 37370.4
+          "date": "2026-08-24",
+          "sold": 3479,
+          "sale_amount": 34790
         }
       ],
-      "sold_count": 21274,
-      "sale_amount": 116660.4,
+      "sold_count": 14857,
+      "sale_amount": 148570,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 262.49,
-      "_total_sold_show": "21.3k",
-      "_total_sale_show": "$116.7k"
+      "_avg_growth": 310.48,
+      "_total_sold_show": "14.9k",
+      "_total_sale_show": "$148.6k"
     },
     {
       "product_id": "1736821304982472096",
@@ -2452,6 +2386,49 @@
       "_total_sale_show": "$8.1k"
     },
     {
+      "product_id": "1729815265838204344",
+      "title": "CUBRE MI X SALLY WHOO BEDAK ASAS KUSYEN",
+      "cover": "https://s.500fd.com/tt_product/275677bc91c34a0884d56f053bcc9811~tplv-aphluv4xwc-crop-webp:1023:1023.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729815265838204344?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM5.00",
+      "category_name": [
+        "Concealer & Foundation\t"
+      ],
+      "shop_name": "Cubremi",
+      "shop_sold_count": 3579599,
+      "aweme_count": 2,
+      "live_count": 4,
+      "author_count": 5,
+      "launch_time": "2024-09-07 08:02:19",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-08-22",
+      "_appearances": 2,
+      "_total_sold": 9485,
+      "_total_sale": 57715.4,
+      "_growth_sum": 214.2,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-20",
+          "sold": 4069,
+          "sale_amount": 20345
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 5416,
+          "sale_amount": 37370.4
+        }
+      ],
+      "sold_count": 9485,
+      "sale_amount": 57715.4,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 107.1,
+      "_total_sold_show": "9.5k",
+      "_total_sale_show": "$57.7k"
+    },
+    {
       "product_id": "1735766767207285978",
       "title": "Serbuk TomSaab Thai Segera Mamagfood - Sup Siam Pedas Masam Thai - Cuma Tambah Air & Daging - Cepat dan Mudah",
       "cover": "https://s.500fd.com/tt_product/51c179d9d30847e7a5afd4f92e287c21~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
@@ -2512,12 +2489,12 @@
       "author_count": 45,
       "launch_time": "2025-08-13 22:40:58",
       "_first_seen": "2026-08-18",
-      "_last_seen": "2026-08-23",
-      "_appearances": 6,
-      "_total_sold": 40544,
-      "_total_sale": 47031.04,
-      "_growth_sum": 368.44999999999993,
-      "_growth_count": 6,
+      "_last_seen": "2026-08-24",
+      "_appearances": 7,
+      "_total_sold": 45704,
+      "_total_sale": 53016.64,
+      "_growth_sum": 362.2699999999999,
+      "_growth_count": 7,
       "_trend": [
         {
           "date": "2026-08-18",
@@ -2548,14 +2525,19 @@
           "date": "2026-08-23",
           "sold": 5500,
           "sale_amount": 6380
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 5160,
+          "sale_amount": 5985.6
         }
       ],
-      "sold_count": 40544,
-      "sale_amount": 47031.04,
+      "sold_count": 45704,
+      "sale_amount": 53016.64,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 61.41,
-      "_total_sold_show": "40.5k",
-      "_total_sale_show": "$47.0k"
+      "_avg_growth": 51.75,
+      "_total_sold_show": "45.7k",
+      "_total_sale_show": "$53.0k"
     },
     {
       "product_id": "1731868375417325222",
@@ -2654,47 +2636,72 @@
       "_total_sale_show": "$62.1k"
     },
     {
-      "product_id": "1733550924989040029",
-      "title": "Glad2Glow Body Serum Collection-Retinol Bright Body Serum/ Niacinamide Bright Body Serum/ Bright Body Serum 300ml/ Moist & Smooth Body Serum 300ml Penjagaan Badan",
-      "cover": "https://s.500fd.com/tt_product/fb83970ea9004139875a4a992f0ee474~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733550924989040029?region=MY&local=en",
+      "product_id": "1729550982771738420",
+      "title": "AbangS Anak tudung Sarung kapas sejuk pink belacan Hijab",
+      "cover": "https://s.500fd.com/tt_product/a4677be6f15142488763c68b47a85cf3~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729550982771738420?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM9.90",
+      "real_price": "RM1.75",
       "category_name": [
-        "Body Creams & Lotions\t"
+        "Underscarves"
       ],
-      "shop_name": "Glad2Glow.my",
-      "shop_sold_count": 16794985,
-      "aweme_count": 24,
-      "live_count": 13,
-      "author_count": 30,
-      "launch_time": "2025-12-12 19:53:46",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-18",
-      "_appearances": 2,
-      "_total_sold": 8512,
-      "_total_sale": 84268.79999999999,
-      "_growth_sum": 19.49,
-      "_growth_count": 2,
+      "shop_name": "Kedai Abang S",
+      "shop_sold_count": 2726916,
+      "aweme_count": 3,
+      "live_count": 22,
+      "author_count": 16,
+      "launch_time": "2024-02-12 09:45:33",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
+      "_appearances": 7,
+      "_total_sold": 38891,
+      "_total_sale": 73970.17,
+      "_growth_sum": 69.59,
+      "_growth_count": 7,
       "_trend": [
         {
-          "date": "2026-08-17",
-          "sold": 3878,
-          "sale_amount": 38392.2
+          "date": "2026-08-18",
+          "sold": 5056,
+          "sale_amount": 8848
         },
         {
-          "date": "2026-08-18",
-          "sold": 4634,
-          "sale_amount": 45876.6
+          "date": "2026-08-19",
+          "sold": 5442,
+          "sale_amount": 9523.5
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 5656,
+          "sale_amount": 10972.64
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 5613,
+          "sale_amount": 11169.87
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 6325,
+          "sale_amount": 12586.75
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 4593,
+          "sale_amount": 9140.07
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 6206,
+          "sale_amount": 11729.34
         }
       ],
-      "sold_count": 8512,
-      "sale_amount": 84268.79999999999,
+      "sold_count": 38891,
+      "sale_amount": 73970.17,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 9.74,
-      "_total_sold_show": "8.5k",
-      "_total_sale_show": "$84.3k"
+      "_avg_growth": 9.94,
+      "_total_sold_show": "38.9k",
+      "_total_sale_show": "$74.0k"
     },
     {
       "product_id": "1730697905726916562",
@@ -2710,22 +2717,17 @@
       "shop_name": "momohouse.os",
       "shop_sold_count": 35469265,
       "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
+      "live_count": 8,
+      "author_count": 3,
       "launch_time": "2025-01-06 16:36:05",
-      "_first_seen": "2026-08-17",
+      "_first_seen": "2026-08-20",
       "_last_seen": "2026-08-22",
-      "_appearances": 4,
-      "_total_sold": 16027,
-      "_total_sale": 3365.6699999999996,
-      "_growth_sum": 11.939999999999998,
-      "_growth_count": 4,
+      "_appearances": 3,
+      "_total_sold": 12978,
+      "_total_sale": 2725.38,
+      "_growth_sum": 29.06,
+      "_growth_count": 3,
       "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 3049,
-          "sale_amount": 640.29
-        },
         {
           "date": "2026-08-20",
           "sold": 4033,
@@ -2742,12 +2744,123 @@
           "sale_amount": 997.29
         }
       ],
-      "sold_count": 16027,
-      "sale_amount": 3365.6699999999996,
+      "sold_count": 12978,
+      "sale_amount": 2725.38,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 2.98,
-      "_total_sold_show": "16.0k",
-      "_total_sale_show": "$3.4k"
+      "_avg_growth": 9.69,
+      "_total_sold_show": "13.0k",
+      "_total_sale_show": "$2.7k"
+    },
+    {
+      "product_id": "1729716428019500453",
+      "title": "TBF Merdeka Car Magnet & Sticker 2026 | Premium Malaysia Flag & State Decorations | 14 Designs",
+      "cover": "https://s.500fd.com/tt_product/df0d205399704cd3b8bc22239aeb2a95~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729716428019500453?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM7.65",
+      "category_name": [
+        "Gifts & Wrapping"
+      ],
+      "shop_name": "TBF The Box Factory",
+      "shop_sold_count": 48396551,
+      "aweme_count": 21,
+      "live_count": 52,
+      "author_count": 50,
+      "launch_time": "2024-07-11 10:02:19",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-24",
+      "_appearances": 2,
+      "_total_sold": 5871,
+      "_total_sale": 48162.11,
+      "_growth_sum": 8.64,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-23",
+          "sold": 2747,
+          "sale_amount": 21014.55
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 3124,
+          "sale_amount": 27147.56
+        }
+      ],
+      "sold_count": 5871,
+      "sale_amount": 48162.11,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 4.32,
+      "_total_sold_show": "5.9k",
+      "_total_sale_show": "$48.2k"
+    },
+    {
+      "product_id": "1736299123820955644",
+      "title": "SATAY IKAN VIRAL HALAL BORONG termurah dipasaran SATE IKAN VIRAL HARGA BORONG LEMAK MANIS",
+      "cover": "https://s.500fd.com/tt_product/2d9d1e4ff94840cc998c0e21a07b16bd~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736299123820955644?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM0.20  - 34.63",
+      "category_name": [
+        "Beans & Grains"
+      ],
+      "shop_name": "aisy fresh picks 2",
+      "shop_sold_count": 226119,
+      "aweme_count": 20,
+      "live_count": 86,
+      "author_count": 66,
+      "launch_time": "2026-06-29 22:49:41",
+      "_first_seen": "2026-08-18",
+      "_last_seen": "2026-08-24",
+      "_appearances": 7,
+      "_total_sold": 28811,
+      "_total_sale": 5762.2,
+      "_growth_sum": 2.1799999999999997,
+      "_growth_count": 7,
+      "_trend": [
+        {
+          "date": "2026-08-18",
+          "sold": 5195,
+          "sale_amount": 1039
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 4556,
+          "sale_amount": 911.2
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 4910,
+          "sale_amount": 982
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 3560,
+          "sale_amount": 712
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 3756,
+          "sale_amount": 751.2
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 2916,
+          "sale_amount": 583.2
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 3918,
+          "sale_amount": 783.6
+        }
+      ],
+      "sold_count": 28811,
+      "sale_amount": 5762.2,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0.31,
+      "_total_sold_show": "28.8k",
+      "_total_sale_show": "$5.8k"
     },
     {
       "product_id": "1736661403727332559",
@@ -2793,142 +2906,6 @@
       "_total_sale_show": "$288.9k"
     },
     {
-      "product_id": "1729550982771738420",
-      "title": "AbangS Anak tudung Sarung kapas sejuk pink belacan Hijab",
-      "cover": "https://s.500fd.com/tt_product/a4677be6f15142488763c68b47a85cf3~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729550982771738420?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM1.75",
-      "category_name": [
-        "Underscarves"
-      ],
-      "shop_name": "Kedai Abang S",
-      "shop_sold_count": 2723254,
-      "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 1,
-      "launch_time": "2024-02-12 09:45:33",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
-      "_appearances": 7,
-      "_total_sold": 36339,
-      "_total_sale": 68635.33,
-      "_growth_sum": -9.61,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 3654,
-          "sale_amount": 6394.5
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 5056,
-          "sale_amount": 8848
-        },
-        {
-          "date": "2026-08-19",
-          "sold": 5442,
-          "sale_amount": 9523.5
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 5656,
-          "sale_amount": 10972.64
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 5613,
-          "sale_amount": 11169.87
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 6325,
-          "sale_amount": 12586.75
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 4593,
-          "sale_amount": 9140.07
-        }
-      ],
-      "sold_count": 36339,
-      "sale_amount": 68635.33,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -1.37,
-      "_total_sold_show": "36.3k",
-      "_total_sale_show": "$68.6k"
-    },
-    {
-      "product_id": "1736299123820955644",
-      "title": "SATAY IKAN VIRAL HALAL BORONG termurah dipasaran SATE IKAN VIRAL HARGA BORONG LEMAK MANIS",
-      "cover": "https://s.500fd.com/tt_product/2d9d1e4ff94840cc998c0e21a07b16bd~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736299123820955644?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM0.20  - 34.63",
-      "category_name": [
-        "Beans & Grains"
-      ],
-      "shop_name": "aisy fresh picks 2",
-      "shop_sold_count": 221559,
-      "aweme_count": 19,
-      "live_count": 31,
-      "author_count": 39,
-      "launch_time": "2026-06-29 22:49:41",
-      "_first_seen": "2026-08-17",
-      "_last_seen": "2026-08-23",
-      "_appearances": 7,
-      "_total_sold": 29345,
-      "_total_sale": 5869,
-      "_growth_sum": -28.65,
-      "_growth_count": 7,
-      "_trend": [
-        {
-          "date": "2026-08-17",
-          "sold": 4452,
-          "sale_amount": 890.4
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 5195,
-          "sale_amount": 1039
-        },
-        {
-          "date": "2026-08-19",
-          "sold": 4556,
-          "sale_amount": 911.2
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 4910,
-          "sale_amount": 982
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 3560,
-          "sale_amount": 712
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 3756,
-          "sale_amount": 751.2
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 2916,
-          "sale_amount": 583.2
-        }
-      ],
-      "sold_count": 29345,
-      "sale_amount": 5869,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -4.09,
-      "_total_sold_show": "29.3k",
-      "_total_sale_show": "$5.9k"
-    },
-    {
       "product_id": "1729601775266989400",
       "title": "[NEW 2026] ANAS Velvet Matte Liquid Lipstick (FULL-MATTE) | Kemasan Matte Tahan Lama (BIBIR KERING TIDAK DI GALAKKAN @ WAJIB PAKAI LIPBALM DAHULU) - 4ML",
       "cover": "https://s.500fd.com/tt_product/82bc6176b4c6409cb4fb42eb4391c475~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -2946,12 +2923,12 @@
       "author_count": 87,
       "launch_time": "2024-04-19 08:28:23",
       "_first_seen": "2026-08-22",
-      "_last_seen": "2026-08-23",
-      "_appearances": 2,
-      "_total_sold": 40586,
-      "_total_sale": 192783.5,
-      "_growth_sum": -12.16,
-      "_growth_count": 2,
+      "_last_seen": "2026-08-24",
+      "_appearances": 3,
+      "_total_sold": 52279,
+      "_total_sale": 248325.25,
+      "_growth_sum": -41.47,
+      "_growth_count": 3,
       "_trend": [
         {
           "date": "2026-08-22",
@@ -2962,14 +2939,19 @@
           "date": "2026-08-23",
           "sold": 16542,
           "sale_amount": 78574.5
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 11693,
+          "sale_amount": 55541.75
         }
       ],
-      "sold_count": 40586,
-      "sale_amount": 192783.5,
+      "sold_count": 52279,
+      "sale_amount": 248325.25,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -6.08,
-      "_total_sold_show": "40.6k",
-      "_total_sale_show": "$192.8k"
+      "_avg_growth": -13.82,
+      "_total_sold_show": "52.3k",
+      "_total_sale_show": "$248.3k"
     }
   ]
 }
