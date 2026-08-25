@@ -1,13 +1,13 @@
 {
   "period": "monthly",
   "region": "SG",
-  "generated_at": "2026-08-24T01:47:47.365Z",
+  "generated_at": "2026-08-25T01:42:20.726Z",
   "date_range": [
     "2026-08-03",
-    "2026-08-24"
+    "2026-08-25"
   ],
-  "daily_count": 180,
-  "total_count": 180,
+  "daily_count": 190,
+  "total_count": 190,
   "daily_top": [
     {
       "product_id": "1735511058960058331",
@@ -27,12 +27,12 @@
       "author_count": 8,
       "launch_time": "2026-05-10 09:03:36",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 14,
-      "_total_sold": 7659,
-      "_total_sale": 38302,
-      "_growth_sum": 84.53999999999999,
-      "_growth_count": 14,
+      "_last_seen": "2026-08-25",
+      "_appearances": 15,
+      "_total_sold": 8387,
+      "_total_sale": 41942,
+      "_growth_sum": 55.14999999999999,
+      "_growth_count": 15,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -103,14 +103,19 @@
           "date": "2026-08-24",
           "sold": 1031,
           "sale_amount": 5155
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 728,
+          "sale_amount": 3640
         }
       ],
-      "sold_count": 7659,
-      "sale_amount": 38302,
+      "sold_count": 8387,
+      "sale_amount": 41942,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.04,
-      "_total_sold_show": "7.7k",
-      "_total_sale_show": "$38.3k"
+      "_avg_growth": 3.68,
+      "_total_sold_show": "8.4k",
+      "_total_sale_show": "$41.9k"
     },
     {
       "product_id": "1734760814147568744",
@@ -130,12 +135,12 @@
       "author_count": 0,
       "launch_time": "2026-03-24 03:10:44",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 17,
-      "_total_sold": 7009,
-      "_total_sale": 14598.74,
-      "_growth_sum": 247.74999999999997,
-      "_growth_count": 17,
+      "_last_seen": "2026-08-25",
+      "_appearances": 18,
+      "_total_sold": 7276,
+      "_total_sale": 15124.73,
+      "_growth_sum": 211.16999999999996,
+      "_growth_count": 18,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -221,14 +226,117 @@
           "date": "2026-08-24",
           "sold": 421,
           "sale_amount": 858.84
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 267,
+          "sale_amount": 525.99
         }
       ],
-      "sold_count": 7009,
-      "sale_amount": 14598.74,
+      "sold_count": 7276,
+      "sale_amount": 15124.73,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 14.57,
-      "_total_sold_show": "7.0k",
-      "_total_sale_show": "$14.6k"
+      "_avg_growth": 11.73,
+      "_total_sold_show": "7.3k",
+      "_total_sale_show": "$15.1k"
+    },
+    {
+      "product_id": "1732322554692011535",
+      "title": "Drain Fly Killer Japan Powerful Sink Drain Cleaner for Kitchen & Bathroom Clog Removal (Enyzme Powder)",
+      "cover": "https://s.500fd.com/tt_product/b9d25e8ed72a4651a93b4dc549a1b798~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732322554692011535?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$1.30",
+      "category_name": [
+        "Household Cleaners"
+      ],
+      "shop_name": "Krafter",
+      "shop_sold_count": 325079,
+      "aweme_count": 0,
+      "live_count": 2,
+      "author_count": 2,
+      "launch_time": "2025-12-06 13:29:15",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-25",
+      "_appearances": 13,
+      "_total_sold": 6869,
+      "_total_sale": 8825.83,
+      "_growth_sum": 2449.13,
+      "_growth_count": 13,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 540,
+          "sale_amount": 702
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 370,
+          "sale_amount": 482
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 365,
+          "sale_amount": 475
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 704,
+          "sale_amount": 917
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 671,
+          "sale_amount": 874
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 813,
+          "sale_amount": 1059
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 553,
+          "sale_amount": 720
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 557,
+          "sale_amount": 726
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 748,
+          "sale_amount": 974
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 491,
+          "sale_amount": 639
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 428,
+          "sale_amount": 509.32
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 329,
+          "sale_amount": 391.51
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 300,
+          "sale_amount": 357
+        }
+      ],
+      "sold_count": 6869,
+      "sale_amount": 8825.83,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 188.39,
+      "_total_sold_show": "6.9k",
+      "_total_sale_show": "$8.8k"
     },
     {
       "product_id": "1736949972938491731",
@@ -352,99 +460,6 @@
       "_avg_growth": 9.68,
       "_total_sold_show": "6.7k",
       "_total_sale_show": "$33.3k"
-    },
-    {
-      "product_id": "1732322554692011535",
-      "title": "Drain Fly Killer Japan Powerful Sink Drain Cleaner for Kitchen & Bathroom Clog Removal (Enyzme Powder)",
-      "cover": "https://s.500fd.com/tt_product/b9d25e8ed72a4651a93b4dc549a1b798~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732322554692011535?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$1.30",
-      "category_name": [
-        "Household Cleaners"
-      ],
-      "shop_name": "Krafter",
-      "shop_sold_count": 325079,
-      "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 2,
-      "launch_time": "2025-12-06 13:29:15",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-21",
-      "_appearances": 12,
-      "_total_sold": 6569,
-      "_total_sale": 8468.83,
-      "_growth_sum": 2399.13,
-      "_growth_count": 12,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 540,
-          "sale_amount": 702
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 370,
-          "sale_amount": 482
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 365,
-          "sale_amount": 475
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 704,
-          "sale_amount": 917
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 671,
-          "sale_amount": 874
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 813,
-          "sale_amount": 1059
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 553,
-          "sale_amount": 720
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 557,
-          "sale_amount": 726
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 748,
-          "sale_amount": 974
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 491,
-          "sale_amount": 639
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 428,
-          "sale_amount": 509.32
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 329,
-          "sale_amount": 391.51
-        }
-      ],
-      "sold_count": 6569,
-      "sale_amount": 8468.83,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 199.93,
-      "_total_sold_show": "6.6k",
-      "_total_sale_show": "$8.5k"
     },
     {
       "product_id": "1734585728022185538",
@@ -1043,6 +1058,59 @@
       "_total_sale_show": "$2.1k"
     },
     {
+      "product_id": "1736137167747777640",
+      "title": "mixshop Mini Baby Wet Wipes, Soft Wet Tissue, Hand, Mouth, Body [SG READY STOCK]",
+      "cover": "https://s.500fd.com/tt_product/d48ff4bbbb364b9b8b1012d141a77bb3~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736137167747777640?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$0.20  - 0.99",
+      "category_name": [
+        "Wipes & Holders"
+      ],
+      "shop_name": "mixshopsg",
+      "shop_sold_count": 150801,
+      "aweme_count": 3,
+      "live_count": 0,
+      "author_count": 2,
+      "launch_time": "2026-06-20 20:21:01",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-25",
+      "_appearances": 4,
+      "_total_sold": 1460,
+      "_total_sale": 292,
+      "_growth_sum": 1108.33,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 480,
+          "sale_amount": 96
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 420,
+          "sale_amount": 84
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 260,
+          "sale_amount": 52
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 300,
+          "sale_amount": 60
+        }
+      ],
+      "sold_count": 1460,
+      "sale_amount": 292,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 277.08,
+      "_total_sold_show": "1.5k",
+      "_total_sale_show": "$292"
+    },
+    {
       "product_id": "1733872498875401846",
       "title": "Casual Large Capacity Fishing Shoulder Bag Versatile Style Adjustable Strap Fashion Crossbody Bag Multi Functional Nylon Sports Fitness Pouch Outdoor Activities",
       "cover": "https://s.500fd.com/tt_product/59a2bffa5b0d4e1581329dca70d3001c~tplv-o3syd03w52-crop-webp:1000:1000.webp",
@@ -1129,54 +1197,6 @@
       "_total_sale_show": "$10.5k"
     },
     {
-      "product_id": "1736137167747777640",
-      "title": "mixshop Mini Baby Wet Wipes, Soft Wet Tissue, Hand, Mouth, Body [SG READY STOCK]",
-      "cover": "https://s.500fd.com/tt_product/d48ff4bbbb364b9b8b1012d141a77bb3~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736137167747777640?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$0.20  - 0.99",
-      "category_name": [
-        "Wipes & Holders"
-      ],
-      "shop_name": "mixshopsg",
-      "shop_sold_count": 150801,
-      "aweme_count": 3,
-      "live_count": 0,
-      "author_count": 2,
-      "launch_time": "2026-06-20 20:21:01",
-      "_first_seen": "2026-08-19",
-      "_last_seen": "2026-08-23",
-      "_appearances": 3,
-      "_total_sold": 1160,
-      "_total_sale": 232,
-      "_growth_sum": 458.33,
-      "_growth_count": 3,
-      "_trend": [
-        {
-          "date": "2026-08-19",
-          "sold": 480,
-          "sale_amount": 96
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 420,
-          "sale_amount": 84
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 260,
-          "sale_amount": 52
-        }
-      ],
-      "sold_count": 1160,
-      "sale_amount": 232,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 152.78,
-      "_total_sold_show": "1.2k",
-      "_total_sale_show": "$232"
-    },
-    {
       "product_id": "1736229024047728328",
       "title": "15082026 BALDBODHI (Link 1) EXCLUSIVE SPECIAL PRODUCTS LINK",
       "cover": "https://s.500fd.com/tt_product/c345f8495ff94aca8c4fc35cd3ef2a61~tplv-aphluv4xwc-crop-webp:686:664.webp",
@@ -1213,6 +1233,49 @@
       "_avg_growth": 0,
       "_total_sold_show": "849",
       "_total_sale_show": "$5.8k"
+    },
+    {
+      "product_id": "1732380686527596340",
+      "title": "(HOME+) Non Disposable Raincoat Portable Raincoat for Outdoor Travel Adult and Kids Raincoat",
+      "cover": "https://s.500fd.com/tt_product/0dbd7d9e234e49edb7761d710713f330~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732380686527596340?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$1.70  - 1.76",
+      "category_name": [
+        "Raincoats"
+      ],
+      "shop_name": "HOMEPLUS.SG",
+      "shop_sold_count": 78813,
+      "aweme_count": 17,
+      "live_count": 0,
+      "author_count": 17,
+      "launch_time": "2026-02-06 20:18:30",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-25",
+      "_appearances": 2,
+      "_total_sold": 817,
+      "_total_sale": 1347.2,
+      "_growth_sum": 334.87,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-24",
+          "sold": 417,
+          "sale_amount": 667.2
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 400,
+          "sale_amount": 680
+        }
+      ],
+      "sold_count": 817,
+      "sale_amount": 1347.2,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 167.44,
+      "_total_sold_show": "817",
+      "_total_sale_show": "$1.3k"
     },
     {
       "product_id": "1731825811415860535",
@@ -1294,6 +1357,44 @@
       "_avg_growth": 0,
       "_total_sold_show": "750",
       "_total_sale_show": "$3.4k"
+    },
+    {
+      "product_id": "1730528581449253992",
+      "title": "Nestle Milo Packet Drink (24 x 200ml) - Expiry 28 Feb 2027",
+      "cover": "https://s.500fd.com/tt_product/d419c562db1746b3b935f3a5cea88c5b~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730528581449253992?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$13.02",
+      "category_name": [
+        "Chocolate & Malted Drinks"
+      ],
+      "shop_name": "Cloud Delivery",
+      "shop_sold_count": 159238,
+      "aweme_count": 3,
+      "live_count": 13,
+      "author_count": 12,
+      "launch_time": "2025-12-16 10:36:16",
+      "_first_seen": "2026-08-25",
+      "_last_seen": "2026-08-25",
+      "_appearances": 1,
+      "_total_sold": 742,
+      "_total_sale": 9096.92,
+      "_growth_sum": 889.33,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-25",
+          "sold": 742,
+          "sale_amount": 9096.92
+        }
+      ],
+      "sold_count": 742,
+      "sale_amount": 9096.92,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 889.33,
+      "_total_sold_show": "742",
+      "_total_sale_show": "$9.1k"
     },
     {
       "product_id": "1730914150107284602",
@@ -1418,6 +1519,44 @@
       "_avg_growth": 321,
       "_total_sold_show": "661",
       "_total_sale_show": "$281.84000000000003"
+    },
+    {
+      "product_id": "1730615280053028185",
+      "title": "Peng Guan Traditional Bak Kwa Vacuum Packed 500g",
+      "cover": "https://s.500fd.com/tt_product/5a52a37126f34e688cd4436ed3e3fc99~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730615280053028185?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$13.79",
+      "category_name": [
+        "Dried Snacks"
+      ],
+      "shop_name": "Peng Guan",
+      "shop_sold_count": 43467,
+      "aweme_count": 1,
+      "live_count": 5,
+      "author_count": 4,
+      "launch_time": "2025-06-21 02:43:33",
+      "_first_seen": "2026-08-25",
+      "_last_seen": "2026-08-25",
+      "_appearances": 1,
+      "_total_sold": 645,
+      "_total_sale": 8410.8,
+      "_growth_sum": 159.04,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-25",
+          "sold": 645,
+          "sale_amount": 8410.8
+        }
+      ],
+      "sold_count": 645,
+      "sale_amount": 8410.8,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 159.04,
+      "_total_sold_show": "645",
+      "_total_sale_show": "$8.4k"
     },
     {
       "product_id": "1736579383113320136",
@@ -1749,44 +1888,6 @@
       "_total_sale_show": "$50.3k"
     },
     {
-      "product_id": "1732380686527596340",
-      "title": "(HOME+) Non Disposable Raincoat Portable Raincoat for Outdoor Travel Adult and Kids Raincoat",
-      "cover": "https://s.500fd.com/tt_product/0dbd7d9e234e49edb7761d710713f330~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732380686527596340?region=SG&local=en",
-      "region": "SG",
-      "currency": "SGD",
-      "real_price": "S$1.70  - 1.76",
-      "category_name": [
-        "Raincoats"
-      ],
-      "shop_name": "HOMEPLUS.SG",
-      "shop_sold_count": 78813,
-      "aweme_count": 17,
-      "live_count": 0,
-      "author_count": 17,
-      "launch_time": "2026-02-06 20:18:30",
-      "_first_seen": "2026-08-24",
-      "_last_seen": "2026-08-24",
-      "_appearances": 1,
-      "_total_sold": 417,
-      "_total_sale": 667.2,
-      "_growth_sum": 338.95,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-24",
-          "sold": 417,
-          "sale_amount": 667.2
-        }
-      ],
-      "sold_count": 417,
-      "sale_amount": 667.2,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 338.95,
-      "_total_sold_show": "417",
-      "_total_sale_show": "$667.2"
-    },
-    {
       "product_id": "1736875384090101084",
       "title": "Portable Phone Desk Stand, Lazy Person Holder, Multi-Function Keychain Mount, Compact and Easy to Carry, Desktop Phone Stand with Keychain",
       "cover": "https://s.500fd.com/tt_product/5e8e3d898dbd4ba4bff6292defb4e018~tplv-aphluv4xwc-crop-webp:800:800.webp",
@@ -1939,6 +2040,44 @@
       "_total_sale_show": "$2.6k"
     },
     {
+      "product_id": "1730528595572917352",
+      "title": "Pokka Jasmine Green Tea Packet (24 x 250ml)",
+      "cover": "https://s.500fd.com/tt_product/28f23f7d86934988b957d097bb6218a5~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730528595572917352?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$10.60",
+      "category_name": [
+        "Tea"
+      ],
+      "shop_name": "Cloud Delivery",
+      "shop_sold_count": 159238,
+      "aweme_count": 0,
+      "live_count": 9,
+      "author_count": 6,
+      "launch_time": "2025-06-21 10:40:09",
+      "_first_seen": "2026-08-25",
+      "_last_seen": "2026-08-25",
+      "_appearances": 1,
+      "_total_sold": 370,
+      "_total_sale": 4421.5,
+      "_growth_sum": 2212.5,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-25",
+          "sold": 370,
+          "sale_amount": 4421.5
+        }
+      ],
+      "sold_count": 370,
+      "sale_amount": 4421.5,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 2212.5,
+      "_total_sold_show": "370",
+      "_total_sale_show": "$4.4k"
+    },
+    {
       "product_id": "1729551399186367602",
       "title": "(LOCAL READY STOCK) B-P911  HILTON HOTEL COMFORTABLE SOFT POLYSTER COTTON 1KG PILLOW",
       "cover": "https://s.500fd.com/tt_product/5474c83f7e224839a073b4a281696c5b~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -2051,6 +2190,44 @@
       "_avg_growth": 0,
       "_total_sold_show": "344",
       "_total_sale_show": "$1.3k"
+    },
+    {
+      "product_id": "1730528603051623528",
+      "title": "Coke Coca Cola Original Taste - Less Sugar (24 x 320ml)",
+      "cover": "https://s.500fd.com/tt_product/6306ad7fbd8140eda7a4ccf1a77e19b0~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1730528603051623528?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$12.10",
+      "category_name": [
+        "Fizzy Drinks"
+      ],
+      "shop_name": "Cloud Delivery",
+      "shop_sold_count": 159238,
+      "aweme_count": 0,
+      "live_count": 7,
+      "author_count": 5,
+      "launch_time": "2025-12-06 16:33:57",
+      "_first_seen": "2026-08-25",
+      "_last_seen": "2026-08-25",
+      "_appearances": 1,
+      "_total_sold": 342,
+      "_total_sale": 3830.4,
+      "_growth_sum": 3009.09,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-25",
+          "sold": 342,
+          "sale_amount": 3830.4
+        }
+      ],
+      "sold_count": 342,
+      "sale_amount": 3830.4,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 3009.09,
+      "_total_sold_show": "342",
+      "_total_sale_show": "$3.8k"
     },
     {
       "product_id": "1731375842178270624",
@@ -2319,6 +2496,44 @@
       "_total_sale_show": "$3.0k"
     },
     {
+      "product_id": "1730528595029230696",
+      "title": "Coke Coca Cola Zero Sugar (24 x 320ml) - Expiry 08 Feb 2027",
+      "cover": "https://s.500fd.com/tt_product/9bc163a21f7c4e4abc159949b1a0bf4c~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730528595029230696?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$14.78",
+      "category_name": [
+        "Fizzy Drinks"
+      ],
+      "shop_name": "Cloud Delivery",
+      "shop_sold_count": 159238,
+      "aweme_count": 0,
+      "live_count": 6,
+      "author_count": 4,
+      "launch_time": "2025-12-06 18:10:38",
+      "_first_seen": "2026-08-25",
+      "_last_seen": "2026-08-25",
+      "_appearances": 1,
+      "_total_sold": 289,
+      "_total_sale": 3794.57,
+      "_growth_sum": 1706.25,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-25",
+          "sold": 289,
+          "sale_amount": 3794.57
+        }
+      ],
+      "sold_count": 289,
+      "sale_amount": 3794.57,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1706.25,
+      "_total_sold_show": "289",
+      "_total_sale_show": "$3.8k"
+    },
+    {
       "product_id": "1736561009280779765",
       "title": "Bonsha Chocolate/Yam Taro/Matcha/Solero/Strawberry",
       "cover": "https://s.500fd.com/tt_product/ec37cb52a4574864814b17dd6540c237~tplv-aphluv4xwc-crop-webp:946:945.webp",
@@ -2414,12 +2629,12 @@
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 3089019,
-      "_total_sale": 74667405.8,
-      "_growth_sum": 404.89,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 3372777,
+      "_total_sale": 81517082.14999999,
+      "_growth_sum": 440.08,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2510,14 +2725,19 @@
           "date": "2026-08-24",
           "sold": 283758,
           "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 3089019,
-      "sale_amount": 74667405.8,
+      "sold_count": 3372777,
+      "sale_amount": 81517082.14999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 22.49,
-      "_total_sold_show": "3.1M",
-      "_total_sale_show": "$74.7M"
+      "_avg_growth": 23.16,
+      "_total_sold_show": "3.4M",
+      "_total_sale_show": "$81.5M"
     },
     {
       "product_id": "1729448464509734958",
@@ -2537,12 +2757,12 @@
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 2402719,
-      "_total_sale": 64414978.24000001,
-      "_growth_sum": 16.630000000000006,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 2596930,
+      "_total_sale": 69597361.27000001,
+      "_growth_sum": 16.250000000000007,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2633,14 +2853,19 @@
           "date": "2026-08-24",
           "sold": 194211,
           "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 2402719,
-      "sale_amount": 64414978.24000001,
+      "sold_count": 2596930,
+      "sale_amount": 69597361.27000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.92,
-      "_total_sold_show": "2.4M",
-      "_total_sale_show": "$64.4M"
+      "_avg_growth": 0.86,
+      "_total_sold_show": "2.6M",
+      "_total_sale_show": "$69.6M"
     },
     {
       "product_id": "1729679758111249333",
@@ -2660,12 +2885,12 @@
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1769245,
-      "_total_sale": 3337732.4400000004,
-      "_growth_sum": 164.7500000000001,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1908504,
+      "_total_sale": 3600795.8700000006,
+      "_growth_sum": 144.36000000000013,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2756,137 +2981,19 @@
           "date": "2026-08-24",
           "sold": 139259,
           "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 1769245,
-      "sale_amount": 3337732.4400000004,
+      "sold_count": 1908504,
+      "sale_amount": 3600795.8700000006,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 9.15,
-      "_total_sold_show": "1.8M",
-      "_total_sale_show": "$3.3M"
-    },
-    {
-      "product_id": "1732164626458252048",
-      "title": "Hismile iD Stain Whitening Mouthwash for White Teeth, Freshens Breath with Essential Oils 237ml",
-      "cover": "https://s.500fd.com/tt_product/069ef90775924324affca5612a4c3096~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732164626458252048?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$14.99",
-      "category_name": [
-        "漱口水"
-      ],
-      "shop_name": "Hismile US",
-      "shop_sold_count": 984307,
-      "aweme_count": 470,
-      "live_count": 1819,
-      "author_count": 1877,
-      "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1242203,
-      "_total_sale": 25752011.319999993,
-      "_growth_sum": 19.62,
-      "_growth_count": 18,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 120841,
-          "sale_amount": 2536725
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 121476,
-          "sale_amount": 2550060
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 120158,
-          "sale_amount": 2522373
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 10230,
-          "sale_amount": 205632
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 10310,
-          "sale_amount": 110068
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 10144,
-          "sale_amount": 173496
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 7381,
-          "sale_amount": 82385
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 6643,
-          "sale_amount": 147431
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 10749,
-          "sale_amount": 120570
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 89823,
-          "sale_amount": 1885583
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
-        {
-          "date": "2026-08-19",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
-        {
-          "date": "2026-08-24",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        }
-      ],
-      "sold_count": 1242203,
-      "sale_amount": 25752011.319999993,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.09,
-      "_total_sold_show": "1.2M",
-      "_total_sale_show": "$25.8M"
+      "_avg_growth": 7.6,
+      "_total_sold_show": "1.9M",
+      "_total_sale_show": "$3.6M"
     },
     {
       "product_id": "1731236289885213002",
@@ -2906,12 +3013,12 @@
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1232031,
-      "_total_sale": 61253801.75999999,
-      "_growth_sum": 1509.7,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1336853,
+      "_total_sale": 66457049.47999999,
+      "_growth_sum": 1682.67,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3002,14 +3109,147 @@
           "date": "2026-08-24",
           "sold": 104822,
           "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 104822,
+          "sale_amount": 5203247.72
         }
       ],
-      "sold_count": 1232031,
-      "sale_amount": 61253801.75999999,
+      "sold_count": 1336853,
+      "sale_amount": 66457049.47999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 83.87,
-      "_total_sold_show": "1.2M",
-      "_total_sale_show": "$61.3M"
+      "_avg_growth": 88.56,
+      "_total_sold_show": "1.3M",
+      "_total_sale_show": "$66.5M"
+    },
+    {
+      "product_id": "1732164626458252048",
+      "title": "Hismile iD Stain Whitening Mouthwash for White Teeth, Freshens Breath with Essential Oils 237ml",
+      "cover": "https://s.500fd.com/tt_product/069ef90775924324affca5612a4c3096~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732164626458252048?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$14.99",
+      "category_name": [
+        "漱口水"
+      ],
+      "shop_name": "Hismile US",
+      "shop_sold_count": 984307,
+      "aweme_count": 470,
+      "live_count": 1819,
+      "author_count": 1877,
+      "launch_time": "2026-01-15 07:32:51",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1334009,
+      "_total_sale": 27679222.359999992,
+      "_growth_sum": 21.16,
+      "_growth_count": 19,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 120841,
+          "sale_amount": 2536725
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 121476,
+          "sale_amount": 2550060
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 120158,
+          "sale_amount": 2522373
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 10230,
+          "sale_amount": 205632
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 10310,
+          "sale_amount": 110068
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 10144,
+          "sale_amount": 173496
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 7381,
+          "sale_amount": 82385
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 6643,
+          "sale_amount": 147431
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 10749,
+          "sale_amount": 120570
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 89823,
+          "sale_amount": 1885583
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-19",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        }
+      ],
+      "sold_count": 1334009,
+      "sale_amount": 27679222.359999992,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1.11,
+      "_total_sold_show": "1.3M",
+      "_total_sale_show": "$27.7M"
     },
     {
       "product_id": "1731879234948338174",
@@ -3029,12 +3269,12 @@
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1218089,
-      "_total_sale": 20852333,
-      "_growth_sum": -184.45000000000002,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1308719,
+      "_total_sale": 22379271.5,
+      "_growth_sum": -202.70000000000002,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3125,14 +3365,19 @@
           "date": "2026-08-24",
           "sold": 90630,
           "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 90630,
+          "sale_amount": 1526938.5
         }
       ],
-      "sold_count": 1218089,
-      "sale_amount": 20852333,
+      "sold_count": 1308719,
+      "sale_amount": 22379271.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -10.25,
-      "_total_sold_show": "1.2M",
-      "_total_sale_show": "$20.9M"
+      "_avg_growth": -10.67,
+      "_total_sold_show": "1.3M",
+      "_total_sale_show": "$22.4M"
     },
     {
       "product_id": "1729612709100426165",
@@ -3152,12 +3397,12 @@
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1212415,
-      "_total_sale": 2510960.7600000002,
-      "_growth_sum": -72.79999999999998,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1290155,
+      "_total_sale": 2664678.7300000004,
+      "_growth_sum": -89.83999999999997,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3248,14 +3493,19 @@
           "date": "2026-08-24",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
-      "sold_count": 1212415,
-      "sale_amount": 2510960.7600000002,
+      "sold_count": 1290155,
+      "sale_amount": 2664678.7300000004,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -4.04,
-      "_total_sold_show": "1.2M",
-      "_total_sale_show": "$2.5M"
+      "_avg_growth": -4.73,
+      "_total_sold_show": "1.3M",
+      "_total_sale_show": "$2.7M"
     },
     {
       "product_id": "1731406217255686451",
@@ -3275,12 +3525,12 @@
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1165328,
-      "_total_sale": 24386456.840000004,
-      "_growth_sum": 209.57,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1251650,
+      "_total_sale": 26218592.570000004,
+      "_growth_sum": 222.38,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3371,14 +3621,19 @@
           "date": "2026-08-24",
           "sold": 86322,
           "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 86322,
+          "sale_amount": 1832135.73
         }
       ],
-      "sold_count": 1165328,
-      "sale_amount": 24386456.840000004,
+      "sold_count": 1251650,
+      "sale_amount": 26218592.570000004,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 11.64,
-      "_total_sold_show": "1.2M",
-      "_total_sale_show": "$24.4M"
+      "_avg_growth": 11.7,
+      "_total_sold_show": "1.3M",
+      "_total_sale_show": "$26.2M"
     },
     {
       "product_id": "1732413417772650787",
@@ -3398,12 +3653,12 @@
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1116119,
-      "_total_sale": 5595643,
-      "_growth_sum": 21740.92,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1204577,
+      "_total_sale": 6038402,
+      "_growth_sum": 24447.329999999998,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3494,14 +3749,19 @@
           "date": "2026-08-24",
           "sold": 88458,
           "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 1116119,
-      "sale_amount": 5595643,
+      "sold_count": 1204577,
+      "sale_amount": 6038402,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1207.83,
-      "_total_sold_show": "1.1M",
-      "_total_sale_show": "$5.6M"
+      "_avg_growth": 1286.7,
+      "_total_sold_show": "1.2M",
+      "_total_sale_show": "$6.0M"
     },
     {
       "product_id": "1731528580940468633",
@@ -3521,12 +3781,12 @@
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 18,
-      "_total_sold": 1114981,
-      "_total_sale": 16055460.079999998,
-      "_growth_sum": 551.71,
-      "_growth_count": 18,
+      "_last_seen": "2026-08-25",
+      "_appearances": 19,
+      "_total_sold": 1201120,
+      "_total_sale": 17294218.09,
+      "_growth_sum": 620.1600000000001,
+      "_growth_count": 19,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3617,14 +3877,19 @@
           "date": "2026-08-24",
           "sold": 86139,
           "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 86139,
+          "sale_amount": 1238758.01
         }
       ],
-      "sold_count": 1114981,
-      "sale_amount": 16055460.079999998,
+      "sold_count": 1201120,
+      "sale_amount": 17294218.09,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 30.65,
-      "_total_sold_show": "1.1M",
-      "_total_sale_show": "$16.1M"
+      "_avg_growth": 32.64,
+      "_total_sold_show": "1.2M",
+      "_total_sale_show": "$17.3M"
     }
   ],
   "growth_top": [
@@ -3801,6 +4066,59 @@
       "_total_sale_show": "$281.84000000000003"
     },
     {
+      "product_id": "1736137167747777640",
+      "title": "mixshop Mini Baby Wet Wipes, Soft Wet Tissue, Hand, Mouth, Body [SG READY STOCK]",
+      "cover": "https://s.500fd.com/tt_product/d48ff4bbbb364b9b8b1012d141a77bb3~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736137167747777640?region=SG&local=en",
+      "region": "SG",
+      "currency": "SGD",
+      "real_price": "S$0.20  - 0.99",
+      "category_name": [
+        "Wipes & Holders"
+      ],
+      "shop_name": "mixshopsg",
+      "shop_sold_count": 150801,
+      "aweme_count": 3,
+      "live_count": 0,
+      "author_count": 2,
+      "launch_time": "2026-06-20 20:21:01",
+      "_first_seen": "2026-08-19",
+      "_last_seen": "2026-08-25",
+      "_appearances": 4,
+      "_total_sold": 1460,
+      "_total_sale": 292,
+      "_growth_sum": 1108.33,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-19",
+          "sold": 480,
+          "sale_amount": 96
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 420,
+          "sale_amount": 84
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 260,
+          "sale_amount": 52
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 300,
+          "sale_amount": 60
+        }
+      ],
+      "sold_count": 1460,
+      "sale_amount": 292,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 277.08,
+      "_total_sold_show": "1.5k",
+      "_total_sale_show": "$292"
+    },
+    {
       "product_id": "1732322554692011535",
       "title": "Drain Fly Killer Japan Powerful Sink Drain Cleaner for Kitchen & Bathroom Clog Removal (Enyzme Powder)",
       "cover": "https://s.500fd.com/tt_product/b9d25e8ed72a4651a93b4dc549a1b798~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -3818,12 +4136,12 @@
       "author_count": 2,
       "launch_time": "2025-12-06 13:29:15",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-21",
-      "_appearances": 12,
-      "_total_sold": 6569,
-      "_total_sale": 8468.83,
-      "_growth_sum": 2399.13,
-      "_growth_count": 12,
+      "_last_seen": "2026-08-25",
+      "_appearances": 13,
+      "_total_sold": 6869,
+      "_total_sale": 8825.83,
+      "_growth_sum": 2449.13,
+      "_growth_count": 13,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3884,62 +4202,62 @@
           "date": "2026-08-21",
           "sold": 329,
           "sale_amount": 391.51
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 300,
+          "sale_amount": 357
         }
       ],
-      "sold_count": 6569,
-      "sale_amount": 8468.83,
+      "sold_count": 6869,
+      "sale_amount": 8825.83,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 199.93,
-      "_total_sold_show": "6.6k",
-      "_total_sale_show": "$8.5k"
+      "_avg_growth": 188.39,
+      "_total_sold_show": "6.9k",
+      "_total_sale_show": "$8.8k"
     },
     {
-      "product_id": "1736137167747777640",
-      "title": "mixshop Mini Baby Wet Wipes, Soft Wet Tissue, Hand, Mouth, Body [SG READY STOCK]",
-      "cover": "https://s.500fd.com/tt_product/d48ff4bbbb364b9b8b1012d141a77bb3~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736137167747777640?region=SG&local=en",
+      "product_id": "1732380686527596340",
+      "title": "(HOME+) Non Disposable Raincoat Portable Raincoat for Outdoor Travel Adult and Kids Raincoat",
+      "cover": "https://s.500fd.com/tt_product/0dbd7d9e234e49edb7761d710713f330~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732380686527596340?region=SG&local=en",
       "region": "SG",
       "currency": "SGD",
-      "real_price": "S$0.20  - 0.99",
+      "real_price": "S$1.70  - 1.76",
       "category_name": [
-        "Wipes & Holders"
+        "Raincoats"
       ],
-      "shop_name": "mixshopsg",
-      "shop_sold_count": 150801,
-      "aweme_count": 3,
+      "shop_name": "HOMEPLUS.SG",
+      "shop_sold_count": 78813,
+      "aweme_count": 17,
       "live_count": 0,
-      "author_count": 2,
-      "launch_time": "2026-06-20 20:21:01",
-      "_first_seen": "2026-08-19",
-      "_last_seen": "2026-08-23",
-      "_appearances": 3,
-      "_total_sold": 1160,
-      "_total_sale": 232,
-      "_growth_sum": 458.33,
-      "_growth_count": 3,
+      "author_count": 17,
+      "launch_time": "2026-02-06 20:18:30",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-25",
+      "_appearances": 2,
+      "_total_sold": 817,
+      "_total_sale": 1347.2,
+      "_growth_sum": 334.87,
+      "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-19",
-          "sold": 480,
-          "sale_amount": 96
+          "date": "2026-08-24",
+          "sold": 417,
+          "sale_amount": 667.2
         },
         {
-          "date": "2026-08-22",
-          "sold": 420,
-          "sale_amount": 84
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 260,
-          "sale_amount": 52
+          "date": "2026-08-25",
+          "sold": 400,
+          "sale_amount": 680
         }
       ],
-      "sold_count": 1160,
-      "sale_amount": 232,
+      "sold_count": 817,
+      "sale_amount": 1347.2,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 152.78,
-      "_total_sold_show": "1.2k",
-      "_total_sale_show": "$232"
+      "_avg_growth": 167.44,
+      "_total_sold_show": "817",
+      "_total_sale_show": "$1.3k"
     },
     {
       "product_id": "1736254502721849156",
@@ -4340,12 +4658,12 @@
       "author_count": 0,
       "launch_time": "2026-03-24 03:10:44",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 17,
-      "_total_sold": 7009,
-      "_total_sale": 14598.74,
-      "_growth_sum": 247.74999999999997,
-      "_growth_count": 17,
+      "_last_seen": "2026-08-25",
+      "_appearances": 18,
+      "_total_sold": 7276,
+      "_total_sale": 15124.73,
+      "_growth_sum": 211.16999999999996,
+      "_growth_count": 18,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -4431,14 +4749,19 @@
           "date": "2026-08-24",
           "sold": 421,
           "sale_amount": 858.84
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 267,
+          "sale_amount": 525.99
         }
       ],
-      "sold_count": 7009,
-      "sale_amount": 14598.74,
+      "sold_count": 7276,
+      "sale_amount": 15124.73,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 14.57,
-      "_total_sold_show": "7.0k",
-      "_total_sale_show": "$14.6k"
+      "_avg_growth": 11.73,
+      "_total_sold_show": "7.3k",
+      "_total_sale_show": "$15.1k"
     },
     {
       "product_id": "1729569664796493598",
@@ -4767,12 +5090,12 @@
       "author_count": 8,
       "launch_time": "2026-05-10 09:03:36",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-24",
-      "_appearances": 14,
-      "_total_sold": 7659,
-      "_total_sale": 38302,
-      "_growth_sum": 84.53999999999999,
-      "_growth_count": 14,
+      "_last_seen": "2026-08-25",
+      "_appearances": 15,
+      "_total_sold": 8387,
+      "_total_sale": 41942,
+      "_growth_sum": 55.14999999999999,
+      "_growth_count": 15,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -4843,14 +5166,19 @@
           "date": "2026-08-24",
           "sold": 1031,
           "sale_amount": 5155
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 728,
+          "sale_amount": 3640
         }
       ],
-      "sold_count": 7659,
-      "sale_amount": 38302,
+      "sold_count": 8387,
+      "sale_amount": 41942,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 6.04,
-      "_total_sold_show": "7.7k",
-      "_total_sale_show": "$38.3k"
+      "_avg_growth": 3.68,
+      "_total_sold_show": "8.4k",
+      "_total_sale_show": "$41.9k"
     },
     {
       "product_id": "1734993841840686265",
