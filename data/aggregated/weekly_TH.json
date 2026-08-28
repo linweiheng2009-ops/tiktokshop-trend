@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "TH",
-  "generated_at": "2026-08-27T08:52:39.893Z",
+  "generated_at": "2026-08-28T11:05:27.335Z",
   "date_range": [
-    "2026-08-21",
-    "2026-08-27"
+    "2026-08-22",
+    "2026-08-28"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -22,23 +22,18 @@
       ],
       "shop_name": "fogo mart",
       "shop_sold_count": 600512,
-      "aweme_count": 2,
-      "live_count": 2,
-      "author_count": 4,
+      "aweme_count": 3,
+      "live_count": 0,
+      "author_count": 3,
       "launch_time": "2025-06-30 23:01:04",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 6,
-      "_total_sold": 72455,
-      "_total_sale": 434005.45000000007,
-      "_growth_sum": 164.03000000000003,
+      "_total_sold": 65566,
+      "_total_sale": 392740.34,
+      "_growth_sum": 41.879999999999995,
       "_growth_count": 6,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 14526,
-          "sale_amount": 87010.74
-        },
         {
           "date": "2026-08-22",
           "sold": 13058,
@@ -63,14 +58,19 @@
           "date": "2026-08-27",
           "sold": 10923,
           "sale_amount": 65428.77
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 7637,
+          "sale_amount": 45745.63
         }
       ],
-      "sold_count": 72455,
-      "sale_amount": 434005.45000000007,
+      "sold_count": 65566,
+      "sale_amount": 392740.34,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 27.34,
-      "_total_sold_show": "72.5k",
-      "_total_sale_show": "$434.0k"
+      "_avg_growth": 6.98,
+      "_total_sold_show": "65.6k",
+      "_total_sale_show": "$392.7k"
     },
     {
       "product_id": "1735373273049498784",
@@ -85,23 +85,18 @@
       ],
       "shop_name": "SomjaneThailand",
       "shop_sold_count": 1671893,
-      "aweme_count": 60,
-      "live_count": 374,
-      "author_count": 260,
+      "aweme_count": 46,
+      "live_count": 370,
+      "author_count": 236,
       "launch_time": "2026-05-01 00:21:51",
-      "_first_seen": "2026-08-21",
+      "_first_seen": "2026-08-22",
       "_last_seen": "2026-08-26",
-      "_appearances": 6,
-      "_total_sold": 54378,
-      "_total_sale": 2936412,
-      "_growth_sum": -63.45,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 43362,
+      "_total_sale": 2341548,
+      "_growth_sum": -30.750000000000004,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 11016,
-          "sale_amount": 594864
-        },
         {
           "date": "2026-08-22",
           "sold": 12002,
@@ -128,12 +123,12 @@
           "sale_amount": 333666
         }
       ],
-      "sold_count": 54378,
-      "sale_amount": 2936412,
+      "sold_count": 43362,
+      "sale_amount": 2341548,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -10.58,
-      "_total_sold_show": "54.4k",
-      "_total_sale_show": "$2.9M"
+      "_avg_growth": -6.15,
+      "_total_sold_show": "43.4k",
+      "_total_sale_show": "$2.3M"
     },
     {
       "product_id": "1729769226259696006",
@@ -148,23 +143,18 @@
       ],
       "shop_name": "CEO V WHITE",
       "shop_sold_count": 1506159,
-      "aweme_count": 78,
-      "live_count": 78,
-      "author_count": 117,
+      "aweme_count": 82,
+      "live_count": 91,
+      "author_count": 130,
       "launch_time": "2023-11-02 02:09:37",
-      "_first_seen": "2026-08-21",
+      "_first_seen": "2026-08-22",
       "_last_seen": "2026-08-27",
-      "_appearances": 6,
-      "_total_sold": 53731,
-      "_total_sale": 3170129,
-      "_growth_sum": 464.52000000000004,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 41996,
+      "_total_sale": 2477764,
+      "_growth_sum": 150.15,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 11735,
-          "sale_amount": 692365
-        },
         {
           "date": "2026-08-22",
           "sold": 8821,
@@ -191,11 +181,64 @@
           "sale_amount": 521914
         }
       ],
-      "sold_count": 53731,
-      "sale_amount": 3170129,
+      "sold_count": 41996,
+      "sale_amount": 2477764,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 77.42,
-      "_total_sold_show": "53.7k",
+      "_avg_growth": 30.03,
+      "_total_sold_show": "42.0k",
+      "_total_sale_show": "$2.5M"
+    },
+    {
+      "product_id": "1730142383013464526",
+      "title": "สบู่เฟย์ด้าของแท้ FayDa planktonsoap",
+      "cover": "https://s.500fd.com/tt_product/83a23893185440e09a13da428ad06a05~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730142383013464526?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿94.00",
+      "category_name": [
+        "Facial Cleansers\t"
+      ],
+      "shop_name": "FaydaThailand",
+      "shop_sold_count": 3320076,
+      "aweme_count": 7,
+      "live_count": 20,
+      "author_count": 20,
+      "launch_time": "2024-05-26 06:20:41",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
+      "_appearances": 4,
+      "_total_sold": 34888,
+      "_total_sale": 3249553,
+      "_growth_sum": 280.13,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-22",
+          "sold": 10318,
+          "sale_amount": 980210
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 8903,
+          "sale_amount": 827979
+        },
+        {
+          "date": "2026-08-27",
+          "sold": 7665,
+          "sale_amount": 705180
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 8002,
+          "sale_amount": 736184
+        }
+      ],
+      "sold_count": 34888,
+      "sale_amount": 3249553,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 70.03,
+      "_total_sold_show": "34.9k",
       "_total_sale_show": "$3.2M"
     },
     {
@@ -212,22 +255,17 @@
       "shop_name": "Cay.Home",
       "shop_sold_count": 5797249,
       "aweme_count": 1,
-      "live_count": 69,
-      "author_count": 39,
+      "live_count": 54,
+      "author_count": 28,
       "launch_time": "2023-12-16 14:16:11",
-      "_first_seen": "2026-08-21",
+      "_first_seen": "2026-08-22",
       "_last_seen": "2026-08-27",
-      "_appearances": 5,
-      "_total_sold": 41822,
-      "_total_sale": 125466,
-      "_growth_sum": 219.3,
-      "_growth_count": 5,
+      "_appearances": 4,
+      "_total_sold": 34589,
+      "_total_sale": 103767,
+      "_growth_sum": 180.42,
+      "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 7233,
-          "sale_amount": 21699
-        },
         {
           "date": "2026-08-22",
           "sold": 8180,
@@ -249,60 +287,60 @@
           "sale_amount": 24111
         }
       ],
-      "sold_count": 41822,
-      "sale_amount": 125466,
+      "sold_count": 34589,
+      "sale_amount": 103767,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 43.86,
-      "_total_sold_show": "41.8k",
-      "_total_sale_show": "$125.5k"
+      "_avg_growth": 45.1,
+      "_total_sold_show": "34.6k",
+      "_total_sale_show": "$103.8k"
     },
     {
-      "product_id": "1730142383013464526",
-      "title": "สบู่เฟย์ด้าของแท้ FayDa planktonsoap",
-      "cover": "https://s.500fd.com/tt_product/83a23893185440e09a13da428ad06a05~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1730142383013464526?region=TH&local=en",
+      "product_id": "1729734701700713167",
+      "title": "ครีมโสมไฮยา [สูตรใหม่] YERPALL Intensive active ginseng night cream",
+      "cover": "https://s.500fd.com/tt_product/46a1501f97d1486c8547332127181215~tplv-aphluv4xwc-crop-webp:1201:1201.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729734701700713167?region=TH&local=en",
       "region": "TH",
       "currency": "THB",
-      "real_price": "฿94.00",
+      "real_price": "฿114.00",
       "category_name": [
-        "Facial Cleansers\t"
+        "Moisturizers & Mists"
       ],
-      "shop_name": "FaydaThailand",
-      "shop_sold_count": 3320076,
-      "aweme_count": 7,
-      "live_count": 20,
-      "author_count": 20,
-      "launch_time": "2024-05-26 06:20:41",
-      "_first_seen": "2026-08-22",
-      "_last_seen": "2026-08-27",
+      "shop_name": "YerpallThailand",
+      "shop_sold_count": 5756449,
+      "aweme_count": 79,
+      "live_count": 643,
+      "author_count": 374,
+      "launch_time": "2023-09-30 22:25:28",
+      "_first_seen": "2026-08-25",
+      "_last_seen": "2026-08-28",
       "_appearances": 3,
-      "_total_sold": 26886,
-      "_total_sale": 2513369,
-      "_growth_sum": 275.73,
+      "_total_sold": 25623,
+      "_total_sale": 2748412,
+      "_growth_sum": 589.65,
       "_growth_count": 3,
       "_trend": [
         {
-          "date": "2026-08-22",
-          "sold": 10318,
-          "sale_amount": 980210
-        },
-        {
           "date": "2026-08-25",
-          "sold": 8903,
-          "sale_amount": 827979
+          "sold": 9734,
+          "sale_amount": 1109676
         },
         {
-          "date": "2026-08-27",
-          "sold": 7665,
-          "sale_amount": 705180
+          "date": "2026-08-26",
+          "sold": 4839,
+          "sale_amount": 600036
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 11050,
+          "sale_amount": 1038700
         }
       ],
-      "sold_count": 26886,
-      "sale_amount": 2513369,
+      "sold_count": 25623,
+      "sale_amount": 2748412,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 91.91,
-      "_total_sold_show": "26.9k",
-      "_total_sale_show": "$2.5M"
+      "_avg_growth": 196.55,
+      "_total_sold_show": "25.6k",
+      "_total_sale_show": "$2.7M"
     },
     {
       "product_id": "1735694814065952597",
@@ -406,6 +444,102 @@
       "_total_sale_show": "$1.1M"
     },
     {
+      "product_id": "1731533745095673554",
+      "title": "(อ่านก่อน ห้ามซื้อก้อนเดียว)!! * “กดสั่งซื้อ2ก้อน” ขึ้นไปเท่านั้น!!* “ขนาดทดลอง 15g.” สบู่สมุนไพรรวม ice cream chocolate mint [สำหรับผิวหน้า ร่างกาย และจุดซ่อนเร้น] สบู่มิ้นสาธิดาเฮิร์บ",
+      "cover": "https://s.500fd.com/tt_product/818487cad8c54ade9adbe1cb317394e9~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731533745095673554?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿28.00",
+      "category_name": [
+        "Body Wash & Soap"
+      ],
+      "shop_name": "อุ้นสาธิดาเฮิร์บ",
+      "shop_sold_count": 901124,
+      "aweme_count": 22,
+      "live_count": 27,
+      "author_count": 27,
+      "launch_time": "2025-06-15 15:37:10",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-28",
+      "_appearances": 3,
+      "_total_sold": 21475,
+      "_total_sale": 601300,
+      "_growth_sum": 697.3499999999999,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-24",
+          "sold": 9686,
+          "sale_amount": 271208
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 5247,
+          "sale_amount": 146916
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 6542,
+          "sale_amount": 183176
+        }
+      ],
+      "sold_count": 21475,
+      "sale_amount": 601300,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 232.45,
+      "_total_sold_show": "21.5k",
+      "_total_sale_show": "$601.3k"
+    },
+    {
+      "product_id": "1736768933803230560",
+      "title": "ลิงก์รับพวงกุญแจ USB ของแถมสำหรับลูกค้าที่ซื้อสินค้าหลัก",
+      "cover": "https://s.500fd.com/tt_product/cbb24e7c460c4b3eb2c7c94548dfc729~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736768933803230560?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿458.00",
+      "category_name": [
+        "Flash Drives & OTG Cables"
+      ],
+      "shop_name": "36 MUSIC LAB.",
+      "shop_sold_count": 132009,
+      "aweme_count": 0,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2026-07-31 00:18:02",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-28",
+      "_appearances": 3,
+      "_total_sold": 17199,
+      "_total_sale": 7419657,
+      "_growth_sum": 400.58000000000004,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-24",
+          "sold": 6405,
+          "sale_amount": 2594025
+        },
+        {
+          "date": "2026-08-26",
+          "sold": 4137,
+          "sale_amount": 1869924
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 6657,
+          "sale_amount": 2955708
+        }
+      ],
+      "sold_count": 17199,
+      "sale_amount": 7419657,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 133.53,
+      "_total_sold_show": "17.2k",
+      "_total_sale_show": "$7.4M"
+    },
+    {
       "product_id": "1733587410864539046",
       "title": "โปรโมชั่นพิเศษตอนนี้!  Dearny น้ำยาซักผ้ากลิ่น Lush Bloom 500 มล. ซักสะอาดในครั้งเดียว กลิ่นหอมละมุน ฟรุ้ตตี้ สำหรับผู้หญิง ประหยัด คุ้มค่า ขนาด 500 มล.",
       "cover": "https://s.500fd.com/tt_product/4101e1df335c485f9354e08219ffff32~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -460,122 +594,79 @@
         "Face Masks\t"
       ],
       "shop_name": "Global future mall",
-      "shop_sold_count": 7213457,
-      "aweme_count": 1,
-      "live_count": 56,
-      "author_count": 30,
+      "shop_sold_count": 7234374,
+      "aweme_count": 0,
+      "live_count": 59,
+      "author_count": 29,
       "launch_time": "2023-12-15 01:30:22",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-23",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-28",
       "_appearances": 2,
-      "_total_sold": 15115,
-      "_total_sale": 69680.15,
-      "_growth_sum": -0.8900000000000006,
+      "_total_sold": 15301,
+      "_total_sale": 70537.61,
+      "_growth_sum": 102.24,
       "_growth_count": 2,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 9465,
-          "sale_amount": 43633.65
-        },
         {
           "date": "2026-08-23",
           "sold": 5650,
           "sale_amount": 26046.5
-        }
-      ],
-      "sold_count": 15115,
-      "sale_amount": 69680.15,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -0.45,
-      "_total_sold_show": "15.1k",
-      "_total_sale_show": "$69.7k"
-    },
-    {
-      "product_id": "1731533745095673554",
-      "title": "(อ่านก่อน ห้ามซื้อก้อนเดียว)!! * “กดสั่งซื้อ2ก้อน” ขึ้นไปเท่านั้น!!* “ขนาดทดลอง 15g.” สบู่สมุนไพรรวม ice cream chocolate mint [สำหรับผิวหน้า ร่างกาย และจุดซ่อนเร้น] สบู่มิ้นสาธิดาเฮิร์บ",
-      "cover": "https://s.500fd.com/tt_product/818487cad8c54ade9adbe1cb317394e9~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731533745095673554?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿28.00",
-      "category_name": [
-        "Body Wash & Soap"
-      ],
-      "shop_name": "อุ้นสาธิดาเฮิร์บ",
-      "shop_sold_count": 901124,
-      "aweme_count": 22,
-      "live_count": 27,
-      "author_count": 27,
-      "launch_time": "2025-06-15 15:37:10",
-      "_first_seen": "2026-08-24",
-      "_last_seen": "2026-08-25",
-      "_appearances": 2,
-      "_total_sold": 14933,
-      "_total_sale": 418124,
-      "_growth_sum": 664.7099999999999,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-24",
-          "sold": 9686,
-          "sale_amount": 271208
         },
         {
-          "date": "2026-08-25",
-          "sold": 5247,
-          "sale_amount": 146916
+          "date": "2026-08-28",
+          "sold": 9651,
+          "sale_amount": 44491.11
         }
       ],
-      "sold_count": 14933,
-      "sale_amount": 418124,
+      "sold_count": 15301,
+      "sale_amount": 70537.61,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 332.35,
-      "_total_sold_show": "14.9k",
-      "_total_sale_show": "$418.1k"
+      "_avg_growth": 51.12,
+      "_total_sold_show": "15.3k",
+      "_total_sale_show": "$70.5k"
     },
     {
-      "product_id": "1729734701700713167",
-      "title": "ครีมโสมไฮยา [สูตรใหม่] YERPALL Intensive active ginseng night cream",
-      "cover": "https://s.500fd.com/tt_product/46a1501f97d1486c8547332127181215~tplv-aphluv4xwc-crop-webp:1201:1201.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729734701700713167?region=TH&local=en",
+      "product_id": "1733880509179069549",
+      "title": "[Hot] เซรั่มเพื่อความกระจ่างใส FDA Teashell - ไนอะซินาไมด์ 5% , ลดเลือนจุดด่างดำ, ให้ความชุ่มชื้นและฟื้นบarier ของผิว",
+      "cover": "https://s.500fd.com/tt_product/531ea4bd13fb4406b50fdb5739c5a3a6~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733880509179069549?region=TH&local=en",
       "region": "TH",
       "currency": "THB",
-      "real_price": "฿114.00",
+      "real_price": "฿0.89",
       "category_name": [
-        "Moisturizers & Mists"
+        "Serums & Essences\t"
       ],
-      "shop_name": "YerpallThailand",
-      "shop_sold_count": 5756449,
-      "aweme_count": 79,
-      "live_count": 643,
-      "author_count": 374,
-      "launch_time": "2023-09-30 22:25:28",
+      "shop_name": "Teashell TH",
+      "shop_sold_count": 985788,
+      "aweme_count": 87,
+      "live_count": 75,
+      "author_count": 128,
+      "launch_time": "2026-01-11 02:10:30",
       "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-26",
+      "_last_seen": "2026-08-28",
       "_appearances": 2,
-      "_total_sold": 14573,
-      "_total_sale": 1709712,
-      "_growth_sum": 427.73999999999995,
+      "_total_sold": 13494,
+      "_total_sale": 13359.06,
+      "_growth_sum": 141.89,
       "_growth_count": 2,
       "_trend": [
         {
           "date": "2026-08-25",
-          "sold": 9734,
-          "sale_amount": 1109676
+          "sold": 6393,
+          "sale_amount": 6329.07
         },
         {
-          "date": "2026-08-26",
-          "sold": 4839,
-          "sale_amount": 600036
+          "date": "2026-08-28",
+          "sold": 7101,
+          "sale_amount": 7029.99
         }
       ],
-      "sold_count": 14573,
-      "sale_amount": 1709712,
+      "sold_count": 13494,
+      "sale_amount": 13359.06,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 213.87,
-      "_total_sold_show": "14.6k",
-      "_total_sale_show": "$1.7M"
+      "_avg_growth": 70.94,
+      "_total_sold_show": "13.5k",
+      "_total_sale_show": "$13.4k"
     },
     {
       "product_id": "1736786467860284898",
@@ -659,49 +750,6 @@
       "_total_sale_show": "$1.5M"
     },
     {
-      "product_id": "1736768933803230560",
-      "title": "ลิงก์รับพวงกุญแจ USB ของแถมสำหรับลูกค้าที่ซื้อสินค้าหลัก",
-      "cover": "https://s.500fd.com/tt_product/cbb24e7c460c4b3eb2c7c94548dfc729~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736768933803230560?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿458.00",
-      "category_name": [
-        "Flash Drives & OTG Cables"
-      ],
-      "shop_name": "36 MUSIC LAB.",
-      "shop_sold_count": 132009,
-      "aweme_count": 0,
-      "live_count": 1,
-      "author_count": 1,
-      "launch_time": "2026-07-31 00:18:02",
-      "_first_seen": "2026-08-24",
-      "_last_seen": "2026-08-26",
-      "_appearances": 2,
-      "_total_sold": 10542,
-      "_total_sale": 4463949,
-      "_growth_sum": 318.05,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-24",
-          "sold": 6405,
-          "sale_amount": 2594025
-        },
-        {
-          "date": "2026-08-26",
-          "sold": 4137,
-          "sale_amount": 1869924
-        }
-      ],
-      "sold_count": 10542,
-      "sale_amount": 4463949,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 159.03,
-      "_total_sold_show": "10.5k",
-      "_total_sale_show": "$4.5M"
-    },
-    {
       "product_id": "1733078797059917294",
       "title": "ทิชชู่แบบแขวน ทิชชู่ SHIBAQ กระดาษทิชชู่หนานุ่ม 5หิ้ว หนาพิเศษ   ซับน้ำไวไม่เปื่อยเป็นขุยง่าย",
       "cover": "https://s.500fd.com/tt_product/856408b2fa5c4a4cb5be97a3a20c3e5b~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -740,42 +788,42 @@
       "_total_sale_show": "$6.7k"
     },
     {
-      "product_id": "1736365467365246403",
-      "title": "มาร์คหน้าพะพิม ซอง ขนาด 50 กรัม",
-      "cover": "https://s.500fd.com/tt_product/3484a175f66f4c8b939ff256543d9cdb~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736365467365246403?region=TH&local=en",
+      "product_id": "1736452030294754513",
+      "title": "MIGU【ของขวัญฟรี】SUB สายชาร์จ",
+      "cover": "https://s.500fd.com/tt_product/ba8e60423ebb41edb3431dc32496339e~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736452030294754513?region=TH&local=en",
       "region": "TH",
       "currency": "THB",
-      "real_price": "฿10.00",
+      "real_price": "฿1,096.00",
       "category_name": [
-        "Face Masks\t"
+        " Cables, Chargers & Adapters"
       ],
-      "shop_name": "เจ้าของแบรนด์ พะ พิม",
-      "shop_sold_count": 3169818,
-      "aweme_count": 20,
-      "live_count": 26,
-      "author_count": 38,
-      "launch_time": "2026-07-03 18:33:44",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-21",
+      "shop_name": "MIGU MALL.",
+      "shop_sold_count": 8146293,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-07-14 09:04:40",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-08-28",
       "_appearances": 1,
-      "_total_sold": 9964,
-      "_total_sale": 99640,
-      "_growth_sum": 26.61,
+      "_total_sold": 9835,
+      "_total_sale": 10513615,
+      "_growth_sum": 0,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-21",
-          "sold": 9964,
-          "sale_amount": 99640
+          "date": "2026-08-28",
+          "sold": 9835,
+          "sale_amount": 10513615
         }
       ],
-      "sold_count": 9964,
-      "sale_amount": 99640,
+      "sold_count": 9835,
+      "sale_amount": 10513615,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 26.61,
-      "_total_sold_show": "10.0k",
-      "_total_sale_show": "$99.6k"
+      "_avg_growth": 0,
+      "_total_sold_show": "9.8k",
+      "_total_sale_show": "$10.5M"
     },
     {
       "product_id": "1733615154114299180",
@@ -821,80 +869,42 @@
       "_total_sale_show": "$172.5k"
     },
     {
-      "product_id": "1736782332723300145",
-      "title": "SERIS Mask Sheet มาสก์หน้า 2 สูตร เลือกได้  จำนวน 1 ชิ้น",
-      "cover": "https://s.500fd.com/tt_product/766357e9e83e4606b41ccd11accd5b26~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736782332723300145?region=TH&local=en",
+      "product_id": "1731983617294502865",
+      "title": "[สินค้าขายดี] Dr.PONG Triple C 1000 Vitamin C 1000mg + Zinc วิตามินซี 3 ชนิด+ซิงค์",
+      "cover": "https://s.500fd.com/tt_product/d4b4373a397e478cbef7b0fd68e8461b~tplv-aphluv4xwc-crop-webp:4167:4167.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731983617294502865?region=TH&local=en",
       "region": "TH",
       "currency": "THB",
-      "real_price": "฿65.00",
+      "real_price": "฿152.00",
       "category_name": [
-        "Face Masks\t"
+        "Wellness Supplements"
       ],
-      "shop_name": "MGIshop",
-      "shop_sold_count": 5136036,
-      "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 2,
-      "launch_time": "2026-07-30 22:14:35",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-21",
+      "shop_name": "drpongshop",
+      "shop_sold_count": 66513477,
+      "aweme_count": 53,
+      "live_count": 355,
+      "author_count": 219,
+      "launch_time": "2025-03-12 12:06:18",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-08-28",
       "_appearances": 1,
-      "_total_sold": 9768,
-      "_total_sale": 634920,
-      "_growth_sum": 0,
+      "_total_sold": 9620,
+      "_total_sale": 1238863.6,
+      "_growth_sum": 99.92,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-21",
-          "sold": 9768,
-          "sale_amount": 634920
+          "date": "2026-08-28",
+          "sold": 9620,
+          "sale_amount": 1238863.6
         }
       ],
-      "sold_count": 9768,
-      "sale_amount": 634920,
+      "sold_count": 9620,
+      "sale_amount": 1238863.6,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "9.8k",
-      "_total_sale_show": "$634.9k"
-    },
-    {
-      "product_id": "1733986940300527410",
-      "title": "[COD]  Klinx สเปรย์กำจัดไรฝุ่น- กำจัดไรฝุ่นและฆ่าเชื้อแบคทีเรีย กลิ่นหอมจากพืช 300 มล. ปลอดสารพิษ（อยู่ระหว่างการปรับปรุงบรรจุภัณฑ์）",
-      "cover": "https://s.500fd.com/tt_product/36f8833d6d574784bff5861aadf39e29~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733986940300527410?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿0.59",
-      "category_name": [
-        "Pest & Weed Control"
-      ],
-      "shop_name": "Klinx Home",
-      "shop_sold_count": 222593,
-      "aweme_count": 26,
-      "live_count": 22,
-      "author_count": 43,
-      "launch_time": "2026-01-19 06:57:59",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-21",
-      "_appearances": 1,
-      "_total_sold": 8543,
-      "_total_sale": 5040.37,
-      "_growth_sum": 191.07,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 8543,
-          "sale_amount": 5040.37
-        }
-      ],
-      "sold_count": 8543,
-      "sale_amount": 5040.37,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 191.07,
-      "_total_sold_show": "8.5k",
-      "_total_sale_show": "$5.0k"
+      "_avg_growth": 99.92,
+      "_total_sold_show": "9.6k",
+      "_total_sale_show": "$1.2M"
     },
     {
       "product_id": "1730897517971147758",
@@ -1049,6 +1059,44 @@
       "_total_sale_show": "$7.2k"
     },
     {
+      "product_id": "1735004696589076082",
+      "title": "โคมไฟกลางคืนข้างเตียงพร้อมโปรเจคเตอร์ สร้างบรรยากาศคริสต์มาส เหมาะสำหรับห้องนอนและเพดานบ้าน ลายตกแต่งหิมะสำหรับเด็ก",
+      "cover": "https://s.500fd.com/tt_product/725a74656cc541e885877ab4c4708244~tplv-aphluv4xwc-crop-webp:2048:2048.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735004696589076082?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿98.99",
+      "category_name": [
+        "USB & Mobile Lights"
+      ],
+      "shop_name": "QING YU",
+      "shop_sold_count": 866300,
+      "aweme_count": 33,
+      "live_count": 29,
+      "author_count": 46,
+      "launch_time": "2026-04-14 07:12:47",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-08-28",
+      "_appearances": 1,
+      "_total_sold": 6682,
+      "_total_sale": 661518,
+      "_growth_sum": 143.51,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 6682,
+          "sale_amount": 661518
+        }
+      ],
+      "sold_count": 6682,
+      "sale_amount": 661518,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 143.51,
+      "_total_sold_show": "6.7k",
+      "_total_sale_show": "$661.5k"
+    },
+    {
       "product_id": "1736089001603400777",
       "title": "10 หลอดตัวดัง!! 517 LAB+ Korea Set ขายดี (10 หลอด) - DK782",
       "cover": "https://s.500fd.com/tt_product/07397ae7549f4ea0a13a1b6c9fefc0fa~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
@@ -1123,44 +1171,6 @@
       "_avg_growth": 0,
       "_total_sold_show": "6.5k",
       "_total_sale_show": "$639.2k"
-    },
-    {
-      "product_id": "1733880509179069549",
-      "title": "[Hot] เซรั่มเพื่อความกระจ่างใส FDA Teashell - ไนอะซินาไมด์ 5% , ลดเลือนจุดด่างดำ, ให้ความชุ่มชื้นและฟื้นบarier ของผิว",
-      "cover": "https://s.500fd.com/tt_product/531ea4bd13fb4406b50fdb5739c5a3a6~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733880509179069549?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿0.89",
-      "category_name": [
-        "Serums & Essences\t"
-      ],
-      "shop_name": "Teashell TH",
-      "shop_sold_count": 985788,
-      "aweme_count": 87,
-      "live_count": 75,
-      "author_count": 128,
-      "launch_time": "2026-01-11 02:10:30",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-25",
-      "_appearances": 1,
-      "_total_sold": 6393,
-      "_total_sale": 6329.07,
-      "_growth_sum": 91.98,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 6393,
-          "sale_amount": 6329.07
-        }
-      ],
-      "sold_count": 6393,
-      "sale_amount": 6329.07,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 91.98,
-      "_total_sold_show": "6.4k",
-      "_total_sale_show": "$6.3k"
     },
     {
       "product_id": "1732360418088421061",
@@ -1239,44 +1249,6 @@
       "_total_sale_show": "$3.3M"
     },
     {
-      "product_id": "1734475462373901385",
-      "title": "517 Lab RejuFill Pro PDRN Repair Cream 50 มล. CA",
-      "cover": "https://s.500fd.com/tt_product/52ea37f352544c3ea26e28196607302e~tplv-aphluv4xwc-crop-webp:2048:2048.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734475462373901385?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿1.29",
-      "category_name": [
-        "Skincare Tools\t"
-      ],
-      "shop_name": "พิมรี่พายขายทุกอย่าง",
-      "shop_sold_count": 13187405,
-      "aweme_count": 13,
-      "live_count": 24,
-      "author_count": 29,
-      "launch_time": "2026-03-01 06:25:12",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-21",
-      "_appearances": 1,
-      "_total_sold": 5985,
-      "_total_sale": 7720.65,
-      "_growth_sum": 1087.5,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 5985,
-          "sale_amount": 7720.65
-        }
-      ],
-      "sold_count": 5985,
-      "sale_amount": 7720.65,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 1087.5,
-      "_total_sold_show": "6.0k",
-      "_total_sale_show": "$7.7k"
-    },
-    {
       "product_id": "1730844025279907874",
       "title": "ZENDORI UV BABY POWDER แป้งฝุ่นอัดแข็งไม่ผสมรองพื้น เหมาะสำหรับผิวแพ้ง่าย สีชมพู เหลือง",
       "cover": "https://s.500fd.com/tt_product/52d11a451c4a4f2698cff5131e91cc99~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
@@ -1313,44 +1285,6 @@
       "_avg_growth": 759.35,
       "_total_sold_show": "5.8k",
       "_total_sale_show": "$353.5k"
-    },
-    {
-      "product_id": "1734891958931260938",
-      "title": "แหนม 3 ชั้นไร้หนัง ครึ่งกิโล แม่วันดี ยังไม่ทอด",
-      "cover": "https://s.500fd.com/tt_product/f91e2611428740afaafbe9c0a0e610f3~tplv-aphluv4xwc-crop-webp:1291:1291.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734891958931260938?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿85.00",
-      "category_name": [
-        "Canned, Jarred & Packaged Foods"
-      ],
-      "shop_name": "โกดังแม่วันดี",
-      "shop_sold_count": 141194,
-      "aweme_count": 1,
-      "live_count": 47,
-      "author_count": 31,
-      "launch_time": "2026-03-30 15:40:50",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-21",
-      "_appearances": 1,
-      "_total_sold": 5627,
-      "_total_sale": 450160,
-      "_growth_sum": 105.44,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 5627,
-          "sale_amount": 450160
-        }
-      ],
-      "sold_count": 5627,
-      "sale_amount": 450160,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 105.44,
-      "_total_sold_show": "5.6k",
-      "_total_sale_show": "$450.2k"
     },
     {
       "product_id": "1736592448452920961",
@@ -1599,19 +1533,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 1986306,
       "_total_sale": 47947734.45,
       "_growth_sum": 246.32999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 283758,
-          "sale_amount": 6849676.35
-        },
         {
           "date": "2026-08-22",
           "sold": 283758,
@@ -1639,6 +1568,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 283758,
+          "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-08-28",
           "sold": 283758,
           "sale_amount": 6849676.35
         }
@@ -1667,19 +1601,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 1359477,
       "_total_sale": 36276681.21,
       "_growth_sum": -2.6599999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 194211,
-          "sale_amount": 5182383.03
-        },
         {
           "date": "2026-08-22",
           "sold": 194211,
@@ -1707,6 +1636,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 194211,
+          "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-08-28",
           "sold": 194211,
           "sale_amount": 5182383.03
         }
@@ -1735,19 +1669,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 974813,
       "_total_sale": 1841444.0099999998,
       "_growth_sum": -142.73000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 139259,
-          "sale_amount": 263063.43
-        },
         {
           "date": "2026-08-22",
           "sold": 139259,
@@ -1775,6 +1704,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 139259,
+          "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-08-28",
           "sold": 139259,
           "sale_amount": 263063.43
         }
@@ -1803,19 +1737,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 733754,
       "_total_sale": 36422734.04,
       "_growth_sum": 1210.79,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 104822,
-          "sale_amount": 5203247.72
-        },
         {
           "date": "2026-08-22",
           "sold": 104822,
@@ -1843,6 +1772,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-08-28",
           "sold": 104822,
           "sale_amount": 5203247.72
         }
@@ -1871,19 +1805,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 642642,
       "_total_sale": 13490477.279999997,
       "_growth_sum": 10.780000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
         {
           "date": "2026-08-22",
           "sold": 91806,
@@ -1911,6 +1840,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-08-28",
           "sold": 91806,
           "sale_amount": 1927211.04
         }
@@ -1939,19 +1873,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 634410,
       "_total_sale": 10688569.5,
       "_growth_sum": -127.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        },
         {
           "date": "2026-08-22",
           "sold": 90630,
@@ -1979,6 +1908,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-08-28",
           "sold": 90630,
           "sale_amount": 1526938.5
         }
@@ -2007,19 +1941,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 619206,
       "_total_sale": 3099313,
       "_growth_sum": 18944.87,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 88458,
-          "sale_amount": 442759
-        },
         {
           "date": "2026-08-22",
           "sold": 88458,
@@ -2047,6 +1976,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 88458,
+          "sale_amount": 442759
+        },
+        {
+          "date": "2026-08-28",
           "sold": 88458,
           "sale_amount": 442759
         }
@@ -2075,19 +2009,14 @@
       "live_count": 883,
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 604254,
       "_total_sale": 12824950.110000001,
       "_growth_sum": 89.67,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
         {
           "date": "2026-08-22",
           "sold": 86322,
@@ -2115,6 +2044,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-08-28",
           "sold": 86322,
           "sale_amount": 1832135.73
         }
@@ -2143,19 +2077,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 602973,
       "_total_sale": 8671306.07,
       "_growth_sum": 479.15,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 86139,
-          "sale_amount": 1238758.01
-        },
         {
           "date": "2026-08-22",
           "sold": 86139,
@@ -2183,6 +2112,11 @@
         },
         {
           "date": "2026-08-27",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-08-28",
           "sold": 86139,
           "sale_amount": 1238758.01
         }
@@ -2211,19 +2145,14 @@
       "live_count": 1176,
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
       "_appearances": 7,
       "_total_sold": 544180,
       "_total_sale": 1076025.79,
       "_growth_sum": -119.27999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        },
         {
           "date": "2026-08-22",
           "sold": 77740,
@@ -2253,6 +2182,11 @@
           "date": "2026-08-27",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
       "sold_count": 544180,
@@ -2264,49 +2198,6 @@
     }
   ],
   "growth_top": [
-    {
-      "product_id": "1731533745095673554",
-      "title": "(อ่านก่อน ห้ามซื้อก้อนเดียว)!! * “กดสั่งซื้อ2ก้อน” ขึ้นไปเท่านั้น!!* “ขนาดทดลอง 15g.” สบู่สมุนไพรรวม ice cream chocolate mint [สำหรับผิวหน้า ร่างกาย และจุดซ่อนเร้น] สบู่มิ้นสาธิดาเฮิร์บ",
-      "cover": "https://s.500fd.com/tt_product/818487cad8c54ade9adbe1cb317394e9~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731533745095673554?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿28.00",
-      "category_name": [
-        "Body Wash & Soap"
-      ],
-      "shop_name": "อุ้นสาธิดาเฮิร์บ",
-      "shop_sold_count": 901124,
-      "aweme_count": 22,
-      "live_count": 27,
-      "author_count": 27,
-      "launch_time": "2025-06-15 15:37:10",
-      "_first_seen": "2026-08-24",
-      "_last_seen": "2026-08-25",
-      "_appearances": 2,
-      "_total_sold": 14933,
-      "_total_sale": 418124,
-      "_growth_sum": 664.7099999999999,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-24",
-          "sold": 9686,
-          "sale_amount": 271208
-        },
-        {
-          "date": "2026-08-25",
-          "sold": 5247,
-          "sale_amount": 146916
-        }
-      ],
-      "sold_count": 14933,
-      "sale_amount": 418124,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 332.35,
-      "_total_sold_show": "14.9k",
-      "_total_sale_show": "$418.1k"
-    },
     {
       "product_id": "1733587410864539046",
       "title": "โปรโมชั่นพิเศษตอนนี้!  Dearny น้ำยาซักผ้ากลิ่น Lush Bloom 500 มล. ซักสะอาดในครั้งเดียว กลิ่นหอมละมุน ฟรุ้ตตี้ สำหรับผู้หญิง ประหยัด คุ้มค่า ขนาด 500 มล.",
@@ -2351,6 +2242,54 @@
       "_total_sale_show": "$164.9k"
     },
     {
+      "product_id": "1731533745095673554",
+      "title": "(อ่านก่อน ห้ามซื้อก้อนเดียว)!! * “กดสั่งซื้อ2ก้อน” ขึ้นไปเท่านั้น!!* “ขนาดทดลอง 15g.” สบู่สมุนไพรรวม ice cream chocolate mint [สำหรับผิวหน้า ร่างกาย และจุดซ่อนเร้น] สบู่มิ้นสาธิดาเฮิร์บ",
+      "cover": "https://s.500fd.com/tt_product/818487cad8c54ade9adbe1cb317394e9~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731533745095673554?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿28.00",
+      "category_name": [
+        "Body Wash & Soap"
+      ],
+      "shop_name": "อุ้นสาธิดาเฮิร์บ",
+      "shop_sold_count": 901124,
+      "aweme_count": 22,
+      "live_count": 27,
+      "author_count": 27,
+      "launch_time": "2025-06-15 15:37:10",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-28",
+      "_appearances": 3,
+      "_total_sold": 21475,
+      "_total_sale": 601300,
+      "_growth_sum": 697.3499999999999,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-24",
+          "sold": 9686,
+          "sale_amount": 271208
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 5247,
+          "sale_amount": 146916
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 6542,
+          "sale_amount": 183176
+        }
+      ],
+      "sold_count": 21475,
+      "sale_amount": 601300,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 232.45,
+      "_total_sold_show": "21.5k",
+      "_total_sale_show": "$601.3k"
+    },
+    {
       "product_id": "1729734701700713167",
       "title": "ครีมโสมไฮยา [สูตรใหม่] YERPALL Intensive active ginseng night cream",
       "cover": "https://s.500fd.com/tt_product/46a1501f97d1486c8547332127181215~tplv-aphluv4xwc-crop-webp:1201:1201.webp",
@@ -2368,12 +2307,12 @@
       "author_count": 374,
       "launch_time": "2023-09-30 22:25:28",
       "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-26",
-      "_appearances": 2,
-      "_total_sold": 14573,
-      "_total_sale": 1709712,
-      "_growth_sum": 427.73999999999995,
-      "_growth_count": 2,
+      "_last_seen": "2026-08-28",
+      "_appearances": 3,
+      "_total_sold": 25623,
+      "_total_sale": 2748412,
+      "_growth_sum": 589.65,
+      "_growth_count": 3,
       "_trend": [
         {
           "date": "2026-08-25",
@@ -2384,14 +2323,19 @@
           "date": "2026-08-26",
           "sold": 4839,
           "sale_amount": 600036
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 11050,
+          "sale_amount": 1038700
         }
       ],
-      "sold_count": 14573,
-      "sale_amount": 1709712,
+      "sold_count": 25623,
+      "sale_amount": 2748412,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 213.87,
-      "_total_sold_show": "14.6k",
-      "_total_sale_show": "$1.7M"
+      "_avg_growth": 196.55,
+      "_total_sold_show": "25.6k",
+      "_total_sale_show": "$2.7M"
     },
     {
       "product_id": "1735674887784269777",
@@ -2435,49 +2379,6 @@
       "_avg_growth": 187.41,
       "_total_sold_show": "10.7k",
       "_total_sale_show": "$1.5M"
-    },
-    {
-      "product_id": "1736768933803230560",
-      "title": "ลิงก์รับพวงกุญแจ USB ของแถมสำหรับลูกค้าที่ซื้อสินค้าหลัก",
-      "cover": "https://s.500fd.com/tt_product/cbb24e7c460c4b3eb2c7c94548dfc729~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736768933803230560?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿458.00",
-      "category_name": [
-        "Flash Drives & OTG Cables"
-      ],
-      "shop_name": "36 MUSIC LAB.",
-      "shop_sold_count": 132009,
-      "aweme_count": 0,
-      "live_count": 1,
-      "author_count": 1,
-      "launch_time": "2026-07-31 00:18:02",
-      "_first_seen": "2026-08-24",
-      "_last_seen": "2026-08-26",
-      "_appearances": 2,
-      "_total_sold": 10542,
-      "_total_sale": 4463949,
-      "_growth_sum": 318.05,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-24",
-          "sold": 6405,
-          "sale_amount": 2594025
-        },
-        {
-          "date": "2026-08-26",
-          "sold": 4137,
-          "sale_amount": 1869924
-        }
-      ],
-      "sold_count": 10542,
-      "sale_amount": 4463949,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 159.03,
-      "_total_sold_show": "10.5k",
-      "_total_sale_show": "$4.5M"
     },
     {
       "product_id": "1735933480387970400",
@@ -2528,6 +2429,97 @@
       "_total_sale_show": "$1.1M"
     },
     {
+      "product_id": "1736768933803230560",
+      "title": "ลิงก์รับพวงกุญแจ USB ของแถมสำหรับลูกค้าที่ซื้อสินค้าหลัก",
+      "cover": "https://s.500fd.com/tt_product/cbb24e7c460c4b3eb2c7c94548dfc729~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736768933803230560?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿458.00",
+      "category_name": [
+        "Flash Drives & OTG Cables"
+      ],
+      "shop_name": "36 MUSIC LAB.",
+      "shop_sold_count": 132009,
+      "aweme_count": 0,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2026-07-31 00:18:02",
+      "_first_seen": "2026-08-24",
+      "_last_seen": "2026-08-28",
+      "_appearances": 3,
+      "_total_sold": 17199,
+      "_total_sale": 7419657,
+      "_growth_sum": 400.58000000000004,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-24",
+          "sold": 6405,
+          "sale_amount": 2594025
+        },
+        {
+          "date": "2026-08-26",
+          "sold": 4137,
+          "sale_amount": 1869924
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 6657,
+          "sale_amount": 2955708
+        }
+      ],
+      "sold_count": 17199,
+      "sale_amount": 7419657,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 133.53,
+      "_total_sold_show": "17.2k",
+      "_total_sale_show": "$7.4M"
+    },
+    {
+      "product_id": "1733880509179069549",
+      "title": "[Hot] เซรั่มเพื่อความกระจ่างใส FDA Teashell - ไนอะซินาไมด์ 5% , ลดเลือนจุดด่างดำ, ให้ความชุ่มชื้นและฟื้นบarier ของผิว",
+      "cover": "https://s.500fd.com/tt_product/531ea4bd13fb4406b50fdb5739c5a3a6~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733880509179069549?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿0.89",
+      "category_name": [
+        "Serums & Essences\t"
+      ],
+      "shop_name": "Teashell TH",
+      "shop_sold_count": 985788,
+      "aweme_count": 87,
+      "live_count": 75,
+      "author_count": 128,
+      "launch_time": "2026-01-11 02:10:30",
+      "_first_seen": "2026-08-25",
+      "_last_seen": "2026-08-28",
+      "_appearances": 2,
+      "_total_sold": 13494,
+      "_total_sale": 13359.06,
+      "_growth_sum": 141.89,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-25",
+          "sold": 6393,
+          "sale_amount": 6329.07
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 7101,
+          "sale_amount": 7029.99
+        }
+      ],
+      "sold_count": 13494,
+      "sale_amount": 13359.06,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 70.94,
+      "_total_sold_show": "13.5k",
+      "_total_sale_show": "$13.4k"
+    },
+    {
       "product_id": "1730142383013464526",
       "title": "สบู่เฟย์ด้าของแท้ FayDa planktonsoap",
       "cover": "https://s.500fd.com/tt_product/83a23893185440e09a13da428ad06a05~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -2545,12 +2537,12 @@
       "author_count": 20,
       "launch_time": "2024-05-26 06:20:41",
       "_first_seen": "2026-08-22",
-      "_last_seen": "2026-08-27",
-      "_appearances": 3,
-      "_total_sold": 26886,
-      "_total_sale": 2513369,
-      "_growth_sum": 275.73,
-      "_growth_count": 3,
+      "_last_seen": "2026-08-28",
+      "_appearances": 4,
+      "_total_sold": 34888,
+      "_total_sale": 3249553,
+      "_growth_sum": 280.13,
+      "_growth_count": 4,
       "_trend": [
         {
           "date": "2026-08-22",
@@ -2566,14 +2558,115 @@
           "date": "2026-08-27",
           "sold": 7665,
           "sale_amount": 705180
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 8002,
+          "sale_amount": 736184
         }
       ],
-      "sold_count": 26886,
-      "sale_amount": 2513369,
+      "sold_count": 34888,
+      "sale_amount": 3249553,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 91.91,
-      "_total_sold_show": "26.9k",
-      "_total_sale_show": "$2.5M"
+      "_avg_growth": 70.03,
+      "_total_sold_show": "34.9k",
+      "_total_sale_show": "$3.2M"
+    },
+    {
+      "product_id": "1729858177955498178",
+      "title": "Mask มาส์กหน้า แผ่นมาส์กหน้า มาส์กมาส์ กบำรุงล้ำลึกให้ความชุ่มชื้น มะเขือเทศ vc แตงกวา เอส เซ้น 24k มาส์กให้ความชุ่มชื้นหลากหลายสไตล์ Skincare ใบหน้า",
+      "cover": "https://s.500fd.com/tt_product/c4e5959c656d47fa8e5544da05d8328a~tplv-aphluv4xwc-crop-webp:4800:4800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729858177955498178?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿4.61  - 6.50",
+      "category_name": [
+        "Face Masks\t"
+      ],
+      "shop_name": "Global future mall",
+      "shop_sold_count": 7234374,
+      "aweme_count": 0,
+      "live_count": 59,
+      "author_count": 29,
+      "launch_time": "2023-12-15 01:30:22",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-08-28",
+      "_appearances": 2,
+      "_total_sold": 15301,
+      "_total_sale": 70537.61,
+      "_growth_sum": 102.24,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-23",
+          "sold": 5650,
+          "sale_amount": 26046.5
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 9651,
+          "sale_amount": 44491.11
+        }
+      ],
+      "sold_count": 15301,
+      "sale_amount": 70537.61,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 51.12,
+      "_total_sold_show": "15.3k",
+      "_total_sale_show": "$70.5k"
+    },
+    {
+      "product_id": "1729863417554503787",
+      "title": "แผ่นมาสก์หน้า รวมสูตรบำรุงผิวชุ่มชื้น ดูแลผิวให้เนียนนุ่ม มาส์กบำรุงผิว มาส์กหน้าแผ่นแอมพูล",
+      "cover": "https://s.500fd.com/tt_product/a7469d1523b143958e2dfcf38b85ba9e~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729863417554503787?region=TH&local=en",
+      "region": "TH",
+      "currency": "THB",
+      "real_price": "฿3.00  - 6.00",
+      "category_name": [
+        "Face Masks\t"
+      ],
+      "shop_name": "Cay.Home",
+      "shop_sold_count": 5797249,
+      "aweme_count": 1,
+      "live_count": 54,
+      "author_count": 28,
+      "launch_time": "2023-12-16 14:16:11",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-27",
+      "_appearances": 4,
+      "_total_sold": 34589,
+      "_total_sale": 103767,
+      "_growth_sum": 180.42,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-22",
+          "sold": 8180,
+          "sale_amount": 24540
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 7778,
+          "sale_amount": 23334
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 10594,
+          "sale_amount": 31782
+        },
+        {
+          "date": "2026-08-27",
+          "sold": 8037,
+          "sale_amount": 24111
+        }
+      ],
+      "sold_count": 34589,
+      "sale_amount": 103767,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 45.1,
+      "_total_sold_show": "34.6k",
+      "_total_sale_show": "$103.8k"
     },
     {
       "product_id": "1729769226259696006",
@@ -2588,23 +2681,18 @@
       ],
       "shop_name": "CEO V WHITE",
       "shop_sold_count": 1506159,
-      "aweme_count": 78,
-      "live_count": 78,
-      "author_count": 117,
+      "aweme_count": 82,
+      "live_count": 91,
+      "author_count": 130,
       "launch_time": "2023-11-02 02:09:37",
-      "_first_seen": "2026-08-21",
+      "_first_seen": "2026-08-22",
       "_last_seen": "2026-08-27",
-      "_appearances": 6,
-      "_total_sold": 53731,
-      "_total_sale": 3170129,
-      "_growth_sum": 464.52000000000004,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 41996,
+      "_total_sale": 2477764,
+      "_growth_sum": 150.15,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 11735,
-          "sale_amount": 692365
-        },
         {
           "date": "2026-08-22",
           "sold": 8821,
@@ -2631,133 +2719,12 @@
           "sale_amount": 521914
         }
       ],
-      "sold_count": 53731,
-      "sale_amount": 3170129,
+      "sold_count": 41996,
+      "sale_amount": 2477764,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 77.42,
-      "_total_sold_show": "53.7k",
-      "_total_sale_show": "$3.2M"
-    },
-    {
-      "product_id": "1729863417554503787",
-      "title": "แผ่นมาสก์หน้า รวมสูตรบำรุงผิวชุ่มชื้น ดูแลผิวให้เนียนนุ่ม มาส์กบำรุงผิว มาส์กหน้าแผ่นแอมพูล",
-      "cover": "https://s.500fd.com/tt_product/a7469d1523b143958e2dfcf38b85ba9e~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729863417554503787?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿3.00  - 6.00",
-      "category_name": [
-        "Face Masks\t"
-      ],
-      "shop_name": "Cay.Home",
-      "shop_sold_count": 5797249,
-      "aweme_count": 1,
-      "live_count": 69,
-      "author_count": 39,
-      "launch_time": "2023-12-16 14:16:11",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
-      "_appearances": 5,
-      "_total_sold": 41822,
-      "_total_sale": 125466,
-      "_growth_sum": 219.3,
-      "_growth_count": 5,
-      "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 7233,
-          "sale_amount": 21699
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 8180,
-          "sale_amount": 24540
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 7778,
-          "sale_amount": 23334
-        },
-        {
-          "date": "2026-08-24",
-          "sold": 10594,
-          "sale_amount": 31782
-        },
-        {
-          "date": "2026-08-27",
-          "sold": 8037,
-          "sale_amount": 24111
-        }
-      ],
-      "sold_count": 41822,
-      "sale_amount": 125466,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 43.86,
-      "_total_sold_show": "41.8k",
-      "_total_sale_show": "$125.5k"
-    },
-    {
-      "product_id": "1732164463083031336",
-      "title": "วางบนผนัง30*60cm สติกเกอร์ติดผนังลายหินอ่อน ขนาด 30×30 ซม & 30×60 ซม กันน้ำ กันชื้น ทนความร้อน สติ๊กเกอร์พีวีซี ติดตั้งง่าย ไม่ต้องใช้กาว DIY ตกแต่งผนัง",
-      "cover": "https://s.500fd.com/tt_product/328c808bd713447c850f5624ff48ee5f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732164463083031336?region=TH&local=en",
-      "region": "TH",
-      "currency": "THB",
-      "real_price": "฿5.99  - 11.99",
-      "category_name": [
-        "Decorative Stickers"
-      ],
-      "shop_name": "fogo mart",
-      "shop_sold_count": 600512,
-      "aweme_count": 2,
-      "live_count": 2,
-      "author_count": 4,
-      "launch_time": "2025-06-30 23:01:04",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-27",
-      "_appearances": 6,
-      "_total_sold": 72455,
-      "_total_sale": 434005.45000000007,
-      "_growth_sum": 164.03000000000003,
-      "_growth_count": 6,
-      "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 14526,
-          "sale_amount": 87010.74
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 13058,
-          "sale_amount": 78217.42
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 12316,
-          "sale_amount": 73772.84
-        },
-        {
-          "date": "2026-08-25",
-          "sold": 12060,
-          "sale_amount": 72239.4
-        },
-        {
-          "date": "2026-08-26",
-          "sold": 9572,
-          "sale_amount": 57336.28
-        },
-        {
-          "date": "2026-08-27",
-          "sold": 10923,
-          "sale_amount": 65428.77
-        }
-      ],
-      "sold_count": 72455,
-      "sale_amount": 434005.45000000007,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 27.34,
-      "_total_sold_show": "72.5k",
-      "_total_sale_show": "$434.0k"
+      "_avg_growth": 30.03,
+      "_total_sold_show": "42.0k",
+      "_total_sale_show": "$2.5M"
     },
     {
       "product_id": "1735694814065952597",
@@ -2813,47 +2780,67 @@
       "_total_sale_show": "$14.6k"
     },
     {
-      "product_id": "1729858177955498178",
-      "title": "Mask มาส์กหน้า แผ่นมาส์กหน้า มาส์กมาส์ กบำรุงล้ำลึกให้ความชุ่มชื้น มะเขือเทศ vc แตงกวา เอส เซ้น 24k มาส์กให้ความชุ่มชื้นหลากหลายสไตล์ Skincare ใบหน้า",
-      "cover": "https://s.500fd.com/tt_product/c4e5959c656d47fa8e5544da05d8328a~tplv-aphluv4xwc-crop-webp:4800:4800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729858177955498178?region=TH&local=en",
+      "product_id": "1732164463083031336",
+      "title": "วางบนผนัง30*60cm สติกเกอร์ติดผนังลายหินอ่อน ขนาด 30×30 ซม & 30×60 ซม กันน้ำ กันชื้น ทนความร้อน สติ๊กเกอร์พีวีซี ติดตั้งง่าย ไม่ต้องใช้กาว DIY ตกแต่งผนัง",
+      "cover": "https://s.500fd.com/tt_product/328c808bd713447c850f5624ff48ee5f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732164463083031336?region=TH&local=en",
       "region": "TH",
       "currency": "THB",
-      "real_price": "฿4.61  - 6.50",
+      "real_price": "฿5.99  - 11.99",
       "category_name": [
-        "Face Masks\t"
+        "Decorative Stickers"
       ],
-      "shop_name": "Global future mall",
-      "shop_sold_count": 7213457,
-      "aweme_count": 1,
-      "live_count": 56,
-      "author_count": 30,
-      "launch_time": "2023-12-15 01:30:22",
-      "_first_seen": "2026-08-21",
-      "_last_seen": "2026-08-23",
-      "_appearances": 2,
-      "_total_sold": 15115,
-      "_total_sale": 69680.15,
-      "_growth_sum": -0.8900000000000006,
-      "_growth_count": 2,
+      "shop_name": "fogo mart",
+      "shop_sold_count": 600512,
+      "aweme_count": 3,
+      "live_count": 0,
+      "author_count": 3,
+      "launch_time": "2025-06-30 23:01:04",
+      "_first_seen": "2026-08-22",
+      "_last_seen": "2026-08-28",
+      "_appearances": 6,
+      "_total_sold": 65566,
+      "_total_sale": 392740.34,
+      "_growth_sum": 41.879999999999995,
+      "_growth_count": 6,
       "_trend": [
         {
-          "date": "2026-08-21",
-          "sold": 9465,
-          "sale_amount": 43633.65
+          "date": "2026-08-22",
+          "sold": 13058,
+          "sale_amount": 78217.42
         },
         {
           "date": "2026-08-23",
-          "sold": 5650,
-          "sale_amount": 26046.5
+          "sold": 12316,
+          "sale_amount": 73772.84
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 12060,
+          "sale_amount": 72239.4
+        },
+        {
+          "date": "2026-08-26",
+          "sold": 9572,
+          "sale_amount": 57336.28
+        },
+        {
+          "date": "2026-08-27",
+          "sold": 10923,
+          "sale_amount": 65428.77
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 7637,
+          "sale_amount": 45745.63
         }
       ],
-      "sold_count": 15115,
-      "sale_amount": 69680.15,
+      "sold_count": 65566,
+      "sale_amount": 392740.34,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -0.45,
-      "_total_sold_show": "15.1k",
-      "_total_sale_show": "$69.7k"
+      "_avg_growth": 6.98,
+      "_total_sold_show": "65.6k",
+      "_total_sale_show": "$392.7k"
     },
     {
       "product_id": "1733615154114299180",
@@ -2911,23 +2898,18 @@
       ],
       "shop_name": "SomjaneThailand",
       "shop_sold_count": 1671893,
-      "aweme_count": 60,
-      "live_count": 374,
-      "author_count": 260,
+      "aweme_count": 46,
+      "live_count": 370,
+      "author_count": 236,
       "launch_time": "2026-05-01 00:21:51",
-      "_first_seen": "2026-08-21",
+      "_first_seen": "2026-08-22",
       "_last_seen": "2026-08-26",
-      "_appearances": 6,
-      "_total_sold": 54378,
-      "_total_sale": 2936412,
-      "_growth_sum": -63.45,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 43362,
+      "_total_sale": 2341548,
+      "_growth_sum": -30.750000000000004,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-21",
-          "sold": 11016,
-          "sale_amount": 594864
-        },
         {
           "date": "2026-08-22",
           "sold": 12002,
@@ -2954,12 +2936,12 @@
           "sale_amount": 333666
         }
       ],
-      "sold_count": 54378,
-      "sale_amount": 2936412,
+      "sold_count": 43362,
+      "sale_amount": 2341548,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -10.58,
-      "_total_sold_show": "54.4k",
-      "_total_sale_show": "$2.9M"
+      "_avg_growth": -6.15,
+      "_total_sold_show": "43.4k",
+      "_total_sale_show": "$2.3M"
     }
   ]
 }
