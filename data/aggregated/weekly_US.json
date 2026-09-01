@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "US",
-  "generated_at": "2026-08-31T05:11:21.982Z",
+  "generated_at": "2026-09-01T04:47:21.713Z",
   "date_range": [
-    "2026-08-25",
-    "2026-08-31"
+    "2026-08-26",
+    "2026-09-01"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -21,24 +21,19 @@
         "Powdered Drink Mixes"
       ],
       "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5491945,
-      "aweme_count": 12,
-      "live_count": 48,
+      "shop_sold_count": 5505838,
+      "aweme_count": 13,
+      "live_count": 41,
       "author_count": 40,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
-      "_total_sold": 35142,
-      "_total_sale": 49198.8,
-      "_growth_sum": -0.14000000000000412,
+      "_total_sold": 35469,
+      "_total_sale": 49656.600000000006,
+      "_growth_sum": 17.919999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 5390,
-          "sale_amount": 7546
-        },
         {
           "date": "2026-08-26",
           "sold": 3821,
@@ -68,14 +63,19 @@
           "date": "2026-08-31",
           "sold": 6138,
           "sale_amount": 8593.2
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 5717,
+          "sale_amount": 8003.8
         }
       ],
-      "sold_count": 35142,
-      "sale_amount": 49198.8,
+      "sold_count": 35469,
+      "sale_amount": 49656.600000000006,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -0.02,
-      "_total_sold_show": "35.1k",
-      "_total_sale_show": "$49.2k"
+      "_avg_growth": 2.56,
+      "_total_sold_show": "35.5k",
+      "_total_sale_show": "$49.7k"
     },
     {
       "product_id": "1729448464509734958",
@@ -89,24 +89,19 @@
         "Wellness Supplements"
       ],
       "shop_name": "Toplux Nutrition",
-      "shop_sold_count": 3516311,
-      "aweme_count": 35,
-      "live_count": 181,
-      "author_count": 162,
+      "shop_sold_count": 3526745,
+      "aweme_count": 59,
+      "live_count": 220,
+      "author_count": 213,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
-      "_total_sold": 32746,
-      "_total_sale": 491023.5,
-      "_growth_sum": -33.63,
+      "_total_sold": 31130,
+      "_total_sale": 475297.5,
+      "_growth_sum": -13.29,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 5873,
-          "sale_amount": 88095
-        },
         {
           "date": "2026-08-26",
           "sold": 4203,
@@ -136,14 +131,19 @@
           "date": "2026-08-31",
           "sold": 3314,
           "sale_amount": 49710
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 4257,
+          "sale_amount": 72369
         }
       ],
-      "sold_count": 32746,
-      "sale_amount": 491023.5,
+      "sold_count": 31130,
+      "sale_amount": 475297.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -4.8,
-      "_total_sold_show": "32.7k",
-      "_total_sale_show": "$491.0k"
+      "_avg_growth": -1.9,
+      "_total_sold_show": "31.1k",
+      "_total_sale_show": "$475.3k"
     },
     {
       "product_id": "1731528580940468633",
@@ -157,24 +157,19 @@
         "Hair Loss Products"
       ],
       "shop_name": "Bare Anatomy Haircare",
-      "shop_sold_count": 945449,
-      "aweme_count": 48,
-      "live_count": 63,
-      "author_count": 75,
+      "shop_sold_count": 956631,
+      "aweme_count": 63,
+      "live_count": 67,
+      "author_count": 94,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
-      "_total_sold": 31364,
-      "_total_sale": 357885.17,
-      "_growth_sum": -11.340000000000003,
+      "_total_sold": 30628,
+      "_total_sale": 349421.17,
+      "_growth_sum": -2.400000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 5560,
-          "sale_amount": 63940
-        },
         {
           "date": "2026-08-26",
           "sold": 4311,
@@ -204,14 +199,19 @@
           "date": "2026-08-31",
           "sold": 4089,
           "sale_amount": 47023.5
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 4824,
+          "sale_amount": 55476
         }
       ],
-      "sold_count": 31364,
-      "sale_amount": 357885.17,
+      "sold_count": 30628,
+      "sale_amount": 349421.17,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -1.62,
-      "_total_sold_show": "31.4k",
-      "_total_sale_show": "$357.9k"
+      "_avg_growth": -0.34,
+      "_total_sold_show": "30.6k",
+      "_total_sale_show": "$349.4k"
     },
     {
       "product_id": "1729413742968869814",
@@ -220,29 +220,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1729413742968869814?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$20.00",
+      "real_price": "$19.00",
       "category_name": [
         "Unisex Perfume"
       ],
       "shop_name": "BellaVitashop",
-      "shop_sold_count": 2684837,
-      "aweme_count": 59,
-      "live_count": 92,
-      "author_count": 120,
+      "shop_sold_count": 2694435,
+      "aweme_count": 83,
+      "live_count": 97,
+      "author_count": 147,
       "launch_time": "2023-11-25 02:51:43",
-      "_first_seen": "2026-08-25",
+      "_first_seen": "2026-08-26",
       "_last_seen": "2026-08-31",
-      "_appearances": 7,
-      "_total_sold": 26949,
-      "_total_sale": 522509.35,
-      "_growth_sum": -8.8,
-      "_growth_count": 7,
+      "_appearances": 6,
+      "_total_sold": 23357,
+      "_total_sale": 450669.35,
+      "_growth_sum": -1.0199999999999996,
+      "_growth_count": 6,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3592,
-          "sale_amount": 71840
-        },
         {
           "date": "2026-08-26",
           "sold": 3860,
@@ -274,12 +269,12 @@
           "sale_amount": 61300
         }
       ],
-      "sold_count": 26949,
-      "sale_amount": 522509.35,
+      "sold_count": 23357,
+      "sale_amount": 450669.35,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -1.26,
-      "_total_sold_show": "26.9k",
-      "_total_sale_show": "$522.5k"
+      "_avg_growth": -0.17,
+      "_total_sold_show": "23.4k",
+      "_total_sale_show": "$450.7k"
     },
     {
       "product_id": "1731236289885213002",
@@ -288,29 +283,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1731236289885213002?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$35.00 - 43.00",
+      "real_price": "$32.80 - 40.00",
       "category_name": [
         "Water Guns & Snow Foam Lances"
       ],
       "shop_name": "SEESE Store",
-      "shop_sold_count": 1996606,
-      "aweme_count": 30,
-      "live_count": 106,
-      "author_count": 110,
+      "shop_sold_count": 2003951,
+      "aweme_count": 43,
+      "live_count": 110,
+      "author_count": 120,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 6,
-      "_total_sold": 21839,
-      "_total_sale": 730733.6,
-      "_growth_sum": 1.900000000000004,
+      "_total_sold": 22368,
+      "_total_sale": 739518,
+      "_growth_sum": 43.67,
       "_growth_count": 6,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3894,
-          "sale_amount": 136290
-        },
         {
           "date": "2026-08-26",
           "sold": 2658,
@@ -335,77 +325,19 @@
           "date": "2026-08-31",
           "sold": 3479,
           "sale_amount": 114111.2
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 4423,
+          "sale_amount": 145074.4
         }
       ],
-      "sold_count": 21839,
-      "sale_amount": 730733.6,
+      "sold_count": 22368,
+      "sale_amount": 739518,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.32,
-      "_total_sold_show": "21.8k",
-      "_total_sale_show": "$730.7k"
-    },
-    {
-      "product_id": "1729612709100426165",
-      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
-      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$1.40",
-      "category_name": [
-        "Powdered Drink Mixes"
-      ],
-      "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5491945,
-      "aweme_count": 6,
-      "live_count": 41,
-      "author_count": 30,
-      "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
-      "_appearances": 6,
-      "_total_sold": 21707,
-      "_total_sale": 30389.799999999996,
-      "_growth_sum": 35.400000000000006,
-      "_growth_count": 6,
-      "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 4205,
-          "sale_amount": 5887
-        },
-        {
-          "date": "2026-08-27",
-          "sold": 2745,
-          "sale_amount": 3843
-        },
-        {
-          "date": "2026-08-28",
-          "sold": 3646,
-          "sale_amount": 5104.4
-        },
-        {
-          "date": "2026-08-29",
-          "sold": 4028,
-          "sale_amount": 5639.2
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 3549,
-          "sale_amount": 4968.6
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 3534,
-          "sale_amount": 4947.6
-        }
-      ],
-      "sold_count": 21707,
-      "sale_amount": 30389.799999999996,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.9,
-      "_total_sold_show": "21.7k",
-      "_total_sale_show": "$30.4k"
+      "_avg_growth": 7.28,
+      "_total_sold_show": "22.4k",
+      "_total_sale_show": "$739.5k"
     },
     {
       "product_id": "1729687495043093429",
@@ -414,29 +346,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1729687495043093429?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$1.70",
+      "real_price": "$1.70 - 3.50",
       "category_name": [
         "Coffee"
       ],
       "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5491945,
-      "aweme_count": 5,
-      "live_count": 32,
-      "author_count": 27,
+      "shop_sold_count": 5505838,
+      "aweme_count": 10,
+      "live_count": 40,
+      "author_count": 39,
       "launch_time": "2024-10-07 00:31:02",
-      "_first_seen": "2026-08-25",
+      "_first_seen": "2026-08-26",
       "_last_seen": "2026-08-30",
-      "_appearances": 6,
-      "_total_sold": 21239,
-      "_total_sale": 35325,
-      "_growth_sum": 11.29,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 17828,
+      "_total_sale": 29526.300000000003,
+      "_growth_sum": 14.769999999999996,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3411,
-          "sale_amount": 5798.7
-        },
         {
           "date": "2026-08-26",
           "sold": 2735,
@@ -463,12 +390,70 @@
           "sale_amount": 5649.6
         }
       ],
-      "sold_count": 21239,
-      "sale_amount": 35325,
+      "sold_count": 17828,
+      "sale_amount": 29526.300000000003,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.88,
-      "_total_sold_show": "21.2k",
-      "_total_sale_show": "$35.3k"
+      "_avg_growth": 2.95,
+      "_total_sold_show": "17.8k",
+      "_total_sale_show": "$29.5k"
+    },
+    {
+      "product_id": "1729612709100426165",
+      "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
+      "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729612709100426165?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$1.40",
+      "category_name": [
+        "Powdered Drink Mixes"
+      ],
+      "shop_name": "Caffeine, Candles & Chaos",
+      "shop_sold_count": 5515272,
+      "aweme_count": 5,
+      "live_count": 56,
+      "author_count": 49,
+      "launch_time": "2024-12-12 17:18:36",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-08-31",
+      "_appearances": 5,
+      "_total_sold": 17502,
+      "_total_sale": 24502.799999999996,
+      "_growth_sum": 55.989999999999995,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-27",
+          "sold": 2745,
+          "sale_amount": 3843
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 3646,
+          "sale_amount": 5104.4
+        },
+        {
+          "date": "2026-08-29",
+          "sold": 4028,
+          "sale_amount": 5639.2
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 3549,
+          "sale_amount": 4968.6
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 3534,
+          "sale_amount": 4947.6
+        }
+      ],
+      "sold_count": 17502,
+      "sale_amount": 24502.799999999996,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 11.2,
+      "_total_sold_show": "17.5k",
+      "_total_sale_show": "$24.5k"
     },
     {
       "product_id": "1731625997827871273",
@@ -482,24 +467,19 @@
         "Hair Removal Cream, Wax & Shave"
       ],
       "shop_name": "PHOFAY-Skin Care",
-      "shop_sold_count": 477794,
-      "aweme_count": 21,
-      "live_count": 38,
-      "author_count": 43,
+      "shop_sold_count": 486229,
+      "aweme_count": 28,
+      "live_count": 31,
+      "author_count": 46,
       "launch_time": "2025-09-22 04:02:03",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-01",
       "_appearances": 4,
-      "_total_sold": 13232,
-      "_total_sale": 224944,
-      "_growth_sum": 33.589999999999996,
+      "_total_sold": 16939,
+      "_total_sale": 284284,
+      "_growth_sum": 143.3,
       "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3651,
-          "sale_amount": 62067
-        },
         {
           "date": "2026-08-27",
           "sold": 2692,
@@ -514,14 +494,19 @@
           "date": "2026-08-31",
           "sold": 3804,
           "sale_amount": 64668
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 7358,
+          "sale_amount": 121407
         }
       ],
-      "sold_count": 13232,
-      "sale_amount": 224944,
+      "sold_count": 16939,
+      "sale_amount": 284284,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.4,
-      "_total_sold_show": "13.2k",
-      "_total_sale_show": "$224.9k"
+      "_avg_growth": 35.83,
+      "_total_sold_show": "16.9k",
+      "_total_sale_show": "$284.3k"
     },
     {
       "product_id": "1732294339991933438",
@@ -541,12 +526,12 @@
       "author_count": 99,
       "launch_time": "2026-03-27 05:10:22",
       "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-30",
-      "_appearances": 4,
-      "_total_sold": 13008,
-      "_total_sale": 214927.6,
-      "_growth_sum": 45.65,
-      "_growth_count": 4,
+      "_last_seen": "2026-09-01",
+      "_appearances": 5,
+      "_total_sold": 16102,
+      "_total_sale": 267494.66000000003,
+      "_growth_sum": 75.92,
+      "_growth_count": 5,
       "_trend": [
         {
           "date": "2026-08-26",
@@ -567,14 +552,72 @@
           "date": "2026-08-30",
           "sold": 3636,
           "sale_amount": 61812
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 3094,
+          "sale_amount": 52567.06
         }
       ],
-      "sold_count": 13008,
-      "sale_amount": 214927.6,
+      "sold_count": 16102,
+      "sale_amount": 267494.66000000003,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 11.41,
-      "_total_sold_show": "13.0k",
-      "_total_sale_show": "$214.9k"
+      "_avg_growth": 15.18,
+      "_total_sold_show": "16.1k",
+      "_total_sale_show": "$267.5k"
+    },
+    {
+      "product_id": "1732293553906094315",
+      "title": "[NEW] [medicube] NAD+ EGF Firming Serum | NAD+, EGF, Collagen Extract, Anti-aging, Plumping, Radiance Boosting Serum | Cares for Look of Fine Lines, Skin Elasticity & Firmness For Youthful-looking Skin (30ml / 1.01 fl. oz.) | Korean Skincare, K-Beauty",
+      "cover": "https://s.500fd.com/tt_product/4035999843124cc2b104c5f225354ae5~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732293553906094315?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$23.00",
+      "category_name": [
+        "Serums & Essences\t"
+      ],
+      "shop_name": "medicube US Store",
+      "shop_sold_count": 7965001,
+      "aweme_count": 68,
+      "live_count": 157,
+      "author_count": 158,
+      "launch_time": "2026-04-02 15:35:41",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-01",
+      "_appearances": 4,
+      "_total_sold": 12739,
+      "_total_sale": 286101.1,
+      "_growth_sum": 44.089999999999996,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-27",
+          "sold": 3327,
+          "sale_amount": 76521
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 3051,
+          "sale_amount": 66816.9
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 3218,
+          "sale_amount": 70474.2
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 3143,
+          "sale_amount": 72289
+        }
+      ],
+      "sold_count": 12739,
+      "sale_amount": 286101.1,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 11.02,
+      "_total_sold_show": "12.7k",
+      "_total_sale_show": "$286.1k"
     },
     {
       "product_id": "1731687713659851630",
@@ -620,54 +663,6 @@
       "_total_sale_show": "$100.0k"
     },
     {
-      "product_id": "1732293553906094315",
-      "title": "[NEW] [medicube] NAD+ EGF Firming Serum | NAD+, EGF, Collagen Extract, Anti-aging, Plumping, Radiance Boosting Serum | Cares for Look of Fine Lines, Skin Elasticity & Firmness For Youthful-looking Skin (30ml / 1.01 fl. oz.) | Korean Skincare, K-Beauty",
-      "cover": "https://s.500fd.com/tt_product/4035999843124cc2b104c5f225354ae5~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732293553906094315?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$23.00",
-      "category_name": [
-        "Serums & Essences\t"
-      ],
-      "shop_name": "medicube US Store",
-      "shop_sold_count": 7965001,
-      "aweme_count": 68,
-      "live_count": 157,
-      "author_count": 158,
-      "launch_time": "2026-04-02 15:35:41",
-      "_first_seen": "2026-08-27",
-      "_last_seen": "2026-08-31",
-      "_appearances": 3,
-      "_total_sold": 9596,
-      "_total_sale": 213812.09999999998,
-      "_growth_sum": 46.419999999999995,
-      "_growth_count": 3,
-      "_trend": [
-        {
-          "date": "2026-08-27",
-          "sold": 3327,
-          "sale_amount": 76521
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 3051,
-          "sale_amount": 66816.9
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 3218,
-          "sale_amount": 70474.2
-        }
-      ],
-      "sold_count": 9596,
-      "sale_amount": 213812.09999999998,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 15.47,
-      "_total_sold_show": "9.6k",
-      "_total_sale_show": "$213.8k"
-    },
-    {
       "product_id": "1731626958257754665",
       "title": "PHOFAY Bikini Pain-Free Hair removal spray  for Sensitive Skin，Hypoallergenic Formula -Gentle & Fast-Acting Hair removal spray，Ginseng、Aloe & Hyaluronic Acid for Soothing Care,Suitable for Men & Women,backtoschool",
       "cover": "https://s.500fd.com/tt_product/56a709b1c3d34038be2626cdb2f41dab~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
@@ -704,6 +699,44 @@
       "_avg_growth": 609.64,
       "_total_sold_show": "5.4k",
       "_total_sale_show": "$91.3k"
+    },
+    {
+      "product_id": "1729619842897449697",
+      "title": "Mouthology 10% Nano-Hydroxyapatite Toothpaste | Fluoride-Free Enamel Care, Fresh Mint, Made in USA, Gentle Formula, Safe For All Oral",
+      "cover": "https://s.500fd.com/tt_product/1666ec699d4c492abf19d677dcf2eed4~tplv-fhlh96nyum-crop-webp:4007:3992.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1729619842897449697?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$10.00 - 48.00",
+      "category_name": [
+        "Toothpastes"
+      ],
+      "shop_name": "Mouthology",
+      "shop_sold_count": 59972,
+      "aweme_count": 69,
+      "live_count": 22,
+      "author_count": 56,
+      "launch_time": "2024-09-19 03:28:34",
+      "_first_seen": "2026-09-01",
+      "_last_seen": "2026-09-01",
+      "_appearances": 1,
+      "_total_sold": 4873,
+      "_total_sale": 48730,
+      "_growth_sum": 263.11,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-09-01",
+          "sold": 4873,
+          "sale_amount": 48730
+        }
+      ],
+      "sold_count": 4873,
+      "sale_amount": 48730,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 263.11,
+      "_total_sold_show": "4.9k",
+      "_total_sale_show": "$48.7k"
     },
     {
       "product_id": "1729553368065741562",
@@ -820,42 +853,80 @@
       "_total_sale_show": "$70.5k"
     },
     {
-      "product_id": "1731003856475034336",
-      "title": "【BEDLORE】Bamboo Cooling Mattress Topper with Fitted Sheet, Thick Luxury Comfort Layer, Breathable & Soft on Skin, Deep Pocket Design, Machine Washable, Ideal for Bedroom & Home Use HomeEssentials",
-      "cover": "https://s.500fd.com/tt_product/f5673241dd0945ab992ab49c99980604~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731003856475034336?region=US&local=en",
+      "product_id": "1732560627250664403",
+      "title": "QAWAFI Mystery Extrait De Parfum Gift Box, 100ml Luxury Gift Box, Long Lasting Perfumes for Unisex Wear",
+      "cover": "https://s.500fd.com/tt_product/da4fc8b2187b45ee8198606212bd1e6c~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1732560627250664403?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$36.00 - 64.00",
+      "real_price": "$25.99",
       "category_name": [
-        "Mattresses"
+        "Unisex Perfume"
       ],
-      "shop_name": "Bedlore",
-      "shop_sold_count": 679386,
-      "aweme_count": 29,
-      "live_count": 36,
-      "author_count": 48,
-      "launch_time": "2025-04-26 13:18:48",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-25",
+      "shop_name": "QAWAFI",
+      "shop_sold_count": 290909,
+      "aweme_count": 0,
+      "live_count": 4,
+      "author_count": 2,
+      "launch_time": "2026-08-16 01:04:14",
+      "_first_seen": "2026-09-01",
+      "_last_seen": "2026-09-01",
       "_appearances": 1,
-      "_total_sold": 3295,
-      "_total_sale": 118620,
-      "_growth_sum": 37.29,
+      "_total_sold": 3780,
+      "_total_sale": 98242.2,
+      "_growth_sum": 125.13,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-25",
-          "sold": 3295,
-          "sale_amount": 118620
+          "date": "2026-09-01",
+          "sold": 3780,
+          "sale_amount": 98242.2
         }
       ],
-      "sold_count": 3295,
-      "sale_amount": 118620,
+      "sold_count": 3780,
+      "sale_amount": 98242.2,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 37.29,
-      "_total_sold_show": "3.3k",
-      "_total_sale_show": "$118.6k"
+      "_avg_growth": 125.13,
+      "_total_sold_show": "3.8k",
+      "_total_sale_show": "$98.2k"
+    },
+    {
+      "product_id": "1732263142232921043",
+      "title": "Voyage Nova | Rosey Fruity Floral | Extrait De Parfum 50ml/100ml | Long Lasting Luxury Fragrance | Daily women's perfume Alluring Summervibes sohochic",
+      "cover": "https://s.500fd.com/tt_product/94f3a81933634363876eed22a7f67b85~tplv-fhlh96nyum-origin-image.image",
+      "detail_url": "https://shop.tiktok.com/view/product/1732263142232921043?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$26.00 - 36.00",
+      "category_name": [
+        "Women's Fragrance"
+      ],
+      "shop_name": "QAWAFI",
+      "shop_sold_count": 290909,
+      "aweme_count": 48,
+      "live_count": 163,
+      "author_count": 167,
+      "launch_time": "2026-02-10 01:20:04",
+      "_first_seen": "2026-09-01",
+      "_last_seen": "2026-09-01",
+      "_appearances": 1,
+      "_total_sold": 3486,
+      "_total_sale": 90636,
+      "_growth_sum": 32.75,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-09-01",
+          "sold": 3486,
+          "sale_amount": 90636
+        }
+      ],
+      "sold_count": 3486,
+      "sale_amount": 90636,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 32.75,
+      "_total_sold_show": "3.5k",
+      "_total_sale_show": "$90.6k"
     },
     {
       "product_id": "1732052189676081387",
@@ -972,44 +1043,6 @@
       "_total_sale_show": "$5.6k"
     },
     {
-      "product_id": "1731406217255686451",
-      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
-      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$17.00 - 19.00",
-      "category_name": [
-        "Bras"
-      ],
-      "shop_name": "OEAK Apparel",
-      "shop_sold_count": 1792996,
-      "aweme_count": 24,
-      "live_count": 51,
-      "author_count": 57,
-      "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-25",
-      "_appearances": 1,
-      "_total_sold": 2754,
-      "_total_sale": 46818,
-      "_growth_sum": -7.02,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 2754,
-          "sale_amount": 46818
-        }
-      ],
-      "sold_count": 2754,
-      "sale_amount": 46818,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -7.02,
-      "_total_sold_show": "2.8k",
-      "_total_sale_show": "$46.8k"
-    },
-    {
       "product_id": "1731284232420626805",
       "title": "ADDWIN 2026 New Fascia Ring R10 Mini Muscle Recovery Fascia Device upgraded adjustable strap fits Up to 55in waist, Cordless Rechargeable, Designed for Waist & Back Muscle Recovery portable massager parents gift summervibes",
       "cover": "https://s.500fd.com/tt_product/2c14f5c729b44926a0455bfc0994bda3~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
@@ -1104,19 +1137,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 1986306,
       "_total_sale": 47947734.45,
       "_growth_sum": 246.32999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 283758,
-          "sale_amount": 6849676.35
-        },
         {
           "date": "2026-08-26",
           "sold": 283758,
@@ -1144,6 +1172,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 283758,
+          "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-09-01",
           "sold": 283758,
           "sale_amount": 6849676.35
         }
@@ -1172,19 +1205,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 1359477,
       "_total_sale": 36276681.21,
       "_growth_sum": -2.6599999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 194211,
-          "sale_amount": 5182383.03
-        },
         {
           "date": "2026-08-26",
           "sold": 194211,
@@ -1212,6 +1240,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 194211,
+          "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-09-01",
           "sold": 194211,
           "sale_amount": 5182383.03
         }
@@ -1240,19 +1273,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 974813,
       "_total_sale": 1841444.0099999998,
       "_growth_sum": -142.73000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 139259,
-          "sale_amount": 263063.43
-        },
         {
           "date": "2026-08-26",
           "sold": 139259,
@@ -1280,6 +1308,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 139259,
+          "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-09-01",
           "sold": 139259,
           "sale_amount": 263063.43
         }
@@ -1308,19 +1341,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 733754,
       "_total_sale": 36422734.04,
       "_growth_sum": 1210.79,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 104822,
-          "sale_amount": 5203247.72
-        },
         {
           "date": "2026-08-26",
           "sold": 104822,
@@ -1348,6 +1376,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-09-01",
           "sold": 104822,
           "sale_amount": 5203247.72
         }
@@ -1376,19 +1409,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 642642,
       "_total_sale": 13490477.279999997,
       "_growth_sum": 10.780000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
         {
           "date": "2026-08-26",
           "sold": 91806,
@@ -1416,6 +1444,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-09-01",
           "sold": 91806,
           "sale_amount": 1927211.04
         }
@@ -1444,19 +1477,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 634410,
       "_total_sale": 10688569.5,
       "_growth_sum": -127.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        },
         {
           "date": "2026-08-26",
           "sold": 90630,
@@ -1484,6 +1512,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-09-01",
           "sold": 90630,
           "sale_amount": 1526938.5
         }
@@ -1512,19 +1545,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 619206,
       "_total_sale": 3099313,
       "_growth_sum": 18944.87,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 88458,
-          "sale_amount": 442759
-        },
         {
           "date": "2026-08-26",
           "sold": 88458,
@@ -1552,6 +1580,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 88458,
+          "sale_amount": 442759
+        },
+        {
+          "date": "2026-09-01",
           "sold": 88458,
           "sale_amount": 442759
         }
@@ -1580,19 +1613,14 @@
       "live_count": 883,
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 604254,
       "_total_sale": 12824950.110000001,
       "_growth_sum": 89.67,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
         {
           "date": "2026-08-26",
           "sold": 86322,
@@ -1620,6 +1648,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-09-01",
           "sold": 86322,
           "sale_amount": 1832135.73
         }
@@ -1648,19 +1681,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 602973,
       "_total_sale": 8671306.07,
       "_growth_sum": 479.15,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 86139,
-          "sale_amount": 1238758.01
-        },
         {
           "date": "2026-08-26",
           "sold": 86139,
@@ -1688,6 +1716,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-09-01",
           "sold": 86139,
           "sale_amount": 1238758.01
         }
@@ -1716,19 +1749,14 @@
       "live_count": 1176,
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
       "_total_sold": 544180,
       "_total_sale": 1076025.79,
       "_growth_sum": -119.27999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        },
         {
           "date": "2026-08-26",
           "sold": 77740,
@@ -1756,6 +1784,11 @@
         },
         {
           "date": "2026-08-31",
+          "sold": 77740,
+          "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-09-01",
           "sold": 77740,
           "sale_amount": 153717.97
         }
@@ -1813,52 +1846,57 @@
       "_total_sale_show": "$100.0k"
     },
     {
-      "product_id": "1732293553906094315",
-      "title": "[NEW] [medicube] NAD+ EGF Firming Serum | NAD+, EGF, Collagen Extract, Anti-aging, Plumping, Radiance Boosting Serum | Cares for Look of Fine Lines, Skin Elasticity & Firmness For Youthful-looking Skin (30ml / 1.01 fl. oz.) | Korean Skincare, K-Beauty",
-      "cover": "https://s.500fd.com/tt_product/4035999843124cc2b104c5f225354ae5~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732293553906094315?region=US&local=en",
+      "product_id": "1731625997827871273",
+      "title": "Bikini Pain-Free Hair Removal Cream for Sensitive Skin, Hypoallergenic Formula-Gentle & Fast-Acting Depilatory with Citrus Scent, Aloe & Hyaluronic Acid for Soothing Care, Suitable for Men & Women,backtoschool",
+      "cover": "https://s.500fd.com/tt_product/3147e4ca48484ddc96eaca98fde180b1~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731625997827871273?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$23.00",
+      "real_price": "$17.00 - 24.00",
       "category_name": [
-        "Serums & Essences\t"
+        "Hair Removal Cream, Wax & Shave"
       ],
-      "shop_name": "medicube US Store",
-      "shop_sold_count": 7965001,
-      "aweme_count": 68,
-      "live_count": 157,
-      "author_count": 158,
-      "launch_time": "2026-04-02 15:35:41",
+      "shop_name": "PHOFAY-Skin Care",
+      "shop_sold_count": 486229,
+      "aweme_count": 28,
+      "live_count": 31,
+      "author_count": 46,
+      "launch_time": "2025-09-22 04:02:03",
       "_first_seen": "2026-08-27",
-      "_last_seen": "2026-08-31",
-      "_appearances": 3,
-      "_total_sold": 9596,
-      "_total_sale": 213812.09999999998,
-      "_growth_sum": 46.419999999999995,
-      "_growth_count": 3,
+      "_last_seen": "2026-09-01",
+      "_appearances": 4,
+      "_total_sold": 16939,
+      "_total_sale": 284284,
+      "_growth_sum": 143.3,
+      "_growth_count": 4,
       "_trend": [
         {
           "date": "2026-08-27",
-          "sold": 3327,
-          "sale_amount": 76521
+          "sold": 2692,
+          "sale_amount": 45764
         },
         {
-          "date": "2026-08-30",
-          "sold": 3051,
-          "sale_amount": 66816.9
+          "date": "2026-08-28",
+          "sold": 3085,
+          "sale_amount": 52445
         },
         {
           "date": "2026-08-31",
-          "sold": 3218,
-          "sale_amount": 70474.2
+          "sold": 3804,
+          "sale_amount": 64668
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 7358,
+          "sale_amount": 121407
         }
       ],
-      "sold_count": 9596,
-      "sale_amount": 213812.09999999998,
+      "sold_count": 16939,
+      "sale_amount": 284284,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 15.47,
-      "_total_sold_show": "9.6k",
-      "_total_sale_show": "$213.8k"
+      "_avg_growth": 35.83,
+      "_total_sold_show": "16.9k",
+      "_total_sale_show": "$284.3k"
     },
     {
       "product_id": "1732294339991933438",
@@ -1878,12 +1916,12 @@
       "author_count": 99,
       "launch_time": "2026-03-27 05:10:22",
       "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-30",
-      "_appearances": 4,
-      "_total_sold": 13008,
-      "_total_sale": 214927.6,
-      "_growth_sum": 45.65,
-      "_growth_count": 4,
+      "_last_seen": "2026-09-01",
+      "_appearances": 5,
+      "_total_sold": 16102,
+      "_total_sale": 267494.66000000003,
+      "_growth_sum": 75.92,
+      "_growth_count": 5,
       "_trend": [
         {
           "date": "2026-08-26",
@@ -1904,67 +1942,19 @@
           "date": "2026-08-30",
           "sold": 3636,
           "sale_amount": 61812
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 3094,
+          "sale_amount": 52567.06
         }
       ],
-      "sold_count": 13008,
-      "sale_amount": 214927.6,
+      "sold_count": 16102,
+      "sale_amount": 267494.66000000003,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 11.41,
-      "_total_sold_show": "13.0k",
-      "_total_sale_show": "$214.9k"
-    },
-    {
-      "product_id": "1731625997827871273",
-      "title": "Bikini Pain-Free Hair Removal Cream for Sensitive Skin, Hypoallergenic Formula-Gentle & Fast-Acting Depilatory with Citrus Scent, Aloe & Hyaluronic Acid for Soothing Care, Suitable for Men & Women,backtoschool",
-      "cover": "https://s.500fd.com/tt_product/3147e4ca48484ddc96eaca98fde180b1~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731625997827871273?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$17.00 - 24.00",
-      "category_name": [
-        "Hair Removal Cream, Wax & Shave"
-      ],
-      "shop_name": "PHOFAY-Skin Care",
-      "shop_sold_count": 477794,
-      "aweme_count": 21,
-      "live_count": 38,
-      "author_count": 43,
-      "launch_time": "2025-09-22 04:02:03",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
-      "_appearances": 4,
-      "_total_sold": 13232,
-      "_total_sale": 224944,
-      "_growth_sum": 33.589999999999996,
-      "_growth_count": 4,
-      "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3651,
-          "sale_amount": 62067
-        },
-        {
-          "date": "2026-08-27",
-          "sold": 2692,
-          "sale_amount": 45764
-        },
-        {
-          "date": "2026-08-28",
-          "sold": 3085,
-          "sale_amount": 52445
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 3804,
-          "sale_amount": 64668
-        }
-      ],
-      "sold_count": 13232,
-      "sale_amount": 224944,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.4,
-      "_total_sold_show": "13.2k",
-      "_total_sale_show": "$224.9k"
+      "_avg_growth": 15.18,
+      "_total_sold_show": "16.1k",
+      "_total_sale_show": "$267.5k"
     },
     {
       "product_id": "1729612709100426165",
@@ -1978,24 +1968,19 @@
         "Powdered Drink Mixes"
       ],
       "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5491945,
-      "aweme_count": 6,
-      "live_count": 41,
-      "author_count": 30,
+      "shop_sold_count": 5515272,
+      "aweme_count": 5,
+      "live_count": 56,
+      "author_count": 49,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-25",
+      "_first_seen": "2026-08-27",
       "_last_seen": "2026-08-31",
-      "_appearances": 6,
-      "_total_sold": 21707,
-      "_total_sale": 30389.799999999996,
-      "_growth_sum": 35.400000000000006,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 17502,
+      "_total_sale": 24502.799999999996,
+      "_growth_sum": 55.989999999999995,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 4205,
-          "sale_amount": 5887
-        },
         {
           "date": "2026-08-27",
           "sold": 2745,
@@ -2022,12 +2007,128 @@
           "sale_amount": 4947.6
         }
       ],
-      "sold_count": 21707,
-      "sale_amount": 30389.799999999996,
+      "sold_count": 17502,
+      "sale_amount": 24502.799999999996,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 5.9,
-      "_total_sold_show": "21.7k",
-      "_total_sale_show": "$30.4k"
+      "_avg_growth": 11.2,
+      "_total_sold_show": "17.5k",
+      "_total_sale_show": "$24.5k"
+    },
+    {
+      "product_id": "1732293553906094315",
+      "title": "[NEW] [medicube] NAD+ EGF Firming Serum | NAD+, EGF, Collagen Extract, Anti-aging, Plumping, Radiance Boosting Serum | Cares for Look of Fine Lines, Skin Elasticity & Firmness For Youthful-looking Skin (30ml / 1.01 fl. oz.) | Korean Skincare, K-Beauty",
+      "cover": "https://s.500fd.com/tt_product/4035999843124cc2b104c5f225354ae5~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732293553906094315?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$23.00",
+      "category_name": [
+        "Serums & Essences\t"
+      ],
+      "shop_name": "medicube US Store",
+      "shop_sold_count": 7965001,
+      "aweme_count": 68,
+      "live_count": 157,
+      "author_count": 158,
+      "launch_time": "2026-04-02 15:35:41",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-01",
+      "_appearances": 4,
+      "_total_sold": 12739,
+      "_total_sale": 286101.1,
+      "_growth_sum": 44.089999999999996,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-08-27",
+          "sold": 3327,
+          "sale_amount": 76521
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 3051,
+          "sale_amount": 66816.9
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 3218,
+          "sale_amount": 70474.2
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 3143,
+          "sale_amount": 72289
+        }
+      ],
+      "sold_count": 12739,
+      "sale_amount": 286101.1,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 11.02,
+      "_total_sold_show": "12.7k",
+      "_total_sale_show": "$286.1k"
+    },
+    {
+      "product_id": "1731236289885213002",
+      "title": "SEESE Cordless Pressure Washer and Single Port Charger Base, Bottle Portable Washer for Car,Home Cleaning & Garden Watering backtoschool",
+      "cover": "https://s.500fd.com/tt_product/40df5ced27dd49019e8467ebe1787b56~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731236289885213002?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$32.80 - 40.00",
+      "category_name": [
+        "Water Guns & Snow Foam Lances"
+      ],
+      "shop_name": "SEESE Store",
+      "shop_sold_count": 2003951,
+      "aweme_count": 43,
+      "live_count": 110,
+      "author_count": 120,
+      "launch_time": "2025-07-10 11:27:59",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
+      "_appearances": 6,
+      "_total_sold": 22368,
+      "_total_sale": 739518,
+      "_growth_sum": 43.67,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-08-26",
+          "sold": 2658,
+          "sale_amount": 93030
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 3528,
+          "sale_amount": 115718.4
+        },
+        {
+          "date": "2026-08-29",
+          "sold": 4285,
+          "sale_amount": 140548
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 3995,
+          "sale_amount": 131036
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 3479,
+          "sale_amount": 114111.2
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 4423,
+          "sale_amount": 145074.4
+        }
+      ],
+      "sold_count": 22368,
+      "sale_amount": 739518,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 7.28,
+      "_total_sold_show": "22.4k",
+      "_total_sale_show": "$739.5k"
     },
     {
       "product_id": "1729687495043093429",
@@ -2036,29 +2137,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1729687495043093429?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$1.70",
+      "real_price": "$1.70 - 3.50",
       "category_name": [
         "Coffee"
       ],
       "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5491945,
-      "aweme_count": 5,
-      "live_count": 32,
-      "author_count": 27,
+      "shop_sold_count": 5505838,
+      "aweme_count": 10,
+      "live_count": 40,
+      "author_count": 39,
       "launch_time": "2024-10-07 00:31:02",
-      "_first_seen": "2026-08-25",
+      "_first_seen": "2026-08-26",
       "_last_seen": "2026-08-30",
-      "_appearances": 6,
-      "_total_sold": 21239,
-      "_total_sale": 35325,
-      "_growth_sum": 11.29,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 17828,
+      "_total_sale": 29526.300000000003,
+      "_growth_sum": 14.769999999999996,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3411,
-          "sale_amount": 5798.7
-        },
         {
           "date": "2026-08-26",
           "sold": 2735,
@@ -2085,75 +2181,12 @@
           "sale_amount": 5649.6
         }
       ],
-      "sold_count": 21239,
-      "sale_amount": 35325,
+      "sold_count": 17828,
+      "sale_amount": 29526.300000000003,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.88,
-      "_total_sold_show": "21.2k",
-      "_total_sale_show": "$35.3k"
-    },
-    {
-      "product_id": "1731236289885213002",
-      "title": "SEESE Cordless Pressure Washer and Single Port Charger Base, Bottle Portable Washer for Car,Home Cleaning & Garden Watering backtoschool",
-      "cover": "https://s.500fd.com/tt_product/40df5ced27dd49019e8467ebe1787b56~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731236289885213002?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$35.00 - 43.00",
-      "category_name": [
-        "Water Guns & Snow Foam Lances"
-      ],
-      "shop_name": "SEESE Store",
-      "shop_sold_count": 1996606,
-      "aweme_count": 30,
-      "live_count": 106,
-      "author_count": 110,
-      "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
-      "_appearances": 6,
-      "_total_sold": 21839,
-      "_total_sale": 730733.6,
-      "_growth_sum": 1.900000000000004,
-      "_growth_count": 6,
-      "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3894,
-          "sale_amount": 136290
-        },
-        {
-          "date": "2026-08-26",
-          "sold": 2658,
-          "sale_amount": 93030
-        },
-        {
-          "date": "2026-08-28",
-          "sold": 3528,
-          "sale_amount": 115718.4
-        },
-        {
-          "date": "2026-08-29",
-          "sold": 4285,
-          "sale_amount": 140548
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 3995,
-          "sale_amount": 131036
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 3479,
-          "sale_amount": 114111.2
-        }
-      ],
-      "sold_count": 21839,
-      "sale_amount": 730733.6,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.32,
-      "_total_sold_show": "21.8k",
-      "_total_sale_show": "$730.7k"
+      "_avg_growth": 2.95,
+      "_total_sold_show": "17.8k",
+      "_total_sale_show": "$29.5k"
     },
     {
       "product_id": "1729679758111249333",
@@ -2167,24 +2200,19 @@
         "Powdered Drink Mixes"
       ],
       "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5491945,
-      "aweme_count": 12,
-      "live_count": 48,
+      "shop_sold_count": 5505838,
+      "aweme_count": 13,
+      "live_count": 41,
       "author_count": 40,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
-      "_total_sold": 35142,
-      "_total_sale": 49198.8,
-      "_growth_sum": -0.14000000000000412,
+      "_total_sold": 35469,
+      "_total_sale": 49656.600000000006,
+      "_growth_sum": 17.919999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 5390,
-          "sale_amount": 7546
-        },
         {
           "date": "2026-08-26",
           "sold": 3821,
@@ -2214,14 +2242,19 @@
           "date": "2026-08-31",
           "sold": 6138,
           "sale_amount": 8593.2
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 5717,
+          "sale_amount": 8003.8
         }
       ],
-      "sold_count": 35142,
-      "sale_amount": 49198.8,
+      "sold_count": 35469,
+      "sale_amount": 49656.600000000006,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -0.02,
-      "_total_sold_show": "35.1k",
-      "_total_sale_show": "$49.2k"
+      "_avg_growth": 2.56,
+      "_total_sold_show": "35.5k",
+      "_total_sale_show": "$49.7k"
     },
     {
       "product_id": "1729413742968869814",
@@ -2230,29 +2263,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1729413742968869814?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$20.00",
+      "real_price": "$19.00",
       "category_name": [
         "Unisex Perfume"
       ],
       "shop_name": "BellaVitashop",
-      "shop_sold_count": 2684837,
-      "aweme_count": 59,
-      "live_count": 92,
-      "author_count": 120,
+      "shop_sold_count": 2694435,
+      "aweme_count": 83,
+      "live_count": 97,
+      "author_count": 147,
       "launch_time": "2023-11-25 02:51:43",
-      "_first_seen": "2026-08-25",
+      "_first_seen": "2026-08-26",
       "_last_seen": "2026-08-31",
-      "_appearances": 7,
-      "_total_sold": 26949,
-      "_total_sale": 522509.35,
-      "_growth_sum": -8.8,
-      "_growth_count": 7,
+      "_appearances": 6,
+      "_total_sold": 23357,
+      "_total_sale": 450669.35,
+      "_growth_sum": -1.0199999999999996,
+      "_growth_count": 6,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 3592,
-          "sale_amount": 71840
-        },
         {
           "date": "2026-08-26",
           "sold": 3860,
@@ -2284,12 +2312,12 @@
           "sale_amount": 61300
         }
       ],
-      "sold_count": 26949,
-      "sale_amount": 522509.35,
+      "sold_count": 23357,
+      "sale_amount": 450669.35,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -1.26,
-      "_total_sold_show": "26.9k",
-      "_total_sale_show": "$522.5k"
+      "_avg_growth": -0.17,
+      "_total_sold_show": "23.4k",
+      "_total_sale_show": "$450.7k"
     },
     {
       "product_id": "1731528580940468633",
@@ -2303,24 +2331,19 @@
         "Hair Loss Products"
       ],
       "shop_name": "Bare Anatomy Haircare",
-      "shop_sold_count": 945449,
-      "aweme_count": 48,
-      "live_count": 63,
-      "author_count": 75,
+      "shop_sold_count": 956631,
+      "aweme_count": 63,
+      "live_count": 67,
+      "author_count": 94,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
-      "_total_sold": 31364,
-      "_total_sale": 357885.17,
-      "_growth_sum": -11.340000000000003,
+      "_total_sold": 30628,
+      "_total_sale": 349421.17,
+      "_growth_sum": -2.400000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 5560,
-          "sale_amount": 63940
-        },
         {
           "date": "2026-08-26",
           "sold": 4311,
@@ -2350,14 +2373,19 @@
           "date": "2026-08-31",
           "sold": 4089,
           "sale_amount": 47023.5
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 4824,
+          "sale_amount": 55476
         }
       ],
-      "sold_count": 31364,
-      "sale_amount": 357885.17,
+      "sold_count": 30628,
+      "sale_amount": 349421.17,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -1.62,
-      "_total_sold_show": "31.4k",
-      "_total_sale_show": "$357.9k"
+      "_avg_growth": -0.34,
+      "_total_sold_show": "30.6k",
+      "_total_sale_show": "$349.4k"
     },
     {
       "product_id": "1729448464509734958",
@@ -2371,24 +2399,19 @@
         "Wellness Supplements"
       ],
       "shop_name": "Toplux Nutrition",
-      "shop_sold_count": 3516311,
-      "aweme_count": 35,
-      "live_count": 181,
-      "author_count": 162,
+      "shop_sold_count": 3526745,
+      "aweme_count": 59,
+      "live_count": 220,
+      "author_count": 213,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-25",
-      "_last_seen": "2026-08-31",
+      "_first_seen": "2026-08-26",
+      "_last_seen": "2026-09-01",
       "_appearances": 7,
-      "_total_sold": 32746,
-      "_total_sale": 491023.5,
-      "_growth_sum": -33.63,
+      "_total_sold": 31130,
+      "_total_sale": 475297.5,
+      "_growth_sum": -13.29,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-25",
-          "sold": 5873,
-          "sale_amount": 88095
-        },
         {
           "date": "2026-08-26",
           "sold": 4203,
@@ -2418,14 +2441,19 @@
           "date": "2026-08-31",
           "sold": 3314,
           "sale_amount": 49710
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 4257,
+          "sale_amount": 72369
         }
       ],
-      "sold_count": 32746,
-      "sale_amount": 491023.5,
+      "sold_count": 31130,
+      "sale_amount": 475297.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -4.8,
-      "_total_sold_show": "32.7k",
-      "_total_sale_show": "$491.0k"
+      "_avg_growth": -1.9,
+      "_total_sold_show": "31.1k",
+      "_total_sale_show": "$475.3k"
     }
   ]
 }
