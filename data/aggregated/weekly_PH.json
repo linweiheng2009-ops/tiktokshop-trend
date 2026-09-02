@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "PH",
-  "generated_at": "2026-09-01T04:47:21.743Z",
+  "generated_at": "2026-09-02T04:08:57.918Z",
   "date_range": [
-    "2026-08-26",
-    "2026-09-01"
+    "2026-08-27",
+    "2026-09-02"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -27,12 +27,12 @@
       "author_count": 213,
       "launch_time": "2024-12-06 09:48:45",
       "_first_seen": "2026-08-27",
-      "_last_seen": "2026-09-01",
-      "_appearances": 5,
-      "_total_sold": 57602,
-      "_total_sale": 3340916,
-      "_growth_sum": 957.13,
-      "_growth_count": 5,
+      "_last_seen": "2026-09-02",
+      "_appearances": 6,
+      "_total_sold": 66085,
+      "_total_sale": 3832930,
+      "_growth_sum": 956.53,
+      "_growth_count": 6,
       "_trend": [
         {
           "date": "2026-08-27",
@@ -58,14 +58,19 @@
           "date": "2026-09-01",
           "sold": 8534,
           "sale_amount": 494972
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 8483,
+          "sale_amount": 492014
         }
       ],
-      "sold_count": 57602,
-      "sale_amount": 3340916,
+      "sold_count": 66085,
+      "sale_amount": 3832930,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 191.43,
-      "_total_sold_show": "57.6k",
-      "_total_sale_show": "$3.3M"
+      "_avg_growth": 159.42,
+      "_total_sold_show": "66.1k",
+      "_total_sale_show": "$3.8M"
     },
     {
       "product_id": "1736482358295496010",
@@ -79,24 +84,19 @@
         "Body Wash & Soap"
       ],
       "shop_name": "SEOUL SECRETS",
-      "shop_sold_count": 7001029,
-      "aweme_count": 106,
-      "live_count": 18,
-      "author_count": 81,
+      "shop_sold_count": 7032041,
+      "aweme_count": 103,
+      "live_count": 29,
+      "author_count": 102,
       "launch_time": "2026-07-13 15:00:15",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 5,
-      "_total_sold": 43695,
-      "_total_sale": 1966275,
-      "_growth_sum": 136.57,
+      "_total_sold": 60440,
+      "_total_sale": 2719800,
+      "_growth_sum": 233.89,
       "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 5939,
-          "sale_amount": 267255
-        },
         {
           "date": "2026-08-27",
           "sold": 8599,
@@ -116,14 +116,77 @@
           "date": "2026-09-01",
           "sold": 14831,
           "sale_amount": 667395
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 22684,
+          "sale_amount": 1020780
         }
       ],
-      "sold_count": 43695,
-      "sale_amount": 1966275,
+      "sold_count": 60440,
+      "sale_amount": 2719800,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 27.31,
-      "_total_sold_show": "43.7k",
-      "_total_sale_show": "$2.0M"
+      "_avg_growth": 46.78,
+      "_total_sold_show": "60.4k",
+      "_total_sale_show": "$2.7M"
+    },
+    {
+      "product_id": "1730591441747281569",
+      "title": "50PCS diaper tape diaper pants pull-ups Ultra-thin and breathable All size S/M/L/XL/XXL/XXXL",
+      "cover": "https://s.500fd.com/tt_product/7cc7fd4c21bb4d0a98391c3b1920ef95~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730591441747281569?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱198.47",
+      "category_name": [
+        "Diapers"
+      ],
+      "shop_name": "BE LOVE baby shop",
+      "shop_sold_count": 4132523,
+      "aweme_count": 55,
+      "live_count": 121,
+      "author_count": 107,
+      "launch_time": "2024-12-10 10:30:23",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-09-02",
+      "_appearances": 5,
+      "_total_sold": 39766,
+      "_total_sale": 7950200.0600000005,
+      "_growth_sum": 631.0699999999999,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 10629,
+          "sale_amount": 2157687
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 5898,
+          "sale_amount": 1170576.06
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 7666,
+          "sale_amount": 1556198
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 6784,
+          "sale_amount": 1105792
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 8789,
+          "sale_amount": 1959947
+        }
+      ],
+      "sold_count": 39766,
+      "sale_amount": 7950200.0600000005,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 126.21,
+      "_total_sold_show": "39.8k",
+      "_total_sale_show": "$8.0M"
     },
     {
       "product_id": "1731831790309442956",
@@ -137,24 +200,19 @@
         "Body Wash & Soap"
       ],
       "shop_name": "shopwithbonita",
-      "shop_sold_count": 7820743,
-      "aweme_count": 60,
-      "live_count": 26,
-      "author_count": 70,
+      "shop_sold_count": 7834344,
+      "aweme_count": 59,
+      "live_count": 16,
+      "author_count": 67,
       "launch_time": "2025-07-02 20:46:15",
-      "_first_seen": "2026-08-26",
+      "_first_seen": "2026-08-27",
       "_last_seen": "2026-08-31",
-      "_appearances": 6,
-      "_total_sold": 39988,
-      "_total_sale": 359892,
-      "_growth_sum": 135.76,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 35507,
+      "_total_sale": 319563,
+      "_growth_sum": 74.86000000000001,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4481,
-          "sale_amount": 40329
-        },
         {
           "date": "2026-08-27",
           "sold": 7008,
@@ -181,12 +239,12 @@
           "sale_amount": 68220
         }
       ],
-      "sold_count": 39988,
-      "sale_amount": 359892,
+      "sold_count": 35507,
+      "sale_amount": 319563,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 22.63,
-      "_total_sold_show": "40.0k",
-      "_total_sale_show": "$359.9k"
+      "_avg_growth": 14.97,
+      "_total_sold_show": "35.5k",
+      "_total_sale_show": "$319.6k"
     },
     {
       "product_id": "1732770898798479335",
@@ -242,88 +300,30 @@
       "_total_sale_show": "$280.5k"
     },
     {
-      "product_id": "1730591441747281569",
-      "title": "50PCS diaper tape diaper pants pull-ups Ultra-thin and breathable All size S/M/L/XL/XXL/XXXL",
-      "cover": "https://s.500fd.com/tt_product/7cc7fd4c21bb4d0a98391c3b1920ef95~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1730591441747281569?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱198.47",
-      "category_name": [
-        "Diapers"
-      ],
-      "shop_name": "BE LOVE baby shop",
-      "shop_sold_count": 4132523,
-      "aweme_count": 55,
-      "live_count": 121,
-      "author_count": 107,
-      "launch_time": "2024-12-10 10:30:23",
-      "_first_seen": "2026-08-28",
-      "_last_seen": "2026-09-01",
-      "_appearances": 4,
-      "_total_sold": 30977,
-      "_total_sale": 5990253.0600000005,
-      "_growth_sum": 601.52,
-      "_growth_count": 4,
-      "_trend": [
-        {
-          "date": "2026-08-28",
-          "sold": 10629,
-          "sale_amount": 2157687
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 5898,
-          "sale_amount": 1170576.06
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 7666,
-          "sale_amount": 1556198
-        },
-        {
-          "date": "2026-09-01",
-          "sold": 6784,
-          "sale_amount": 1105792
-        }
-      ],
-      "sold_count": 30977,
-      "sale_amount": 5990253.0600000005,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 150.38,
-      "_total_sold_show": "31.0k",
-      "_total_sale_show": "$6.0M"
-    },
-    {
       "product_id": "1735851360402113776",
       "title": "（This gift includes only the toolkit）Retro-style nails with a cool tortoiseshell gradient effect and French tips with subtle checkered patterns. Reusable and easy to apply—perfect for autumn and everyday looks.",
       "cover": "https://s.500fd.com/tt_product/8be2c72bc7094f30a7875f287f33193c~tplv-aphluv4xwc-crop-webp:1920:1920.webp",
       "detail_url": "https://shop.tiktok.com/view/product/1735851360402113776?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱25.00  - 225.00",
+      "real_price": "₱12.50",
       "category_name": [
         "Nail Art Decoration & Accessories"
       ],
       "shop_name": "MISS SXY",
-      "shop_sold_count": 312199,
-      "aweme_count": 13,
-      "live_count": 1,
-      "author_count": 10,
+      "shop_sold_count": 319514,
+      "aweme_count": 12,
+      "live_count": 8,
+      "author_count": 15,
       "launch_time": "2026-06-10 02:02:23",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-30",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 4,
-      "_total_sold": 26103,
-      "_total_sale": 479725,
-      "_growth_sum": 232.66,
+      "_total_sold": 26942,
+      "_total_sale": 412000,
+      "_growth_sum": 323.85,
       "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 6257,
-          "sale_amount": 156425
-        },
         {
           "date": "2026-08-27",
           "sold": 6018,
@@ -338,14 +338,67 @@
           "date": "2026-08-30",
           "sold": 6468,
           "sale_amount": 80850
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 7096,
+          "sale_amount": 88700
         }
       ],
-      "sold_count": 26103,
-      "sale_amount": 479725,
+      "sold_count": 26942,
+      "sale_amount": 412000,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 58.16,
-      "_total_sold_show": "26.1k",
-      "_total_sale_show": "$479.7k"
+      "_avg_growth": 80.96,
+      "_total_sold_show": "26.9k",
+      "_total_sale_show": "$412.0k"
+    },
+    {
+      "product_id": "1734247410080450287",
+      "title": "1/10pcs 30*30cm Marble Tiles Sticker Foam Wall Decor Peel and Stick Eco-friendly PVC Self-adhesive Waterproof Backsplash Wall Panels DIY for Home Bathroom Kitchen Living Room Decor",
+      "cover": "https://s.500fd.com/tt_product/9c2b879a4c954755a73a047fb1a85781~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1734247410080450287?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.00",
+      "category_name": [
+        "Wallpaper & Wall Trim"
+      ],
+      "shop_name": "GeminiHome.ph",
+      "shop_sold_count": 14098997,
+      "aweme_count": 0,
+      "live_count": 22,
+      "author_count": 10,
+      "launch_time": "2026-01-31 10:00:34",
+      "_first_seen": "2026-08-30",
+      "_last_seen": "2026-09-02",
+      "_appearances": 3,
+      "_total_sold": 23512,
+      "_total_sale": 211608,
+      "_growth_sum": 529.01,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-30",
+          "sold": 6674,
+          "sale_amount": 60066
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 6827,
+          "sale_amount": 61443
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 10011,
+          "sale_amount": 90099
+        }
+      ],
+      "sold_count": 23512,
+      "sale_amount": 211608,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 176.34,
+      "_total_sold_show": "23.5k",
+      "_total_sale_show": "$211.6k"
     },
     {
       "product_id": "1737085321638675639",
@@ -359,132 +412,79 @@
         "Audio & Video Accessories"
       ],
       "shop_name": "3CKM",
-      "shop_sold_count": 389518,
+      "shop_sold_count": 399900,
       "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 1,
+      "live_count": 0,
+      "author_count": 0,
       "launch_time": "2026-08-19 01:17:48",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-27",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 2,
-      "_total_sold": 17352,
-      "_total_sale": 17334648,
-      "_growth_sum": 8.09,
+      "_total_sold": 19734,
+      "_total_sale": 19714266,
+      "_growth_sum": 249.33,
       "_growth_count": 2,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 8856,
-          "sale_amount": 8847144
-        },
         {
           "date": "2026-08-27",
           "sold": 8496,
           "sale_amount": 8487504
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 11238,
+          "sale_amount": 11226762
         }
       ],
-      "sold_count": 17352,
-      "sale_amount": 17334648,
+      "sold_count": 19734,
+      "sale_amount": 19714266,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.04,
-      "_total_sold_show": "17.4k",
-      "_total_sale_show": "$17.3M"
+      "_avg_growth": 124.67,
+      "_total_sold_show": "19.7k",
+      "_total_sale_show": "$19.7M"
     },
     {
-      "product_id": "1731569946475529553",
-      "title": "Ganda ng Black Starry Curtain! May Butterfly & Flower Design Curtains Color Blue Orange Red Purple Green Black Window Door Room Kurtina Sale Balcony Door Curtains Household Textiles – 85x190cm | 1pc | COD",
-      "cover": "https://s.500fd.com/tt_product/fe8a5dc4ad9d4062b4307394e9b7251c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731569946475529553?region=PH&local=en",
+      "product_id": "1733683494177178921",
+      "title": "Wired headphones with microphone, stereo sound system, powerful bass, noise canceling in ear design, headset compatible with Type C, 3.5mm.  and Lightning connectors, suitable for your phone or tablet(1 Year Warranty)",
+      "cover": "https://s.500fd.com/tt_product/5d0bf0f8ad6f4376bcf777389dc1d6de~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1733683494177178921?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱9.30",
+      "real_price": "₱96.23",
       "category_name": [
-        "Curtains"
+        " Earphones & Headphones"
       ],
-      "shop_name": "78 Kurtina Household Textiles",
-      "shop_sold_count": 1012992,
-      "aweme_count": 8,
-      "live_count": 17,
-      "author_count": 19,
-      "launch_time": "2025-06-05 19:43:50",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-30",
-      "_appearances": 3,
-      "_total_sold": 16541,
-      "_total_sale": 158148.9,
-      "_growth_sum": 530.76,
-      "_growth_count": 3,
+      "shop_name": "Halfsun - PH",
+      "shop_sold_count": 853440,
+      "aweme_count": 52,
+      "live_count": 38,
+      "author_count": 65,
+      "launch_time": "2025-12-23 01:29:53",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
+      "_appearances": 2,
+      "_total_sold": 14390,
+      "_total_sale": 771889,
+      "_growth_sum": 315.24,
+      "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-26",
-          "sold": 4310,
-          "sale_amount": 40083
+          "date": "2026-08-27",
+          "sold": 7379,
+          "sale_amount": 435361
         },
         {
-          "date": "2026-08-28",
-          "sold": 6063,
-          "sale_amount": 56385.9
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 6168,
-          "sale_amount": 61680
+          "date": "2026-09-02",
+          "sold": 7011,
+          "sale_amount": 336528
         }
       ],
-      "sold_count": 16541,
-      "sale_amount": 158148.9,
+      "sold_count": 14390,
+      "sale_amount": 771889,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 176.92,
-      "_total_sold_show": "16.5k",
-      "_total_sale_show": "$158.1k"
-    },
-    {
-      "product_id": "1735162764593104307",
-      "title": "Mas mura ang bundle BQI Upgraded Version 100-120 Cluster False Eyelashes Self-Adhesive Softer Lashes Glue-Free 10-12mm C Curl Natural False Eyelashes Long-lasting Curling Lazy Single Cluster Eyelashes Reusable Eye Makeup",
-      "cover": "https://s.500fd.com/tt_product/3008fdf397454a6296fda01bd5ed59d0~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735162764593104307?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱13.99",
-      "category_name": [
-        "False Eyelashes & Adhesives"
-      ],
-      "shop_name": "Saturday amusement park",
-      "shop_sold_count": 7050887,
-      "aweme_count": 23,
-      "live_count": 36,
-      "author_count": 38,
-      "launch_time": "2026-04-17 16:12:18",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
-      "_appearances": 3,
-      "_total_sold": 16025,
-      "_total_sale": 224076.69,
-      "_growth_sum": 8.39,
-      "_growth_count": 3,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4719,
-          "sale_amount": 66018.81
-        },
-        {
-          "date": "2026-08-29",
-          "sold": 5546,
-          "sale_amount": 77533.08
-        },
-        {
-          "date": "2026-09-01",
-          "sold": 5760,
-          "sale_amount": 80524.8
-        }
-      ],
-      "sold_count": 16025,
-      "sale_amount": 224076.69,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 2.8,
-      "_total_sold_show": "16.0k",
-      "_total_sale_show": "$224.1k"
+      "_avg_growth": 157.62,
+      "_total_sold_show": "14.4k",
+      "_total_sale_show": "$771.9k"
     },
     {
       "product_id": "1730346047548459676",
@@ -659,92 +659,6 @@
       "_total_sale_show": "$870.1k"
     },
     {
-      "product_id": "1734247410080450287",
-      "title": "1/10pcs 30*30cm Marble Tiles Sticker Foam Wall Decor Peel and Stick Eco-friendly PVC Self-adhesive Waterproof Backsplash Wall Panels DIY for Home Bathroom Kitchen Living Room Decor",
-      "cover": "https://s.500fd.com/tt_product/9c2b879a4c954755a73a047fb1a85781~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1734247410080450287?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱9.00",
-      "category_name": [
-        "Wallpaper & Wall Trim"
-      ],
-      "shop_name": "GeminiHome.ph",
-      "shop_sold_count": 14098997,
-      "aweme_count": 0,
-      "live_count": 22,
-      "author_count": 10,
-      "launch_time": "2026-01-31 10:00:34",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-31",
-      "_appearances": 2,
-      "_total_sold": 13501,
-      "_total_sale": 121509,
-      "_growth_sum": 301.21000000000004,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 6674,
-          "sale_amount": 60066
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 6827,
-          "sale_amount": 61443
-        }
-      ],
-      "sold_count": 13501,
-      "sale_amount": 121509,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 150.61,
-      "_total_sold_show": "13.5k",
-      "_total_sale_show": "$121.5k"
-    },
-    {
-      "product_id": "1736465001096250843",
-      "title": "New Pattern Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
-      "cover": "https://s.500fd.com/tt_product/49fda9fdbd25430b88063ff9e1c0b0b4~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736465001096250843?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱9.90",
-      "category_name": [
-        "Curtains"
-      ],
-      "shop_name": "Lumina Curtains",
-      "shop_sold_count": 251464,
-      "aweme_count": 8,
-      "live_count": 55,
-      "author_count": 36,
-      "launch_time": "2026-07-12 19:56:22",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-29",
-      "_appearances": 2,
-      "_total_sold": 12995,
-      "_total_sale": 128650.5,
-      "_growth_sum": 96.42999999999999,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4564,
-          "sale_amount": 45183.6
-        },
-        {
-          "date": "2026-08-29",
-          "sold": 8431,
-          "sale_amount": 83466.9
-        }
-      ],
-      "sold_count": 12995,
-      "sale_amount": 128650.5,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 48.21,
-      "_total_sold_show": "13.0k",
-      "_total_sale_show": "$128.7k"
-    },
-    {
       "product_id": "1729393385598652324",
       "title": "[PER PIECE OPTION] Drip and Bites Chunky Chocolate Cookies",
       "cover": "https://s.500fd.com/tt_product/0d1255ae61ed43c4b9fffe7662e365dc~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
@@ -786,6 +700,135 @@
       "_avg_growth": 223.2,
       "_total_sold_show": "12.6k",
       "_total_sale_show": "$63.3k"
+    },
+    {
+      "product_id": "1731569946475529553",
+      "title": "Ganda ng Black Starry Curtain! May Butterfly & Flower Design Curtains Color Blue Orange Red Purple Green Black Window Door Room Kurtina Sale Balcony Door Curtains Household Textiles – 85x190cm | 1pc | COD",
+      "cover": "https://s.500fd.com/tt_product/fe8a5dc4ad9d4062b4307394e9b7251c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731569946475529553?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.30",
+      "category_name": [
+        "Curtains"
+      ],
+      "shop_name": "78 Kurtina Household Textiles",
+      "shop_sold_count": 1022056,
+      "aweme_count": 11,
+      "live_count": 17,
+      "author_count": 21,
+      "launch_time": "2025-06-05 19:43:50",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-08-30",
+      "_appearances": 2,
+      "_total_sold": 12231,
+      "_total_sale": 118065.9,
+      "_growth_sum": 497.53000000000003,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 6063,
+          "sale_amount": 56385.9
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 6168,
+          "sale_amount": 61680
+        }
+      ],
+      "sold_count": 12231,
+      "sale_amount": 118065.9,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 248.77,
+      "_total_sold_show": "12.2k",
+      "_total_sale_show": "$118.1k"
+    },
+    {
+      "product_id": "1731383280304621200",
+      "title": "（95-100PCS）  Colorful Dense Fuzzy wire  Christmas Present  New Year gift  Fuzzy wires  Chenille yarn  Pipe Cleaner  Fluffy Sticks  Craft  Children's Handmade DIY  Macaron  Flowers Arts Decorations   For Boyfriend and Girlfriend gifts  Christmas Gift",
+      "cover": "https://s.500fd.com/tt_product/6f9f3903691e408ea188f20b98a219fb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731383280304621200?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱22.10",
+      "category_name": [
+        "Knitting & Crochet"
+      ],
+      "shop_name": "Magic Fuzzy Wires",
+      "shop_sold_count": 2186305,
+      "aweme_count": 1,
+      "live_count": 23,
+      "author_count": 19,
+      "launch_time": "2025-07-26 22:18:39",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-09-02",
+      "_appearances": 2,
+      "_total_sold": 11475,
+      "_total_sale": 262258.30000000005,
+      "_growth_sum": 2499.97,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 5413,
+          "sale_amount": 128288.1
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 6062,
+          "sale_amount": 133970.2
+        }
+      ],
+      "sold_count": 11475,
+      "sale_amount": 262258.30000000005,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1249.98,
+      "_total_sold_show": "11.5k",
+      "_total_sale_show": "$262.3k"
+    },
+    {
+      "product_id": "1735162764593104307",
+      "title": "Mas mura ang bundle BQI Upgraded Version 100-120 Cluster False Eyelashes Self-Adhesive Softer Lashes Glue-Free 10-12mm C Curl Natural False Eyelashes Long-lasting Curling Lazy Single Cluster Eyelashes Reusable Eye Makeup",
+      "cover": "https://s.500fd.com/tt_product/3008fdf397454a6296fda01bd5ed59d0~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735162764593104307?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱13.98",
+      "category_name": [
+        "False Eyelashes & Adhesives"
+      ],
+      "shop_name": "Saturday amusement park",
+      "shop_sold_count": 7093805,
+      "aweme_count": 22,
+      "live_count": 60,
+      "author_count": 45,
+      "launch_time": "2026-04-17 16:12:18",
+      "_first_seen": "2026-08-29",
+      "_last_seen": "2026-09-01",
+      "_appearances": 2,
+      "_total_sold": 11306,
+      "_total_sale": 158057.88,
+      "_growth_sum": 16.17,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-29",
+          "sold": 5546,
+          "sale_amount": 77533.08
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 5760,
+          "sale_amount": 80524.8
+        }
+      ],
+      "sold_count": 11306,
+      "sale_amount": 158057.88,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 8.09,
+      "_total_sold_show": "11.3k",
+      "_total_sale_show": "$158.1k"
     },
     {
       "product_id": "1734812377390876496",
@@ -864,6 +907,44 @@
       "_total_sale_show": "$86.8k"
     },
     {
+      "product_id": "1736465001096250843",
+      "title": "New Pattern Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
+      "cover": "https://s.500fd.com/tt_product/49fda9fdbd25430b88063ff9e1c0b0b4~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1736465001096250843?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.90",
+      "category_name": [
+        "Curtains"
+      ],
+      "shop_name": "Lumina Curtains",
+      "shop_sold_count": 268929,
+      "aweme_count": 9,
+      "live_count": 54,
+      "author_count": 35,
+      "launch_time": "2026-07-12 19:56:22",
+      "_first_seen": "2026-08-29",
+      "_last_seen": "2026-08-29",
+      "_appearances": 1,
+      "_total_sold": 8431,
+      "_total_sale": 83466.9,
+      "_growth_sum": 113.66,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-08-29",
+          "sold": 8431,
+          "sale_amount": 83466.9
+        }
+      ],
+      "sold_count": 8431,
+      "sale_amount": 83466.9,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 113.66,
+      "_total_sold_show": "8.4k",
+      "_total_sale_show": "$83.5k"
+    },
+    {
       "product_id": "1737095396545496071",
       "title": "This is the after-sales link, please do not purchase.Kitchen Utensil Holder with Dustproof Cover, Multifunctional Drain Chopsticks Bucket Cage, Comes With Water Tray Vent, Standing Cutlery Storage Box, Suitable For Cutlery Spoon Fork Chopsticks Storage",
       "cover": "https://s.500fd.com/tt_product/9508f526590e404ca7c7c17417d9d4f3~tplv-aphluv4xwc-crop-webp:2048:2048.webp",
@@ -900,44 +981,6 @@
       "_avg_growth": 0,
       "_total_sold_show": "7.6k",
       "_total_sale_show": "$1.7M"
-    },
-    {
-      "product_id": "1733683494177178921",
-      "title": "Wired headphones with microphone, stereo sound system, powerful bass, noise canceling in ear design, headset compatible with Type C, 3.5mm.  and Lightning connectors, suitable for your phone or tablet(1 Year Warranty)",
-      "cover": "https://s.500fd.com/tt_product/5d0bf0f8ad6f4376bcf777389dc1d6de~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1733683494177178921?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱96.23",
-      "category_name": [
-        " Earphones & Headphones"
-      ],
-      "shop_name": "Halfsun - PH",
-      "shop_sold_count": 853440,
-      "aweme_count": 52,
-      "live_count": 38,
-      "author_count": 65,
-      "launch_time": "2025-12-23 01:29:53",
-      "_first_seen": "2026-08-27",
-      "_last_seen": "2026-08-27",
-      "_appearances": 1,
-      "_total_sold": 7379,
-      "_total_sale": 435361,
-      "_growth_sum": 206.95,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-27",
-          "sold": 7379,
-          "sale_amount": 435361
-        }
-      ],
-      "sold_count": 7379,
-      "sale_amount": 435361,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 206.95,
-      "_total_sold_show": "7.4k",
-      "_total_sale_show": "$435.4k"
     },
     {
       "product_id": "1733713227287463858",
@@ -1014,6 +1057,44 @@
       "_avg_growth": 952.69,
       "_total_sold_show": "7.1k",
       "_total_sale_show": "$258.7k"
+    },
+    {
+      "product_id": "1735893324238718195",
+      "title": "French nude color wearable nail art with white border, square-shaped short nail stickers, detachable fake nails (free gift of tool kit)",
+      "cover": "https://s.500fd.com/tt_product/b61e873df6d1468382f4235fd3e8b8f2~tplv-aphluv4xwc-crop-webp:1013:1013.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735893324238718195?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱28.58  - 114.36",
+      "category_name": [
+        "Nail Art Decoration & Accessories"
+      ],
+      "shop_name": "Glovely",
+      "shop_sold_count": 233187,
+      "aweme_count": 3,
+      "live_count": 4,
+      "author_count": 6,
+      "launch_time": "2026-06-07 20:17:34",
+      "_first_seen": "2026-09-02",
+      "_last_seen": "2026-09-02",
+      "_appearances": 1,
+      "_total_sold": 6821,
+      "_total_sale": 202924.75,
+      "_growth_sum": 178.86,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-09-02",
+          "sold": 6821,
+          "sale_amount": 202924.75
+        }
+      ],
+      "sold_count": 6821,
+      "sale_amount": 202924.75,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 178.86,
+      "_total_sold_show": "6.8k",
+      "_total_sale_show": "$202.9k"
     },
     {
       "product_id": "1729428038081415654",
@@ -1206,6 +1287,44 @@
       "_total_sale_show": "$980.3k"
     },
     {
+      "product_id": "1735782064217031756",
+      "title": "Nail art tool set, press-on fake nails, reusable, waterproof, suitable for parties and holidays",
+      "cover": "https://s.500fd.com/tt_product/bc66aeb08104476aa298ebe82db13005~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735782064217031756?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱49.30",
+      "category_name": [
+        "Manicure & Pedicure Tools\t"
+      ],
+      "shop_name": "April Handmadefakenails",
+      "shop_sold_count": 634299,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-05-27 15:14:17",
+      "_first_seen": "2026-09-02",
+      "_last_seen": "2026-09-02",
+      "_appearances": 1,
+      "_total_sold": 6107,
+      "_total_sale": 301075.1,
+      "_growth_sum": 284.09,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-09-02",
+          "sold": 6107,
+          "sale_amount": 301075.1
+        }
+      ],
+      "sold_count": 6107,
+      "sale_amount": 301075.1,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 284.09,
+      "_total_sold_show": "6.1k",
+      "_total_sale_show": "$301.1k"
+    },
+    {
       "product_id": "1729686183175687037",
       "title": "3in1 Pajama Women's  Button Short-Sleeved Casual Sleepwear homewear for Women",
       "cover": "https://s.500fd.com/tt_product/06405bd8d0bc40d88fdf6429cd7e02f0~tplv-aphluv4xwc-resize-webp:800:800.webp",
@@ -1282,44 +1401,6 @@
       "_total_sale_show": "$1.9M"
     },
     {
-      "product_id": "1731383280304621200",
-      "title": "（95-100PCS）  Colorful Dense Fuzzy wire  Christmas Present  New Year gift  Fuzzy wires  Chenille yarn  Pipe Cleaner  Fluffy Sticks  Craft  Children's Handmade DIY  Macaron  Flowers Arts Decorations   For Boyfriend and Girlfriend gifts  Christmas Gift",
-      "cover": "https://s.500fd.com/tt_product/6f9f3903691e408ea188f20b98a219fb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731383280304621200?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱22.10",
-      "category_name": [
-        "Knitting & Crochet"
-      ],
-      "shop_name": "Magic Fuzzy Wires",
-      "shop_sold_count": 2186305,
-      "aweme_count": 1,
-      "live_count": 23,
-      "author_count": 19,
-      "launch_time": "2025-07-26 22:18:39",
-      "_first_seen": "2026-08-28",
-      "_last_seen": "2026-08-28",
-      "_appearances": 1,
-      "_total_sold": 5413,
-      "_total_sale": 128288.1,
-      "_growth_sum": 52.91,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-28",
-          "sold": 5413,
-          "sale_amount": 128288.1
-        }
-      ],
-      "sold_count": 5413,
-      "sale_amount": 128288.1,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 52.91,
-      "_total_sold_show": "5.4k",
-      "_total_sale_show": "$128.3k"
-    },
-    {
       "product_id": "1734268341029274900",
       "title": "YuGuan Ready-to-eat  Mini Sausages Meat Bites 40g High Protein Taiwanese Packaged Spicy Snacks Red Pepper Flakes for On-the-Go & Drinking Delight",
       "cover": "https://s.500fd.com/tt_product/2d0d14a29c064205984029a42d8a8a52~tplv-aphluv4xwc-crop-webp:1024:1024.webp",
@@ -1356,44 +1437,6 @@
       "_avg_growth": 0,
       "_total_sold_show": "5.1k",
       "_total_sale_show": "$81.9k"
-    },
-    {
-      "product_id": "1735782064217031756",
-      "title": "Nail art tool set, press-on fake nails, reusable, waterproof, suitable for parties and holidays",
-      "cover": "https://s.500fd.com/tt_product/bc66aeb08104476aa298ebe82db13005~tplv-aphluv4xwc-crop-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735782064217031756?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱49.30",
-      "category_name": [
-        "Manicure & Pedicure Tools\t"
-      ],
-      "shop_name": "April Handmadefakenails",
-      "shop_sold_count": 607263,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-05-27 15:14:17",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-26",
-      "_appearances": 1,
-      "_total_sold": 4959,
-      "_total_sale": 244478.7,
-      "_growth_sum": 151.98,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4959,
-          "sale_amount": 244478.7
-        }
-      ],
-      "sold_count": 4959,
-      "sale_amount": 244478.7,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 151.98,
-      "_total_sold_show": "5.0k",
-      "_total_sale_show": "$244.5k"
     },
     {
       "product_id": "1730474448324168680",
@@ -1470,82 +1513,6 @@
       "_avg_growth": 280.47,
       "_total_sold_show": "4.8k",
       "_total_sale_show": "$192.5k"
-    },
-    {
-      "product_id": "1735893324238718195",
-      "title": "French nude color wearable nail art with white border, square-shaped short nail stickers, detachable fake nails (free gift of tool kit)",
-      "cover": "https://s.500fd.com/tt_product/b61e873df6d1468382f4235fd3e8b8f2~tplv-aphluv4xwc-crop-webp:1013:1013.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735893324238718195?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱32.02  - 128.12",
-      "category_name": [
-        "Nail Art Decoration & Accessories"
-      ],
-      "shop_name": "Glovely",
-      "shop_sold_count": 200623,
-      "aweme_count": 3,
-      "live_count": 0,
-      "author_count": 1,
-      "launch_time": "2026-06-07 20:17:34",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-26",
-      "_appearances": 1,
-      "_total_sold": 4564,
-      "_total_sale": 145637.24,
-      "_growth_sum": -7.84,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4564,
-          "sale_amount": 145637.24
-        }
-      ],
-      "sold_count": 4564,
-      "sale_amount": 145637.24,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": -7.84,
-      "_total_sold_show": "4.6k",
-      "_total_sale_show": "$145.6k"
-    },
-    {
-      "product_id": "1729387387909016890",
-      "title": "BMRS Empress Feminine Intimate Wash 150 ml (for Women) Silicone Free Hydrating Organic Calming Feminine Wash Glycolic Hyaluronic Moisture Comfort",
-      "cover": "https://s.500fd.com/tt_product/0aee01ac65154404b1f67161d085615f~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729387387909016890?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱54.90",
-      "category_name": [
-        "Feminine Hygiene\t"
-      ],
-      "shop_name": "BMRS Beauty Essentials",
-      "shop_sold_count": 4274552,
-      "aweme_count": 47,
-      "live_count": 66,
-      "author_count": 68,
-      "launch_time": "2022-10-17 08:37:30",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-26",
-      "_appearances": 1,
-      "_total_sold": 4006,
-      "_total_sale": 219929.4,
-      "_growth_sum": 67.34,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4006,
-          "sale_amount": 219929.4
-        }
-      ],
-      "sold_count": 4006,
-      "sale_amount": 219929.4,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 67.34,
-      "_total_sold_show": "4.0k",
-      "_total_sale_show": "$219.9k"
     }
   ],
   "total_top": [
@@ -1566,19 +1533,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 1986306,
       "_total_sale": 47947734.45,
       "_growth_sum": 246.32999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 283758,
-          "sale_amount": 6849676.35
-        },
         {
           "date": "2026-08-27",
           "sold": 283758,
@@ -1606,6 +1568,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 283758,
+          "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-09-02",
           "sold": 283758,
           "sale_amount": 6849676.35
         }
@@ -1634,19 +1601,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 1359477,
       "_total_sale": 36276681.21,
       "_growth_sum": -2.6599999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 194211,
-          "sale_amount": 5182383.03
-        },
         {
           "date": "2026-08-27",
           "sold": 194211,
@@ -1674,6 +1636,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 194211,
+          "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-09-02",
           "sold": 194211,
           "sale_amount": 5182383.03
         }
@@ -1702,19 +1669,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 974813,
       "_total_sale": 1841444.0099999998,
       "_growth_sum": -142.73000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 139259,
-          "sale_amount": 263063.43
-        },
         {
           "date": "2026-08-27",
           "sold": 139259,
@@ -1742,6 +1704,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 139259,
+          "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-09-02",
           "sold": 139259,
           "sale_amount": 263063.43
         }
@@ -1770,19 +1737,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 733754,
       "_total_sale": 36422734.04,
       "_growth_sum": 1210.79,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 104822,
-          "sale_amount": 5203247.72
-        },
         {
           "date": "2026-08-27",
           "sold": 104822,
@@ -1810,6 +1772,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-09-02",
           "sold": 104822,
           "sale_amount": 5203247.72
         }
@@ -1838,19 +1805,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 642642,
       "_total_sale": 13490477.279999997,
       "_growth_sum": 10.780000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
         {
           "date": "2026-08-27",
           "sold": 91806,
@@ -1878,6 +1840,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-09-02",
           "sold": 91806,
           "sale_amount": 1927211.04
         }
@@ -1906,19 +1873,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 634410,
       "_total_sale": 10688569.5,
       "_growth_sum": -127.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        },
         {
           "date": "2026-08-27",
           "sold": 90630,
@@ -1946,6 +1908,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-09-02",
           "sold": 90630,
           "sale_amount": 1526938.5
         }
@@ -1974,19 +1941,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 619206,
       "_total_sale": 3099313,
       "_growth_sum": 18944.87,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 88458,
-          "sale_amount": 442759
-        },
         {
           "date": "2026-08-27",
           "sold": 88458,
@@ -2014,6 +1976,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 88458,
+          "sale_amount": 442759
+        },
+        {
+          "date": "2026-09-02",
           "sold": 88458,
           "sale_amount": 442759
         }
@@ -2042,19 +2009,14 @@
       "live_count": 883,
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 604254,
       "_total_sale": 12824950.110000001,
       "_growth_sum": 89.67,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
         {
           "date": "2026-08-27",
           "sold": 86322,
@@ -2082,6 +2044,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-09-02",
           "sold": 86322,
           "sale_amount": 1832135.73
         }
@@ -2110,19 +2077,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 602973,
       "_total_sale": 8671306.07,
       "_growth_sum": 479.15,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 86139,
-          "sale_amount": 1238758.01
-        },
         {
           "date": "2026-08-27",
           "sold": 86139,
@@ -2150,6 +2112,11 @@
         },
         {
           "date": "2026-09-01",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-09-02",
           "sold": 86139,
           "sale_amount": 1238758.01
         }
@@ -2178,19 +2145,14 @@
       "live_count": 1176,
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 7,
       "_total_sold": 544180,
       "_total_sale": 1076025.79,
       "_growth_sum": -119.27999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        },
         {
           "date": "2026-08-27",
           "sold": 77740,
@@ -2220,6 +2182,11 @@
           "date": "2026-09-01",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
       "sold_count": 544180,
@@ -2231,6 +2198,49 @@
     }
   ],
   "growth_top": [
+    {
+      "product_id": "1731383280304621200",
+      "title": "（95-100PCS）  Colorful Dense Fuzzy wire  Christmas Present  New Year gift  Fuzzy wires  Chenille yarn  Pipe Cleaner  Fluffy Sticks  Craft  Children's Handmade DIY  Macaron  Flowers Arts Decorations   For Boyfriend and Girlfriend gifts  Christmas Gift",
+      "cover": "https://s.500fd.com/tt_product/6f9f3903691e408ea188f20b98a219fb~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731383280304621200?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱22.10",
+      "category_name": [
+        "Knitting & Crochet"
+      ],
+      "shop_name": "Magic Fuzzy Wires",
+      "shop_sold_count": 2186305,
+      "aweme_count": 1,
+      "live_count": 23,
+      "author_count": 19,
+      "launch_time": "2025-07-26 22:18:39",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-09-02",
+      "_appearances": 2,
+      "_total_sold": 11475,
+      "_total_sale": 262258.30000000005,
+      "_growth_sum": 2499.97,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 5413,
+          "sale_amount": 128288.1
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 6062,
+          "sale_amount": 133970.2
+        }
+      ],
+      "sold_count": 11475,
+      "sale_amount": 262258.30000000005,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 1249.98,
+      "_total_sold_show": "11.5k",
+      "_total_sale_show": "$262.3k"
+    },
     {
       "product_id": "1730346047548459676",
       "title": "[BEST SELLER] The Originote Brightening Moisturizer 50 ml – Whitening Cream Tone Up Moisturizer Dark Spot Remover Cream Rejuvinating Cream Repair Hydrate Moisture Hydrating",
@@ -2371,6 +2381,49 @@
       "_total_sale_show": "$280.5k"
     },
     {
+      "product_id": "1731569946475529553",
+      "title": "Ganda ng Black Starry Curtain! May Butterfly & Flower Design Curtains Color Blue Orange Red Purple Green Black Window Door Room Kurtina Sale Balcony Door Curtains Household Textiles – 85x190cm | 1pc | COD",
+      "cover": "https://s.500fd.com/tt_product/fe8a5dc4ad9d4062b4307394e9b7251c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731569946475529553?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.30",
+      "category_name": [
+        "Curtains"
+      ],
+      "shop_name": "78 Kurtina Household Textiles",
+      "shop_sold_count": 1022056,
+      "aweme_count": 11,
+      "live_count": 17,
+      "author_count": 21,
+      "launch_time": "2025-06-05 19:43:50",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-08-30",
+      "_appearances": 2,
+      "_total_sold": 12231,
+      "_total_sale": 118065.9,
+      "_growth_sum": 497.53000000000003,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 6063,
+          "sale_amount": 56385.9
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 6168,
+          "sale_amount": 61680
+        }
+      ],
+      "sold_count": 12231,
+      "sale_amount": 118065.9,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 248.77,
+      "_total_sold_show": "12.2k",
+      "_total_sale_show": "$118.1k"
+    },
+    {
       "product_id": "1729393385598652324",
       "title": "[PER PIECE OPTION] Drip and Bites Chunky Chocolate Cookies",
       "cover": "https://s.500fd.com/tt_product/0d1255ae61ed43c4b9fffe7662e365dc~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
@@ -2414,6 +2467,54 @@
       "_total_sale_show": "$63.3k"
     },
     {
+      "product_id": "1734247410080450287",
+      "title": "1/10pcs 30*30cm Marble Tiles Sticker Foam Wall Decor Peel and Stick Eco-friendly PVC Self-adhesive Waterproof Backsplash Wall Panels DIY for Home Bathroom Kitchen Living Room Decor",
+      "cover": "https://s.500fd.com/tt_product/9c2b879a4c954755a73a047fb1a85781~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1734247410080450287?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱9.00",
+      "category_name": [
+        "Wallpaper & Wall Trim"
+      ],
+      "shop_name": "GeminiHome.ph",
+      "shop_sold_count": 14098997,
+      "aweme_count": 0,
+      "live_count": 22,
+      "author_count": 10,
+      "launch_time": "2026-01-31 10:00:34",
+      "_first_seen": "2026-08-30",
+      "_last_seen": "2026-09-02",
+      "_appearances": 3,
+      "_total_sold": 23512,
+      "_total_sale": 211608,
+      "_growth_sum": 529.01,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-08-30",
+          "sold": 6674,
+          "sale_amount": 60066
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 6827,
+          "sale_amount": 61443
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 10011,
+          "sale_amount": 90099
+        }
+      ],
+      "sold_count": 23512,
+      "sale_amount": 211608,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 176.34,
+      "_total_sold_show": "23.5k",
+      "_total_sale_show": "$211.6k"
+    },
+    {
       "product_id": "1730531415480895463",
       "title": "[New Packaging] Hikari UltraFresh Sunscreen 50ML for all skin type, whitening, brightening, no white cast, easy to blend, sun protection",
       "cover": "https://s.500fd.com/tt_product/459a9b2037544619a61f9d757992fe6d~tplv-aphluv4xwc-crop-webp:2000:2000.webp",
@@ -2431,12 +2532,12 @@
       "author_count": 213,
       "launch_time": "2024-12-06 09:48:45",
       "_first_seen": "2026-08-27",
-      "_last_seen": "2026-09-01",
-      "_appearances": 5,
-      "_total_sold": 57602,
-      "_total_sale": 3340916,
-      "_growth_sum": 957.13,
-      "_growth_count": 5,
+      "_last_seen": "2026-09-02",
+      "_appearances": 6,
+      "_total_sold": 66085,
+      "_total_sale": 3832930,
+      "_growth_sum": 956.53,
+      "_growth_count": 6,
       "_trend": [
         {
           "date": "2026-08-27",
@@ -2462,158 +2563,62 @@
           "date": "2026-09-01",
           "sold": 8534,
           "sale_amount": 494972
-        }
-      ],
-      "sold_count": 57602,
-      "sale_amount": 3340916,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 191.43,
-      "_total_sold_show": "57.6k",
-      "_total_sale_show": "$3.3M"
-    },
-    {
-      "product_id": "1731569946475529553",
-      "title": "Ganda ng Black Starry Curtain! May Butterfly & Flower Design Curtains Color Blue Orange Red Purple Green Black Window Door Room Kurtina Sale Balcony Door Curtains Household Textiles – 85x190cm | 1pc | COD",
-      "cover": "https://s.500fd.com/tt_product/fe8a5dc4ad9d4062b4307394e9b7251c~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731569946475529553?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱9.30",
-      "category_name": [
-        "Curtains"
-      ],
-      "shop_name": "78 Kurtina Household Textiles",
-      "shop_sold_count": 1012992,
-      "aweme_count": 8,
-      "live_count": 17,
-      "author_count": 19,
-      "launch_time": "2025-06-05 19:43:50",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-30",
-      "_appearances": 3,
-      "_total_sold": 16541,
-      "_total_sale": 158148.9,
-      "_growth_sum": 530.76,
-      "_growth_count": 3,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4310,
-          "sale_amount": 40083
         },
         {
-          "date": "2026-08-28",
-          "sold": 6063,
-          "sale_amount": 56385.9
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 6168,
-          "sale_amount": 61680
+          "date": "2026-09-02",
+          "sold": 8483,
+          "sale_amount": 492014
         }
       ],
-      "sold_count": 16541,
-      "sale_amount": 158148.9,
+      "sold_count": 66085,
+      "sale_amount": 3832930,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 176.92,
-      "_total_sold_show": "16.5k",
-      "_total_sale_show": "$158.1k"
+      "_avg_growth": 159.42,
+      "_total_sold_show": "66.1k",
+      "_total_sale_show": "$3.8M"
     },
     {
-      "product_id": "1734247410080450287",
-      "title": "1/10pcs 30*30cm Marble Tiles Sticker Foam Wall Decor Peel and Stick Eco-friendly PVC Self-adhesive Waterproof Backsplash Wall Panels DIY for Home Bathroom Kitchen Living Room Decor",
-      "cover": "https://s.500fd.com/tt_product/9c2b879a4c954755a73a047fb1a85781~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1734247410080450287?region=PH&local=en",
+      "product_id": "1733683494177178921",
+      "title": "Wired headphones with microphone, stereo sound system, powerful bass, noise canceling in ear design, headset compatible with Type C, 3.5mm.  and Lightning connectors, suitable for your phone or tablet(1 Year Warranty)",
+      "cover": "https://s.500fd.com/tt_product/5d0bf0f8ad6f4376bcf777389dc1d6de~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1733683494177178921?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱9.00",
+      "real_price": "₱96.23",
       "category_name": [
-        "Wallpaper & Wall Trim"
+        " Earphones & Headphones"
       ],
-      "shop_name": "GeminiHome.ph",
-      "shop_sold_count": 14098997,
-      "aweme_count": 0,
-      "live_count": 22,
-      "author_count": 10,
-      "launch_time": "2026-01-31 10:00:34",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-31",
+      "shop_name": "Halfsun - PH",
+      "shop_sold_count": 853440,
+      "aweme_count": 52,
+      "live_count": 38,
+      "author_count": 65,
+      "launch_time": "2025-12-23 01:29:53",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 2,
-      "_total_sold": 13501,
-      "_total_sale": 121509,
-      "_growth_sum": 301.21000000000004,
+      "_total_sold": 14390,
+      "_total_sale": 771889,
+      "_growth_sum": 315.24,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-30",
-          "sold": 6674,
-          "sale_amount": 60066
+          "date": "2026-08-27",
+          "sold": 7379,
+          "sale_amount": 435361
         },
         {
-          "date": "2026-08-31",
-          "sold": 6827,
-          "sale_amount": 61443
+          "date": "2026-09-02",
+          "sold": 7011,
+          "sale_amount": 336528
         }
       ],
-      "sold_count": 13501,
-      "sale_amount": 121509,
+      "sold_count": 14390,
+      "sale_amount": 771889,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 150.61,
-      "_total_sold_show": "13.5k",
-      "_total_sale_show": "$121.5k"
-    },
-    {
-      "product_id": "1730591441747281569",
-      "title": "50PCS diaper tape diaper pants pull-ups Ultra-thin and breathable All size S/M/L/XL/XXL/XXXL",
-      "cover": "https://s.500fd.com/tt_product/7cc7fd4c21bb4d0a98391c3b1920ef95~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1730591441747281569?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱198.47",
-      "category_name": [
-        "Diapers"
-      ],
-      "shop_name": "BE LOVE baby shop",
-      "shop_sold_count": 4132523,
-      "aweme_count": 55,
-      "live_count": 121,
-      "author_count": 107,
-      "launch_time": "2024-12-10 10:30:23",
-      "_first_seen": "2026-08-28",
-      "_last_seen": "2026-09-01",
-      "_appearances": 4,
-      "_total_sold": 30977,
-      "_total_sale": 5990253.0600000005,
-      "_growth_sum": 601.52,
-      "_growth_count": 4,
-      "_trend": [
-        {
-          "date": "2026-08-28",
-          "sold": 10629,
-          "sale_amount": 2157687
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 5898,
-          "sale_amount": 1170576.06
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 7666,
-          "sale_amount": 1556198
-        },
-        {
-          "date": "2026-09-01",
-          "sold": 6784,
-          "sale_amount": 1105792
-        }
-      ],
-      "sold_count": 30977,
-      "sale_amount": 5990253.0600000005,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 150.38,
-      "_total_sold_show": "31.0k",
-      "_total_sale_show": "$6.0M"
+      "_avg_growth": 157.62,
+      "_total_sold_show": "14.4k",
+      "_total_sale_show": "$771.9k"
     },
     {
       "product_id": "1735805626336314706",
@@ -2657,6 +2662,107 @@
       "_avg_growth": 137.87,
       "_total_sold_show": "13.7k",
       "_total_sale_show": "$870.1k"
+    },
+    {
+      "product_id": "1730591441747281569",
+      "title": "50PCS diaper tape diaper pants pull-ups Ultra-thin and breathable All size S/M/L/XL/XXL/XXXL",
+      "cover": "https://s.500fd.com/tt_product/7cc7fd4c21bb4d0a98391c3b1920ef95~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730591441747281569?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱198.47",
+      "category_name": [
+        "Diapers"
+      ],
+      "shop_name": "BE LOVE baby shop",
+      "shop_sold_count": 4132523,
+      "aweme_count": 55,
+      "live_count": 121,
+      "author_count": 107,
+      "launch_time": "2024-12-10 10:30:23",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-09-02",
+      "_appearances": 5,
+      "_total_sold": 39766,
+      "_total_sale": 7950200.0600000005,
+      "_growth_sum": 631.0699999999999,
+      "_growth_count": 5,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 10629,
+          "sale_amount": 2157687
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 5898,
+          "sale_amount": 1170576.06
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 7666,
+          "sale_amount": 1556198
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 6784,
+          "sale_amount": 1105792
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 8789,
+          "sale_amount": 1959947
+        }
+      ],
+      "sold_count": 39766,
+      "sale_amount": 7950200.0600000005,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 126.21,
+      "_total_sold_show": "39.8k",
+      "_total_sale_show": "$8.0M"
+    },
+    {
+      "product_id": "1737085321638675639",
+      "title": "Selected brand Bluetooth earphones | Priority packaging and delivery, please contact customer service.",
+      "cover": "https://s.500fd.com/tt_product/4231dffc8cd543f785b39e7355b4f62a~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1737085321638675639?region=PH&local=en",
+      "region": "PH",
+      "currency": "PHP",
+      "real_price": "₱999.00",
+      "category_name": [
+        "Audio & Video Accessories"
+      ],
+      "shop_name": "3CKM",
+      "shop_sold_count": 399900,
+      "aweme_count": 0,
+      "live_count": 0,
+      "author_count": 0,
+      "launch_time": "2026-08-19 01:17:48",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
+      "_appearances": 2,
+      "_total_sold": 19734,
+      "_total_sale": 19714266,
+      "_growth_sum": 249.33,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-27",
+          "sold": 8496,
+          "sale_amount": 8487504
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 11238,
+          "sale_amount": 11226762
+        }
+      ],
+      "sold_count": 19734,
+      "sale_amount": 19714266,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 124.67,
+      "_total_sold_show": "19.7k",
+      "_total_sale_show": "$19.7M"
     },
     {
       "product_id": "1734605613702678503",
@@ -2708,29 +2814,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1735851360402113776?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱25.00  - 225.00",
+      "real_price": "₱12.50",
       "category_name": [
         "Nail Art Decoration & Accessories"
       ],
       "shop_name": "MISS SXY",
-      "shop_sold_count": 312199,
-      "aweme_count": 13,
-      "live_count": 1,
-      "author_count": 10,
+      "shop_sold_count": 319514,
+      "aweme_count": 12,
+      "live_count": 8,
+      "author_count": 15,
       "launch_time": "2026-06-10 02:02:23",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-30",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 4,
-      "_total_sold": 26103,
-      "_total_sale": 479725,
-      "_growth_sum": 232.66,
+      "_total_sold": 26942,
+      "_total_sale": 412000,
+      "_growth_sum": 323.85,
       "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 6257,
-          "sale_amount": 156425
-        },
         {
           "date": "2026-08-27",
           "sold": 6018,
@@ -2745,57 +2846,19 @@
           "date": "2026-08-30",
           "sold": 6468,
           "sale_amount": 80850
-        }
-      ],
-      "sold_count": 26103,
-      "sale_amount": 479725,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 58.16,
-      "_total_sold_show": "26.1k",
-      "_total_sale_show": "$479.7k"
-    },
-    {
-      "product_id": "1736465001096250843",
-      "title": "New Pattern Curtains Sale 85x190cm Elegant Green Curtain for Windows Door Ganda Pinto Kurtina Black Red Brown Grey Home Decor 1PC COD",
-      "cover": "https://s.500fd.com/tt_product/49fda9fdbd25430b88063ff9e1c0b0b4~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1736465001096250843?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱9.90",
-      "category_name": [
-        "Curtains"
-      ],
-      "shop_name": "Lumina Curtains",
-      "shop_sold_count": 251464,
-      "aweme_count": 8,
-      "live_count": 55,
-      "author_count": 36,
-      "launch_time": "2026-07-12 19:56:22",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-29",
-      "_appearances": 2,
-      "_total_sold": 12995,
-      "_total_sale": 128650.5,
-      "_growth_sum": 96.42999999999999,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4564,
-          "sale_amount": 45183.6
         },
         {
-          "date": "2026-08-29",
-          "sold": 8431,
-          "sale_amount": 83466.9
+          "date": "2026-09-02",
+          "sold": 7096,
+          "sale_amount": 88700
         }
       ],
-      "sold_count": 12995,
-      "sale_amount": 128650.5,
+      "sold_count": 26942,
+      "sale_amount": 412000,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 48.21,
-      "_total_sold_show": "13.0k",
-      "_total_sale_show": "$128.7k"
+      "_avg_growth": 80.96,
+      "_total_sold_show": "26.9k",
+      "_total_sale_show": "$412.0k"
     },
     {
       "product_id": "1736482358295496010",
@@ -2809,24 +2872,19 @@
         "Body Wash & Soap"
       ],
       "shop_name": "SEOUL SECRETS",
-      "shop_sold_count": 7001029,
-      "aweme_count": 106,
-      "live_count": 18,
-      "author_count": 81,
+      "shop_sold_count": 7032041,
+      "aweme_count": 103,
+      "live_count": 29,
+      "author_count": 102,
       "launch_time": "2026-07-13 15:00:15",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-09-01",
+      "_first_seen": "2026-08-27",
+      "_last_seen": "2026-09-02",
       "_appearances": 5,
-      "_total_sold": 43695,
-      "_total_sale": 1966275,
-      "_growth_sum": 136.57,
+      "_total_sold": 60440,
+      "_total_sale": 2719800,
+      "_growth_sum": 233.89,
       "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 5939,
-          "sale_amount": 267255
-        },
         {
           "date": "2026-08-27",
           "sold": 8599,
@@ -2846,14 +2904,19 @@
           "date": "2026-09-01",
           "sold": 14831,
           "sale_amount": 667395
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 22684,
+          "sale_amount": 1020780
         }
       ],
-      "sold_count": 43695,
-      "sale_amount": 1966275,
+      "sold_count": 60440,
+      "sale_amount": 2719800,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 27.31,
-      "_total_sold_show": "43.7k",
-      "_total_sale_show": "$2.0M"
+      "_avg_growth": 46.78,
+      "_total_sold_show": "60.4k",
+      "_total_sale_show": "$2.7M"
     },
     {
       "product_id": "1731831790309442956",
@@ -2867,24 +2930,19 @@
         "Body Wash & Soap"
       ],
       "shop_name": "shopwithbonita",
-      "shop_sold_count": 7820743,
-      "aweme_count": 60,
-      "live_count": 26,
-      "author_count": 70,
+      "shop_sold_count": 7834344,
+      "aweme_count": 59,
+      "live_count": 16,
+      "author_count": 67,
       "launch_time": "2025-07-02 20:46:15",
-      "_first_seen": "2026-08-26",
+      "_first_seen": "2026-08-27",
       "_last_seen": "2026-08-31",
-      "_appearances": 6,
-      "_total_sold": 39988,
-      "_total_sale": 359892,
-      "_growth_sum": 135.76,
-      "_growth_count": 6,
+      "_appearances": 5,
+      "_total_sold": 35507,
+      "_total_sale": 319563,
+      "_growth_sum": 74.86000000000001,
+      "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4481,
-          "sale_amount": 40329
-        },
         {
           "date": "2026-08-27",
           "sold": 7008,
@@ -2911,55 +2969,12 @@
           "sale_amount": 68220
         }
       ],
-      "sold_count": 39988,
-      "sale_amount": 359892,
+      "sold_count": 35507,
+      "sale_amount": 319563,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 22.63,
-      "_total_sold_show": "40.0k",
-      "_total_sale_show": "$359.9k"
-    },
-    {
-      "product_id": "1737085321638675639",
-      "title": "Selected brand Bluetooth earphones | Priority packaging and delivery, please contact customer service.",
-      "cover": "https://s.500fd.com/tt_product/4231dffc8cd543f785b39e7355b4f62a~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1737085321638675639?region=PH&local=en",
-      "region": "PH",
-      "currency": "PHP",
-      "real_price": "₱999.00",
-      "category_name": [
-        "Audio & Video Accessories"
-      ],
-      "shop_name": "3CKM",
-      "shop_sold_count": 389518,
-      "aweme_count": 0,
-      "live_count": 2,
-      "author_count": 1,
-      "launch_time": "2026-08-19 01:17:48",
-      "_first_seen": "2026-08-26",
-      "_last_seen": "2026-08-27",
-      "_appearances": 2,
-      "_total_sold": 17352,
-      "_total_sale": 17334648,
-      "_growth_sum": 8.09,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 8856,
-          "sale_amount": 8847144
-        },
-        {
-          "date": "2026-08-27",
-          "sold": 8496,
-          "sale_amount": 8487504
-        }
-      ],
-      "sold_count": 17352,
-      "sale_amount": 17334648,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.04,
-      "_total_sold_show": "17.4k",
-      "_total_sale_show": "$17.3M"
+      "_avg_growth": 14.97,
+      "_total_sold_show": "35.5k",
+      "_total_sale_show": "$319.6k"
     },
     {
       "product_id": "1735162764593104307",
@@ -2968,29 +2983,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1735162764593104307?region=PH&local=en",
       "region": "PH",
       "currency": "PHP",
-      "real_price": "₱13.99",
+      "real_price": "₱13.98",
       "category_name": [
         "False Eyelashes & Adhesives"
       ],
       "shop_name": "Saturday amusement park",
-      "shop_sold_count": 7050887,
-      "aweme_count": 23,
-      "live_count": 36,
-      "author_count": 38,
+      "shop_sold_count": 7093805,
+      "aweme_count": 22,
+      "live_count": 60,
+      "author_count": 45,
       "launch_time": "2026-04-17 16:12:18",
-      "_first_seen": "2026-08-26",
+      "_first_seen": "2026-08-29",
       "_last_seen": "2026-09-01",
-      "_appearances": 3,
-      "_total_sold": 16025,
-      "_total_sale": 224076.69,
-      "_growth_sum": 8.39,
-      "_growth_count": 3,
+      "_appearances": 2,
+      "_total_sold": 11306,
+      "_total_sale": 158057.88,
+      "_growth_sum": 16.17,
+      "_growth_count": 2,
       "_trend": [
-        {
-          "date": "2026-08-26",
-          "sold": 4719,
-          "sale_amount": 66018.81
-        },
         {
           "date": "2026-08-29",
           "sold": 5546,
@@ -3002,12 +3012,12 @@
           "sale_amount": 80524.8
         }
       ],
-      "sold_count": 16025,
-      "sale_amount": 224076.69,
+      "sold_count": 11306,
+      "sale_amount": 158057.88,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 2.8,
-      "_total_sold_show": "16.0k",
-      "_total_sale_show": "$224.1k"
+      "_avg_growth": 8.09,
+      "_total_sold_show": "11.3k",
+      "_total_sale_show": "$158.1k"
     }
   ]
 }
