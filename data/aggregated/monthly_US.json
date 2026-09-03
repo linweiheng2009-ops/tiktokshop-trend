@@ -1,13 +1,13 @@
 {
   "period": "monthly",
   "region": "US",
-  "generated_at": "2026-09-02T04:08:57.960Z",
+  "generated_at": "2026-09-03T04:05:27.947Z",
   "date_range": [
     "2026-08-03",
-    "2026-09-02"
+    "2026-09-03"
   ],
-  "daily_count": 270,
-  "total_count": 270,
+  "daily_count": 280,
+  "total_count": 280,
   "daily_top": [
     {
       "product_id": "1729679758111249333",
@@ -190,12 +190,12 @@
       "author_count": 201,
       "launch_time": "2024-03-28 15:38:46",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 117273,
-      "_total_sale": 1872919.5,
-      "_growth_sum": 89.27000000000004,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 120857,
+      "_total_sale": 1933847.5,
+      "_growth_sum": 73.38000000000004,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -331,13 +331,18 @@
           "date": "2026-09-02",
           "sold": 4261,
           "sale_amount": 72437
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 3584,
+          "sale_amount": 60928
         }
       ],
-      "sold_count": 117273,
-      "sale_amount": 1872919.5,
+      "sold_count": 120857,
+      "sale_amount": 1933847.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.31,
-      "_total_sold_show": "117.3k",
+      "_avg_growth": 2.62,
+      "_total_sold_show": "120.9k",
       "_total_sale_show": "$1.9M"
     },
     {
@@ -506,12 +511,12 @@
       "author_count": 70,
       "launch_time": "2025-10-23 13:58:30",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-09-02",
-      "_appearances": 17,
-      "_total_sold": 74768,
-      "_total_sale": 851837.6699999999,
-      "_growth_sum": 21.259999999999998,
-      "_growth_count": 17,
+      "_last_seen": "2026-09-03",
+      "_appearances": 18,
+      "_total_sold": 77894,
+      "_total_sale": 889349.6699999999,
+      "_growth_sum": -6.580000000000002,
+      "_growth_count": 18,
       "_trend": [
         {
           "date": "2026-08-17",
@@ -597,14 +602,19 @@
           "date": "2026-09-02",
           "sold": 4332,
           "sale_amount": 51984
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 3126,
+          "sale_amount": 37512
         }
       ],
-      "sold_count": 74768,
-      "sale_amount": 851837.6699999999,
+      "sold_count": 77894,
+      "sale_amount": 889349.6699999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.25,
-      "_total_sold_show": "74.8k",
-      "_total_sale_show": "$851.8k"
+      "_avg_growth": -0.37,
+      "_total_sold_show": "77.9k",
+      "_total_sale_show": "$889.3k"
     },
     {
       "product_id": "1729413742968869814",
@@ -624,12 +634,12 @@
       "author_count": 125,
       "launch_time": "2023-11-25 02:51:43",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-09-02",
-      "_appearances": 14,
-      "_total_sold": 48745,
-      "_total_sale": 964272.8099999999,
-      "_growth_sum": 10.34999999999999,
-      "_growth_count": 14,
+      "_last_seen": "2026-09-03",
+      "_appearances": 15,
+      "_total_sold": 50787,
+      "_total_sale": 1007154.8099999999,
+      "_growth_sum": -9.38000000000001,
+      "_growth_count": 15,
       "_trend": [
         {
           "date": "2026-08-17",
@@ -700,14 +710,19 @@
           "date": "2026-09-02",
           "sold": 2544,
           "sale_amount": 53424
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2042,
+          "sale_amount": 42882
         }
       ],
-      "sold_count": 48745,
-      "sale_amount": 964272.8099999999,
+      "sold_count": 50787,
+      "sale_amount": 1007154.8099999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.74,
-      "_total_sold_show": "48.7k",
-      "_total_sale_show": "$964.3k"
+      "_avg_growth": -0.63,
+      "_total_sold_show": "50.8k",
+      "_total_sale_show": "$1.0M"
     },
     {
       "product_id": "1729718097057910811",
@@ -727,12 +742,12 @@
       "author_count": 100,
       "launch_time": "2025-01-02 20:39:37",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 14,
-      "_total_sold": 47675,
-      "_total_sale": 944105.2000000001,
-      "_growth_sum": 125.17,
-      "_growth_count": 14,
+      "_last_seen": "2026-09-03",
+      "_appearances": 15,
+      "_total_sold": 50249,
+      "_total_sale": 995070.4,
+      "_growth_sum": 122.05,
+      "_growth_count": 15,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -803,14 +818,112 @@
           "date": "2026-09-02",
           "sold": 2657,
           "sale_amount": 52608.6
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2574,
+          "sale_amount": 50965.2
         }
       ],
-      "sold_count": 47675,
-      "sale_amount": 944105.2000000001,
+      "sold_count": 50249,
+      "sale_amount": 995070.4,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.94,
-      "_total_sold_show": "47.7k",
-      "_total_sale_show": "$944.1k"
+      "_avg_growth": 8.14,
+      "_total_sold_show": "50.2k",
+      "_total_sale_show": "$995.1k"
+    },
+    {
+      "product_id": "1729687495043093429",
+      "title": "Protein Loaded Coffee – Viral | Single Packet | 16oz Coffee Drink Mix | 10g Protein & 180mg Caffeine | Hot or Cold",
+      "cover": "https://s.500fd.com/tt_product/14482dcc2f9e4e9da412ca06e4039cf8~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729687495043093429?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$1.80",
+      "category_name": [
+        "Coffee"
+      ],
+      "shop_name": "Caffeine, Candles & Chaos",
+      "shop_sold_count": 5401419,
+      "aweme_count": 4,
+      "live_count": 40,
+      "author_count": 35,
+      "launch_time": "2024-10-07 00:31:02",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-09-03",
+      "_appearances": 12,
+      "_total_sold": 45786,
+      "_total_sale": 77387.40000000001,
+      "_growth_sum": 438.43000000000006,
+      "_growth_count": 12,
+      "_trend": [
+        {
+          "date": "2026-08-20",
+          "sold": 3250,
+          "sale_amount": 6500
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 4606,
+          "sale_amount": 8290.8
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 4848,
+          "sale_amount": 7756.8
+        },
+        {
+          "date": "2026-08-23",
+          "sold": 5479,
+          "sale_amount": 8766.4
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 3534,
+          "sale_amount": 5654.4
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 3411,
+          "sale_amount": 5798.7
+        },
+        {
+          "date": "2026-08-26",
+          "sold": 2735,
+          "sale_amount": 4649.5
+        },
+        {
+          "date": "2026-08-27",
+          "sold": 3013,
+          "sale_amount": 5122.1
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 4267,
+          "sale_amount": 7253.9
+        },
+        {
+          "date": "2026-08-29",
+          "sold": 4282,
+          "sale_amount": 6851.2
+        },
+        {
+          "date": "2026-08-30",
+          "sold": 3531,
+          "sale_amount": 5649.6
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2830,
+          "sale_amount": 5094
+        }
+      ],
+      "sold_count": 45786,
+      "sale_amount": 77387.40000000001,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 36.54,
+      "_total_sold_show": "45.8k",
+      "_total_sale_show": "$77.4k"
     },
     {
       "product_id": "1731406217255686451",
@@ -830,12 +943,12 @@
       "author_count": 79,
       "launch_time": "2025-07-25 13:10:01",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-25",
-      "_appearances": 15,
-      "_total_sold": 43088,
-      "_total_sale": 732546,
-      "_growth_sum": 68.88,
-      "_growth_count": 15,
+      "_last_seen": "2026-09-03",
+      "_appearances": 16,
+      "_total_sold": 45417,
+      "_total_sale": 772139,
+      "_growth_sum": 79.57,
+      "_growth_count": 16,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -911,102 +1024,19 @@
           "date": "2026-08-25",
           "sold": 2754,
           "sale_amount": 46818
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2329,
+          "sale_amount": 39593
         }
       ],
-      "sold_count": 43088,
-      "sale_amount": 732546,
+      "sold_count": 45417,
+      "sale_amount": 772139,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.59,
-      "_total_sold_show": "43.1k",
-      "_total_sale_show": "$732.5k"
-    },
-    {
-      "product_id": "1729687495043093429",
-      "title": "Protein Loaded Coffee – Viral | Single Packet | 16oz Coffee Drink Mix | 10g Protein & 180mg Caffeine | Hot or Cold",
-      "cover": "https://s.500fd.com/tt_product/14482dcc2f9e4e9da412ca06e4039cf8~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729687495043093429?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$1.80",
-      "category_name": [
-        "Coffee"
-      ],
-      "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5401419,
-      "aweme_count": 4,
-      "live_count": 40,
-      "author_count": 35,
-      "launch_time": "2024-10-07 00:31:02",
-      "_first_seen": "2026-08-20",
-      "_last_seen": "2026-08-30",
-      "_appearances": 11,
-      "_total_sold": 42956,
-      "_total_sale": 72293.40000000001,
-      "_growth_sum": 82.71000000000001,
-      "_growth_count": 11,
-      "_trend": [
-        {
-          "date": "2026-08-20",
-          "sold": 3250,
-          "sale_amount": 6500
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 4606,
-          "sale_amount": 8290.8
-        },
-        {
-          "date": "2026-08-22",
-          "sold": 4848,
-          "sale_amount": 7756.8
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 5479,
-          "sale_amount": 8766.4
-        },
-        {
-          "date": "2026-08-24",
-          "sold": 3534,
-          "sale_amount": 5654.4
-        },
-        {
-          "date": "2026-08-25",
-          "sold": 3411,
-          "sale_amount": 5798.7
-        },
-        {
-          "date": "2026-08-26",
-          "sold": 2735,
-          "sale_amount": 4649.5
-        },
-        {
-          "date": "2026-08-27",
-          "sold": 3013,
-          "sale_amount": 5122.1
-        },
-        {
-          "date": "2026-08-28",
-          "sold": 4267,
-          "sale_amount": 7253.9
-        },
-        {
-          "date": "2026-08-29",
-          "sold": 4282,
-          "sale_amount": 6851.2
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 3531,
-          "sale_amount": 5649.6
-        }
-      ],
-      "sold_count": 42956,
-      "sale_amount": 72293.40000000001,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 7.52,
-      "_total_sold_show": "43.0k",
-      "_total_sale_show": "$72.3k"
+      "_avg_growth": 4.97,
+      "_total_sold_show": "45.4k",
+      "_total_sale_show": "$772.1k"
     },
     {
       "product_id": "1729438652706624272",
@@ -1109,12 +1139,12 @@
       "author_count": 42,
       "launch_time": "2025-09-22 04:02:03",
       "_first_seen": "2026-08-23",
-      "_last_seen": "2026-09-02",
-      "_appearances": 8,
-      "_total_sold": 34504,
-      "_total_sale": 580922.5,
-      "_growth_sum": 204.98999999999995,
-      "_growth_count": 8,
+      "_last_seen": "2026-09-03",
+      "_appearances": 9,
+      "_total_sold": 37993,
+      "_total_sale": 638491,
+      "_growth_sum": 193.69999999999996,
+      "_growth_count": 9,
       "_trend": [
         {
           "date": "2026-08-23",
@@ -1155,14 +1185,19 @@
           "date": "2026-09-02",
           "sold": 3933,
           "sale_amount": 64894.5
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 3489,
+          "sale_amount": 57568.5
         }
       ],
-      "sold_count": 34504,
-      "sale_amount": 580922.5,
+      "sold_count": 37993,
+      "sale_amount": 638491,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 25.62,
-      "_total_sold_show": "34.5k",
-      "_total_sale_show": "$580.9k"
+      "_avg_growth": 21.52,
+      "_total_sold_show": "38.0k",
+      "_total_sale_show": "$638.5k"
     },
     {
       "product_id": "1732529776589377658",
@@ -1670,12 +1705,12 @@
       "author_count": 184,
       "launch_time": "2026-04-02 15:35:41",
       "_first_seen": "2026-08-22",
-      "_last_seen": "2026-09-01",
-      "_appearances": 5,
-      "_total_sold": 16166,
-      "_total_sale": 364922.1,
-      "_growth_sum": 93.22,
-      "_growth_count": 5,
+      "_last_seen": "2026-09-03",
+      "_appearances": 6,
+      "_total_sold": 18596,
+      "_total_sale": 420812.1,
+      "_growth_sum": 116.25999999999999,
+      "_growth_count": 6,
       "_trend": [
         {
           "date": "2026-08-22",
@@ -1701,14 +1736,19 @@
           "date": "2026-09-01",
           "sold": 3143,
           "sale_amount": 72289
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2430,
+          "sale_amount": 55890
         }
       ],
-      "sold_count": 16166,
-      "sale_amount": 364922.1,
+      "sold_count": 18596,
+      "sale_amount": 420812.1,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 18.64,
-      "_total_sold_show": "16.2k",
-      "_total_sale_show": "$364.9k"
+      "_avg_growth": 19.38,
+      "_total_sold_show": "18.6k",
+      "_total_sale_show": "$420.8k"
     },
     {
       "product_id": "1732551366060184496",
@@ -2470,6 +2510,49 @@
       "_total_sale_show": "$33.3k"
     },
     {
+      "product_id": "1731284232420626805",
+      "title": "ADDWIN 2026 New Fascia Ring R10 Mini Muscle Recovery Fascia Device upgraded adjustable strap fits Up to 55in waist, Cordless Rechargeable, Designed for Waist & Back Muscle Recovery portable massager parents gift summervibes",
+      "cover": "https://s.500fd.com/tt_product/2c14f5c729b44926a0455bfc0994bda3~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731284232420626805?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$22.99 - 29.99",
+      "category_name": [
+        "Fitness Machines"
+      ],
+      "shop_name": "AddWin Shop",
+      "shop_sold_count": 273969,
+      "aweme_count": 23,
+      "live_count": 49,
+      "author_count": 54,
+      "launch_time": "2025-07-21 16:19:12",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-09-03",
+      "_appearances": 2,
+      "_total_sold": 4747,
+      "_total_sale": 111258,
+      "_growth_sum": 46.480000000000004,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 2670,
+          "sale_amount": 61410
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2077,
+          "sale_amount": 49848
+        }
+      ],
+      "sold_count": 4747,
+      "sale_amount": 111258,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 23.24,
+      "_total_sold_show": "4.7k",
+      "_total_sale_show": "$111.3k"
+    },
+    {
       "product_id": "1729553368065741562",
       "title": "HydroJug Traveler | Leak-Proof Insulated Tumbler with Flip Straw & Cup Holder Fit Flasks Lid Drinkware Leakproof Tumbler",
       "cover": "https://s.500fd.com/tt_product/d58617e60472463aa1fbcc4c13b9d395~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
@@ -2660,42 +2743,42 @@
       "_total_sale_show": "$33.0k"
     },
     {
-      "product_id": "1731284232420626805",
-      "title": "ADDWIN 2026 New Fascia Ring R10 Mini Muscle Recovery Fascia Device upgraded adjustable strap fits Up to 55in waist, Cordless Rechargeable, Designed for Waist & Back Muscle Recovery portable massager parents gift summervibes",
-      "cover": "https://s.500fd.com/tt_product/2c14f5c729b44926a0455bfc0994bda3~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731284232420626805?region=US&local=en",
+      "product_id": "1732592108148920750",
+      "title": "4pcs Car Rear‑View Camera Rain Shield, Soft PVC Sun Shade Cover, Waterproof Protector Hood for Reversing Backup Camera, Rain‑Proof Visor Accessory for Car Side & Rear Camera",
+      "cover": "https://s.500fd.com/tt_product/e86a97830b884b6caf8c7eca4e977cab~tplv-fhlh96nyum-crop-webp:600:600.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1732592108148920750?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$22.99 - 29.99",
+      "real_price": "$7.99 - 12.99",
       "category_name": [
-        "Fitness Machines"
+        "Party Bags & Gifts"
       ],
-      "shop_name": "AddWin Shop",
-      "shop_sold_count": 273969,
-      "aweme_count": 23,
-      "live_count": 49,
-      "author_count": 54,
-      "launch_time": "2025-07-21 16:19:12",
-      "_first_seen": "2026-08-28",
-      "_last_seen": "2026-08-28",
+      "shop_name": "Findry",
+      "shop_sold_count": 684761,
+      "aweme_count": 1,
+      "live_count": 3,
+      "author_count": 2,
+      "launch_time": "2026-08-29 01:00:05",
+      "_first_seen": "2026-09-03",
+      "_last_seen": "2026-09-03",
       "_appearances": 1,
-      "_total_sold": 2670,
-      "_total_sale": 61410,
-      "_growth_sum": 27.32,
+      "_total_sold": 2714,
+      "_total_sale": 21684.86,
+      "_growth_sum": 100.3,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-08-28",
-          "sold": 2670,
-          "sale_amount": 61410
+          "date": "2026-09-03",
+          "sold": 2714,
+          "sale_amount": 21684.86
         }
       ],
-      "sold_count": 2670,
-      "sale_amount": 61410,
+      "sold_count": 2714,
+      "sale_amount": 21684.86,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 27.32,
+      "_avg_growth": 100.3,
       "_total_sold_show": "2.7k",
-      "_total_sale_show": "$61.4k"
+      "_total_sale_show": "$21.7k"
     },
     {
       "product_id": "1729508370969629931",
@@ -2831,12 +2914,12 @@
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 5642841,
-      "_total_sale": 136314492.94999996,
-      "_growth_sum": 721.6000000000001,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 5926599,
+      "_total_sale": 143164169.29999995,
+      "_growth_sum": 756.7900000000002,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -2972,14 +3055,19 @@
           "date": "2026-09-02",
           "sold": 283758,
           "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 283758,
+          "sale_amount": 6849676.35
         }
       ],
-      "sold_count": 5642841,
-      "sale_amount": 136314492.94999996,
+      "sold_count": 5926599,
+      "sale_amount": 143164169.29999995,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 26.73,
-      "_total_sold_show": "5.6M",
-      "_total_sale_show": "$136.3M"
+      "_avg_growth": 27.03,
+      "_total_sold_show": "5.9M",
+      "_total_sale_show": "$143.2M"
     },
     {
       "product_id": "1729448464509734958",
@@ -2999,12 +3087,12 @@
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 4150618,
-      "_total_sale": 111056425.51000002,
-      "_growth_sum": 13.21,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 4344829,
+      "_total_sale": 116238808.54000002,
+      "_growth_sum": 12.83,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3140,14 +3228,19 @@
           "date": "2026-09-02",
           "sold": 194211,
           "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 194211,
+          "sale_amount": 5182383.03
         }
       ],
-      "sold_count": 4150618,
-      "sale_amount": 111056425.51000002,
+      "sold_count": 4344829,
+      "sale_amount": 116238808.54000002,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.49,
-      "_total_sold_show": "4.2M",
-      "_total_sale_show": "$111.1M"
+      "_avg_growth": 0.46,
+      "_total_sold_show": "4.3M",
+      "_total_sale_show": "$116.2M"
     },
     {
       "product_id": "1729679758111249333",
@@ -3167,12 +3260,12 @@
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 3022576,
-      "_total_sale": 5705303.31,
-      "_growth_sum": -18.759999999999877,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 3161835,
+      "_total_sale": 5968366.739999999,
+      "_growth_sum": -39.14999999999988,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3308,14 +3401,19 @@
           "date": "2026-09-02",
           "sold": 139259,
           "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 139259,
+          "sale_amount": 263063.43
         }
       ],
-      "sold_count": 3022576,
-      "sale_amount": 5705303.31,
+      "sold_count": 3161835,
+      "sale_amount": 5968366.739999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -0.69,
-      "_total_sold_show": "3.0M",
-      "_total_sale_show": "$5.7M"
+      "_avg_growth": -1.4,
+      "_total_sold_show": "3.2M",
+      "_total_sale_show": "$6.0M"
     },
     {
       "product_id": "1731236289885213002",
@@ -3335,12 +3433,12 @@
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 2175429,
-      "_total_sale": 108083031.23999998,
-      "_growth_sum": 3066.429999999999,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 2280251,
+      "_total_sale": 113286278.95999998,
+      "_growth_sum": 3239.3999999999987,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3476,14 +3574,19 @@
           "date": "2026-09-02",
           "sold": 104822,
           "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 104822,
+          "sale_amount": 5203247.72
         }
       ],
-      "sold_count": 2175429,
-      "sale_amount": 108083031.23999998,
+      "sold_count": 2280251,
+      "sale_amount": 113286278.95999998,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 113.57,
-      "_total_sold_show": "2.2M",
-      "_total_sale_show": "$108.1M"
+      "_avg_growth": 115.69,
+      "_total_sold_show": "2.3M",
+      "_total_sale_show": "$113.3M"
     },
     {
       "product_id": "1732164626458252048",
@@ -3503,12 +3606,12 @@
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 2068457,
-      "_total_sale": 43096910.679999985,
-      "_growth_sum": 33.48,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 2160263,
+      "_total_sale": 45024121.719999984,
+      "_growth_sum": 35.019999999999996,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3644,14 +3747,19 @@
           "date": "2026-09-02",
           "sold": 91806,
           "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 91806,
+          "sale_amount": 1927211.04
         }
       ],
-      "sold_count": 2068457,
-      "sale_amount": 43096910.679999985,
+      "sold_count": 2160263,
+      "sale_amount": 45024121.719999984,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.24,
-      "_total_sold_show": "2.1M",
-      "_total_sale_show": "$43.1M"
+      "_avg_growth": 1.25,
+      "_total_sold_show": "2.2M",
+      "_total_sale_show": "$45.0M"
     },
     {
       "product_id": "1731879234948338174",
@@ -3671,12 +3779,12 @@
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 2033759,
-      "_total_sale": 34594779.5,
-      "_growth_sum": -348.70000000000005,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 2124389,
+      "_total_sale": 36121718,
+      "_growth_sum": -366.95000000000005,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3812,14 +3920,19 @@
           "date": "2026-09-02",
           "sold": 90630,
           "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 90630,
+          "sale_amount": 1526938.5
         }
       ],
-      "sold_count": 2033759,
-      "sale_amount": 34594779.5,
+      "sold_count": 2124389,
+      "sale_amount": 36121718,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -12.91,
-      "_total_sold_show": "2.0M",
-      "_total_sale_show": "$34.6M"
+      "_avg_growth": -13.11,
+      "_total_sold_show": "2.1M",
+      "_total_sale_show": "$36.1M"
     },
     {
       "product_id": "1731406217255686451",
@@ -3839,12 +3952,12 @@
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 1942226,
-      "_total_sale": 40875678.41,
-      "_growth_sum": 324.86,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 2028548,
+      "_total_sale": 42707814.13999999,
+      "_growth_sum": 337.67,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -3980,14 +4093,19 @@
           "date": "2026-09-02",
           "sold": 86322,
           "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 86322,
+          "sale_amount": 1832135.73
         }
       ],
-      "sold_count": 1942226,
-      "sale_amount": 40875678.41,
+      "sold_count": 2028548,
+      "sale_amount": 42707814.13999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 12.03,
-      "_total_sold_show": "1.9M",
-      "_total_sale_show": "$40.9M"
+      "_avg_growth": 12.06,
+      "_total_sold_show": "2.0M",
+      "_total_sale_show": "$42.7M"
     },
     {
       "product_id": "1732413417772650787",
@@ -4007,12 +4125,12 @@
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 1912241,
-      "_total_sale": 9580474,
-      "_growth_sum": 46098.610000000015,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 2000699,
+      "_total_sale": 10023233,
+      "_growth_sum": 48805.02000000002,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -4148,14 +4266,19 @@
           "date": "2026-09-02",
           "sold": 88458,
           "sale_amount": 442759
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 88458,
+          "sale_amount": 442759
         }
       ],
-      "sold_count": 1912241,
-      "sale_amount": 9580474,
+      "sold_count": 2000699,
+      "sale_amount": 10023233,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1707.36,
-      "_total_sold_show": "1.9M",
-      "_total_sale_show": "$9.6M"
+      "_avg_growth": 1743.04,
+      "_total_sold_show": "2.0M",
+      "_total_sale_show": "$10.0M"
     },
     {
       "product_id": "1729612709100426165",
@@ -4175,12 +4298,12 @@
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 1912075,
-      "_total_sale": 3894422.490000002,
-      "_growth_sum": -226.1599999999999,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 1989815,
+      "_total_sale": 4048140.4600000023,
+      "_growth_sum": -243.1999999999999,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -4316,14 +4439,19 @@
           "date": "2026-09-02",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
-      "sold_count": 1912075,
-      "sale_amount": 3894422.490000002,
+      "sold_count": 1989815,
+      "sale_amount": 4048140.4600000023,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -8.38,
-      "_total_sold_show": "1.9M",
-      "_total_sale_show": "$3.9M"
+      "_avg_growth": -8.69,
+      "_total_sold_show": "2.0M",
+      "_total_sale_show": "$4.0M"
     },
     {
       "product_id": "1731528580940468633",
@@ -4343,12 +4471,12 @@
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 1890232,
-      "_total_sale": 27204282.170000013,
-      "_growth_sum": 1167.7600000000004,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 1976371,
+      "_total_sale": 28443040.180000015,
+      "_growth_sum": 1236.2100000000005,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -4484,14 +4612,19 @@
           "date": "2026-09-02",
           "sold": 86139,
           "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 86139,
+          "sale_amount": 1238758.01
         }
       ],
-      "sold_count": 1890232,
-      "sale_amount": 27204282.170000013,
+      "sold_count": 1976371,
+      "sale_amount": 28443040.180000015,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 43.25,
-      "_total_sold_show": "1.9M",
-      "_total_sale_show": "$27.2M"
+      "_avg_growth": 44.15,
+      "_total_sold_show": "2.0M",
+      "_total_sale_show": "$28.4M"
     }
   ],
   "growth_top": [
@@ -4726,77 +4859,140 @@
       "_total_sale_show": "$55.8k"
     },
     {
-      "product_id": "1731625997827871273",
-      "title": "Bikini Pain-Free Hair Removal Cream for Sensitive Skin, Hypoallergenic Formula-Gentle & Fast-Acting Depilatory with Citrus Scent, Aloe & Hyaluronic Acid for Soothing Care, Suitable for Men & Women,backtoschool",
-      "cover": "https://s.500fd.com/tt_product/3147e4ca48484ddc96eaca98fde180b1~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731625997827871273?region=US&local=en",
+      "product_id": "1729687495043093429",
+      "title": "Protein Loaded Coffee – Viral | Single Packet | 16oz Coffee Drink Mix | 10g Protein & 180mg Caffeine | Hot or Cold",
+      "cover": "https://s.500fd.com/tt_product/14482dcc2f9e4e9da412ca06e4039cf8~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729687495043093429?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$17.00 - 24.00",
+      "real_price": "$1.80",
       "category_name": [
-        "Hair Removal Cream, Wax & Shave"
+        "Coffee"
       ],
-      "shop_name": "PHOFAY-Skin Care",
-      "shop_sold_count": 466369,
-      "aweme_count": 16,
-      "live_count": 34,
-      "author_count": 42,
-      "launch_time": "2025-09-22 04:02:03",
-      "_first_seen": "2026-08-23",
-      "_last_seen": "2026-09-02",
-      "_appearances": 8,
-      "_total_sold": 34504,
-      "_total_sale": 580922.5,
-      "_growth_sum": 204.98999999999995,
-      "_growth_count": 8,
+      "shop_name": "Caffeine, Candles & Chaos",
+      "shop_sold_count": 5401419,
+      "aweme_count": 4,
+      "live_count": 40,
+      "author_count": 35,
+      "launch_time": "2024-10-07 00:31:02",
+      "_first_seen": "2026-08-20",
+      "_last_seen": "2026-09-03",
+      "_appearances": 12,
+      "_total_sold": 45786,
+      "_total_sale": 77387.40000000001,
+      "_growth_sum": 438.43000000000006,
+      "_growth_count": 12,
       "_trend": [
         {
+          "date": "2026-08-20",
+          "sold": 3250,
+          "sale_amount": 6500
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 4606,
+          "sale_amount": 8290.8
+        },
+        {
+          "date": "2026-08-22",
+          "sold": 4848,
+          "sale_amount": 7756.8
+        },
+        {
           "date": "2026-08-23",
-          "sold": 5620,
-          "sale_amount": 95540
+          "sold": 5479,
+          "sale_amount": 8766.4
         },
         {
           "date": "2026-08-24",
-          "sold": 4361,
-          "sale_amount": 74137
+          "sold": 3534,
+          "sale_amount": 5654.4
         },
         {
           "date": "2026-08-25",
-          "sold": 3651,
-          "sale_amount": 62067
+          "sold": 3411,
+          "sale_amount": 5798.7
+        },
+        {
+          "date": "2026-08-26",
+          "sold": 2735,
+          "sale_amount": 4649.5
         },
         {
           "date": "2026-08-27",
-          "sold": 2692,
-          "sale_amount": 45764
+          "sold": 3013,
+          "sale_amount": 5122.1
         },
         {
           "date": "2026-08-28",
-          "sold": 3085,
-          "sale_amount": 52445
+          "sold": 4267,
+          "sale_amount": 7253.9
         },
         {
-          "date": "2026-08-31",
-          "sold": 3804,
-          "sale_amount": 64668
+          "date": "2026-08-29",
+          "sold": 4282,
+          "sale_amount": 6851.2
         },
         {
-          "date": "2026-09-01",
-          "sold": 7358,
-          "sale_amount": 121407
+          "date": "2026-08-30",
+          "sold": 3531,
+          "sale_amount": 5649.6
         },
         {
-          "date": "2026-09-02",
-          "sold": 3933,
-          "sale_amount": 64894.5
+          "date": "2026-09-03",
+          "sold": 2830,
+          "sale_amount": 5094
         }
       ],
-      "sold_count": 34504,
-      "sale_amount": 580922.5,
+      "sold_count": 45786,
+      "sale_amount": 77387.40000000001,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 25.62,
-      "_total_sold_show": "34.5k",
-      "_total_sale_show": "$580.9k"
+      "_avg_growth": 36.54,
+      "_total_sold_show": "45.8k",
+      "_total_sale_show": "$77.4k"
+    },
+    {
+      "product_id": "1731284232420626805",
+      "title": "ADDWIN 2026 New Fascia Ring R10 Mini Muscle Recovery Fascia Device upgraded adjustable strap fits Up to 55in waist, Cordless Rechargeable, Designed for Waist & Back Muscle Recovery portable massager parents gift summervibes",
+      "cover": "https://s.500fd.com/tt_product/2c14f5c729b44926a0455bfc0994bda3~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731284232420626805?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$22.99 - 29.99",
+      "category_name": [
+        "Fitness Machines"
+      ],
+      "shop_name": "AddWin Shop",
+      "shop_sold_count": 273969,
+      "aweme_count": 23,
+      "live_count": 49,
+      "author_count": 54,
+      "launch_time": "2025-07-21 16:19:12",
+      "_first_seen": "2026-08-28",
+      "_last_seen": "2026-09-03",
+      "_appearances": 2,
+      "_total_sold": 4747,
+      "_total_sale": 111258,
+      "_growth_sum": 46.480000000000004,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-08-28",
+          "sold": 2670,
+          "sale_amount": 61410
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2077,
+          "sale_amount": 49848
+        }
+      ],
+      "sold_count": 4747,
+      "sale_amount": 111258,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 23.24,
+      "_total_sold_show": "4.7k",
+      "_total_sale_show": "$111.3k"
     },
     {
       "product_id": "1732548028804927610",
@@ -4840,6 +5036,84 @@
       "_avg_growth": 22.42,
       "_total_sold_show": "5.3k",
       "_total_sale_show": "$5.3k"
+    },
+    {
+      "product_id": "1731625997827871273",
+      "title": "Bikini Pain-Free Hair Removal Cream for Sensitive Skin, Hypoallergenic Formula-Gentle & Fast-Acting Depilatory with Citrus Scent, Aloe & Hyaluronic Acid for Soothing Care, Suitable for Men & Women,backtoschool",
+      "cover": "https://s.500fd.com/tt_product/3147e4ca48484ddc96eaca98fde180b1~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731625997827871273?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$17.00 - 24.00",
+      "category_name": [
+        "Hair Removal Cream, Wax & Shave"
+      ],
+      "shop_name": "PHOFAY-Skin Care",
+      "shop_sold_count": 466369,
+      "aweme_count": 16,
+      "live_count": 34,
+      "author_count": 42,
+      "launch_time": "2025-09-22 04:02:03",
+      "_first_seen": "2026-08-23",
+      "_last_seen": "2026-09-03",
+      "_appearances": 9,
+      "_total_sold": 37993,
+      "_total_sale": 638491,
+      "_growth_sum": 193.69999999999996,
+      "_growth_count": 9,
+      "_trend": [
+        {
+          "date": "2026-08-23",
+          "sold": 5620,
+          "sale_amount": 95540
+        },
+        {
+          "date": "2026-08-24",
+          "sold": 4361,
+          "sale_amount": 74137
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 3651,
+          "sale_amount": 62067
+        },
+        {
+          "date": "2026-08-27",
+          "sold": 2692,
+          "sale_amount": 45764
+        },
+        {
+          "date": "2026-08-28",
+          "sold": 3085,
+          "sale_amount": 52445
+        },
+        {
+          "date": "2026-08-31",
+          "sold": 3804,
+          "sale_amount": 64668
+        },
+        {
+          "date": "2026-09-01",
+          "sold": 7358,
+          "sale_amount": 121407
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 3933,
+          "sale_amount": 64894.5
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 3489,
+          "sale_amount": 57568.5
+        }
+      ],
+      "sold_count": 37993,
+      "sale_amount": 638491,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 21.52,
+      "_total_sold_show": "38.0k",
+      "_total_sale_show": "$638.5k"
     },
     {
       "product_id": "1731236289885213002",
@@ -4932,12 +5206,12 @@
       "author_count": 184,
       "launch_time": "2026-04-02 15:35:41",
       "_first_seen": "2026-08-22",
-      "_last_seen": "2026-09-01",
-      "_appearances": 5,
-      "_total_sold": 16166,
-      "_total_sale": 364922.1,
-      "_growth_sum": 93.22,
-      "_growth_count": 5,
+      "_last_seen": "2026-09-03",
+      "_appearances": 6,
+      "_total_sold": 18596,
+      "_total_sale": 420812.1,
+      "_growth_sum": 116.25999999999999,
+      "_growth_count": 6,
       "_trend": [
         {
           "date": "2026-08-22",
@@ -4963,14 +5237,19 @@
           "date": "2026-09-01",
           "sold": 3143,
           "sale_amount": 72289
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2430,
+          "sale_amount": 55890
         }
       ],
-      "sold_count": 16166,
-      "sale_amount": 364922.1,
+      "sold_count": 18596,
+      "sale_amount": 420812.1,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 18.64,
-      "_total_sold_show": "16.2k",
-      "_total_sale_show": "$364.9k"
+      "_avg_growth": 19.38,
+      "_total_sold_show": "18.6k",
+      "_total_sale_show": "$420.8k"
     },
     {
       "product_id": "1731003856475034336",
@@ -5185,109 +5464,6 @@
       "_total_sale_show": "$474.7k"
     },
     {
-      "product_id": "1729718097057910811",
-      "title": "[Dr.Melaxin Official] Calcium Dark Spot Eye Cream | Dark Circle, Anti-aging, Sagging, Elasticity | Korean Cosmetics",
-      "cover": "https://s.500fd.com/tt_product/4affa9ba05d5499781aec32a964f456c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729718097057910811?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$19.80",
-      "category_name": [
-        "Moisturizers & Mists"
-      ],
-      "shop_name": "Dr.Melaxin",
-      "shop_sold_count": 5278667,
-      "aweme_count": 44,
-      "live_count": 75,
-      "author_count": 100,
-      "launch_time": "2025-01-02 20:39:37",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 14,
-      "_total_sold": 47675,
-      "_total_sale": 944105.2000000001,
-      "_growth_sum": 125.17,
-      "_growth_count": 14,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 4340,
-          "sale_amount": 85950
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 3285,
-          "sale_amount": 65047
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 3676,
-          "sale_amount": 72800
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 2948,
-          "sale_amount": 58389
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 4413,
-          "sale_amount": 87403
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 3403,
-          "sale_amount": 67386
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 3605,
-          "sale_amount": 71399
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 3662,
-          "sale_amount": 72515
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 4460,
-          "sale_amount": 88324
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 3404,
-          "sale_amount": 67408
-        },
-        {
-          "date": "2026-08-17",
-          "sold": 2811,
-          "sale_amount": 55657.8
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 2553,
-          "sale_amount": 50549.4
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 2458,
-          "sale_amount": 48668.4
-        },
-        {
-          "date": "2026-09-02",
-          "sold": 2657,
-          "sale_amount": 52608.6
-        }
-      ],
-      "sold_count": 47675,
-      "sale_amount": 944105.2000000001,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 8.94,
-      "_total_sold_show": "47.7k",
-      "_total_sale_show": "$944.1k"
-    },
-    {
       "product_id": "1729612709100426165",
       "title": "Loaded Water-Viral – Single Packet | 32oz Sugar Free Caffeinated Flavored Powder Beverage Mix | Made in USA | Easy to Mix",
       "cover": "https://s.500fd.com/tt_product/19d50db1ad274e73951454c20f24033e~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
@@ -5436,92 +5612,112 @@
       "_total_sale_show": "$122.2k"
     },
     {
-      "product_id": "1729687495043093429",
-      "title": "Protein Loaded Coffee – Viral | Single Packet | 16oz Coffee Drink Mix | 10g Protein & 180mg Caffeine | Hot or Cold",
-      "cover": "https://s.500fd.com/tt_product/14482dcc2f9e4e9da412ca06e4039cf8~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729687495043093429?region=US&local=en",
+      "product_id": "1729718097057910811",
+      "title": "[Dr.Melaxin Official] Calcium Dark Spot Eye Cream | Dark Circle, Anti-aging, Sagging, Elasticity | Korean Cosmetics",
+      "cover": "https://s.500fd.com/tt_product/4affa9ba05d5499781aec32a964f456c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729718097057910811?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$1.80",
+      "real_price": "$19.80",
       "category_name": [
-        "Coffee"
+        "Moisturizers & Mists"
       ],
-      "shop_name": "Caffeine, Candles & Chaos",
-      "shop_sold_count": 5401419,
-      "aweme_count": 4,
-      "live_count": 40,
-      "author_count": 35,
-      "launch_time": "2024-10-07 00:31:02",
-      "_first_seen": "2026-08-20",
-      "_last_seen": "2026-08-30",
-      "_appearances": 11,
-      "_total_sold": 42956,
-      "_total_sale": 72293.40000000001,
-      "_growth_sum": 82.71000000000001,
-      "_growth_count": 11,
+      "shop_name": "Dr.Melaxin",
+      "shop_sold_count": 5278667,
+      "aweme_count": 44,
+      "live_count": 75,
+      "author_count": 100,
+      "launch_time": "2025-01-02 20:39:37",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-09-03",
+      "_appearances": 15,
+      "_total_sold": 50249,
+      "_total_sale": 995070.4,
+      "_growth_sum": 122.05,
+      "_growth_count": 15,
       "_trend": [
         {
+          "date": "2026-08-03",
+          "sold": 4340,
+          "sale_amount": 85950
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 3285,
+          "sale_amount": 65047
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 3676,
+          "sale_amount": 72800
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 2948,
+          "sale_amount": 58389
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 4413,
+          "sale_amount": 87403
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 3403,
+          "sale_amount": 67386
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 3605,
+          "sale_amount": 71399
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 3662,
+          "sale_amount": 72515
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 4460,
+          "sale_amount": 88324
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 3404,
+          "sale_amount": 67408
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 2811,
+          "sale_amount": 55657.8
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 2553,
+          "sale_amount": 50549.4
+        },
+        {
           "date": "2026-08-20",
-          "sold": 3250,
-          "sale_amount": 6500
+          "sold": 2458,
+          "sale_amount": 48668.4
         },
         {
-          "date": "2026-08-21",
-          "sold": 4606,
-          "sale_amount": 8290.8
+          "date": "2026-09-02",
+          "sold": 2657,
+          "sale_amount": 52608.6
         },
         {
-          "date": "2026-08-22",
-          "sold": 4848,
-          "sale_amount": 7756.8
-        },
-        {
-          "date": "2026-08-23",
-          "sold": 5479,
-          "sale_amount": 8766.4
-        },
-        {
-          "date": "2026-08-24",
-          "sold": 3534,
-          "sale_amount": 5654.4
-        },
-        {
-          "date": "2026-08-25",
-          "sold": 3411,
-          "sale_amount": 5798.7
-        },
-        {
-          "date": "2026-08-26",
-          "sold": 2735,
-          "sale_amount": 4649.5
-        },
-        {
-          "date": "2026-08-27",
-          "sold": 3013,
-          "sale_amount": 5122.1
-        },
-        {
-          "date": "2026-08-28",
-          "sold": 4267,
-          "sale_amount": 7253.9
-        },
-        {
-          "date": "2026-08-29",
-          "sold": 4282,
-          "sale_amount": 6851.2
-        },
-        {
-          "date": "2026-08-30",
-          "sold": 3531,
-          "sale_amount": 5649.6
+          "date": "2026-09-03",
+          "sold": 2574,
+          "sale_amount": 50965.2
         }
       ],
-      "sold_count": 42956,
-      "sale_amount": 72293.40000000001,
+      "sold_count": 50249,
+      "sale_amount": 995070.4,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 7.52,
-      "_total_sold_show": "43.0k",
-      "_total_sale_show": "$72.3k"
+      "_avg_growth": 8.14,
+      "_total_sold_show": "50.2k",
+      "_total_sale_show": "$995.1k"
     },
     {
       "product_id": "1732568846189629562",
@@ -5565,6 +5761,119 @@
       "_avg_growth": 6.08,
       "_total_sold_show": "5.7k",
       "_total_sale_show": "$17.2k"
+    },
+    {
+      "product_id": "1731406217255686451",
+      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
+      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$17.00 - 22.00",
+      "category_name": [
+        "Bras"
+      ],
+      "shop_name": "OEAK Apparel",
+      "shop_sold_count": 1714917,
+      "aweme_count": 43,
+      "live_count": 51,
+      "author_count": 79,
+      "launch_time": "2025-07-25 13:10:01",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-09-03",
+      "_appearances": 16,
+      "_total_sold": 45417,
+      "_total_sale": 772139,
+      "_growth_sum": 79.57,
+      "_growth_count": 16,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 3258,
+          "sale_amount": 55395
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 2517,
+          "sale_amount": 42788
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 3586,
+          "sale_amount": 60968
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 2426,
+          "sale_amount": 41243
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 2676,
+          "sale_amount": 45496
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 3282,
+          "sale_amount": 55797
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 2487,
+          "sale_amount": 42282
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 2426,
+          "sale_amount": 41255
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 2603,
+          "sale_amount": 44256
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 3263,
+          "sale_amount": 55478
+        },
+        {
+          "date": "2026-08-17",
+          "sold": 3211,
+          "sale_amount": 54587
+        },
+        {
+          "date": "2026-08-18",
+          "sold": 3537,
+          "sale_amount": 60129
+        },
+        {
+          "date": "2026-08-20",
+          "sold": 2297,
+          "sale_amount": 39049
+        },
+        {
+          "date": "2026-08-21",
+          "sold": 2765,
+          "sale_amount": 47005
+        },
+        {
+          "date": "2026-08-25",
+          "sold": 2754,
+          "sale_amount": 46818
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2329,
+          "sale_amount": 39593
+        }
+      ],
+      "sold_count": 45417,
+      "sale_amount": 772139,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 4.97,
+      "_total_sold_show": "45.4k",
+      "_total_sale_show": "$772.1k"
     },
     {
       "product_id": "1729438652706624272",
@@ -5733,112 +6042,92 @@
       "_total_sale_show": "$600.0k"
     },
     {
-      "product_id": "1731406217255686451",
-      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
-      "cover": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1731406217255686451?region=US&local=en",
+      "product_id": "1732164626458252048",
+      "title": "Hismile iD Stain Whitening Mouthwash for White Teeth, Freshens Breath with Essential Oils 237ml",
+      "cover": "https://s.500fd.com/tt_product/069ef90775924324affca5612a4c3096~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1732164626458252048?region=US&local=en",
       "region": "US",
       "currency": "USD",
-      "real_price": "$17.00 - 22.00",
+      "real_price": "$15.00",
       "category_name": [
-        "Bras"
+        "Mouthwash"
       ],
-      "shop_name": "OEAK Apparel",
-      "shop_sold_count": 1714917,
-      "aweme_count": 43,
-      "live_count": 51,
-      "author_count": 79,
-      "launch_time": "2025-07-25 13:10:01",
+      "shop_name": "Hismile US",
+      "shop_sold_count": 1079503,
+      "aweme_count": 14,
+      "live_count": 66,
+      "author_count": 64,
+      "launch_time": "2026-01-15 07:32:51",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-25",
-      "_appearances": 15,
-      "_total_sold": 43088,
-      "_total_sale": 732546,
-      "_growth_sum": 68.88,
-      "_growth_count": 15,
+      "_last_seen": "2026-09-02",
+      "_appearances": 11,
+      "_total_sold": 31442,
+      "_total_sale": 471650,
+      "_growth_sum": 29.480000000000004,
+      "_growth_count": 11,
       "_trend": [
         {
           "date": "2026-08-03",
-          "sold": 3258,
-          "sale_amount": 55395
+          "sold": 2501,
+          "sale_amount": 37523
         },
         {
           "date": "2026-08-04",
-          "sold": 2517,
-          "sale_amount": 42788
+          "sold": 3136,
+          "sale_amount": 47051
         },
         {
           "date": "2026-08-05",
-          "sold": 3586,
-          "sale_amount": 60968
+          "sold": 3246,
+          "sale_amount": 48690
         },
         {
           "date": "2026-08-06",
-          "sold": 2426,
-          "sale_amount": 41243
+          "sold": 2403,
+          "sale_amount": 36051
         },
         {
           "date": "2026-08-07",
-          "sold": 2676,
-          "sale_amount": 45496
+          "sold": 2387,
+          "sale_amount": 35802
         },
         {
           "date": "2026-08-08",
-          "sold": 3282,
-          "sale_amount": 55797
+          "sold": 3800,
+          "sale_amount": 56997
         },
         {
           "date": "2026-08-09",
-          "sold": 2487,
-          "sale_amount": 42282
+          "sold": 2518,
+          "sale_amount": 37770
         },
         {
           "date": "2026-08-10",
-          "sold": 2426,
-          "sale_amount": 41255
+          "sold": 3483,
+          "sale_amount": 52247
         },
         {
           "date": "2026-08-11",
-          "sold": 2603,
-          "sale_amount": 44256
+          "sold": 2594,
+          "sale_amount": 38905
         },
         {
           "date": "2026-08-12",
-          "sold": 3263,
-          "sale_amount": 55478
+          "sold": 3172,
+          "sale_amount": 47584
         },
         {
-          "date": "2026-08-17",
-          "sold": 3211,
-          "sale_amount": 54587
-        },
-        {
-          "date": "2026-08-18",
-          "sold": 3537,
-          "sale_amount": 60129
-        },
-        {
-          "date": "2026-08-20",
-          "sold": 2297,
-          "sale_amount": 39049
-        },
-        {
-          "date": "2026-08-21",
-          "sold": 2765,
-          "sale_amount": 47005
-        },
-        {
-          "date": "2026-08-25",
-          "sold": 2754,
-          "sale_amount": 46818
+          "date": "2026-09-02",
+          "sold": 2202,
+          "sale_amount": 33030
         }
       ],
-      "sold_count": 43088,
-      "sale_amount": 732546,
+      "sold_count": 31442,
+      "sale_amount": 471650,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 4.59,
-      "_total_sold_show": "43.1k",
-      "_total_sale_show": "$732.5k"
+      "_avg_growth": 2.68,
+      "_total_sold_show": "31.4k",
+      "_total_sale_show": "$471.6k"
     },
     {
       "product_id": "1729448464509734958",
@@ -5858,12 +6147,12 @@
       "author_count": 201,
       "launch_time": "2024-03-28 15:38:46",
       "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 27,
-      "_total_sold": 117273,
-      "_total_sale": 1872919.5,
-      "_growth_sum": 89.27000000000004,
-      "_growth_count": 27,
+      "_last_seen": "2026-09-03",
+      "_appearances": 28,
+      "_total_sold": 120857,
+      "_total_sale": 1933847.5,
+      "_growth_sum": 73.38000000000004,
+      "_growth_count": 28,
       "_trend": [
         {
           "date": "2026-08-03",
@@ -5999,102 +6288,19 @@
           "date": "2026-09-02",
           "sold": 4261,
           "sale_amount": 72437
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 3584,
+          "sale_amount": 60928
         }
       ],
-      "sold_count": 117273,
-      "sale_amount": 1872919.5,
+      "sold_count": 120857,
+      "sale_amount": 1933847.5,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 3.31,
-      "_total_sold_show": "117.3k",
+      "_avg_growth": 2.62,
+      "_total_sold_show": "120.9k",
       "_total_sale_show": "$1.9M"
-    },
-    {
-      "product_id": "1732164626458252048",
-      "title": "Hismile iD Stain Whitening Mouthwash for White Teeth, Freshens Breath with Essential Oils 237ml",
-      "cover": "https://s.500fd.com/tt_product/069ef90775924324affca5612a4c3096~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1732164626458252048?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$15.00",
-      "category_name": [
-        "Mouthwash"
-      ],
-      "shop_name": "Hismile US",
-      "shop_sold_count": 1079503,
-      "aweme_count": 14,
-      "live_count": 66,
-      "author_count": 64,
-      "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-09-02",
-      "_appearances": 11,
-      "_total_sold": 31442,
-      "_total_sale": 471650,
-      "_growth_sum": 29.480000000000004,
-      "_growth_count": 11,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 2501,
-          "sale_amount": 37523
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 3136,
-          "sale_amount": 47051
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 3246,
-          "sale_amount": 48690
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 2403,
-          "sale_amount": 36051
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 2387,
-          "sale_amount": 35802
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 3800,
-          "sale_amount": 56997
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 2518,
-          "sale_amount": 37770
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 3483,
-          "sale_amount": 52247
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 2594,
-          "sale_amount": 38905
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 3172,
-          "sale_amount": 47584
-        },
-        {
-          "date": "2026-09-02",
-          "sold": 2202,
-          "sale_amount": 33030
-        }
-      ],
-      "sold_count": 31442,
-      "sale_amount": 471650,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 2.68,
-      "_total_sold_show": "31.4k",
-      "_total_sale_show": "$471.6k"
     },
     {
       "product_id": "1731670644959122053",
@@ -6343,6 +6549,89 @@
       "_total_sale_show": "$267.8k"
     },
     {
+      "product_id": "1732531012384624762",
+      "title": "Fuchsia Pink Floral Charm Beaded Bracelet, Gold Plated Snake Chain Bracelet with Tulip & Crystal Beads, Elegant Jewelry Gift for Women",
+      "cover": "https://s.500fd.com/tt_product/0f3bbebbf6b34a9f948fbd1eb6986750~tplv-fhlh96nyum-crop-webp:2540:3386.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1732531012384624762?region=US&local=en",
+      "region": "US",
+      "currency": "USD",
+      "real_price": "$18.00",
+      "category_name": [
+        " Bracelets & Bangles"
+      ],
+      "shop_name": "WANSE",
+      "shop_sold_count": 72383,
+      "aweme_count": 0,
+      "live_count": 1,
+      "author_count": 1,
+      "launch_time": "2026-08-08 00:01:44",
+      "_first_seen": "2026-08-03",
+      "_last_seen": "2026-08-12",
+      "_appearances": 10,
+      "_total_sold": 31342,
+      "_total_sale": 564055,
+      "_growth_sum": 3.0800000000000036,
+      "_growth_count": 10,
+      "_trend": [
+        {
+          "date": "2026-08-03",
+          "sold": 4156,
+          "sale_amount": 74799
+        },
+        {
+          "date": "2026-08-04",
+          "sold": 4178,
+          "sale_amount": 75192
+        },
+        {
+          "date": "2026-08-05",
+          "sold": 4132,
+          "sale_amount": 74376
+        },
+        {
+          "date": "2026-08-06",
+          "sold": 3207,
+          "sale_amount": 57709
+        },
+        {
+          "date": "2026-08-07",
+          "sold": 2110,
+          "sale_amount": 37963
+        },
+        {
+          "date": "2026-08-08",
+          "sold": 3251,
+          "sale_amount": 58509
+        },
+        {
+          "date": "2026-08-09",
+          "sold": 2116,
+          "sale_amount": 38080
+        },
+        {
+          "date": "2026-08-10",
+          "sold": 2224,
+          "sale_amount": 40018
+        },
+        {
+          "date": "2026-08-11",
+          "sold": 2879,
+          "sale_amount": 51810
+        },
+        {
+          "date": "2026-08-12",
+          "sold": 3089,
+          "sale_amount": 55599
+        }
+      ],
+      "sold_count": 31342,
+      "sale_amount": 564055,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 0.31,
+      "_total_sold_show": "31.3k",
+      "_total_sale_show": "$564.1k"
+    },
+    {
       "product_id": "1731528580940468633",
       "title": "Nature x Science Rosemary Water and Rice Water |100% Natural Extract | Soft & Smooth Hair Non-Greasy & Fast Absorbing | 200 ml",
       "cover": "https://s.500fd.com/tt_product/d69fc8512935405f84767d6636eff827~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
@@ -6360,12 +6649,12 @@
       "author_count": 70,
       "launch_time": "2025-10-23 13:58:30",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-09-02",
-      "_appearances": 17,
-      "_total_sold": 74768,
-      "_total_sale": 851837.6699999999,
-      "_growth_sum": 21.259999999999998,
-      "_growth_count": 17,
+      "_last_seen": "2026-09-03",
+      "_appearances": 18,
+      "_total_sold": 77894,
+      "_total_sale": 889349.6699999999,
+      "_growth_sum": -6.580000000000002,
+      "_growth_count": 18,
       "_trend": [
         {
           "date": "2026-08-17",
@@ -6451,14 +6740,19 @@
           "date": "2026-09-02",
           "sold": 4332,
           "sale_amount": 51984
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 3126,
+          "sale_amount": 37512
         }
       ],
-      "sold_count": 74768,
-      "sale_amount": 851837.6699999999,
+      "sold_count": 77894,
+      "sale_amount": 889349.6699999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 1.25,
-      "_total_sold_show": "74.8k",
-      "_total_sale_show": "$851.8k"
+      "_avg_growth": -0.37,
+      "_total_sold_show": "77.9k",
+      "_total_sale_show": "$889.3k"
     },
     {
       "product_id": "1729413742968869814",
@@ -6478,12 +6772,12 @@
       "author_count": 125,
       "launch_time": "2023-11-25 02:51:43",
       "_first_seen": "2026-08-17",
-      "_last_seen": "2026-09-02",
-      "_appearances": 14,
-      "_total_sold": 48745,
-      "_total_sale": 964272.8099999999,
-      "_growth_sum": 10.34999999999999,
-      "_growth_count": 14,
+      "_last_seen": "2026-09-03",
+      "_appearances": 15,
+      "_total_sold": 50787,
+      "_total_sale": 1007154.8099999999,
+      "_growth_sum": -9.38000000000001,
+      "_growth_count": 15,
       "_trend": [
         {
           "date": "2026-08-17",
@@ -6554,97 +6848,19 @@
           "date": "2026-09-02",
           "sold": 2544,
           "sale_amount": 53424
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 2042,
+          "sale_amount": 42882
         }
       ],
-      "sold_count": 48745,
-      "sale_amount": 964272.8099999999,
+      "sold_count": 50787,
+      "sale_amount": 1007154.8099999999,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.74,
-      "_total_sold_show": "48.7k",
-      "_total_sale_show": "$964.3k"
-    },
-    {
-      "product_id": "1732531012384624762",
-      "title": "Fuchsia Pink Floral Charm Beaded Bracelet, Gold Plated Snake Chain Bracelet with Tulip & Crystal Beads, Elegant Jewelry Gift for Women",
-      "cover": "https://s.500fd.com/tt_product/0f3bbebbf6b34a9f948fbd1eb6986750~tplv-fhlh96nyum-crop-webp:2540:3386.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1732531012384624762?region=US&local=en",
-      "region": "US",
-      "currency": "USD",
-      "real_price": "$18.00",
-      "category_name": [
-        " Bracelets & Bangles"
-      ],
-      "shop_name": "WANSE",
-      "shop_sold_count": 72383,
-      "aweme_count": 0,
-      "live_count": 1,
-      "author_count": 1,
-      "launch_time": "2026-08-08 00:01:44",
-      "_first_seen": "2026-08-03",
-      "_last_seen": "2026-08-12",
-      "_appearances": 10,
-      "_total_sold": 31342,
-      "_total_sale": 564055,
-      "_growth_sum": 3.0800000000000036,
-      "_growth_count": 10,
-      "_trend": [
-        {
-          "date": "2026-08-03",
-          "sold": 4156,
-          "sale_amount": 74799
-        },
-        {
-          "date": "2026-08-04",
-          "sold": 4178,
-          "sale_amount": 75192
-        },
-        {
-          "date": "2026-08-05",
-          "sold": 4132,
-          "sale_amount": 74376
-        },
-        {
-          "date": "2026-08-06",
-          "sold": 3207,
-          "sale_amount": 57709
-        },
-        {
-          "date": "2026-08-07",
-          "sold": 2110,
-          "sale_amount": 37963
-        },
-        {
-          "date": "2026-08-08",
-          "sold": 3251,
-          "sale_amount": 58509
-        },
-        {
-          "date": "2026-08-09",
-          "sold": 2116,
-          "sale_amount": 38080
-        },
-        {
-          "date": "2026-08-10",
-          "sold": 2224,
-          "sale_amount": 40018
-        },
-        {
-          "date": "2026-08-11",
-          "sold": 2879,
-          "sale_amount": 51810
-        },
-        {
-          "date": "2026-08-12",
-          "sold": 3089,
-          "sale_amount": 55599
-        }
-      ],
-      "sold_count": 31342,
-      "sale_amount": 564055,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0.31,
-      "_total_sold_show": "31.3k",
-      "_total_sale_show": "$564.1k"
+      "_avg_growth": -0.63,
+      "_total_sold_show": "50.8k",
+      "_total_sale_show": "$1.0M"
     },
     {
       "product_id": "1732534855764971527",
