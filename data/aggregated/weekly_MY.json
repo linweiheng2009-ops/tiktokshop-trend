@@ -1,10 +1,10 @@
 {
   "period": "weekly",
   "region": "MY",
-  "generated_at": "2026-09-05T04:07:09.746Z",
+  "generated_at": "2026-09-06T04:14:52.261Z",
   "date_range": [
-    "2026-08-30",
-    "2026-09-05"
+    "2026-08-31",
+    "2026-09-06"
   ],
   "daily_count": 70,
   "total_count": 70,
@@ -27,12 +27,12 @@
       "author_count": 87,
       "launch_time": "2024-04-19 08:28:23",
       "_first_seen": "2026-09-01",
-      "_last_seen": "2026-09-03",
-      "_appearances": 3,
-      "_total_sold": 43419,
-      "_total_sale": 103771.41,
-      "_growth_sum": -50.47,
-      "_growth_count": 3,
+      "_last_seen": "2026-09-06",
+      "_appearances": 4,
+      "_total_sold": 53368,
+      "_total_sale": 173016.45,
+      "_growth_sum": -76.16,
+      "_growth_count": 4,
       "_trend": [
         {
           "date": "2026-09-01",
@@ -48,14 +48,19 @@
           "date": "2026-09-03",
           "sold": 3663,
           "sale_amount": 8754.57
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 9949,
+          "sale_amount": 69245.04
         }
       ],
-      "sold_count": 43419,
-      "sale_amount": 103771.41,
+      "sold_count": 53368,
+      "sale_amount": 173016.45,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -16.82,
-      "_total_sold_show": "43.4k",
-      "_total_sale_show": "$103.8k"
+      "_avg_growth": -19.04,
+      "_total_sold_show": "53.4k",
+      "_total_sale_show": "$173.0k"
     },
     {
       "product_id": "1729550982771738420",
@@ -64,29 +69,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1729550982771738420?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM1.88  - 2.09",
+      "real_price": "RM1.88  - 1.99",
       "category_name": [
         "Underscarves"
       ],
       "shop_name": "Kedai Abang S",
-      "shop_sold_count": 2905271,
-      "aweme_count": 1,
+      "shop_sold_count": 2913513,
+      "aweme_count": 2,
       "live_count": 17,
-      "author_count": 9,
+      "author_count": 11,
       "launch_time": "2024-02-12 09:45:33",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-09-01",
+      "_last_seen": "2026-09-06",
       "_appearances": 6,
-      "_total_sold": 34696,
-      "_total_sale": 65123.9,
-      "_growth_sum": 328.3,
+      "_total_sold": 29439,
+      "_total_sale": 56830.87,
+      "_growth_sum": 181.57000000000002,
       "_growth_count": 6,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 9035,
-          "sale_amount": 15811.25
-        },
         {
           "date": "2026-09-01",
           "sold": 4275,
@@ -111,14 +111,19 @@
           "date": "2026-09-05",
           "sold": 7771,
           "sale_amount": 14376.35
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3778,
+          "sale_amount": 7518.22
         }
       ],
-      "sold_count": 34696,
-      "sale_amount": 65123.9,
+      "sold_count": 29439,
+      "sale_amount": 56830.87,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 54.72,
-      "_total_sold_show": "34.7k",
-      "_total_sale_show": "$65.1k"
+      "_avg_growth": 30.26,
+      "_total_sold_show": "29.4k",
+      "_total_sale_show": "$56.8k"
     },
     {
       "product_id": "1736445527016965179",
@@ -132,24 +137,19 @@
         "Facial Cleansers\t"
       ],
       "shop_name": "Jungle Girl Beauty Official",
-      "shop_sold_count": 2193224,
+      "shop_sold_count": 2197389,
       "aweme_count": 0,
-      "live_count": 9,
-      "author_count": 6,
+      "live_count": 23,
+      "author_count": 10,
       "launch_time": "2026-07-10 16:51:28",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 5,
-      "_total_sold": 19786,
-      "_total_sale": 98930,
-      "_growth_sum": 817.57,
+      "_total_sold": 22393,
+      "_total_sale": 117402,
+      "_growth_sum": 788.96,
       "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 2830,
-          "sale_amount": 14150
-        },
         {
           "date": "2026-08-31",
           "sold": 3634,
@@ -169,14 +169,19 @@
           "date": "2026-09-05",
           "sold": 4840,
           "sale_amount": 24200
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 5437,
+          "sale_amount": 32622
         }
       ],
-      "sold_count": 19786,
-      "sale_amount": 98930,
+      "sold_count": 22393,
+      "sale_amount": 117402,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 163.51,
-      "_total_sold_show": "19.8k",
-      "_total_sale_show": "$98.9k"
+      "_avg_growth": 157.79,
+      "_total_sold_show": "22.4k",
+      "_total_sale_show": "$117.4k"
     },
     {
       "product_id": "1735766767207285978",
@@ -185,29 +190,24 @@
       "detail_url": "https://shop.tiktok.com/view/product/1735766767207285978?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM6.80",
+      "real_price": "RM8.10  - 12.80",
       "category_name": [
         "Cooking Pastes & Seasoning Kits"
       ],
       "shop_name": "mamagfood",
-      "shop_sold_count": 1584917,
-      "aweme_count": 3,
-      "live_count": 19,
-      "author_count": 12,
+      "shop_sold_count": 1600624,
+      "aweme_count": 15,
+      "live_count": 44,
+      "author_count": 38,
       "launch_time": "2026-05-26 22:11:37",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-09-03",
+      "_last_seen": "2026-09-06",
       "_appearances": 4,
-      "_total_sold": 14004,
-      "_total_sale": 105505.6,
-      "_growth_sum": 62.16,
+      "_total_sold": 14143,
+      "_total_sale": 108885.6,
+      "_growth_sum": 47.2,
       "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 3240,
-          "sale_amount": 23652
-        },
         {
           "date": "2026-09-03",
           "sold": 3416,
@@ -222,14 +222,72 @@
           "date": "2026-09-05",
           "sold": 4470,
           "sale_amount": 35313
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3379,
+          "sale_amount": 27032
         }
       ],
-      "sold_count": 14004,
-      "sale_amount": 105505.6,
+      "sold_count": 14143,
+      "sale_amount": 108885.6,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 15.54,
-      "_total_sold_show": "14.0k",
-      "_total_sale_show": "$105.5k"
+      "_avg_growth": 11.8,
+      "_total_sold_show": "14.1k",
+      "_total_sale_show": "$108.9k"
+    },
+    {
+      "product_id": "1730697905726916562",
+      "title": "(Diluluskan MDA) Kit Ujian Kehamilan HCG Ujian Mengandung Ujian Air Kencing Jalur Ujian Ovulasi Kit Ujian Ovulasi hcg (MDA Approved) HCG Pregnancy Test Kit Test Pregnant Test Urine Pregnancy Test Ovulation Test Strip Ovulation Test Kit hcg  pregnancy",
+      "cover": "https://s.500fd.com/tt_product/ff6cc2aa6e1842acb6e3c30aa166f73d~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1730697905726916562?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM0.20",
+      "category_name": [
+        "Family Planning Tests"
+      ],
+      "shop_name": "momohouse.os",
+      "shop_sold_count": 35469265,
+      "aweme_count": 3,
+      "live_count": 9,
+      "author_count": 6,
+      "launch_time": "2025-01-06 16:36:05",
+      "_first_seen": "2026-09-02",
+      "_last_seen": "2026-09-06",
+      "_appearances": 4,
+      "_total_sold": 13601,
+      "_total_sale": 2720.2000000000003,
+      "_growth_sum": 159.75,
+      "_growth_count": 4,
+      "_trend": [
+        {
+          "date": "2026-09-02",
+          "sold": 3067,
+          "sale_amount": 613.4
+        },
+        {
+          "date": "2026-09-04",
+          "sold": 3885,
+          "sale_amount": 777
+        },
+        {
+          "date": "2026-09-05",
+          "sold": 3036,
+          "sale_amount": 607.2
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3613,
+          "sale_amount": 722.6
+        }
+      ],
+      "sold_count": 13601,
+      "sale_amount": 2720.2000000000003,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 39.94,
+      "_total_sold_show": "13.6k",
+      "_total_sale_show": "$2.7k"
     },
     {
       "product_id": "1737262588723430686",
@@ -278,6 +336,54 @@
       "_avg_growth": 57.48,
       "_total_sold_show": "11.6k",
       "_total_sale_show": "$1.3M"
+    },
+    {
+      "product_id": "1735750900088734829",
+      "title": "【NPRA Notified】Teashell Official Sabun Pencerah Niacinamide｜Formula lembut gred eksport 3-dalam-1, membantu mencerahkan dan memperbaiki kulit kusam untuk kulit tampak lebih cerah dan halus.",
+      "cover": "https://s.500fd.com/tt_product/d23c514b0ca6485297a0067a38b40479~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735750900088734829?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM8.60  - 14.70",
+      "category_name": [
+        "Body Wash & Soap"
+      ],
+      "shop_name": "Teashell Malaysia",
+      "shop_sold_count": 575581,
+      "aweme_count": 42,
+      "live_count": 34,
+      "author_count": 58,
+      "launch_time": "2026-05-25 14:36:00",
+      "_first_seen": "2026-09-02",
+      "_last_seen": "2026-09-06",
+      "_appearances": 3,
+      "_total_sold": 10793,
+      "_total_sale": 109848.24000000002,
+      "_growth_sum": 335.53999999999996,
+      "_growth_count": 3,
+      "_trend": [
+        {
+          "date": "2026-09-02",
+          "sold": 4119,
+          "sale_amount": 35423.4
+        },
+        {
+          "date": "2026-09-04",
+          "sold": 3387,
+          "sale_amount": 35868.33
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3287,
+          "sale_amount": 38556.51
+        }
+      ],
+      "sold_count": 10793,
+      "sale_amount": 109848.24000000002,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 111.85,
+      "_total_sold_show": "10.8k",
+      "_total_sale_show": "$109.8k"
     },
     {
       "product_id": "1731760198429934884",
@@ -376,54 +482,6 @@
       "_total_sale_show": "$32.6k"
     },
     {
-      "product_id": "1730697905726916562",
-      "title": "(Diluluskan MDA) Kit Ujian Kehamilan HCG Ujian Mengandung Ujian Air Kencing Jalur Ujian Ovulasi Kit Ujian Ovulasi hcg (MDA Approved) HCG Pregnancy Test Kit Test Pregnant Test Urine Pregnancy Test Ovulation Test Strip Ovulation Test Kit hcg  pregnancy",
-      "cover": "https://s.500fd.com/tt_product/ff6cc2aa6e1842acb6e3c30aa166f73d~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1730697905726916562?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM0.20",
-      "category_name": [
-        "Family Planning Tests"
-      ],
-      "shop_name": "momohouse.os",
-      "shop_sold_count": 35469265,
-      "aweme_count": 3,
-      "live_count": 9,
-      "author_count": 6,
-      "launch_time": "2025-01-06 16:36:05",
-      "_first_seen": "2026-09-02",
-      "_last_seen": "2026-09-05",
-      "_appearances": 3,
-      "_total_sold": 9988,
-      "_total_sale": 1997.6000000000001,
-      "_growth_sum": 140.74,
-      "_growth_count": 3,
-      "_trend": [
-        {
-          "date": "2026-09-02",
-          "sold": 3067,
-          "sale_amount": 613.4
-        },
-        {
-          "date": "2026-09-04",
-          "sold": 3885,
-          "sale_amount": 777
-        },
-        {
-          "date": "2026-09-05",
-          "sold": 3036,
-          "sale_amount": 607.2
-        }
-      ],
-      "sold_count": 9988,
-      "sale_amount": 1997.6000000000001,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 46.91,
-      "_total_sold_show": "10.0k",
-      "_total_sale_show": "$2.0k"
-    },
-    {
       "product_id": "1729541255025951861",
       "title": "TheJamu 500ml | Jus Botanical Organic Dengan Bahan Semulajadi",
       "cover": "https://s.500fd.com/tt_product/7d5e68eb62b847949f523f62ce522c15~tplv-aphluv4xwc-crop-webp:2560:2560.webp",
@@ -467,138 +525,47 @@
       "_total_sale_show": "$9.3k"
     },
     {
-      "product_id": "1735531010465433030",
-      "title": "IPAL Luminous Lipstick Dewy Shine Ultra | Hydrating Care Lasting Color Non-Sticky Feel | Makeup Glossy and Waterproof",
-      "cover": "https://s.500fd.com/tt_product/d08380f206984ff9bbb2793c9e70cb2c~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735531010465433030?region=MY&local=en",
+      "product_id": "1734509172099483195",
+      "title": "PANDAEYES WARNI Seluar Barrel Belon | Barrel Balloon Pants 0947",
+      "cover": "https://s.500fd.com/tt_product/48f5540dc39943bfa34d3349f44c68a3~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734509172099483195?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM10.29",
+      "real_price": "RM5.89",
       "category_name": [
-        "Lipstick & Lip Gloss\t"
+        "Trousers"
       ],
-      "shop_name": "IPAL Malaysia",
-      "shop_sold_count": 269792,
-      "aweme_count": 0,
-      "live_count": 9,
-      "author_count": 5,
-      "launch_time": "2026-06-10 08:34:22",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-31",
-      "_appearances": 2,
-      "_total_sold": 8658,
-      "_total_sale": 89090.82,
-      "_growth_sum": 1695.3200000000002,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 4488,
-          "sale_amount": 46181.52
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 4170,
-          "sale_amount": 42909.3
-        }
-      ],
-      "sold_count": 8658,
-      "sale_amount": 89090.82,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 847.66,
-      "_total_sold_show": "8.7k",
-      "_total_sale_show": "$89.1k"
-    },
-    {
-      "product_id": "1734306543425192992",
-      "title": "New SKINTIFIC-DAMASK ROSE BRIGHTENING WHIPPED CREAM CLEANSER SKIN LOOKS CLEARER BRIGHTER INSTANTLY",
-      "cover": "https://s.500fd.com/tt_product/4fc8ad4d280d4991a8e3a7c1c00fcdb5~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734306543425192992?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM17.80",
-      "category_name": [
-        "Facial Cleansers\t"
-      ],
-      "shop_name": "Skintific.my",
-      "shop_sold_count": 87034080,
-      "aweme_count": 2,
-      "live_count": 31,
-      "author_count": 27,
-      "launch_time": "2026-02-05 04:11:15",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-04",
-      "_appearances": 3,
-      "_total_sold": 8614,
-      "_total_sale": 153329.2,
-      "_growth_sum": 23.280000000000005,
-      "_growth_count": 3,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 2886,
-          "sale_amount": 51370.8
-        },
-        {
-          "date": "2026-09-03",
-          "sold": 2839,
-          "sale_amount": 50534.2
-        },
-        {
-          "date": "2026-09-04",
-          "sold": 2889,
-          "sale_amount": 51424.2
-        }
-      ],
-      "sold_count": 8614,
-      "sale_amount": 153329.2,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 7.76,
-      "_total_sold_show": "8.6k",
-      "_total_sale_show": "$153.3k"
-    },
-    {
-      "product_id": "1735750900088734829",
-      "title": "【NPRA Notified】Teashell Official Sabun Pencerah Niacinamide｜Formula lembut gred eksport 3-dalam-1, membantu mencerahkan dan memperbaiki kulit kusam untuk kulit tampak lebih cerah dan halus.",
-      "cover": "https://s.500fd.com/tt_product/d23c514b0ca6485297a0067a38b40479~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735750900088734829?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM8.60  - 14.70",
-      "category_name": [
-        "Body Wash & Soap"
-      ],
-      "shop_name": "Teashell Malaysia",
-      "shop_sold_count": 575581,
-      "aweme_count": 42,
+      "shop_name": "Panda eyes",
+      "shop_sold_count": 19102957,
+      "aweme_count": 65,
       "live_count": 34,
-      "author_count": 58,
-      "launch_time": "2026-05-25 14:36:00",
-      "_first_seen": "2026-09-02",
-      "_last_seen": "2026-09-04",
+      "author_count": 68,
+      "launch_time": "2026-03-15 04:18:13",
+      "_first_seen": "2026-09-05",
+      "_last_seen": "2026-09-06",
       "_appearances": 2,
-      "_total_sold": 7506,
-      "_total_sale": 71291.73000000001,
-      "_growth_sum": 145.94,
+      "_total_sold": 7270,
+      "_total_sale": 42820.3,
+      "_growth_sum": 301.96,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-09-02",
-          "sold": 4119,
-          "sale_amount": 35423.4
+          "date": "2026-09-05",
+          "sold": 3971,
+          "sale_amount": 23389.19
         },
         {
-          "date": "2026-09-04",
-          "sold": 3387,
-          "sale_amount": 35868.33
+          "date": "2026-09-06",
+          "sold": 3299,
+          "sale_amount": 19431.11
         }
       ],
-      "sold_count": 7506,
-      "sale_amount": 71291.73000000001,
+      "sold_count": 7270,
+      "sale_amount": 42820.3,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 72.97,
-      "_total_sold_show": "7.5k",
-      "_total_sale_show": "$71.3k"
+      "_avg_growth": 150.98,
+      "_total_sold_show": "7.3k",
+      "_total_sale_show": "$42.8k"
     },
     {
       "product_id": "1732820937232844740",
@@ -725,47 +692,47 @@
       "_total_sale_show": "$113.2k"
     },
     {
-      "product_id": "1731431464612365516",
-      "title": "[ Stok Sedia Ada ] Wayar Batang 1-40 Warna Chenille Stems 50pcs/100pcs+- 7-8mm (Saiz Tebal/Gebu) Kawat Batang Chenille Berwarna-warni / Kraf Kawat Bunga / Kawat Rambut / Kraf Seni DIY",
-      "cover": "https://s.500fd.com/tt_product/e41210f4f0a246c9990b3d1e0e43af18~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731431464612365516?region=MY&local=en",
+      "product_id": "1733367397164090582",
+      "title": "[Beli 1 Dapat 2 PERCUMA] Dr.Ritta SP68 Ubat Gigi Pemutih 100g - Hilangkan Noda Gigi, Bau Mulut & Gigi Kuning, Mencegah Plak/Karang Gigi, Nafas Segar Tahan Lama [COD]",
+      "cover": "https://s.500fd.com/tt_product/47747174c25f47e58c51beac179921af~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733367397164090582?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM1.80  - 2.90",
+      "real_price": "RM13.80  - 28.00",
       "category_name": [
-        "Slime & Squishy Toys"
+        "Toothpastes"
       ],
-      "shop_name": "Charlene Store.",
-      "shop_sold_count": 6061429,
-      "aweme_count": 1,
-      "live_count": 11,
-      "author_count": 8,
-      "launch_time": "2025-05-21 08:07:59",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-01",
+      "shop_name": "Dr.Ritta Official MY",
+      "shop_sold_count": 969638,
+      "aweme_count": 14,
+      "live_count": 34,
+      "author_count": 27,
+      "launch_time": "2025-12-03 15:53:55",
+      "_first_seen": "2026-09-03",
+      "_last_seen": "2026-09-06",
       "_appearances": 2,
-      "_total_sold": 6483,
-      "_total_sale": 11021.099999999999,
-      "_growth_sum": 321.57,
+      "_total_sold": 6546,
+      "_total_sale": 78859.7,
+      "_growth_sum": 120.33,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-30",
-          "sold": 2711,
-          "sale_amount": 4608.7
+          "date": "2026-09-03",
+          "sold": 3301,
+          "sale_amount": 38621.7
         },
         {
-          "date": "2026-09-01",
-          "sold": 3772,
-          "sale_amount": 6412.4
+          "date": "2026-09-06",
+          "sold": 3245,
+          "sale_amount": 40238
         }
       ],
-      "sold_count": 6483,
-      "sale_amount": 11021.099999999999,
+      "sold_count": 6546,
+      "sale_amount": 78859.7,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 160.78,
+      "_avg_growth": 60.16,
       "_total_sold_show": "6.5k",
-      "_total_sale_show": "$11.0k"
+      "_total_sale_show": "$78.9k"
     },
     {
       "product_id": "1734316197998200379",
@@ -804,6 +771,49 @@
       "_avg_growth": 0,
       "_total_sold_show": "5.7k",
       "_total_sale_show": "$102.7k"
+    },
+    {
+      "product_id": "1734306543425192992",
+      "title": "New SKINTIFIC-DAMASK ROSE BRIGHTENING WHIPPED CREAM CLEANSER SKIN LOOKS CLEARER BRIGHTER INSTANTLY",
+      "cover": "https://s.500fd.com/tt_product/9293fb509bf44571b4a9062665697383~tplv-aphluv4xwc-resize-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734306543425192992?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM17.80",
+      "category_name": [
+        "Facial Cleansers\t"
+      ],
+      "shop_name": "Skintific.my",
+      "shop_sold_count": 87034080,
+      "aweme_count": 58,
+      "live_count": 80,
+      "author_count": 106,
+      "launch_time": "2026-02-05 04:11:15",
+      "_first_seen": "2026-09-03",
+      "_last_seen": "2026-09-04",
+      "_appearances": 2,
+      "_total_sold": 5728,
+      "_total_sale": 101958.4,
+      "_growth_sum": -4.140000000000001,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-09-03",
+          "sold": 2839,
+          "sale_amount": 50534.2
+        },
+        {
+          "date": "2026-09-04",
+          "sold": 2889,
+          "sale_amount": 51424.2
+        }
+      ],
+      "sold_count": 5728,
+      "sale_amount": 101958.4,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": -2.07,
+      "_total_sold_show": "5.7k",
+      "_total_sale_show": "$102.0k"
     },
     {
       "product_id": "1729596877984532772",
@@ -920,42 +930,42 @@
       "_total_sale_show": "$64.1k"
     },
     {
-      "product_id": "1734509172099483195",
-      "title": "PANDAEYES WARNI Seluar Barrel Belon | Barrel Balloon Pants 0947",
-      "cover": "https://s.500fd.com/tt_product/48f5540dc39943bfa34d3349f44c68a3~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1734509172099483195?region=MY&local=en",
+      "product_id": "1735531010465433030",
+      "title": "IPAL Luminous Lipstick Dewy Shine Ultra | Hydrating Care Lasting Color Non-Sticky Feel | Makeup Glossy and Waterproof",
+      "cover": "https://s.500fd.com/tt_product/d08380f206984ff9bbb2793c9e70cb2c~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735531010465433030?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM5.89",
+      "real_price": "RM10.29",
       "category_name": [
-        "Trousers"
+        "Lipstick & Lip Gloss\t"
       ],
-      "shop_name": "Panda eyes",
-      "shop_sold_count": 19102957,
-      "aweme_count": 65,
-      "live_count": 34,
-      "author_count": 68,
-      "launch_time": "2026-03-15 04:18:13",
-      "_first_seen": "2026-09-05",
-      "_last_seen": "2026-09-05",
+      "shop_name": "IPAL Malaysia",
+      "shop_sold_count": 269792,
+      "aweme_count": 11,
+      "live_count": 7,
+      "author_count": 8,
+      "launch_time": "2026-06-10 08:34:22",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-08-31",
       "_appearances": 1,
-      "_total_sold": 3971,
-      "_total_sale": 23389.19,
-      "_growth_sum": 318.88,
+      "_total_sold": 4170,
+      "_total_sale": 42909.3,
+      "_growth_sum": -7.09,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-09-05",
-          "sold": 3971,
-          "sale_amount": 23389.19
+          "date": "2026-08-31",
+          "sold": 4170,
+          "sale_amount": 42909.3
         }
       ],
-      "sold_count": 3971,
-      "sale_amount": 23389.19,
+      "sold_count": 4170,
+      "sale_amount": 42909.3,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 318.88,
-      "_total_sold_show": "4.0k",
-      "_total_sale_show": "$23.4k"
+      "_avg_growth": -7.09,
+      "_total_sold_show": "4.2k",
+      "_total_sale_show": "$42.9k"
     },
     {
       "product_id": "1736987692318622909",
@@ -1032,6 +1042,44 @@
       "_avg_growth": 0,
       "_total_sold_show": "3.9k",
       "_total_sale_show": "$42.4k"
+    },
+    {
+      "product_id": "1731431464612365516",
+      "title": "[ Stok Sedia Ada ] Wayar Batang 1-40 Warna Chenille Stems 50pcs/100pcs+- 7-8mm (Saiz Tebal/Gebu) Kawat Batang Chenille Berwarna-warni / Kraf Kawat Bunga / Kawat Rambut / Kraf Seni DIY",
+      "cover": "https://s.500fd.com/tt_product/e41210f4f0a246c9990b3d1e0e43af18~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1731431464612365516?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM1.80  - 2.86",
+      "category_name": [
+        "Slime & Squishy Toys"
+      ],
+      "shop_name": "Charlene Store.",
+      "shop_sold_count": 6061429,
+      "aweme_count": 2,
+      "live_count": 10,
+      "author_count": 10,
+      "launch_time": "2025-05-21 08:07:59",
+      "_first_seen": "2026-09-01",
+      "_last_seen": "2026-09-01",
+      "_appearances": 1,
+      "_total_sold": 3772,
+      "_total_sale": 6412.4,
+      "_growth_sum": 352.82,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-09-01",
+          "sold": 3772,
+          "sale_amount": 6412.4
+        }
+      ],
+      "sold_count": 3772,
+      "sale_amount": 6412.4,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 352.82,
+      "_total_sold_show": "3.8k",
+      "_total_sale_show": "$6.4k"
     },
     {
       "product_id": "1732521446188877644",
@@ -1148,6 +1196,44 @@
       "_total_sale_show": "$6.2k"
     },
     {
+      "product_id": "1733217807329166339",
+      "title": "ELGINI E16400 Seluar Latihan Trikot Premium S-XXL | Luxe Tricot Training Pants",
+      "cover": "https://s.500fd.com/tt_product/136bd9a53ada44e0b68f4c86fed744fb~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1733217807329166339?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM22.45  - 23.64",
+      "category_name": [
+        "Tracksuits"
+      ],
+      "shop_name": "ELGINI MALAYSIA",
+      "shop_sold_count": 45950331,
+      "aweme_count": 4,
+      "live_count": 13,
+      "author_count": 9,
+      "launch_time": "2025-11-14 15:10:19",
+      "_first_seen": "2026-09-06",
+      "_last_seen": "2026-09-06",
+      "_appearances": 1,
+      "_total_sold": 3444,
+      "_total_sale": 72806.16,
+      "_growth_sum": 3450.52,
+      "_growth_count": 1,
+      "_trend": [
+        {
+          "date": "2026-09-06",
+          "sold": 3444,
+          "sale_amount": 72806.16
+        }
+      ],
+      "sold_count": 3444,
+      "sale_amount": 72806.16,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 3450.52,
+      "_total_sold_show": "3.4k",
+      "_total_sale_show": "$72.8k"
+    },
+    {
       "product_id": "1732249741912606189",
       "title": "Lip Serum Pink Moist - Bella park",
       "cover": "https://s.500fd.com/tt_product/ffff2b3246ac409aa2296d6d9e62b997~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
@@ -1262,80 +1348,42 @@
       "_total_sale_show": "$32.8k"
     },
     {
-      "product_id": "1733367397164090582",
-      "title": "[Beli 1 Dapat 2 PERCUMA] Dr.Ritta SP68 Ubat Gigi Pemutih 100g - Hilangkan Noda Gigi, Bau Mulut & Gigi Kuning, Mencegah Plak/Karang Gigi, Nafas Segar Tahan Lama [COD]",
-      "cover": "https://s.500fd.com/tt_product/47747174c25f47e58c51beac179921af~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1733367397164090582?region=MY&local=en",
+      "product_id": "1735755424517097052",
+      "title": "【KKM】Krim pelindung matahari Rose pemutih 60 ml, SPF90+, pelembap pelindung matahari dengan perlindungan tinggi dan UV Plus. Krim pelindung matahari untuk perlindungan matahari. Kulit Cerah Facial Kecantikan Sunscreen Wajah",
+      "cover": "https://s.500fd.com/tt_product/fefa379fc7e44cc8a4ac35432b3696f1~tplv-aphluv4xwc-crop-webp:800:800.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1735755424517097052?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM13.80  - 28.00",
+      "real_price": "RM5.00  - 17.70",
       "category_name": [
-        "Toothpastes"
+        "Facial Sunscreen & Sun Care\t"
       ],
-      "shop_name": "Dr.Ritta Official MY",
-      "shop_sold_count": 969638,
-      "aweme_count": 14,
-      "live_count": 34,
-      "author_count": 27,
-      "launch_time": "2025-12-03 15:53:55",
-      "_first_seen": "2026-09-03",
-      "_last_seen": "2026-09-03",
+      "shop_name": "Moremore",
+      "shop_sold_count": 58163,
+      "aweme_count": 24,
+      "live_count": 44,
+      "author_count": 46,
+      "launch_time": "2026-05-27 11:45:36",
+      "_first_seen": "2026-09-06",
+      "_last_seen": "2026-09-06",
       "_appearances": 1,
-      "_total_sold": 3301,
-      "_total_sale": 38621.7,
-      "_growth_sum": 72.02,
+      "_total_sold": 3211,
+      "_total_sale": 15412.8,
+      "_growth_sum": 191.91,
       "_growth_count": 1,
       "_trend": [
         {
-          "date": "2026-09-03",
-          "sold": 3301,
-          "sale_amount": 38621.7
+          "date": "2026-09-06",
+          "sold": 3211,
+          "sale_amount": 15412.8
         }
       ],
-      "sold_count": 3301,
-      "sale_amount": 38621.7,
+      "sold_count": 3211,
+      "sale_amount": 15412.8,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 72.02,
-      "_total_sold_show": "3.3k",
-      "_total_sale_show": "$38.6k"
-    },
-    {
-      "product_id": "1730527923062080808",
-      "title": "Mooi Staylocked ComfortMatte 5ml (New Formula)",
-      "cover": "https://s.500fd.com/tt_product/5247797ea5064f1d9a6f3972c19eb836~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1730527923062080808?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM10.50",
-      "category_name": [
-        "Lipstick & Lip Gloss\t"
-      ],
-      "shop_name": "Mooiofficial.my",
-      "shop_sold_count": 61381,
-      "aweme_count": 0,
-      "live_count": 3,
-      "author_count": 1,
-      "launch_time": "2024-11-27 21:51:44",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-30",
-      "_appearances": 1,
-      "_total_sold": 3248,
-      "_total_sale": 34104,
-      "_growth_sum": 487.34,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 3248,
-          "sale_amount": 34104
-        }
-      ],
-      "sold_count": 3248,
-      "sale_amount": 34104,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 487.34,
+      "_avg_growth": 191.91,
       "_total_sold_show": "3.2k",
-      "_total_sale_show": "$34.1k"
+      "_total_sale_show": "$15.4k"
     },
     {
       "product_id": "1729639702298265499",
@@ -1414,82 +1462,6 @@
       "_total_sale_show": "$32.4k"
     },
     {
-      "product_id": "1737010784152159421",
-      "title": "[RAIU] BAJU KURUNG MODEN MATERIAL PREMIUM CHIFFON CREPE BY THE PANDA OUTFIT HQ",
-      "cover": "https://s.500fd.com/tt_product/3fe3e5c0870c48608eac40ee48f5591c~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1737010784152159421?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM11.99",
-      "category_name": [
-        "Clothing Sets"
-      ],
-      "shop_name": "THE PANDA OUTFIT HQ",
-      "shop_sold_count": 1671413,
-      "aweme_count": 0,
-      "live_count": 0,
-      "author_count": 0,
-      "launch_time": "2026-08-13 10:16:01",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-30",
-      "_appearances": 1,
-      "_total_sold": 2922,
-      "_total_sale": 35034.78,
-      "_growth_sum": 0,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 2922,
-          "sale_amount": 35034.78
-        }
-      ],
-      "sold_count": 2922,
-      "sale_amount": 35034.78,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "2.9k",
-      "_total_sale_show": "$35.0k"
-    },
-    {
-      "product_id": "1729507248955294786",
-      "title": "LIVE OAT BARLEY TANPA GULA PUTIH, EXTRACT PISANG, BIJI BETIK, MORINGGA, GYMNEMA, OAT",
-      "cover": "https://s.500fd.com/tt_product/eac2d0a4bb7340f998be4eae4eebe660~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729507248955294786?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM12.50",
-      "category_name": [
-        "Meal Replacement & Protein Drinks"
-      ],
-      "shop_name": "hafana marketing",
-      "shop_sold_count": 579711,
-      "aweme_count": 0,
-      "live_count": 12,
-      "author_count": 5,
-      "launch_time": "2023-11-07 04:58:50",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-30",
-      "_appearances": 1,
-      "_total_sold": 2896,
-      "_total_sale": 36200,
-      "_growth_sum": 0,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 2896,
-          "sale_amount": 36200
-        }
-      ],
-      "sold_count": 2896,
-      "sale_amount": 36200,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 0,
-      "_total_sold_show": "2.9k",
-      "_total_sale_show": "$36.2k"
-    },
-    {
       "product_id": "1730748911994176952",
       "title": "Mid-Long Casual Sport Running Pants Short Pants Fitness Breathable Plus Size Men Selaur Lelaki",
       "cover": "https://s.500fd.com/tt_product/b827ee6bf69b4ee29fede77e08c476ae~tplv-o3syd03w52-resize-jpeg:800:800.jpeg",
@@ -1564,44 +1536,6 @@
       "_avg_growth": 0,
       "_total_sold_show": "2.8k",
       "_total_sale_show": "$99.8k"
-    },
-    {
-      "product_id": "1737036969868297299",
-      "title": "Merdeka Day NMN Enhanced+ (7 Sachet)",
-      "cover": "https://s.500fd.com/tt_product/d75e0bc0825f4d0c89a1ba25c95d1da6~tplv-aphluv4xwc-resize-webp:800:800.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1737036969868297299?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM62.00",
-      "category_name": [
-        "Beauty Supplement"
-      ],
-      "shop_name": "Noir Health & Beauty HQ",
-      "shop_sold_count": 189878,
-      "aweme_count": 0,
-      "live_count": 11,
-      "author_count": 7,
-      "launch_time": "2026-08-28 20:21:19",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-30",
-      "_appearances": 1,
-      "_total_sold": 2684,
-      "_total_sale": 214720,
-      "_growth_sum": 430.43,
-      "_growth_count": 1,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 2684,
-          "sale_amount": 214720
-        }
-      ],
-      "sold_count": 2684,
-      "sale_amount": 214720,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 430.43,
-      "_total_sold_show": "2.7k",
-      "_total_sale_show": "$214.7k"
     },
     {
       "product_id": "1729519110036293168",
@@ -1698,19 +1632,14 @@
       "live_count": 5083,
       "author_count": 4782,
       "launch_time": "2026-03-18 13:11:24",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 1986306,
       "_total_sale": 47947734.45,
       "_growth_sum": 246.32999999999998,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 283758,
-          "sale_amount": 6849676.35
-        },
         {
           "date": "2026-08-31",
           "sold": 283758,
@@ -1738,6 +1667,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 283758,
+          "sale_amount": 6849676.35
+        },
+        {
+          "date": "2026-09-06",
           "sold": 283758,
           "sale_amount": 6849676.35
         }
@@ -1766,19 +1700,14 @@
       "live_count": 4368,
       "author_count": 2704,
       "launch_time": "2024-03-28 15:38:46",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 1359477,
       "_total_sale": 36276681.21,
       "_growth_sum": -2.6599999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 194211,
-          "sale_amount": 5182383.03
-        },
         {
           "date": "2026-08-31",
           "sold": 194211,
@@ -1806,6 +1735,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 194211,
+          "sale_amount": 5182383.03
+        },
+        {
+          "date": "2026-09-06",
           "sold": 194211,
           "sale_amount": 5182383.03
         }
@@ -1834,19 +1768,14 @@
       "live_count": 1016,
       "author_count": 436,
       "launch_time": "2024-10-03 00:30:27",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 974813,
       "_total_sale": 1841444.0099999998,
       "_growth_sum": -142.73000000000002,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 139259,
-          "sale_amount": 263063.43
-        },
         {
           "date": "2026-08-31",
           "sold": 139259,
@@ -1874,6 +1803,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 139259,
+          "sale_amount": 263063.43
+        },
+        {
+          "date": "2026-09-06",
           "sold": 139259,
           "sale_amount": 263063.43
         }
@@ -1902,19 +1836,14 @@
       "live_count": 2077,
       "author_count": 1529,
       "launch_time": "2025-07-10 11:27:59",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 733754,
       "_total_sale": 36422734.04,
       "_growth_sum": 1210.79,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 104822,
-          "sale_amount": 5203247.72
-        },
         {
           "date": "2026-08-31",
           "sold": 104822,
@@ -1942,6 +1871,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 104822,
+          "sale_amount": 5203247.72
+        },
+        {
+          "date": "2026-09-06",
           "sold": 104822,
           "sale_amount": 5203247.72
         }
@@ -1970,19 +1904,14 @@
       "live_count": 1819,
       "author_count": 1877,
       "launch_time": "2026-01-15 07:32:51",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 642642,
       "_total_sale": 13490477.279999997,
       "_growth_sum": 10.780000000000001,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 91806,
-          "sale_amount": 1927211.04
-        },
         {
           "date": "2026-08-31",
           "sold": 91806,
@@ -2010,6 +1939,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 91806,
+          "sale_amount": 1927211.04
+        },
+        {
+          "date": "2026-09-06",
           "sold": 91806,
           "sale_amount": 1927211.04
         }
@@ -2038,19 +1972,14 @@
       "live_count": 1210,
       "author_count": 1010,
       "launch_time": "2025-11-10 23:46:59",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 634410,
       "_total_sale": 10688569.5,
       "_growth_sum": -127.75,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 90630,
-          "sale_amount": 1526938.5
-        },
         {
           "date": "2026-08-31",
           "sold": 90630,
@@ -2078,6 +2007,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 90630,
+          "sale_amount": 1526938.5
+        },
+        {
+          "date": "2026-09-06",
           "sold": 90630,
           "sale_amount": 1526938.5
         }
@@ -2106,19 +2040,14 @@
       "live_count": 521,
       "author_count": 811,
       "launch_time": "2026-05-27 04:46:26",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 619206,
       "_total_sale": 3099313,
       "_growth_sum": 18944.87,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 88458,
-          "sale_amount": 442759
-        },
         {
           "date": "2026-08-31",
           "sold": 88458,
@@ -2146,6 +2075,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 88458,
+          "sale_amount": 442759
+        },
+        {
+          "date": "2026-09-06",
           "sold": 88458,
           "sale_amount": 442759
         }
@@ -2174,19 +2108,14 @@
       "live_count": 883,
       "author_count": 567,
       "launch_time": "2025-07-25 13:10:01",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 604254,
       "_total_sale": 12824950.110000001,
       "_growth_sum": 89.67,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 86322,
-          "sale_amount": 1832135.73
-        },
         {
           "date": "2026-08-31",
           "sold": 86322,
@@ -2214,6 +2143,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 86322,
+          "sale_amount": 1832135.73
+        },
+        {
+          "date": "2026-09-06",
           "sold": 86322,
           "sale_amount": 1832135.73
         }
@@ -2242,19 +2176,14 @@
       "live_count": 818,
       "author_count": 717,
       "launch_time": "2025-10-23 13:58:30",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 602973,
       "_total_sale": 8671306.07,
       "_growth_sum": 479.15,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 86139,
-          "sale_amount": 1238758.01
-        },
         {
           "date": "2026-08-31",
           "sold": 86139,
@@ -2282,6 +2211,11 @@
         },
         {
           "date": "2026-09-05",
+          "sold": 86139,
+          "sale_amount": 1238758.01
+        },
+        {
+          "date": "2026-09-06",
           "sold": 86139,
           "sale_amount": 1238758.01
         }
@@ -2310,19 +2244,14 @@
       "live_count": 1176,
       "author_count": 395,
       "launch_time": "2024-12-12 17:18:36",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 7,
       "_total_sold": 544180,
       "_total_sale": 1076025.79,
       "_growth_sum": -119.27999999999997,
       "_growth_count": 7,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 77740,
-          "sale_amount": 153717.97
-        },
         {
           "date": "2026-08-31",
           "sold": 77740,
@@ -2352,6 +2281,11 @@
           "date": "2026-09-05",
           "sold": 77740,
           "sale_amount": 153717.97
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 77740,
+          "sale_amount": 153717.97
         }
       ],
       "sold_count": 544180,
@@ -2363,49 +2297,6 @@
     }
   ],
   "growth_top": [
-    {
-      "product_id": "1735531010465433030",
-      "title": "IPAL Luminous Lipstick Dewy Shine Ultra | Hydrating Care Lasting Color Non-Sticky Feel | Makeup Glossy and Waterproof",
-      "cover": "https://s.500fd.com/tt_product/d08380f206984ff9bbb2793c9e70cb2c~tplv-aphluv4xwc-crop-webp:1500:1500.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1735531010465433030?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM10.29",
-      "category_name": [
-        "Lipstick & Lip Gloss\t"
-      ],
-      "shop_name": "IPAL Malaysia",
-      "shop_sold_count": 269792,
-      "aweme_count": 0,
-      "live_count": 9,
-      "author_count": 5,
-      "launch_time": "2026-06-10 08:34:22",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-08-31",
-      "_appearances": 2,
-      "_total_sold": 8658,
-      "_total_sale": 89090.82,
-      "_growth_sum": 1695.3200000000002,
-      "_growth_count": 2,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 4488,
-          "sale_amount": 46181.52
-        },
-        {
-          "date": "2026-08-31",
-          "sold": 4170,
-          "sale_amount": 42909.3
-        }
-      ],
-      "sold_count": 8658,
-      "sale_amount": 89090.82,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 847.66,
-      "_total_sold_show": "8.7k",
-      "_total_sale_show": "$89.1k"
-    },
     {
       "product_id": "1729578874015746880",
       "title": "Tudung Bawal Cotton Bidang 45\" l Tudung Bawal Square Hijab l Bawal Cotton 45",
@@ -2504,24 +2395,19 @@
         "Facial Cleansers\t"
       ],
       "shop_name": "Jungle Girl Beauty Official",
-      "shop_sold_count": 2193224,
+      "shop_sold_count": 2197389,
       "aweme_count": 0,
-      "live_count": 9,
-      "author_count": 6,
+      "live_count": 23,
+      "author_count": 10,
       "launch_time": "2026-07-10 16:51:28",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-08-31",
+      "_last_seen": "2026-09-06",
       "_appearances": 5,
-      "_total_sold": 19786,
-      "_total_sale": 98930,
-      "_growth_sum": 817.57,
+      "_total_sold": 22393,
+      "_total_sale": 117402,
+      "_growth_sum": 788.96,
       "_growth_count": 5,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 2830,
-          "sale_amount": 14150
-        },
         {
           "date": "2026-08-31",
           "sold": 3634,
@@ -2541,57 +2427,62 @@
           "date": "2026-09-05",
           "sold": 4840,
           "sale_amount": 24200
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 5437,
+          "sale_amount": 32622
         }
       ],
-      "sold_count": 19786,
-      "sale_amount": 98930,
+      "sold_count": 22393,
+      "sale_amount": 117402,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 163.51,
-      "_total_sold_show": "19.8k",
-      "_total_sale_show": "$98.9k"
+      "_avg_growth": 157.79,
+      "_total_sold_show": "22.4k",
+      "_total_sale_show": "$117.4k"
     },
     {
-      "product_id": "1731431464612365516",
-      "title": "[ Stok Sedia Ada ] Wayar Batang 1-40 Warna Chenille Stems 50pcs/100pcs+- 7-8mm (Saiz Tebal/Gebu) Kawat Batang Chenille Berwarna-warni / Kraf Kawat Bunga / Kawat Rambut / Kraf Seni DIY",
-      "cover": "https://s.500fd.com/tt_product/e41210f4f0a246c9990b3d1e0e43af18~tplv-aphluv4xwc-crop-webp:1080:1080.webp",
-      "detail_url": "https://shop.tiktok.com/view/product/1731431464612365516?region=MY&local=en",
+      "product_id": "1734509172099483195",
+      "title": "PANDAEYES WARNI Seluar Barrel Belon | Barrel Balloon Pants 0947",
+      "cover": "https://s.500fd.com/tt_product/48f5540dc39943bfa34d3349f44c68a3~tplv-aphluv4xwc-crop-webp:1280:1280.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1734509172099483195?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM1.80  - 2.90",
+      "real_price": "RM5.89",
       "category_name": [
-        "Slime & Squishy Toys"
+        "Trousers"
       ],
-      "shop_name": "Charlene Store.",
-      "shop_sold_count": 6061429,
-      "aweme_count": 1,
-      "live_count": 11,
-      "author_count": 8,
-      "launch_time": "2025-05-21 08:07:59",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-01",
+      "shop_name": "Panda eyes",
+      "shop_sold_count": 19102957,
+      "aweme_count": 65,
+      "live_count": 34,
+      "author_count": 68,
+      "launch_time": "2026-03-15 04:18:13",
+      "_first_seen": "2026-09-05",
+      "_last_seen": "2026-09-06",
       "_appearances": 2,
-      "_total_sold": 6483,
-      "_total_sale": 11021.099999999999,
-      "_growth_sum": 321.57,
+      "_total_sold": 7270,
+      "_total_sale": 42820.3,
+      "_growth_sum": 301.96,
       "_growth_count": 2,
       "_trend": [
         {
-          "date": "2026-08-30",
-          "sold": 2711,
-          "sale_amount": 4608.7
+          "date": "2026-09-05",
+          "sold": 3971,
+          "sale_amount": 23389.19
         },
         {
-          "date": "2026-09-01",
-          "sold": 3772,
-          "sale_amount": 6412.4
+          "date": "2026-09-06",
+          "sold": 3299,
+          "sale_amount": 19431.11
         }
       ],
-      "sold_count": 6483,
-      "sale_amount": 11021.099999999999,
+      "sold_count": 7270,
+      "sale_amount": 42820.3,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 160.78,
-      "_total_sold_show": "6.5k",
-      "_total_sale_show": "$11.0k"
+      "_avg_growth": 150.98,
+      "_total_sold_show": "7.3k",
+      "_total_sale_show": "$42.8k"
     },
     {
       "product_id": "1732820937232844740",
@@ -2654,12 +2545,12 @@
       "author_count": 58,
       "launch_time": "2026-05-25 14:36:00",
       "_first_seen": "2026-09-02",
-      "_last_seen": "2026-09-04",
-      "_appearances": 2,
-      "_total_sold": 7506,
-      "_total_sale": 71291.73000000001,
-      "_growth_sum": 145.94,
-      "_growth_count": 2,
+      "_last_seen": "2026-09-06",
+      "_appearances": 3,
+      "_total_sold": 10793,
+      "_total_sale": 109848.24000000002,
+      "_growth_sum": 335.53999999999996,
+      "_growth_count": 3,
       "_trend": [
         {
           "date": "2026-09-02",
@@ -2670,14 +2561,62 @@
           "date": "2026-09-04",
           "sold": 3387,
           "sale_amount": 35868.33
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3287,
+          "sale_amount": 38556.51
         }
       ],
-      "sold_count": 7506,
-      "sale_amount": 71291.73000000001,
+      "sold_count": 10793,
+      "sale_amount": 109848.24000000002,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 72.97,
-      "_total_sold_show": "7.5k",
-      "_total_sale_show": "$71.3k"
+      "_avg_growth": 111.85,
+      "_total_sold_show": "10.8k",
+      "_total_sale_show": "$109.8k"
+    },
+    {
+      "product_id": "1733367397164090582",
+      "title": "[Beli 1 Dapat 2 PERCUMA] Dr.Ritta SP68 Ubat Gigi Pemutih 100g - Hilangkan Noda Gigi, Bau Mulut & Gigi Kuning, Mencegah Plak/Karang Gigi, Nafas Segar Tahan Lama [COD]",
+      "cover": "https://s.500fd.com/tt_product/47747174c25f47e58c51beac179921af~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
+      "detail_url": "https://shop.tiktok.com/view/product/1733367397164090582?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM13.80  - 28.00",
+      "category_name": [
+        "Toothpastes"
+      ],
+      "shop_name": "Dr.Ritta Official MY",
+      "shop_sold_count": 969638,
+      "aweme_count": 14,
+      "live_count": 34,
+      "author_count": 27,
+      "launch_time": "2025-12-03 15:53:55",
+      "_first_seen": "2026-09-03",
+      "_last_seen": "2026-09-06",
+      "_appearances": 2,
+      "_total_sold": 6546,
+      "_total_sale": 78859.7,
+      "_growth_sum": 120.33,
+      "_growth_count": 2,
+      "_trend": [
+        {
+          "date": "2026-09-03",
+          "sold": 3301,
+          "sale_amount": 38621.7
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3245,
+          "sale_amount": 40238
+        }
+      ],
+      "sold_count": 6546,
+      "sale_amount": 78859.7,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 60.16,
+      "_total_sold_show": "6.5k",
+      "_total_sale_show": "$78.9k"
     },
     {
       "product_id": "1737262588723430686",
@@ -2726,69 +2665,6 @@
       "_avg_growth": 57.48,
       "_total_sold_show": "11.6k",
       "_total_sale_show": "$1.3M"
-    },
-    {
-      "product_id": "1729550982771738420",
-      "title": "AbangS Anak tudung Sarung kapas sejuk pink belacan Hijab",
-      "cover": "https://s.500fd.com/tt_product/a4677be6f15142488763c68b47a85cf3~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
-      "detail_url": "https://shop.tiktok.com/view/product/1729550982771738420?region=MY&local=en",
-      "region": "MY",
-      "currency": "MYR",
-      "real_price": "RM1.88  - 2.09",
-      "category_name": [
-        "Underscarves"
-      ],
-      "shop_name": "Kedai Abang S",
-      "shop_sold_count": 2905271,
-      "aweme_count": 1,
-      "live_count": 17,
-      "author_count": 9,
-      "launch_time": "2024-02-12 09:45:33",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
-      "_appearances": 6,
-      "_total_sold": 34696,
-      "_total_sale": 65123.9,
-      "_growth_sum": 328.3,
-      "_growth_count": 6,
-      "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 9035,
-          "sale_amount": 15811.25
-        },
-        {
-          "date": "2026-09-01",
-          "sold": 4275,
-          "sale_amount": 8507.25
-        },
-        {
-          "date": "2026-09-02",
-          "sold": 4808,
-          "sale_amount": 9567.92
-        },
-        {
-          "date": "2026-09-03",
-          "sold": 4356,
-          "sale_amount": 8537.76
-        },
-        {
-          "date": "2026-09-04",
-          "sold": 4451,
-          "sale_amount": 8323.37
-        },
-        {
-          "date": "2026-09-05",
-          "sold": 7771,
-          "sale_amount": 14376.35
-        }
-      ],
-      "sold_count": 34696,
-      "sale_amount": 65123.9,
-      "sold_count_inc_rate": "0%",
-      "_avg_growth": 54.72,
-      "_total_sold_show": "34.7k",
-      "_total_sale_show": "$65.1k"
     },
     {
       "product_id": "1731760198429934884",
@@ -2856,12 +2732,12 @@
       "author_count": 6,
       "launch_time": "2025-01-06 16:36:05",
       "_first_seen": "2026-09-02",
-      "_last_seen": "2026-09-05",
-      "_appearances": 3,
-      "_total_sold": 9988,
-      "_total_sale": 1997.6000000000001,
-      "_growth_sum": 140.74,
-      "_growth_count": 3,
+      "_last_seen": "2026-09-06",
+      "_appearances": 4,
+      "_total_sold": 13601,
+      "_total_sale": 2720.2000000000003,
+      "_growth_sum": 159.75,
+      "_growth_count": 4,
       "_trend": [
         {
           "date": "2026-09-02",
@@ -2877,14 +2753,19 @@
           "date": "2026-09-05",
           "sold": 3036,
           "sale_amount": 607.2
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3613,
+          "sale_amount": 722.6
         }
       ],
-      "sold_count": 9988,
-      "sale_amount": 1997.6000000000001,
+      "sold_count": 13601,
+      "sale_amount": 2720.2000000000003,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 46.91,
-      "_total_sold_show": "10.0k",
-      "_total_sale_show": "$2.0k"
+      "_avg_growth": 39.94,
+      "_total_sold_show": "13.6k",
+      "_total_sale_show": "$2.7k"
     },
     {
       "product_id": "1732199437230638501",
@@ -2935,35 +2816,93 @@
       "_total_sale_show": "$32.6k"
     },
     {
+      "product_id": "1729550982771738420",
+      "title": "AbangS Anak tudung Sarung kapas sejuk pink belacan Hijab",
+      "cover": "https://s.500fd.com/tt_product/a4677be6f15142488763c68b47a85cf3~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "detail_url": "https://shop.tiktok.com/view/product/1729550982771738420?region=MY&local=en",
+      "region": "MY",
+      "currency": "MYR",
+      "real_price": "RM1.88  - 1.99",
+      "category_name": [
+        "Underscarves"
+      ],
+      "shop_name": "Kedai Abang S",
+      "shop_sold_count": 2913513,
+      "aweme_count": 2,
+      "live_count": 17,
+      "author_count": 11,
+      "launch_time": "2024-02-12 09:45:33",
+      "_first_seen": "2026-09-01",
+      "_last_seen": "2026-09-06",
+      "_appearances": 6,
+      "_total_sold": 29439,
+      "_total_sale": 56830.87,
+      "_growth_sum": 181.57000000000002,
+      "_growth_count": 6,
+      "_trend": [
+        {
+          "date": "2026-09-01",
+          "sold": 4275,
+          "sale_amount": 8507.25
+        },
+        {
+          "date": "2026-09-02",
+          "sold": 4808,
+          "sale_amount": 9567.92
+        },
+        {
+          "date": "2026-09-03",
+          "sold": 4356,
+          "sale_amount": 8537.76
+        },
+        {
+          "date": "2026-09-04",
+          "sold": 4451,
+          "sale_amount": 8323.37
+        },
+        {
+          "date": "2026-09-05",
+          "sold": 7771,
+          "sale_amount": 14376.35
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3778,
+          "sale_amount": 7518.22
+        }
+      ],
+      "sold_count": 29439,
+      "sale_amount": 56830.87,
+      "sold_count_inc_rate": "0%",
+      "_avg_growth": 30.26,
+      "_total_sold_show": "29.4k",
+      "_total_sale_show": "$56.8k"
+    },
+    {
       "product_id": "1735766767207285978",
       "title": "Serbuk TomSaab Thai Segera Mamagfood - Sup Siam Pedas Masam Thai - Cuma Tambah Air & Daging - Cepat dan Mudah",
       "cover": "https://s.500fd.com/tt_product/51c179d9d30847e7a5afd4f92e287c21~tplv-aphluv4xwc-crop-webp:1254:1254.webp",
       "detail_url": "https://shop.tiktok.com/view/product/1735766767207285978?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
-      "real_price": "RM6.80",
+      "real_price": "RM8.10  - 12.80",
       "category_name": [
         "Cooking Pastes & Seasoning Kits"
       ],
       "shop_name": "mamagfood",
-      "shop_sold_count": 1584917,
-      "aweme_count": 3,
-      "live_count": 19,
-      "author_count": 12,
+      "shop_sold_count": 1600624,
+      "aweme_count": 15,
+      "live_count": 44,
+      "author_count": 38,
       "launch_time": "2026-05-26 22:11:37",
-      "_first_seen": "2026-08-30",
-      "_last_seen": "2026-09-05",
+      "_first_seen": "2026-09-03",
+      "_last_seen": "2026-09-06",
       "_appearances": 4,
-      "_total_sold": 14004,
-      "_total_sale": 105505.6,
-      "_growth_sum": 62.16,
+      "_total_sold": 14143,
+      "_total_sale": 108885.6,
+      "_growth_sum": 47.2,
       "_growth_count": 4,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 3240,
-          "sale_amount": 23652
-        },
         {
           "date": "2026-09-03",
           "sold": 3416,
@@ -2978,19 +2917,24 @@
           "date": "2026-09-05",
           "sold": 4470,
           "sale_amount": 35313
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 3379,
+          "sale_amount": 27032
         }
       ],
-      "sold_count": 14004,
-      "sale_amount": 105505.6,
+      "sold_count": 14143,
+      "sale_amount": 108885.6,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 15.54,
-      "_total_sold_show": "14.0k",
-      "_total_sale_show": "$105.5k"
+      "_avg_growth": 11.8,
+      "_total_sold_show": "14.1k",
+      "_total_sale_show": "$108.9k"
     },
     {
       "product_id": "1734306543425192992",
       "title": "New SKINTIFIC-DAMASK ROSE BRIGHTENING WHIPPED CREAM CLEANSER SKIN LOOKS CLEARER BRIGHTER INSTANTLY",
-      "cover": "https://s.500fd.com/tt_product/4fc8ad4d280d4991a8e3a7c1c00fcdb5~tplv-aphluv4xwc-crop-webp:1200:1200.webp",
+      "cover": "https://s.500fd.com/tt_product/9293fb509bf44571b4a9062665697383~tplv-aphluv4xwc-resize-webp:800:800.webp",
       "detail_url": "https://shop.tiktok.com/view/product/1734306543425192992?region=MY&local=en",
       "region": "MY",
       "currency": "MYR",
@@ -3000,23 +2944,18 @@
       ],
       "shop_name": "Skintific.my",
       "shop_sold_count": 87034080,
-      "aweme_count": 2,
-      "live_count": 31,
-      "author_count": 27,
+      "aweme_count": 58,
+      "live_count": 80,
+      "author_count": 106,
       "launch_time": "2026-02-05 04:11:15",
-      "_first_seen": "2026-08-30",
+      "_first_seen": "2026-09-03",
       "_last_seen": "2026-09-04",
-      "_appearances": 3,
-      "_total_sold": 8614,
-      "_total_sale": 153329.2,
-      "_growth_sum": 23.280000000000005,
-      "_growth_count": 3,
+      "_appearances": 2,
+      "_total_sold": 5728,
+      "_total_sale": 101958.4,
+      "_growth_sum": -4.140000000000001,
+      "_growth_count": 2,
       "_trend": [
-        {
-          "date": "2026-08-30",
-          "sold": 2886,
-          "sale_amount": 51370.8
-        },
         {
           "date": "2026-09-03",
           "sold": 2839,
@@ -3028,12 +2967,12 @@
           "sale_amount": 51424.2
         }
       ],
-      "sold_count": 8614,
-      "sale_amount": 153329.2,
+      "sold_count": 5728,
+      "sale_amount": 101958.4,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": 7.76,
-      "_total_sold_show": "8.6k",
-      "_total_sale_show": "$153.3k"
+      "_avg_growth": -2.07,
+      "_total_sold_show": "5.7k",
+      "_total_sale_show": "$102.0k"
     },
     {
       "product_id": "1729601775266989400",
@@ -3053,12 +2992,12 @@
       "author_count": 87,
       "launch_time": "2024-04-19 08:28:23",
       "_first_seen": "2026-09-01",
-      "_last_seen": "2026-09-03",
-      "_appearances": 3,
-      "_total_sold": 43419,
-      "_total_sale": 103771.41,
-      "_growth_sum": -50.47,
-      "_growth_count": 3,
+      "_last_seen": "2026-09-06",
+      "_appearances": 4,
+      "_total_sold": 53368,
+      "_total_sale": 173016.45,
+      "_growth_sum": -76.16,
+      "_growth_count": 4,
       "_trend": [
         {
           "date": "2026-09-01",
@@ -3074,14 +3013,19 @@
           "date": "2026-09-03",
           "sold": 3663,
           "sale_amount": 8754.57
+        },
+        {
+          "date": "2026-09-06",
+          "sold": 9949,
+          "sale_amount": 69245.04
         }
       ],
-      "sold_count": 43419,
-      "sale_amount": 103771.41,
+      "sold_count": 53368,
+      "sale_amount": 173016.45,
       "sold_count_inc_rate": "0%",
-      "_avg_growth": -16.82,
-      "_total_sold_show": "43.4k",
-      "_total_sale_show": "$103.8k"
+      "_avg_growth": -19.04,
+      "_total_sold_show": "53.4k",
+      "_total_sale_show": "$173.0k"
     }
   ]
 }
