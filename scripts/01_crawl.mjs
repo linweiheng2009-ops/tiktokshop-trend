@@ -1,6 +1,6 @@
 // 路线 B 抓取脚本
-// 数据源: FastMoss 公开 API（不要钱 / 不要代理 / 不要登录）
-// 端点: https://www.fastmoss.com/api/goods/saleRank
+// 数据源: 第三方公开 API（不要钱 / 不要代理 / 不要登录）
+// 端点: 见下方 BASE 常量
 // 参数: page=1(当日榜) / page=2(累计榜), pagesize=10, region=US|SG|MY|PH|ID|TH|VN
 //
 // 输出: data/YYYY-MM-DD/{region}.json
@@ -46,7 +46,7 @@ async function fetchRank(region, page, order = '1,2') {
   });
   if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${region} page=${page}`);
   const json = await resp.json();
-  // fastmoss 在某些情况下返回 MAG_AUTH_3004 但 data.rank_list 仍然填充
+  // 上游 API 在某些情况下返回 MAG_AUTH_3004 但 data.rank_list 仍然填充
   // 我们接受这种情况，只在 rank_list 为空时报错
   if (!json.data?.rank_list || json.data.rank_list.length === 0) {
     throw new Error(`API code=${json.code} msg=${json.msg?.slice(0, 80)} - empty rank_list`);
@@ -66,7 +66,7 @@ async function main() {
   const manifest = {
     date,
     fetched_at: new Date().toISOString(),
-    source: 'fastmoss.com/api/goods/saleRank',
+    source: 'third-party-public-api',
     regions: REGIONS,
     pages: PAGES.map(p => p.suffix),
     files: [],
@@ -94,7 +94,7 @@ async function main() {
         console.error(`✗ ${region} ${p.suffix}: ${err.message}`);
         manifest.files.push({ region, rank_type: p.suffix, error: err.message });
       }
-      // Be nice to FastMoss
+      // Be nice to upstream API
       await new Promise(r => setTimeout(r, 800));
     }
   }

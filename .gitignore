@@ -11,7 +11,7 @@ package-lock.json
 snapshots/
 
 # Note: data/2026-08-03 ~ data/2026-08-11 are demo (simulated for 10-day preview)
-# data/2026-08-12 is the first real snapshot from FastMoss
+# data/2026-08-12 is the first real snapshot from upstream API
 # See scripts/04_demo_data.mjs and README.md "Data provenance" section
 # Nothing in data/ is ignored — all 10 days ship to GitHub Pages
 

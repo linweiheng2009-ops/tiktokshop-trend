@@ -4,7 +4,7 @@
     <title>TikTok Shop 趋势榜</title>
     <link>https://shop.laowe.club/</link>
     <atom:link href="https://shop.laowe.club/feed.xml" rel="self" type="application/rss+xml" />
-    <description>7 国（美/越/泰/菲/马/新/印）每日/每周/每月 SKU 趋势榜，FastMoss 公开榜派生。</description>
+    <description>7 国（美/越/泰/菲/马/新/印）每日/每周/每月 SKU 趋势榜，第三方公开数据源派生。</description>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 13 Aug 2026 11:48:00 +0800</lastBuildDate>
     <generator>tiktokshop-trend cron v1.0</generator>
@@ -44,7 +44,7 @@
       <guid isPermaLink="false">feature-category-zh</guid>
       <pubDate>Wed, 13 Aug 2026 01:56:00 +0800</pubDate>
       <description><![CDATA[
-        <p>FastMoss 返回的英文类目已自动翻译成中文，方便识别（冲调饮料粉 / 手链与手镯 / 牙齿美白 ...）</p>
+        <p>上游 API 返回的英文类目已自动翻译成中文，方便识别（冲调饮料粉 / 手链与手镯 / 牙齿美白 ...）</p>
         <ul>
           <li>搜索框支持中英文模糊匹配</li>
           <li>类目聚合表显示中文+英文小字</li>

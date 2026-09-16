@@ -1,4 +1,4 @@
-// 路线 B 侦察：fastmoss 真实页面渲染检测
+// 路线 B 侦察：上游数据源真实页面渲染检测
 // 用 Playwright 真实浏览器访问 /e-commerce/saleslist，看页面实际显示哪个 region 的数据
 import { chromium } from 'playwright';
 import { writeFileSync } from 'node:fs';

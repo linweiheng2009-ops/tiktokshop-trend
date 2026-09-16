@@ -5,7 +5,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Mirror-181717?style=for-the-badge&logo=github&logoColor=white)](https://linweiheng2009-ops.github.io/tiktokshop-trend/)
 [![License](https://img.shields.io/badge/license-仅供学习-blue?style=for-the-badge)](#license)
 
-> 基于 FastMoss 公开榜的 **TikTok Shop 每日 / 每周 / 每月趋势榜** —— 反映曝光/GMV 估算，适合看 **趋势**，不适合看 **绝对销量**。
+> 基于第三方公开 API 的 **TikTok Shop 每日 / 每周 / 每月趋势榜** —— 反映曝光/GMV 估算，适合看 **趋势**，不适合看 **绝对销量**。
 
 > 🌐 **主入口**：https://shop.laowe.club/ （Cloudflare Workers · 全球 CDN · HTTPS 自动签）
 > 备份入口：https://tiktokshop-trend.linweiheng2009.workers.dev
@@ -13,7 +13,7 @@
 
 ## 数据源
 
-- **FastMoss 公开 API**：`https://www.fastmoss.com/api/goods/saleRank`
+- **第三方公开 API**：端点见 `scripts/01_crawl.mjs` `BASE` 常量
 - **参数**：`page=1` (当日榜) / `page=2` (累计榜), `region=US|SG|MY|PH|ID|TH|VN`
 - **国家**：7 国（美国 + 东南亚 6 国）
 - **成本**：**$0**（不要代理 / 不要登录 / 不要付费 API）
@@ -113,21 +113,21 @@ npm run screenshot
 
 | 日期 | 类型 | 说明 |
 |------|------|------|
-| 2026-08-12 | ✅ 真实抓取 | FastMoss 公开 API 实际响应 |
+| 2026-08-12 | ✅ 真实抓取 | 第三方公开 API 实际响应 |
 | 2026-08-03 ~ 2026-08-11 | ⚠️ 演示数据 | 基于 8/12 真实数据 + 趋势扰动生成的 demo（仅供 UI 预览） |
 
 **运行 `node scripts/04_demo_data.mjs` 可重新生成 demo 数据。**
 
 ## 已知限制
 
-1. **FastMoss API 单次最多 10 条**：page≥3 都 fallback，所以每个榜单最多 10 条
+1. **第三方 API 单次最多 10 条**：page≥3 都 fallback，所以每个榜单最多 10 条
 2. **增长率榜需要 ≥2 天快照**：新部署后前几天会是空
-3. **累计榜要登录**：但 fastmoss 实际仍返回数据（带 `code=MAG_AUTH_3004` 警告），前端忽略
-4. **数据时间**：fastmoss 数据更新有时延（`update_at` 字段），不是当日实时
+3. **累计榜要登录**：但上游 API 实际仍返回数据（带 `code=MAG_AUTH_3004` 警告），前端忽略
+4. **数据时间**：上游数据更新有时延（`update_at` 字段），不是当日实时
 
 ## License
 
-仅供学习研究使用，请遵守 FastMoss 的服务条款。
+仅供学习研究使用，请遵守上游数据源的服务条款。
 ## 部署架构
 
 ```
