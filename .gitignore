@@ -34,3 +34,8 @@ snapshots/
 # Python cache
 __pycache__/
 *.pyc
+
+# Crawler development artifacts
+scripts/sources/_mock.mjs
+scripts/_test_orchestrator.mjs
+/data/2026-09-16/

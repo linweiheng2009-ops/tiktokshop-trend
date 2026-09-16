@@ -1,159 +1,190 @@
-// 路线 B 抓取脚本
-// 数据源: 第三方公开 API（不要钱 / 不要代理 / 不要登录）
-// 端点: 见下方 BASE 常量
-// 参数: page=1(当日榜) / page=2(累计榜), pagesize=10, region=US|SG|MY|PH|ID|TH|VN
+// 01_crawl.mjs · 多源抓取 orchestrator
 //
-// 输出: data/YYYY-MM-DD/{region}.json
-//   - {region}_daily.json   当日实时榜（按当日销量排）
-//   - {region}_total.json   累计销量榜（按累计销量排）
+// 并行抓取所有 enabled source,合并同 region/rank 结果,写数据 + manifest + latest/
+//
+// Source adapter 列表(优先级 = 数组顺序):
+//   1. public-api · 第三方公开 API(原路线 A,挂在 9-07,恢复即用)
+//   2. playwright-official · Playwright 抓 TikTok 官方页(占位,实现后启用)
+//
+// 合并策略:见 scripts/sources/_base.mjs mergeRanks()
+//   - 主源(数组第一个 enabled 且成功)产品全保留
+//   - 辅源按 product_id 补缺
+//   - 全部失败时,保留 graceful 行为(写 error 标记 + 删空 outDir)
+//
+// 输出: data/YYYY-MM-DD/{region}_{daily|total}.json + _manifest.json
+//      data/latest/ 镜像 + _meta.json
 
-import { writeFile, mkdir, access, readFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
+import { writeFile, mkdir, access, readFile, rm } from 'node:fs/promises'
+import { PublicApiSource } from './sources/public-api.mjs'
+import { PlaywrightOfficialSource } from './sources/playwright-official.mjs'
+import { mergeRanks } from './sources/_base.mjs'
 
-// ROOT: 本地 Mac 跑 → /Users/.../tiktokshop-trend；GitHub Actions 容器跑 → /home/runner/work/...
-// 统一用 process.cwd()（两者 cwd 都是 repo 根），不再硬编码 Mac 绝对路径
-const ROOT = process.cwd();
+const ROOT = process.cwd()
 
-const REGIONS = ['US', 'SG', 'MY', 'PH', 'ID', 'TH', 'VN'];
+const REGIONS = ['US', 'SG', 'MY', 'PH', 'ID', 'TH', 'VN']
 const PAGES = [
   { page: 1, suffix: 'daily', label: 'Daily (today)' },
   { page: 2, suffix: 'total', label: 'Total (cumulative)' },
-];
-const BASE = 'https://www.fastmoss.com/api/goods/saleRank';
-const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+]
+
+// 源优先级(数组顺序):前面的 = 主源
+const SOURCES = [
+  new PublicApiSource(),
+  new PlaywrightOfficialSource(),
+]
 
 function todayStr() {
-  const d = new Date();
-  return d.toISOString().slice(0, 10); // YYYY-MM-DD
+  return new Date().toISOString().slice(0, 10)
 }
 
-async function fetchRank(region, page, order = '1,2') {
-  const url = `${BASE}?page=${page}&pagesize=10&order=${order}&region=${region}`;
-  const resp = await fetch(url, {
-    headers: {
-      'User-Agent': UA,
-      'Accept': 'application/json, text/plain, */*',
-      'Accept-Language': 'en-US,en;q=0.9',
-      'Referer': 'https://www.fastmoss.com/e-commerce/saleslist',
-      'Origin': 'https://www.fastmoss.com',
-      'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-      'Sec-Ch-Ua-Mobile': '?0',
-      'Sec-Ch-Ua-Platform': '"macOS"',
-      'Sec-Fetch-Dest': 'empty',
-      'Sec-Fetch-Mode': 'cors',
-      'Sec-Fetch-Site': 'same-origin',
-    },
-  });
-  if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${region} page=${page}`);
-  const json = await resp.json();
-  // 上游 API 在某些情况下返回 MAG_AUTH_3004 但 data.rank_list 仍然填充
-  // 我们接受这种情况，只在 rank_list 为空时报错
-  if (!json.data?.rank_list || json.data.rank_list.length === 0) {
-    throw new Error(`API code=${json.code} msg=${json.msg?.slice(0, 80)} - empty rank_list`);
-  }
-  return { ...json.data, _auth_warning: json.code !== 200 ? json.msg : null };
-}
-
-async function exists(p) {
-  try { await access(p); return true; } catch { return false; }
+async function runSources(region, page) {
+  // 并行抓所有 enabled source,任一失败不阻塞其它
+  const runs = await Promise.all(SOURCES.map(async (src) => {
+    if (!src.enabled) return { name: src.name, enabled: false }
+    try {
+      const result = await src.fetchRank(region, page)
+      return { name: src.name, enabled: true, result }
+    } catch (err) {
+      return { name: src.name, enabled: true, error: err }
+    }
+  }))
+  return runs
 }
 
 async function main() {
-  const date = todayStr();
-  const outDir = `${ROOT}/data/${date}`;
-  await mkdir(outDir, { recursive: true });
+  const date = todayStr()
+  const outDir = `${ROOT}/data/${date}`
+  await mkdir(outDir, { recursive: true })
 
   const manifest = {
     date,
     fetched_at: new Date().toISOString(),
-    source: 'third-party-public-api',
+    sources: SOURCES.filter(s => s.enabled).map(s => s.name),
     regions: REGIONS,
     pages: PAGES.map(p => p.suffix),
     files: [],
-  };
+  }
+
+  let totalSynced = 0
+  let totalExtras = 0
 
   for (const region of REGIONS) {
     for (const p of PAGES) {
-      const fname = `${region}_${p.suffix}.json`;
-      const fpath = `${outDir}/${fname}`;
+      const fname = `${region}_${p.suffix}.json`
+      const fpath = `${outDir}/${fname}`
+
+      // 跳过未启用的源 log
+      const sourceRuns = await runSources(region, p.page)
+      const enabledCount = sourceRuns.filter(r => r.enabled).length
+      const skipped = sourceRuns.filter(r => !r.enabled).map(r => r.name)
+      if (skipped.length > 0) {
+        console.log(`  (skipped sources: ${skipped.join(', ')})`)
+      }
+
       try {
-        const data = await fetchRank(region, p.page);
+        const merged = mergeRanks(sourceRuns)
+
+        // 标记主源 + 辅源补缺统计
+        const extrasCount = merged.extras?.length ?? 0
+        const extrasNote = extrasCount > 0 ? ` (${extrasCount} extra from fallback)` : ''
+
         const payload = {
           region,
           page: p.page,
           rank_type: p.suffix,
           fetched_at: new Date().toISOString(),
-          source_update_at: data.update_at,
-          total_count: data.total_count,
-          rank_list: data.rank_list,
-        };
-        await writeFile(fpath, JSON.stringify(payload, null, 2));
-        manifest.files.push({ region, rank_type: p.suffix, count: data.rank_list.length });
-        console.log(`✓ ${region} ${p.suffix} → ${data.rank_list.length} items`);
+          source_update_at: merged.primary_source_update_at,
+          total_count: merged.total_count,
+          sources_used: merged.sources_used,
+          rank_list: merged.rank_list,
+        }
+        await writeFile(fpath, JSON.stringify(payload, null, 2))
+        manifest.files.push({
+          region,
+          rank_type: p.suffix,
+          count: merged.rank_list.length,
+          sources: merged.sources_used,
+          extras: extrasCount,
+        })
+        totalSynced += merged.rank_list.length
+        totalExtras += extrasCount
+        console.log(`✓ ${region} ${p.suffix} → ${merged.rank_list.length} items (${merged.sources_used.join('+')})${extrasNote}`)
+
+        // 各 source 单独 log 状态
+        for (const r of sourceRuns.filter(r => r.enabled)) {
+          if (r.error) console.log(`  ✗ ${r.name}: ${r.error.message}`)
+          else if (r.result) console.log(`  ✓ ${r.name}: ${r.result.rank_list.length} items`)
+        }
       } catch (err) {
-        console.error(`✗ ${region} ${p.suffix}: ${err.message}`);
-        manifest.files.push({ region, rank_type: p.suffix, error: err.message });
+        console.error(`✗ ${region} ${p.suffix}: ${err.message}`)
+        manifest.files.push({
+          region,
+          rank_type: p.suffix,
+          error: err.message,
+          source_errors: sourceRuns.filter(r => r.error).map(r => ({ name: r.name, msg: r.error.message })),
+        })
       }
-      // Be nice to upstream API
-      await new Promise(r => setTimeout(r, 800));
+
+      // Be nice to upstream
+      await new Promise(r => setTimeout(r, 800))
     }
   }
 
-  // Manifest file
-  await writeFile(`${outDir}/_manifest.json`, JSON.stringify(manifest, null, 2));
-  console.log(`\n✓ Wrote manifest: ${outDir}/_manifest.json`);
+  // Manifest
+  await writeFile(`${outDir}/_manifest.json`, JSON.stringify(manifest, null, 2))
+  console.log(`\n✓ Wrote manifest: ${outDir}/_manifest.json (${totalSynced} items, ${totalExtras} extras from fallback)`)
 
-  // Latest pointer (always point to most recent fetch)
+  // Latest pointer
   await writeFile(
     `${ROOT}/data/_latest.json`,
     JSON.stringify({ date, fetched_at: manifest.fetched_at, dir: date }, null, 2),
-  );
-  console.log(`✓ Updated _latest.json pointer`);
+  )
+  console.log(`✓ Updated _latest.json pointer`)
 
-  // Copy latest to data/latest/ for static page (predictable path)
-  // 跳过缺失文件(上游 API 限流/单 region 失败时,部分文件不存在,避免 FATAL)
-  const latestDir = `${ROOT}/data/latest`;
-  await mkdir(latestDir, { recursive: true });
-  let synced = 0;
+  // Sync to data/latest/
+  const latestDir = `${ROOT}/data/latest`
+  await mkdir(latestDir, { recursive: true })
+  let synced = 0
   for (const region of REGIONS) {
     for (const p of PAGES) {
-      const fname = `${region}_${p.suffix}.json`;
-      const srcPath = `${outDir}/${fname}`;
+      const fname = `${region}_${p.suffix}.json`
+      const srcPath = `${outDir}/${fname}`
       try {
-        await access(srcPath);
+        await access(srcPath)
       } catch {
-        console.warn(`⊘ Skip ${fname} (not in this snapshot)`);
-        continue;
+        console.warn(`⊘ Skip ${fname} (not in this snapshot)`)
+        continue
       }
-      const text = await readFile(srcPath, 'utf8');
-      await writeFile(`${latestDir}/${fname}`, JSON.stringify(JSON.parse(text), null, 2));
-      synced++;
+      const text = await readFile(srcPath, 'utf8')
+      await writeFile(`${latestDir}/${fname}`, JSON.stringify(JSON.parse(text), null, 2))
+      synced++
     }
   }
-  console.log(`✓ Synced ${synced}/${REGIONS.length * PAGES.length} files to latest/`);
-  await writeFile(`${latestDir}/_meta.json`, JSON.stringify({
-    date, fetched_at: manifest.fetched_at, regions: REGIONS,
-  }, null, 2));
-  console.log(`✓ Synced latest/ for static page`);
+  console.log(`✓ Synced ${synced}/${REGIONS.length * PAGES.length} files to latest/`)
 
-  // 如果本次完全没拿到数据(上游限流/挂掉),写 error 标记到 _latest.json
-  // 前端检测到后可显示「数据源暂时不可用」fallback 文案
-  // 不动 latest/ 实际文件,保留上一次成功的快照供页面继续渲染
-  // 同时删空 outDir,避免每天 cron 都堆一个 2026-09-XX/ 空目录
+  // 合并 _meta.json (前端用):含 sources 字段,提示数据源情况
+  await writeFile(`${latestDir}/_meta.json`, JSON.stringify({
+    date,
+    fetched_at: manifest.fetched_at,
+    regions: REGIONS,
+    sources: manifest.sources,
+  }, null, 2))
+  console.log(`✓ Synced latest/ for static page`)
+
+  // 全部失败 graceful:error 标记 + 清空 outDir
   if (synced === 0) {
-    console.warn(`⚠ No files synced — upstream API returned no data. _latest.json marked as error; latest/ keeps previous snapshot.`);
+    console.warn(`⚠ No files synced — all sources failed. _latest.json marked as error; latest/ keeps previous snapshot.`)
     await writeFile(`${ROOT}/data/_latest.json`, JSON.stringify({
       date: null,
       fetched_at: manifest.fetched_at,
       regions: REGIONS,
-      error: 'upstream API returned no data (all regions failed)',
-    }, null, 2));
-    const { rm } = await import('node:fs/promises');
-    await rm(outDir, { recursive: true, force: true });
+      error: 'all sources failed (no data fetched)',
+    }, null, 2))
+    await rm(outDir, { recursive: true, force: true })
   }
 }
 
 main().catch(err => {
-  console.error('FATAL:', err);
-  process.exit(1);
-});
+  console.error('FATAL:', err)
+  process.exit(1)
+})
