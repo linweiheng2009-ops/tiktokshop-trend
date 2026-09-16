@@ -36,6 +36,8 @@ __pycache__/
 *.pyc
 
 # Crawler development artifacts
+# (convention: data/ snapshots ship to GH Pages when clean; if today's run is
+#  dirty, regenerate before committing instead of adding a dated ignore —
+#  dated ignores drift and leak the next day)
 scripts/sources/_mock.mjs
 scripts/_test_orchestrator.mjs
-/data/2026-09-16/
