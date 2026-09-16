@@ -7,7 +7,7 @@
 //   - {region}_daily.json   当日实时榜（按当日销量排）
 //   - {region}_total.json   累计销量榜（按累计销量排）
 
-import { writeFile, mkdir, access } from 'node:fs/promises';
+import { writeFile, mkdir, access, readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 // ROOT: 本地 Mac 跑 → /Users/.../tiktokshop-trend；GitHub Actions 容器跑 → /home/runner/work/...
@@ -111,19 +111,46 @@ async function main() {
   console.log(`✓ Updated _latest.json pointer`);
 
   // Copy latest to data/latest/ for static page (predictable path)
+  // 跳过缺失文件(上游 API 限流/单 region 失败时,部分文件不存在,避免 FATAL)
   const latestDir = `${ROOT}/data/latest`;
   await mkdir(latestDir, { recursive: true });
+  let synced = 0;
   for (const region of REGIONS) {
     for (const p of PAGES) {
       const fname = `${region}_${p.suffix}.json`;
-      await writeFile(`${latestDir}/${fname}`,
-        JSON.stringify(JSON.parse(await (await import('node:fs/promises')).readFile(`${outDir}/${fname}`, 'utf8')), null, 2));
+      const srcPath = `${outDir}/${fname}`;
+      try {
+        await access(srcPath);
+      } catch {
+        console.warn(`⊘ Skip ${fname} (not in this snapshot)`);
+        continue;
+      }
+      const text = await readFile(srcPath, 'utf8');
+      await writeFile(`${latestDir}/${fname}`, JSON.stringify(JSON.parse(text), null, 2));
+      synced++;
     }
   }
+  console.log(`✓ Synced ${synced}/${REGIONS.length * PAGES.length} files to latest/`);
   await writeFile(`${latestDir}/_meta.json`, JSON.stringify({
     date, fetched_at: manifest.fetched_at, regions: REGIONS,
   }, null, 2));
   console.log(`✓ Synced latest/ for static page`);
+
+  // 如果本次完全没拿到数据(上游限流/挂掉),写 error 标记到 _latest.json
+  // 前端检测到后可显示「数据源暂时不可用」fallback 文案
+  // 不动 latest/ 实际文件,保留上一次成功的快照供页面继续渲染
+  // 同时删空 outDir,避免每天 cron 都堆一个 2026-09-XX/ 空目录
+  if (synced === 0) {
+    console.warn(`⚠ No files synced — upstream API returned no data. _latest.json marked as error; latest/ keeps previous snapshot.`);
+    await writeFile(`${ROOT}/data/_latest.json`, JSON.stringify({
+      date: null,
+      fetched_at: manifest.fetched_at,
+      regions: REGIONS,
+      error: 'upstream API returned no data (all regions failed)',
+    }, null, 2));
+    const { rm } = await import('node:fs/promises');
+    await rm(outDir, { recursive: true, force: true });
+  }
 }
 
 main().catch(err => {
